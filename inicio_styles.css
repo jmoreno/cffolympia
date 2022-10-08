@@ -938,7 +938,7 @@ nav.active {
 
 
 
-/* Secondary News Section */
+/* Events Section */
 #Events {
     width: 100%;
     padding: 28vh 4vw 24vh;
@@ -1028,13 +1028,13 @@ nav.active {
 
 
 #Events .events_gallery_frame .sec-news1 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
 }
 #Events .events_gallery_frame .sec-news2 {
     background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 2.jpeg);
 }
 #Events .events_gallery_frame .sec-news3 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 3.jpg);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 3.JPG);
 }
 #Events .events_gallery_frame .sec-news4 {
     background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 4.jpg);
