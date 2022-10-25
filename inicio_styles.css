@@ -1,19 +1,21 @@
-﻿
-/* Sucesion breakpoint para responsive design */
+﻿/* Sucesion breakpoint para responsive design */
 /* >1280px(width) - Initial  //  1280px(width) > & < 1024px(width)  //  1024px(width) > & < 768px(width)  //  768 > 400  ||||| Mobile: 480 x 320 // Mobile 320 x 480 */
 
 
 /* General */
 
 :root {
-    --color1B: #20395B;
+    --color1B: #20395b;
     --color2B: #21385B;
     --color3B: #0C1220;
     --color4B: #090f1d;
     --colorG: #A1D683;
     --colorB: black;
     --colorW: white;
+    --colorGr: rgb(207, 207, 207);
     --font1: Montserrat;
+    --font1S: Lora;
+    --font1P: "Hind Madurai";
     --font2: Khand;
     --font3: Inter;
     --font4: Teko;
@@ -45,52 +47,67 @@ html::-webkit-scrollbar {
 
 nav {
     width: 100%;
-    height: 80px;
+    height: 8vh;
     margin: 0;
-    padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
     position: absolute;
     top: 0;
     position: fixed;
-    z-index: 100;
+    z-index: 10000000;
     background-color: transparent;
 }
 
 nav.active {
-    width: 100%;
-    height: 80px;
-    margin: 0;
-    padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 0;
-    position: fixed;
-    z-index: 100;
-    background-image: linear-gradient(108.13deg, var(--color1B) -47%, var(--color2B) -38.7%, var(--color3B) 74.94%);
-    transition: background-color 0.5s linear;
+    background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
 }
 
 .nav_logo {
-    aspect-ratio: initial;
-    height: 50px;
-    margin: 15px 0 0 0;
+    height: 3.4vh;
+    margin: 2.3vh 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 1.5vw;
+}
+
+nav .nav_left p{
+    text-decoration: none;
+    color: var(--colorW);
+    line-height: 1.6vh;
+    font: 500 1.6vh var(--font1), sans-serif;
+    margin: 3.05vh 0;
     justify-content: left;
     padding: 0;
+    position: absolute;
+    top: 0;
+    left: 3.8vw;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+nav .nav_left:hover p {
+    background-size: 0 1px, 100% 1px;
 }
 
 .nav_links {
+    position: absolute;
+    top: 0;
+    right: 1.8vw;
     display: flex;
     list-style-type: none;
     padding: 0;
-    margin: 0 10px 0 0;
+    margin: 0;
+    width: 20vw;
+    justify-content: space-between;
 }
 
 .nav_li {
-    margin: 31px 0 31px 40px;
+    margin: 3.2vh 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 1.6vh;
+    line-height: 1.6vh;
     font-family: var(--font1);
     font-weight: 500;
 }
@@ -160,215 +177,218 @@ nav.active {
 #Inicio {
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
-    background-image: linear-gradient(180deg, #00000060 0%, #00000040 10%, #00000060 95%, #00000099 100%), url(../gen_resources/general\ images/foto\ 3.JPG);
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 10%, #0000009c 95%, #000000c9 100%);
     background-size: cover;
-}
-
-#Inicio .overlay {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../gen_resources/general\ utilities/olympia_inicio_background.png);
-    position: fixed;
-    z-index: 10000;
-    top: 0;
-}
-
-#Inicio .overlay.active {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../gen_resources/general\ utilities/olympia_inicio_background.png);
-    position: absolute; /*fixed*/
-    z-index: 10000;
-    top: 0;
-    animation: arrive 1s linear 0s 1;
-}
-
-#Inicio .overlay h1 {
-    position: absolute;
-    left: 3vw;
-    top: 4vw;
-    font-family: var(--font4);
-    font-style: normal;
-    font-weight: 300;
-    font-size: 27.44vh;
-    line-height: 75%;
-    display: flex;
-    align-items: left;
-    text-align: left;
-    color: var(--colorW);
-    padding: 0;
-    margin: 0;
-    z-index: 10001;
-    text-shadow: 2px 2px 12px rgba(255, 255, 255, 0.3);
-}
-
-#Inicio .overlay h2 {
-    position: absolute;
-    left: 3.4vw;
-    bottom: 7vw;
-    font-family: var(--font4);
-    font-style: normal;
-    font-weight: 300;
-    font-size: 17.58vh;
-    line-height: 75%;
-    display: flex;
-    align-items: center;
-    color: var(--colorW);
-    padding: 0;
-    margin: 0;
-    z-index: 10001;
-    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.4);
-}
-
-#Inicio .overlay h3 {
-    position: absolute;
-    left: 3.6vw;
-    bottom: 3.3vw;
-    font-family: var(--font4);
-    font-style: normal;
-    font-weight: 300;
-    font-size: 7.93vh;
-    line-height: 75%;
-    display: flex;
-    align-items: center;
-    color: var(--colorW);
-    padding: 0;
-    margin: 0;
-    z-index: 10001;
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
-}
-
-@keyframes arrive {
-    0% {
-        transform: scale(100%);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(1100%) rotate(-20deg) translateX(-13vw);
-    }
-    99% {
-        transform: scale(2100%) rotate(-40deg) translateX(-25vw);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1%) translateX(-25vw);
-        opacity: 0;
-    }
-} 
-
-
-
-
-/* Next Match Section */
-#Match {
-    width: 100%;
-    height: 80.5vh;
-    background-image: url("../gen_resources/general utilities/Chromatic Gradient 1.png");
-    background-size: cover;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: top;
     position: relative;
 }
 
-#Match h3 {
-    padding: 0;
-    margin: 0;
-    color: var(--colorG);
-    font-family: var(--font2);
-    line-height: 40px;
-    font-weight: 400;
-    font-size: 40px;
-}
-
-#Match .hashtag {
-    position: absolute;
-    left: 35px;
-    top: 35px;
-    text-decoration: none;
-    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorG), var(--colorG));
-    background-size: 100% 1px, 0 1px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.15s linear;
-    z-index: 99;
-}
-
-#Match .place {
-    position: absolute;
-    bottom: 72px;
-    right: 35px;
-    text-decoration: none;
-    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorG), var(--colorG));
-    background-size: 100% 1px, 0 1px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.15s linear;
-    z-index: 99;
-}
-
-#Match .match-link:hover .place, #Match .match-link:hover .hashtag {
-    background-size: 0 1px, 100% 1px;
-}
-
-#Match .match-data .escudos {
+#Inicio video {
+    width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 9.27vw;
-    left: 9.27vw;
-    width: 81,46vw;
+    z-index: -1;
+}
+
+#Inicio .gallery_frame {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+#Inicio .gallery {
+    width: 200%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    transition: all 1s;
+}
+
+#Inicio .frame1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#Inicio .frame2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#Inicio .hero {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15vw;
+    margin: auto;
+}
+
+#Inicio .hero .hero_text {
+    width: 40.1vw;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+#Inicio .hero .hero_text h1 span {
+    font: 800 8vh var(--font3), sans-serif;
+    color: var(--colorW);
+    line-height: 8vh;
+    margin: 0;
+    padding: 0;
+}
+
+#Inicio .hero .hero_text h1 {
+    font: 800 clamp(8.5vh, 10vh, 11.5vh) var(--font3), sans-serif;
+    white-space: nowrap;
+    color: var(--colorW);
+    line-height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+#Inicio .hero .hero_text p {
+    font: 300 2vh var(--font1P), sans-serif;
+    color: var(--colorGr);
+    line-height: 2.8vh;
+    padding: 2vh 0 2vh 3vh;
+    margin: 2vh 0 0 1.5vw;
+    background-image: linear-gradient(var(--colorW), var(--colorW));
+    background-size: 2px 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+#Inicio .hero .hero_button_div {
+    position: absolute;
+    left: 52vw;
+    height: calc(1.8vh + 2.4vw);
+    bottom: 0;
+    top: 40vh;
+    margin: auto 0;
+}
+
+#Inicio .hero .hero_button_div .hero_button {
+    text-decoration: none;
+    padding: 0 1.2vw;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(9, 26, 51);
+    font: 400 1.8vh var(--font1), sans-serif;
+    line-height: 1.8vh;
+    color: var(--colorW);
+    width: 12vw;
+    height: 3.4vw;
+    border: none;
+    cursor: pointer;
+}
+
+#Inicio .hero .hero_button_div .hero_button:hover {
+    background: var(--colorW);
+    color: rgb(9, 26, 51);
+    font-weight: 600;
+}
+
+#Inicio .social_icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 22vh;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 2vw;
+    margin: auto 0;
+}
+
+#Inicio .social_icons a:nth-of-type(2) {
+    margin-left: 2px;
+}
+#Inicio .social_icons a:nth-of-type(3) {
+    margin-left: 1px;
+}
+#Inicio .social_icons a:nth-of-type(4) {
+    margin-left: -2px;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 82vw;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .escudos {
+    width: 82vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 50vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#Match .match-data .escudos .escudo-local {
+#Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
     background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
-    height: 49vh;
-    aspect-ratio: 1/1;
-    /* width: 23.44vw; */
+    height: 50vh;
+    width: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-#Match .match-data .escudos .escudo-visit {
+#Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
     background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
-    height: 49vh;
-    aspect-ratio: 1/1;
-    /* width: 23.44vw; */
+    height: 50vh;
+    width: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-#Match .match-data .countdown-vs{
-    width: 100%;
-    height: 80.5vh;
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 50vh;
     padding: 0;
-    position: relative;
 }
 
-#Match .match-data .countdown-vs .countdown{
-    position: absolute;
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown{
     padding: 0;
     margin: auto;
     position: absolute;
     left: 0;
     right: 0;
-    top: 34.5vh;
+    top: 0;
+    bottom: 0;
     font-family: var(--font3);
-    font-weight: 900;
+    font-weight: 800;
+    height: 12vh;
     font-size: 12vh;
     line-height: 12vh;
     align-items: center;
@@ -377,18 +397,20 @@ nav.active {
     z-index: 50;
 }
 
-#Match .match-data .countdown-vs .vs{
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .vs{
     position: absolute;
-    top: 22.5vh;
     left: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
     padding: 0;
     margin: auto;
     font-family: var(--font3);
     font-weight: 900;
     font-size: 35vh;
     line-height: 35vh;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) -53.62%, rgba(255, 255, 255, 0) 105.81%);
+    height: 35vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -397,464 +419,115 @@ nav.active {
     vertical-align: middle;
 }
 
-.jornadas {
-    height: 62px;
-    width: calc(100% - 70px);
-    margin: 0 35px;
-    border-top: 1px solid var(--colorW);
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-
-.jornadas h4 {
-    position: relative;
-    margin: 16px 0;
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo{
+    text-decoration: none;
+    background: rgb(9, 26, 51);
     padding: 0;
-    font-family: var(--font3);
-    font-style: italic;
-    font-weight: 900;
-    font-size: clamp(15px, 25px, 25px);
-    line-height: 30px;
-    color: var(--colorW);
-    flex-wrap: nowrap;
-}
-
-#jornada1, #jornada2, #jornada3, #jornada4, #jornada5, #jornada6 {
-    color: rgba(255, 255, 255, 0.39);
-}
-#jornada7 {
-    color: var(--colorG);
-}
-
-
-
-
-/* Players Section */
-#Players {
-    margin: 0;
-    width: 100%;
-    padding:28vh 8vw 0;
-    overflow-x: hidden;
-    position: relative;
-}
-
-#Players .parallax-title {
+    margin: auto;
     position: absolute;
-    top: 15.22vh;
-    left: 3.5vw;
+    left: 0;
     right: 0;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(180deg, #FFFFFF 19.49%, rgba(255, 255, 255, 0) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 900;
-    font-family: var(--font3);
-    font-style: italic;
-    font-size: 22.5vh;
-    line-height: 22.5vh;
+    top: 50%;
+    bottom: 0;
+    font-family: var(--font1);
+    font-weight: 400;
+    height: 3vw;
+    width: 12vw;
+    border-radius: 5px;
+    font-size: 2vh;
+    line-height: 2vh;
     display: flex;
     align-items: center;
     text-align: center;
-}
-
-#Players .gallery_frame {
-    width: 100%;
-    height: 100%;
-    overflow-x: scroll;
-    position: relative;
-}
-
-#Players .inscrip_buttons {
-    position: absolute;
-    top: 21.3vh;
-    right: 8.5vw;
-}
-
-#Players .inscrip_buttons .insc_btn_1 {
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    background: transparent;
-    border: none;
-}
-
-#Players .inscrip_buttons .insc_btn_2 {
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    margin-left: 0.2vw;
-    background: transparent;
-    border: none;
-}
-
-#Players .inscrip_buttons .left, #Players .inscrip_buttons .right {
-    padding: 5px;
-    border-radius: 50%;
-    border: 2px solid var(--colorW);
-}
-
-#Players .inscrip_buttons .left:hover, #Players .inscrip_buttons .left:active, #Players .inscrip_buttons .right:hover, #Players .inscrip_buttons .right:active {
-    background-image: linear-gradient(111.28deg, #172F53 -12.41%, #FFFFFF 219.35%);
-}
-
-#Players .gallery_frame .gallery {
-    display: flex;
-    width: 600%;
-    height: 100%;
-    overflow-x: scroll;
-    box-sizing: border-box;
-}
-
-#Players .gallery_frame .gallery .grupo {
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    padding: 0 0.45vw;
-    transition: all 1s;
-}
-
-#Players .gallery_frame .gallery .grupo .jugadora {
-    width: 20.10vw;
-    aspect-ratio: 1/1;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-}
-
-#Players .gallery_frame .gallery .grupo .jugadora h1 {
-    background: linear-gradient(180deg,hsla(0,0%,93%,.7),hsla(0,0%,100%,0) 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #fff;
-    position: absolute;
-    text-align: right;
-    padding: 0;
-    top: -7%;
-    right: -2%;
-    font-family: var(--font3);
-    font-style: italic;
-    font-weight: 900;
-    font-size: 35vh;
-    line-height: 35vh;
-    margin: 0;
-    z-index: 1;
-}
-
-#Players .gallery_frame .gallery .grupo .jugadora h3 {
+    justify-content: center;
     color: var(--colorW);
-    font-family: var(--font1);
-    font-weight: 300;
-    font-size: 2.9vh;
-    line-height: 2.9vh;
+    z-index: 50;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
+    background: var(--colorW);
+    color: rgb(9, 26, 51);
+    font-weight: 600;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .back-to-frame1{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
     position: absolute;
-    text-align: left;
-    bottom: 7.5%;
-    left: 8.5%;
-    right: 0;
-    margin: 0 auto;
-    z-index: 3;
-}
-
-#Players .gallery_frame .gallery .grupo .jugadora h3 strong {
-    font-weight: 500;
-    font-size: 2.85vh;
-    line-height: 2.85vh;
-}
-
-#Players .gallery_frame .gallery .grupo .jugadora p {
+    bottom: 1.3vw;
+    left: 1.7vw;
     color: var(--colorW);
     font-family: var(--font3);
-    font-size: 1.5vh;
-    font-weight: 300;
-    text-align: left;
-    position: absolute;
-    bottom: 14.4%;
-    left: 8.9%;
-    right: 0;
-    margin: 0 auto;
-    z-index: 3;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 0 100%, 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
 }
 
-#Players .gallery_frame .gallery .grupo .jugadora img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top:0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 2
-}
-
-#Players .gallery_frame .gallery .grupo .jugadora .jugadora_overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform: translateY(100%);
-    background-image: linear-gradient(111.28deg, #172F53 0%, #FFFFFF 719.35%);
-    z-index: 2000;
-    transition: all 0.5s ease-out;
-}
-
-#Players .gallery_frame .gallery .grupo .jugadora:hover > .jugadora_overlay {
-    transform: translateY(0%);
-}
-
-#Players::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
-#Players .gallery_frame::-webkit-scrollbar, #Players .gallery::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
-/* #Players .buttons {
-    position: absolute;
-    top:0;
-} */
-
-
-
-
-/* Shop Section */
-#Shop {
-    margin: 0;
-    width: 100%;
-    padding: 28vh 8vw 0;
-    overflow-x: hidden;
-    position: relative;
-}
-
-#Shop .parallax-title {
-    position: absolute;
-    top: 15.22vh;
-    right: 4.5vw;
-    left: 3.5vw;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(180deg, #FFFFFF 19.49%, rgba(255, 255, 255, 0) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 900;
-    font-family: var(--font3);
-    font-style: italic;
-    font-size: 22.5vh;
-    line-height: 22.5vh;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: right;
-    text-align: right;
-}
-
-#Shop .inscrip_buttons {
-    position: absolute;
-    top: 21.3vh;
-    left: 8.5vw;
-}
-
-#Shop .inscrip_buttons .insc_btn_1 {
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    background: transparent;
-    border: none;
-}
-
-#Shop .inscrip_buttons .insc_btn_2 {
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    margin-left: 0.2vw;
-    background: transparent;
-    border: none;
-}
-
-#Shop .inscrip_buttons .left, #Shop .inscrip_buttons .right {
-    padding: 5px;
-    border-radius: 50%;
-    border: 2px solid var(--colorW);
-}
-
-#Shop .inscrip_buttons .left:hover, #Shop .inscrip_buttons .left:active, #Shop .inscrip_buttons .right:hover, #Shop .inscrip_buttons .right:active {
-    background-image: linear-gradient(111.28deg, #172F53 -12.41%, #FFFFFF 219.35%);
-}
-
-#Shop .gallery_frame {
-    width: 100%;
-    height: 100%;
-    overflow-x: scroll;
-    position: relative;
-}
-
-#Shop .gallery_frame .gallery {
-    display: flex;
-    width: 300%;
-    overflow-x: scroll;
-    position: relative;
-    box-sizing: border-box;
-}
-
-#Shop .gallery_frame .gallery .grupo {
-    height: 100%;
-    padding: 0 0.45vw;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transition: all 1s;
-}
-
-#Shop .gallery_frame .gallery .grupo .prenda {
-    aspect-ratio: 1/1.25;
-    width: 20.1vw;
-    overflow: hidden;
+#Inicio .gallery_frame .gallery .frame2 .back-to-frame1:hover {
+    background-size: 0 1px, 100% 1px;
     cursor: pointer;
 }
 
-#Shop .gallery_frame .gallery .prenda .display {
-    height: 100%;
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-}
-
-#Shop .gallery_frame .gallery .prenda .display img {
-    height: 65%;
-    aspect-ratio: initial;
-    transition: all 0.2s ease-in-out;
-    background: transparent;
-    margin: auto;
-}
-
-#Shop .gallery_frame .gallery .prenda:hover .display img {
-    height: 70%;
-}
-
-#Shop .gallery_frame .gallery .prenda1 .display {
-    background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda2 .display {
-    background-image: linear-gradient(90deg, #bfa842ff 0%, #dccd70ff 41%, #e3d977ff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda3 .display {
-    background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda4 .display {
-    background-image: linear-gradient(90deg, #e18996ff 0%, #eaabb9ff 45%, #ecb4c0ff 87%);
-}
-
-#Shop .gallery_frame .gallery .prenda5 .display {
-    background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda6 .display {
-    background-image: linear-gradient(90deg, #8cc3c3ff 0%, #455e69ff 50%, #2a3452ff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda7 .display {
-    background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda8 .display {
-    background-image: linear-gradient(90deg, #252528ff 0%, #2c2a2bff 41%, #3b393bff 100%);
-} 
-
-#Shop .gallery_frame .gallery .prenda9 .display {
-    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda10 .display {
-    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda11 .display {
-    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
-}
-
-#Shop .gallery_frame .gallery .prenda12 .display {
-    background-image: linear-gradient(90deg, #152134ff 0%, #2a3452ff 100%);
-}
-
-#Shop::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
-#Shop .gallery_frame::-webkit-scrollbar, #Shop .gallery::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
-
-
-
-/* Inscription Section */
-#Inscribe {
-    margin: 0;
-    width: 100%;
-    padding:28vh 8.45vw 24vh;
-    overflow-x: hidden;
-    position: relative;
-}
-
-#Inscribe .parallax-title {
-    position: absolute;
-    top: 15.22vh;
-    left: 3.5vw;
-    right: 3.5vw;
-    margin: 0 auto;
+#Inicio .gallery_frame .gallery .frame2 .jornada-place{
+    text-decoration: none;
     padding: 0;
-    background: linear-gradient(180deg, #FFFFFF 19.49%, rgba(255, 255, 255, 0) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 900;
+    margin: 0;
+    position: absolute;
+    bottom: 1.3vw;
+    right: 1.7vw;
+    color: var(--colorW);
     font-family: var(--font3);
-    font-style: italic;
-    font-size: 22.5vh;
-    line-height: 22.5vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
 }
 
-#Inscribe .flex {
-    width: 100%;
-    height: 52vh;
+#Inicio .gallery_frame .gallery .frame2 .jornada-place:hover {
+    background-size: 0 1px, 100% 1px;
+}
+
+#Inicio .sponsors_watermark {
+    position: absolute;
     display: flex;
     justify-content: space-between;
+    bottom: 1vw;
+    left: 1.5vw;
+    width: 35%;
 }
 
-#Inscribe .flex .inscrip_type {
-    width: 32%;
-    height: 100%;
-    background: gray;
+#Inicio .sponsors_watermark.match {
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: inicioOpacity 1s linear;
+}
+
+#Inicio .sponsors_watermark a img {
     position: relative;
+    height: 20px;
 }
 
-#Inscribe .flex .inscrip_type img {
-    position: absolute;
+@keyframes inicioOpacity {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
-#Inscribe .flex .inscrip_type .title_tag {
-    position: absolute;
+#Inicio .gallery_frame::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
+
 
 
 
@@ -893,8 +566,24 @@ nav.active {
     position: absolute;
     bottom: 30px;
     left: 30px;
-    font-size: 22px;
+    font-size: 22px;     /*Remember to change to resposive measures*/
     line-height: 22px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+#MainNews .news h5 {
+    text-decoration: none;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    font-size: 14px;     /*Remember to change to resposive measures*/
+    line-height: 14px;
     margin: 0;
     padding: 0;
     white-space: nowrap;
@@ -920,80 +609,325 @@ nav.active {
     padding: 0;
 }
 
+#MainNews #main h5 {
+    text-decoration: none;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    position: absolute;
+    display: block;
+    bottom: 60px;
+    left: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 #MainNews .news1 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_1.jpg);
 }
 
 #MainNews .news2 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_2.jpg);
 }
 
 #MainNews .news3 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_3.jpg);
 }
 
 #MainNews .news4 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.jpg);
 }
 
 
 
-/* Events Section */
+
+/* Jugadoras - Sección experimental */
+/* #Jugadoras {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    height: 45vh;
+    position: relative;
+    background: linear-gradient(45deg, var(--color4B) 0%, #00273d 100%);
+    background-size: 200%;
+    animation: aurora 10s infinite;
+    overflow: hidden;
+    display: flex;
+}
+
+#Jugadoras .jugadoras_inner {
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02));
+    background-size: 200%;
+    animation: aurora 7s infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#Jugadoras .jugadora1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#Jugadoras .jugadora2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@keyframes aurora {
+    0% {
+        background-position: left top;
+    }
+    25% {
+        background-position: right top;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+#Jugadoras .olympia_logo {
+    background-image: url(../gen_resources/olympia_branding/Escudo\ blanco\ recortado.png);
+    width: 30vw;
+    aspect-ratio: 1;
+    position: absolute;
+    top: -3vw;
+    left: -3vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    opacity: 0.07;
+    z-index: 0;
+}
+
+#Jugadoras  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40vh;
+    line-height: 40vh;
+    font-weight: 900;
+    font-family: var(--font4);
+    position: absolute;
+    top: 0;
+    margin: auto;
+    right: 1.5vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) -53.62%, rgba(255, 255, 255, 0.4) 100.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+#Jugadoras  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 7.5vh;
+    line-height: 7.5vh;
+    color: var(--colorW);
+    font-weight: 600;
+    font-family: var(--font2);
+    position: absolute;
+    bottom: 1vw;
+    left: 1.5vw;
+    z-index: 3;
+}
+
+#Jugadoras  h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+    color: var(--colorW);
+    font-weight: 500;
+    font-family: var(--font2);
+    position: absolute;
+    bottom: calc(0.9vw + 7.5vh);
+    left: 1.5vw;
+    z-index: 3;
+}
+
+#Jugadoras  h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1vh;
+    line-height: 1vh;
+    color: var(--colorW);
+    font-weight: 400;
+    font-family: var(--font2);
+    position: absolute;
+    top: 1.4vw;
+    left: 1.5vw;
+    z-index: 1;
+}
+
+#Jugadoras .jugadora_img {
+    background-image: url(../gen_resources/senior/jugadoras_fondo-transparente/foto_arantxa.png);
+    height: 32vh;
+    width: 15vw;
+    position: absolute;
+    bottom: 0;
+    right: 7.5vw;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
+
+
+
+
+
+/* Players Section */
+#Players {
+    margin: 0;
+    width: 100%;
+    padding: 6vw 6vw 2vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Players .inscrip_buttons {
+    position: absolute;
+    top: 4vw;
+    bottom: 2vw;
+    height: 48px;
+    margin: auto;
+    right: 3.5%;
+    left: 4%;
+    display: flex;
+    justify-content: space-between;
+    fill: var(--colorW);
+}
+
+#Players .inscrip_buttons .insc_btn_1 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Players .inscrip_buttons .insc_btn_2 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Players .inscrip_buttons .left, #Players .inscrip_buttons .right{
+    transition: all 0.2s ease-in-out;
+}
+
+#Players .inscrip_buttons .left:hover, #Players .inscrip_buttons .left:active, #Players .inscrip_buttons .right:hover, #Players .inscrip_buttons .right:active {
+    fill: #92dae4;
+    cursor: pointer;
+}
+
+#Players .gallery_frame {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0vw;
+}
+
+#Players .gallery_frame .gallery {
+    display: flex;
+    width: 600%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    transition: all 1s;
+}
+
+#Players .gallery_frame .gallery .jugadora {
+    width: 22.6vw;
+    margin: 0 0.2vw;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+#Players .gallery_frame .gallery .jugadora img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2
+}
+
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    background-image: linear-gradient(111.28deg, #172F53 0%, #FFFFFF 719.35%);
+    z-index: 90;
+    transition: all 0.5s ease-out;
+}
+
+#Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay {
+    transform: translateY(0%);
+}
+
+#Players::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#Players .gallery_frame::-webkit-scrollbar, #Players .gallery::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* #Players .buttons {
+    position: absolute;
+    top:0;
+} */
+
+
+
+
+
+/* Event Section */
 #Events {
     width: 100%;
-    padding: 28vh 4vw 24vh;
+    padding: 0;
     margin: 0;
     overflow-x: hidden;
     position: relative;
 }
 
-#Events .parallax-title {
-    position: absolute;
-    top: 15.22vh;
-    left: 3.5vw;
-    right: 3.5vw;
-    margin: 0;
-    padding: 0 1vw 0 0 ;
-    background: linear-gradient(180deg, #FFFFFF 19.49%, rgba(255, 255, 255, 0) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 900;
-    font-family: var(--font3);
-    font-style: italic;
-    font-size: 22.5vh;
-    line-height: 22.5vh;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: left;
-    text-align: left;
-}
-
-#Events .events_gallery_frame {
+#Events .event {
     width: 100%;
-    overflow-x: scroll;
-    position: relative;
-}
-
-#Events .events_gallery_frame .gallery {
-    display: flex;
-    width: 100%; /*200% if we end up adding the other 3 elements */
-    height: 100%;
-    overflow-x: scroll;
-    box-sizing: border-box;
-}
-
-#Events .events_gallery_frame .gallery .grupo {
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    padding: 0 0.45vw;
-    transition: all 1s;
-}
-
-#Events .events_gallery_frame .gallery .grupo .news_small {
-    width: 29.76667vw;
-    aspect-ratio: 1.65;
+    aspect-ratio: 3.2;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1003,17 +937,56 @@ nav.active {
     text-decoration: none;
     background-size: 100%;
     background-position: center;
-    transition: background-size 1.5s ease;
+    transition: all 1.5s ease;
 }
 
 
-#Events .events_gallery_frame .gallery .grupo .news_small:hover {
-    background-size: 110%;
+#Events .event:hover {
+    background-size: 105%;
 }
 
+#Events .event .evento_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(#00000080, #00000080);
+    transition: all 1.5s ease;
+    opacity: 0;
+}
 
-#Events .events_gallery_frame .gallery .grupo .news_small h3 {
+#Events .event:hover .evento_overlay {
+    opacity: 1;
+}
+
+#Events .event .evento_overlay a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid var(--colorW);
+    height: 5vh;
+    border-radius: 5px;
+    width: 16%;
     text-decoration: none;
+    color: var(--colorW);
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vh;
+    font-weight: 500;
+}
+
+#Events .event .evento_overlay a:hover {
+    color: var(--color4B);
+    background: var(--colorW);
+}
+
+#Events .event h3 {
     font-family: var(--font1);
     color: var(--colorW);
     font-weight: 500;
@@ -1027,23 +1000,8 @@ nav.active {
 }
 
 
-#Events .events_gallery_frame .sec-news1 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
-}
-#Events .events_gallery_frame .sec-news2 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 2.jpeg);
-}
-#Events .events_gallery_frame .sec-news3 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 3.JPG);
-}
-#Events .events_gallery_frame .sec-news4 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 4.jpg);
-}
-#Events .events_gallery_frame .sec-news5 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 5.jpg);
-}
-#Events .events_gallery_frame .sec-news6 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+#Events .event1 {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
 }
 
 #Events::-webkit-scrollbar {
@@ -1052,6 +1010,474 @@ nav.active {
 }
 
 #Events .events_gallery_frame::-webkit-scrollbar, #Events .events_gallery_frame .gallery::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
+
+
+/* Cantera Section */
+#Cantera {
+    margin: 0;
+    width: 100%;
+    padding: 0 6vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Cantera .inscrip_buttons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 48px;
+    margin: auto;
+    right: 3.5%;
+    left: 4%;
+    display: flex;
+    justify-content: space-between;
+    fill: var(--colorW);
+}
+
+#Cantera .inscrip_buttons .insc_btn_1 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Cantera .inscrip_buttons .insc_btn_2 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Cantera .inscrip_buttons .left, #Cantera .inscrip_buttons .right{
+    transition: all 0.2s ease-in-out;
+}
+
+#Cantera .inscrip_buttons .left:hover, #Cantera .inscrip_buttons .left:active, #Cantera .inscrip_buttons .right:hover, #Cantera .inscrip_buttons .right:active {
+    fill: #92dae4;
+    cursor: pointer;
+}
+
+#Cantera .cantera_grid-gallery {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+#Cantera .cantera_grid-gallery .gallery {
+    overflow-x: hidden;
+    width: 340%;
+    display: flex;
+    transition: all 1s;
+}
+
+#Cantera .cantera_grid-gallery .gallery div {
+    width: 17.2vw;
+    aspect-ratio: 1.618034;
+    margin: 0.2vw;
+    background: #16223d;
+    transition: all 1s;
+    position: relative;
+}
+
+#Cantera .cantera_grid-gallery .gallery h1 {
+    position: absolute;
+    bottom: 0.6vw;
+    left: 1.2vw;
+    padding: 0;
+    margin: 0;
+    color: var(--colorW);
+    transition: all 1s;
+    font-family: var(--font2);
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+#Cantera .cantera_grid-gallery .gallery .benjA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .benjB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .alevA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ a.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#Cantera .cantera_grid-gallery .gallery .alevB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .alevC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
+    background-size: 140%;
+    background-position: center 60%;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanD {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .cadetA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ a.jpg);
+    background-size: cover;
+    background-position: 40%;
+}
+
+#Cantera .cantera_grid-gallery .gallery .cadetB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .juvA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .juvB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .juvC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .senB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .senC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .vet {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/veteranas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Inscription Section */
+#Inscribe {
+    margin: 0;
+    width: 100%;
+    padding: 6vw 0 0.7vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Inscribe .flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Inscribe .flex .inscrip_type {
+    width: 100%;
+    aspect-ratio: 1.5;
+    background-position: center;
+    position: relative;
+    filter: grayscale(0.8);
+    transition: all 0.2s ease-in-out;
+    background-size: 100%;
+}
+
+#Inscribe .flex .inscrip_type:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    background-size: 110%;
+}
+
+#Inscribe .flex .inscrip_type .texto_inscrip{
+    position: absolute;
+    bottom: 1.5vw;
+    left: 1.5vw;
+}
+
+#Inscribe .flex .inscrip_type .texto_inscrip h3 {
+    font: 500 3vh var(--font1), sans-serif;
+    line-height: 3vh;
+    padding: 0;
+    margin: 0;
+    color: var(--colorW);
+}
+
+#Inscribe .flex .inscrip_type .texto_inscrip p {
+    font: 300 1.5vh var(--font1P), sans-serif;
+    line-height: 1.5vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: var(--colorW);
+}
+
+#Inscribe .flex .jugadoras {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+}
+
+#Inscribe .flex .practicas {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+    margin: 0 0.7vw;
+}
+
+#Inscribe .flex .tecnico {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.jpg);
+}
+
+
+
+
+/* Shop Section */
+#Shop {
+    margin: 0;
+    width: 100%;
+    padding: 5vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Shop .inscrip_buttons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 48px;
+    margin: auto;
+    right: 2.5%;
+    left: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    fill: var(--colorW);
+}
+
+#Shop .inscrip_buttons .insc_btn_1 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Shop .inscrip_buttons .insc_btn_2 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Shop .inscrip_buttons .left, #Shop .inscrip_buttons .right {
+    transition: all 0.2s ease-in-out;
+}
+
+#Shop .inscrip_buttons .left:hover, #Shop .inscrip_buttons .left:active, #Shop .inscrip_buttons .right:hover, #Shop .inscrip_buttons .right:active {
+    fill: #92dae4;
+    cursor: pointer;
+}
+
+#Shop .gallery_frame {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Shop .gallery_frame .gallery {
+    display: flex;
+    width: 300%;
+    overflow-x: hidden;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 1s;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Shop .gallery_frame .gallery .prenda {
+    aspect-ratio: 1/1.25;
+    width: 22.6vw;
+    margin: 0 0.2vw;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+#Shop .gallery_frame .gallery .prenda .overlay_prenda {
+    position: absolute;
+    left: -10px;
+    height: 10%;
+    top: 65%;
+    bottom: 25%;
+    z-index: 1;
+    font-size: 20px;
+    font-family: var(--font2);
+    font-weight: 800;
+    background-color: var(--colorW);
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 30px;
+    opacity: 0;
+    transform: skewX(-10deg) translateX(-100%);
+    transition: all 0.2s ease-in-out;
+}
+
+#Shop .gallery_frame .gallery .prenda:hover .overlay_prenda {
+    opacity: 1;
+    transform: skewX(-10deg) translateX(0%);
+}
+
+#Shop .gallery_frame .gallery .prenda .display {
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+#Shop .gallery_frame .gallery .prenda .display img {
+    height: 65%;
+    aspect-ratio: initial;
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+    margin: auto;
+}
+
+#Shop .gallery_frame .gallery .prenda:hover .display img {
+    height: 70%;
+}
+
+#Shop .gallery_frame .gallery .prenda1 .display {
+    background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda1 .overlay_prenda {
+    color: #2a3452ff;
+}
+
+#Shop .gallery_frame .gallery .prenda2 .display {
+    background-image: linear-gradient(90deg, #bfa842ff 0%, #dccd70ff 41%, #e3d977ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda2 .overlay_prenda {
+    color: #bfa842ff;
+}
+
+#Shop .gallery_frame .gallery .prenda3 .display {
+    background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+}
+#Shop .gallery_frame .gallery .prenda3 .overlay_prenda {
+    color: #98bab7ff;
+}
+
+#Shop .gallery_frame .gallery .prenda4 .display {
+    background-image: linear-gradient(90deg, #e18996ff 0%, #eaabb9ff 45%, #ecb4c0ff 87%);
+}
+#Shop .gallery_frame .gallery .prenda4 .overlay_prenda {
+    color: #e18996ff;
+}
+
+#Shop .gallery_frame .gallery .prenda5 .display {
+    background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+}
+#Shop .gallery_frame .gallery .prenda5 .overlay_prenda {
+    color: #98bab7ff;
+}
+
+#Shop .gallery_frame .gallery .prenda6 .display {
+    background-image: linear-gradient(90deg, #8cc3c3ff 0%, #455e69ff 50%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda6 .overlay_prenda {
+    color: #455e69ff;
+}
+
+#Shop .gallery_frame .gallery .prenda7 .display {
+    background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda7 .overlay_prenda {
+    color: #2a3452ff;
+}
+
+#Shop .gallery_frame .gallery .prenda8 .display {
+    background-image: linear-gradient(90deg, #252528ff 0%, #2c2a2bff 41%, #3b393bff 100%);
+}
+#Shop .gallery_frame .gallery .prenda8 .overlay_prenda {
+    color: #2c2a2bff;
+}
+
+#Shop .gallery_frame .gallery .prenda9 .display {
+    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda9 .overlay_prenda {
+    color: #474747ff;
+}
+
+#Shop .gallery_frame .gallery .prenda10 .display {
+    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda10 .overlay_prenda {
+    color: #474747ff;
+}
+
+#Shop .gallery_frame .gallery .prenda11 .display {
+    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda11 .overlay_prenda {
+    color: #474747ff;
+}
+
+#Shop .gallery_frame .gallery .prenda12 .display {
+    background-image: linear-gradient(90deg, #152134ff 0%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda12 .overlay_prenda {
+    color: #2a3452ff;
+}
+
+#Shop::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#Shop .gallery_frame::-webkit-scrollbar, #Shop .gallery::-webkit-scrollbar {
     width: 0px;
     height: 0px;
 }
@@ -1068,7 +1494,7 @@ nav.active {
 #Newsletter .box {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -1087,7 +1513,7 @@ nav.active {
 }
 
 #Newsletter .box .box_content .newsletter_box{
-    background-image: linear-gradient(108.13deg, rgba(12, 18, 32, 0.74) -38.7%, rgba(9, 15, 29, 0.74) 114.94%);
+    background-image: linear-gradient(108.13deg, rgb(12, 18, 32/*, 0.74*/) -38.7%, rgb(9, 15, 29/*, 0.74*/) 114.94%);
     width: 50%;
     height: 100%;
     padding: 6.3vh 5vh;
@@ -1184,9 +1610,11 @@ nav.active {
 
 /* Footer Section */
 #footer {
+    background-color: var(--color4B);
     width: 100%;
     height: 93vh;
     position: relative;
+    overflow: hidden;
 }
 
 #footer .social {
@@ -1204,6 +1632,26 @@ nav.active {
     font-family: var(--font4);
     font-weight: 500;
     letter-spacing: -5px;
+}
+
+#footer .social h1::before {
+    content: "";
+    animation: hashtag-change 3s linear infinite;
+}
+
+@keyframes hashtag-change {
+    0%{
+        content: "#CFFOLYMPIA";
+    }
+    33.3%{
+        content: "SOÑAMOS";
+    }
+    66.6%{
+        content: "JUNTAS!!!";
+    }
+    100%{
+        content: "#CFFOLYMPIA";
+    }
 }
 
 #footer .social .social_icons {
@@ -1231,44 +1679,56 @@ nav.active {
 }
 
 #footer .sponsors .gallery_frame {
-    width: 100%;
+    width: 94vw;
     height: 100%;
     padding: 0;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 #footer .sponsors .gallery_frame .gallery {
-    width: 160%;
     height: 100%;
     display: flex;
-    overflow-x: scroll;
-    /* animation: sponsors_move 16s linear infinite; */
+    animation: sponsors_move 22s linear infinite;
 }
 
 @keyframes sponsors_move {
     0%{
-        transform: translateX(-0%);
+        transform: translateX(0);
     }
-    40%{
-        transform: translateX(-0%);
+    /* 12.5%{
+        transform: translateX(-18.8vw);
+    }
+    25%{
+        transform: translateX(-37.6vw);
+    }
+    27.5%{
+        transform: translateX(-56.4vw);
     }
     50%{
-        transform: translateX(-50%);
+        transform: translateX(-75.2vw);
     }
-    90%{
-        transform: translateX(-50%);
+    62.5%{
+        transform: translateX(-94vw);
     }
+    75%{
+        transform: translateX(-112.8vw);
+    }
+    87.5%{
+        transform: translateX(-131.6vw);
+    } */
     100%{
-        transform: translateX(-0%);
+        transform: translateX(-131.6vw);
     }
 }
 
 #footer .sponsors .gallery_frame .gallery .sponsor {
-    width: 100%;
+    flex-shrink: 0;
+    width: 17.9vw;
     margin: 0 0.45vw;
     background-image:linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
     border-radius: 3px;
     position: relative;
+    white-space: nowrap;
 }
 
 #footer .sponsors .gallery_frame .gallery .sponsor img {
@@ -1282,17 +1742,17 @@ nav.active {
 }
 
 #footer .info {
-    background-color: var(--color4B);
     width: 100%;
     height: 5vh;
-    padding: 1.9vh 3vw 1.9vh 1vw;
+    padding: 1.9vh 3vw 1.9vh 3vw;
+    background-image:linear-gradient(180deg, #070c16 -378.7%, #070a16 174.94%);
     display: flex;
     justify-content: space-between;
 }
 
 #footer .info .links {
     height: 1.2vh;
-    width: 22vw;
+    width: 11vw;
     display: flex;
     justify-content: space-between;
 }
@@ -1322,7 +1782,7 @@ nav.active {
 }
 
 #footer .info .volver_arriba a{
-    cursor: default;
+    cursor: pointer;
 }
 
 #footer .info .volver_arriba svg {
