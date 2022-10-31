@@ -176,17 +176,57 @@ nav .nav_left:hover p {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 10%, #0000009c 95%, #000000c9 100%);
+    background-image: linear-gradient(180deg, #00000075 0%, #00000075 10%, #0000009c 95%, #000000c9 100%);
     background-size: cover;
     position: relative;
 }
 
-#Inicio video {
+#Inicio .background {
     width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
     z-index: -1;
+    background-repeat: no-repeat;
+    animation: change-background 30s linear infinite;
+}
+
+@keyframes change-background {
+    0% {
+        background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+        background-size: 119%;
+        background-position: left;
+    }
+    28% {
+        background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+        background-size: 125%;
+        background-position: left;
+    }
+    33% {
+        background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+        background-size: 114%;
+        background-position: center;
+    }
+    61% {
+        background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+        background-size: 126%;
+        background-position: center;
+    }
+    66%{
+        background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+        background-size: 103%;
+        background-position: left;
+    }
+    95%{
+        background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+        background-size: 116%;
+        background-position: left;
+    }
+    100%{
+        background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+        background-size: 119%;
+        background-position: left;
+    }
 }
 
 #Inicio .gallery_frame {
@@ -230,7 +270,7 @@ nav .nav_left:hover p {
 
 #Inicio .hero .hero_text {
     width: 40.1vw;
-    height: 50vh;
+    height: 40vh;
     position: absolute;
     left: 0;
     top: 0;
@@ -295,9 +335,7 @@ nav .nav_left:hover p {
 }
 
 #Inicio .hero .hero_button_div .hero_button:hover {
-    background: var(--colorW);
-    color: rgb(9, 26, 51);
-    font-weight: 600;
+    background: hsl(179, 47%, 52%);
 }
 
 #Inicio .social_icons {
@@ -311,6 +349,10 @@ nav .nav_left:hover p {
     bottom: 0;
     left: 2vw;
     margin: auto 0;
+}
+
+#Inicio .social_icons a:hover svg {
+    stroke: rgb(127, 255, 253);
 }
 
 #Inicio .social_icons a:nth-of-type(2) {
@@ -858,9 +900,9 @@ nav .nav_left:hover p {
 }
 
 #Players .gallery_frame .gallery .jugadora {
-    width: 22.6vw;
+    width: 21.6vw;
     margin: 0 0.2vw;
-    height: 22.6vw;
+    height: 21.6vw;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1126,14 +1168,14 @@ nav .nav_left:hover p {
 
 #Cantera .cantera_grid-gallery .gallery {
     overflow-x: hidden;
-    width: 340%;
+    width: 850%;
     display: flex;
     transition: all 1s;
 }
 
 #Cantera .cantera_grid-gallery .gallery div {
-    width: 17.2vw;
-    height: 27.8296vw;
+    width: 43.8vw;
+    height: 23.19vw;
     margin: 0.2vw;
     background: #16223d;
     transition: all 1s;
@@ -1150,7 +1192,8 @@ nav .nav_left:hover p {
     transition: all 1s;
     font-family: var(--font2);
     font-weight: 500;
-    font-size: 1.3vw;
+    font-size: 2.7vw;
+    line-height: 3.2vw;
 }
 
 #Cantera .cantera_grid-gallery .gallery .benjA {
@@ -1186,7 +1229,7 @@ nav .nav_left:hover p {
 #Cantera .cantera_grid-gallery .gallery .infanA {
     background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
     background-size: 140%;
-    background-position: center 60%;
+    background-position: 55% 60%;
 }
 
 #Cantera .cantera_grid-gallery .gallery .infanB {
@@ -1321,7 +1364,7 @@ nav .nav_left:hover p {
 }
 
 #Inscribe .flex .jugadoras {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
 }
 
 #Inscribe .flex .practicas {
@@ -1330,7 +1373,7 @@ nav .nav_left:hover p {
 }
 
 #Inscribe .flex .tecnico {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.jpg);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
 }
 
 
@@ -1709,7 +1752,7 @@ nav .nav_left:hover p {
         content: "#CFFOLYMPIA";
     }
     33.3%{
-        content: "SOÑAMOS";
+        content: "#SOÑAMOS";
     }
     66.6%{
         content: "JUNTAS!";
@@ -1928,6 +1971,7 @@ nav .nav_left:hover p {
         position: absolute;
         top: 0;
         left: 4vw;
+        z-index: 6;
     }
     
     nav .nav_left p{
@@ -1946,6 +1990,7 @@ nav .nav_left:hover p {
         background-position: 100% 100%, 0 100%;
         background-repeat: no-repeat;
         transition: background-size 0.15s linear;
+        z-index: 6;
     }
     
     nav .nav_left:hover p {
@@ -1964,9 +2009,9 @@ nav .nav_left:hover p {
         margin: 0;
         width: 100%;
         height: 100%;
-        transform: translateX(100%);
+        transform: translateX(-100%);
         background: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
-        transition: all 0.25s ease-out;
+        transition: all 0.35s ease-out;
     }
 
     .nav_links.open {
@@ -2009,13 +2054,52 @@ nav .nav_left:hover p {
         position: relative;
     }
     
-    #Inicio video {
+    #Inicio .background {
         width: 100%;
         position: absolute;
         top: 0;
         bottom: 0;
         z-index: -1;
-        display: none;
+        background-repeat: no-repeat;
+        animation: change-background 30s linear infinite;
+    }
+    
+    @keyframes change-background {
+        0% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 250%;
+            background-position: 35%;
+        }
+        28% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 260%;
+            background-position: 45%;
+        }
+        33% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 240%;
+            background-position: 50%;
+        }
+        61% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 270%;
+            background-position: 53%;
+        }
+        66%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 240%;
+            background-position: 40%;
+        }
+        95%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 250%;
+            background-position: 30%;
+        }
+        100%{
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 250%;
+            background-position: 35%;
+        }
     }
     
     #Inicio .gallery_frame {
@@ -2507,6 +2591,10 @@ nav .nav_left:hover p {
         border-radius: 3px;
     }
 
+    #Players .gallery_frame .gallery .jugadora img {
+        border-radius: 3px;
+    }
+
     #Players .gallery_frame .gallery .jugadora:first-of-type {
         margin: 0 1vw 0 0;
     }
@@ -2710,32 +2798,85 @@ nav .nav_left:hover p {
     
     #Cantera .cantera_grid-gallery .gallery {
         overflow-x: scroll;
-        width: 650%;
+        width: 1600%;
         display: flex;
         transition: all 1s;
     }
     
     #Cantera .cantera_grid-gallery .gallery div {
-        width: 34.4vw;
-        height: 21.261vw;
-        margin: 0.4vw;
+        width: 92.1176471vw;
+        height: 38.261vw;
+        margin: 0 1vw;
         background: #16223d;
         transition: all 1s;
         position: relative;
+        border-radius: 2px;
     }
     
     #Cantera .cantera_grid-gallery .gallery h1 {
         position: absolute;
-        bottom: 0.6vw;
-        left: 1.2vw;
+        left: 4.2vw;
         padding: 0;
         margin: 0;
         color: var(--colorW);
         transition: all 1s;
         font-family: var(--font2);
         font-weight: 500;
-        font-size: 2vh;
+        font-size: 3.5vh;
+        bottom: 4.2vw;
     }
+
+    /* #Cantera .cantera_grid-gallery .gallery .benjA {
+        background-image: none;
+    } 
+    #Cantera .cantera_grid-gallery .gallery .benjB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .alevA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .alevB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .alevC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanD {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .cadetA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .cadetB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .juvA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .juvB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .juvC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .senB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .senC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .vet {
+        background-image: none;    
+    } */
     
     
     
@@ -2794,7 +2935,7 @@ nav .nav_left:hover p {
     }
 
     #Inscribe .flex .jugadoras {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
         margin: 0 0 1vh;
     }
     
@@ -2804,7 +2945,7 @@ nav .nav_left:hover p {
     }
     
     #Inscribe .flex .tecnico {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.jpg);
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
     }
     
     
