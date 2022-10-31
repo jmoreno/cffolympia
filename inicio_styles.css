@@ -230,7 +230,7 @@ nav .nav_left:hover p {
 
 #Inicio .hero .hero_text {
     width: 40.1vw;
-    height: fit-content;
+    height: 50vh;
     position: absolute;
     left: 0;
     top: 0;
@@ -637,6 +637,7 @@ nav .nav_left:hover p {
 
 #MainNews .news4 {
     background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.jpg);
+    box-shadow: none;
 }
 
 
@@ -859,7 +860,7 @@ nav .nav_left:hover p {
 #Players .gallery_frame .gallery .jugadora {
     width: 22.6vw;
     margin: 0 0.2vw;
-    aspect-ratio: 1/1;
+    height: 22.6vw;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -971,7 +972,7 @@ nav .nav_left:hover p {
 
 
 /* Event Section */
-#Events {
+/* #Events {
     width: 100%;
     padding: 0;
     margin: 0;
@@ -1066,7 +1067,7 @@ nav .nav_left:hover p {
 #Events .events_gallery_frame::-webkit-scrollbar, #Events .events_gallery_frame .gallery::-webkit-scrollbar {
     width: 0px;
     height: 0px;
-}
+} */
 
 
 
@@ -1132,7 +1133,7 @@ nav .nav_left:hover p {
 
 #Cantera .cantera_grid-gallery .gallery div {
     width: 17.2vw;
-    aspect-ratio: 1.618034;
+    height: 27.8296vw;
     margin: 0.2vw;
     background: #16223d;
     transition: all 1s;
@@ -1336,7 +1337,7 @@ nav .nav_left:hover p {
 
 
 /* Shop Section */
-#Shop {
+/* #Shop {
     margin: 0;
     width: 100%;
     padding: 5vw;
@@ -1544,7 +1545,7 @@ nav .nav_left:hover p {
 #Shop .gallery_frame::-webkit-scrollbar, #Shop .gallery::-webkit-scrollbar {
     width: 0px;
     height: 0px;
-}
+} */
 
 
 
@@ -1939,7 +1940,7 @@ nav .nav_left:hover p {
         padding: 0;
         position: absolute;
         top: 0;
-        left: 10.75vw;
+        left: 11.25vw;
         background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
         background-size: 100% 1px, 0 1px;
         background-position: 100% 100%, 0 100%;
@@ -2001,7 +2002,7 @@ nav .nav_left:hover p {
     /* Hero Section */
     #Inicio {
         width: 100%;
-        height: 100vh;
+        height: 95vh;
         overflow: hidden;
         background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 10%, #0000009c 95%, #000000c9 100%);
         background-size: cover;
@@ -2019,7 +2020,7 @@ nav .nav_left:hover p {
     
     #Inicio .gallery_frame {
         width: 100%;
-        height: 100vh;
+        height: 95vh;
         position: absolute;
         overflow: hidden;
         top: 0;
@@ -2028,7 +2029,7 @@ nav .nav_left:hover p {
     
     #Inicio .gallery {
         width: 100%;
-        height: 100vh;
+        height: 95vh;
         position: relative;
         top: 0;
         left: 0;
@@ -2039,13 +2040,13 @@ nav .nav_left:hover p {
     
     #Inicio .frame1 {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         position: relative;
     }
     
     #Inicio .frame2 {
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         position: relative;
     }
     
@@ -2356,7 +2357,6 @@ nav .nav_left:hover p {
         display: flex;
         flex-direction: column;
         width: 88vw;
-        height: fit-content;
     }
     
     #MainNews .news {
@@ -2379,8 +2379,8 @@ nav .nav_left:hover p {
         position: absolute;
         bottom: 10px;
         left: 10px;
-        font-size: 9px;   
-        line-height: 9px;
+        font-size: 11px;   
+        line-height: 11px;
         margin: 0;
         padding: 0;
         white-space: nowrap;
@@ -2395,8 +2395,8 @@ nav .nav_left:hover p {
         position: absolute;
         bottom: 23px;
         left: 10px;
-        font-size: 7px;     /*Remember to change to resposive measures*/
-        line-height: 7px;
+        font-size: 8px;     /*Remember to change to resposive measures*/
+        line-height: 8px;
         margin: 0;
         padding: 0;
         white-space: nowrap;
@@ -2417,8 +2417,8 @@ nav .nav_left:hover p {
         position: absolute;
         bottom: 10px;
         left: 10px;
-        font-size: 9px;     /*Remember to change to resposive measures*/
-        line-height: 9px;
+        font-size: 11px;     /*Remember to change to resposive measures*/
+        line-height: 11px;
         margin: 0;
         padding: 0;
         white-space: nowrap;
@@ -2433,8 +2433,8 @@ nav .nav_left:hover p {
         position: absolute;
         bottom: 23px;
         left: 10px;
-        font-size: 7px;     /*Remember to change to resposive measures*/
-        line-height: 7px;
+        font-size: 8px;     /*Remember to change to resposive measures*/
+        line-height: 8px;
         margin: 0;
         padding: 0;
         white-space: nowrap;
@@ -2497,7 +2497,7 @@ nav .nav_left:hover p {
     #Players .gallery_frame .gallery .jugadora {
         width: 39vw;
         margin: 0 1vw;
-        aspect-ratio: 1/1;
+        height: 39vw;
         background-size: cover;
         background-position: center;
         display: flex;
@@ -2558,8 +2558,8 @@ nav .nav_left:hover p {
         position: absolute;
         top: 6.2vw;
         left: 3vw;
-        font-size: 1vw;
-        line-height: 1vw;
+        font-size: 1.35vw;
+        line-height: 1.35vw;
         font-family: var(--font1);
         font-weight: 500;
         color: var(--colorW);
@@ -2570,10 +2570,10 @@ nav .nav_left:hover p {
     
     #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
         position: absolute;
-        top: 6vw;
-        left: 1vw;
-        font-size: 0.7vw;
-        line-height: 0.7vw;
+        top: 11vw;
+        left: 3vw;
+        font-size: 1.35vw;
+        line-height: 1.35vw;
         font-family: var(--font1);
         font-weight: 500;
         color: var(--colorW);
@@ -2587,7 +2587,7 @@ nav .nav_left:hover p {
     
     
     /* Event Section */
-    #Events {
+    /* #Events {
         width: 100%;
         padding: 0;
         margin: 0;
@@ -2682,7 +2682,7 @@ nav .nav_left:hover p {
     #Events .events_gallery_frame::-webkit-scrollbar, #Events .events_gallery_frame .gallery::-webkit-scrollbar {
         width: 0px;
         height: 0px;
-    }
+    } */
     
     
     
@@ -2717,7 +2717,7 @@ nav .nav_left:hover p {
     
     #Cantera .cantera_grid-gallery .gallery div {
         width: 34.4vw;
-        aspect-ratio: 1.618034;
+        height: 21.261vw;
         margin: 0.4vw;
         background: #16223d;
         transition: all 1s;
@@ -2811,7 +2811,7 @@ nav .nav_left:hover p {
     
     
     /* Shop Section */
-    #Shop {
+    /* #Shop {
         margin: 0;
         width: 100%;
         padding: 5vw;
@@ -2925,7 +2925,7 @@ nav .nav_left:hover p {
     
     #Shop .gallery_frame .gallery .prenda:hover .display img {
         height: 70%;
-    }
+    } */
     
     
     /* Newsletter Section */
