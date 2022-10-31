@@ -148,18 +148,18 @@ shop_slide = (direction) => {
 
 //Cantera slider
 const equipos_cantera = document.querySelectorAll("#Cantera .cantera_grid-gallery .gallery");
-const equipos_cantera_translate = 29.4117647;
+const equipos_cantera_translate = 29.4117647 * (2/5);
 let translate_cantera = 0;
 let cantera_translation_index = 1;
 
 cantera_slide = (direction) => {
 
-    if ((direction === "next" && cantera_translation_index === 4) || (direction === "prev" && cantera_translation_index === 1)) {
+    if ((direction === "next" && cantera_translation_index === 9) || (direction === "prev" && cantera_translation_index === 1)) {
         return
     }
-    else if((direction === "next" && cantera_translation_index === 3) || (direction === "prev" && cantera_translation_index === 4)) {
+    else if((direction === "next" && cantera_translation_index === 8) || (direction === "prev" && cantera_translation_index === 9)) {
         direction === "next" ? cantera_translation_index++ : cantera_translation_index--;
-        direction === "next" ? translate_cantera -= (equipos_cantera_translate *(2/5)) : translate_cantera += (equipos_cantera_translate*(2/5));
+        direction === "next" ? translate_cantera -= (equipos_cantera_translate / 2) : translate_cantera += (equipos_cantera_translate /2);
 
         equipos_cantera.forEach (
             equipos_cantera => (equipos_cantera.style.transform = `translateX(${translate_cantera}%)`)
