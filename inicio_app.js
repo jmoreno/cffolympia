@@ -1,4 +1,3 @@
-
 //Navigation and beginning animation
 const nav = document.querySelector("#nav");
 const SCROLL_START = document.querySelector("#Inicio .overlay")
@@ -17,6 +16,23 @@ window.onscroll = function () {
     }
 
     //Parallax
+}
+
+
+//Responsive menu
+const hambNav = document.querySelector(".nav_links");
+let i = 0
+
+function dropDownNavBar() {
+    
+    if (i == 0) {
+        hambNav.classList.add("open")
+        i = 1
+    }
+    else {
+        hambNav.classList.remove("open")
+        i = 0
+    }
 }
 
 
@@ -67,7 +83,7 @@ function countDown() {
     const seconds2 = seconds1.toLocaleString(undefined,{minimumIntegerDigits: 2})
 
     if (timeSpan >= day) {
-        timeLeft.innerText = `${days}d & ${hours}h`
+        timeLeft.innerText = `${days}d y ${hours}h`
     }
     else if (timeSpan >= minute) {
         timeLeft.innerText = `${hours}:${minutes}:${seconds2}`
@@ -182,24 +198,3 @@ function mainNewsFunc(page) {
         document.querySelector(`#MainNews .news${newsArr[i]}`).removeAttribute('id','main')
     }
 }
-
-
-
-
-
-
-//Cambiar contenido de hashtag footer
-// const HASHTAG = document.querySelector("#footer .social .hashtag")
-// const hashtagArr = ["#CFFOLYMPIA", "#CANTERA", "#1ªNACIONAL", "#OLYMPIA", "#FUTBOLISTAS", "#SOÑAMOS", "#JUNTAS"]
-// let nextHashtag = 1
-
-// function hashtagContentChange () {
-//     HASHTAG.innerText = hashtagArr[nextHashtag - 1]
-//     nextHashtag++
-//     if (nextHashtag >= 8) {
-//         nextHashtag = 1
-//     }
-//     else {
-//         return
-//     }
-// }
