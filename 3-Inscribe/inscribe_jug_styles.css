@@ -1,0 +1,1069 @@
+:root {
+    --color1B: #20395b;
+    --color2B: #21385B;
+    --color3B: #0C1220;
+    --color4B: #090f1d;
+    --colorG: #A1D683;
+    --colorB: black;
+    --colorW: white;
+    --colorGr: rgb(207, 207, 207);
+    --font1: Montserrat;
+    --font1S: Lora;
+    --font1P: "Hind Madurai";
+    --font2: Khand;
+    --font3: Inter;
+    --font4: Teko;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(95deg, var(--color3B) -38.7%, var(--color4B) 74.94%);
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* Navegacion ----------------------------------------------------------------*/
+
+nav {
+    width: 100%;
+    height: 8vh;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 10000000;
+    background-color: transparent;
+}
+
+nav.active {
+    background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+}
+
+nav .hamburger_menu {
+    display: none;
+}
+
+.nav_logo {
+    height: 3.4vh;
+    margin: 2.3vh 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 1.5vw;
+}
+
+nav .nav_left p{
+    text-decoration: none;
+    color: var(--colorW);
+    line-height: 1.6vh;
+    font: 500 1.6vh var(--font1), sans-serif;
+    margin: 3.05vh 0;
+    justify-content: left;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 3.8vw;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+nav .nav_left:hover p {
+    background-size: 0 1px, 100% 1px;
+}
+
+.nav_links {
+    position: absolute;
+    top: 0;
+    right: 1.8vw;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.nav_li {
+    margin: 3.2vh 0;
+    padding: 0;
+    font-size: 1.6vh;
+    line-height: 1.6vh;
+    font-family: var(--font1);
+    font-weight: 500;
+}
+
+.nav_li_a {
+    color: var(--colorW);
+    text-decoration: none;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+.nav_li_a:hover {
+    background-size: 0 1px, 100% 1px;
+}
+
+
+
+/* .drop_list {
+    list-style: none;
+    color: var(--color1);
+    padding: 0 15px;
+    margin-top: 1px;
+    position: relative;
+    background: white;
+    width: inherit;
+    height: 0;
+    overflow: hidden;
+    transition: height linear 0.3s;
+}
+
+.drop_list li {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.drop_list li a {
+    color: var(--color1);
+    text-decoration: none;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--color1), var(--color1));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+.nav_li_drop:hover {
+    background-size: 0 1px, 100% 1px;
+}
+
+.drop_menu:hover .dlQS {
+    height: 65px;
+}
+
+.drop_menu:hover .dlMI {
+    height: 270px;
+}
+
+.drop_menu .drop_list li a:hover {
+    background-size: 0 1px, 100% 1px;
+} */
+
+
+
+
+/* Hero Section */
+#Inicio {
+    width: 100%;
+    overflow: hidden;
+    /* background: rgb(8,7,27);
+    background: linear-gradient(143deg, rgba(8,7,27,1) 0%, rgba(2,23,68,1) 27%, rgba(50,247,255,1) 100%);  */
+    background-size: cover;
+    position: relative;
+    padding: 12vh 10vw;
+}
+
+#Inicio form fieldset {
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    padding: 0.451vw 0 0.751vw 0;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(3.8334vh, auto);
+    column-gap: 10px;
+    row-gap: 10px;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-size: 1.77334vh;
+    font-weight: 500;
+    margin: 0 0 6vh 0;
+}
+
+#Inicio form fieldset fieldset {
+    width: 100%;
+    border-radius: 2px;
+    border: 0.0976vw solid var(--colorW);
+    padding: 0.251vw 0.351vw 0.351vw;
+    background-color: transparent;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-size: 1.37334vh;
+    font-weight: 500;
+    display: block;
+    margin: 0 0 10px;
+}
+
+#Inicio form fieldset fieldset input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-size: 1.53334vh;
+    font-weight: 400;
+    margin: 0;
+}
+
+#Inicio form input:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#Inicio form fieldset fieldset div input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-size: 0.53334vh;
+    font-weight: 400;
+    margin: 0;
+}
+
+#Inicio form .field2 {
+    row-gap: 0.1vh;
+}
+
+#Inicio form .field3 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#Inicio form .field5, #Inicio form .field6 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#Inicio form fieldset fieldset textarea {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-weight: 400;
+}
+
+select {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-weight: 400;
+    margin: 0;
+}
+
+select option {
+    background-color: var(--color3B);
+    font-weight: 400;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border-radius: 2px;
+    border: 0.0976vw solid var(--colorW);
+    padding: 0.4vw;
+    background-color: transparent;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-size: 1.67334vh;
+    font-weight: 500;
+    margin: 0 0 3vh 0;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--colorW);
+    color: var(--color3B);
+    cursor: pointer;
+}
+
+#F1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#F2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#F3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#F4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#F5 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#F6 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#F7 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#F8 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#F9 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#F10 {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#F11 {
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+#F12 {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#F13 {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#F14 {
+    grid-column: 1/5;
+    grid-row: 2/4;
+}
+
+
+
+
+
+
+
+@media (max-width: 1280px) {
+    nav {
+        width: 100%;
+        height: 8vh;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 10000000;
+        background-color: transparent;
+    }
+
+    nav.active {
+        background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+    }
+
+    nav .hamburger_menu {
+        display: none;
+    }
+
+    .nav_logo {
+        height: 3.4vh;
+        margin: 2.3vh 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 1.5vw;
+    }
+
+    nav .nav_left p{
+        text-decoration: none;
+        color: var(--colorW);
+        line-height: 1.6vh;
+        font: 500 1.6vh var(--font1), sans-serif;
+        margin: 3.05vh 0;
+        justify-content: left;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 4.4vw;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    nav .nav_left:hover p {
+        background-size: 0 1px, 100% 1px;
+    }
+
+    .nav_links {
+        position: absolute;
+        top: 0;
+        right: 1.8vw;
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 26vw;
+        justify-content: space-between;
+    }
+
+    .nav_li {
+        margin: 3.2vh 0;
+        padding: 0;
+        font-size: 1.6vh;
+        line-height: 1.6vh;
+        font-family: var(--font1);
+        font-weight: 500;
+    }
+
+    .nav_li_a {
+        color: var(--colorW);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    .nav_li_a:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+    
+    
+    
+    /* .drop_list {
+        list-style: none;
+        color: var(--color1);
+        padding: 0 15px;
+        margin-top: 1px;
+        position: relative;
+        background: white;
+        width: inherit;
+        height: 0;
+        overflow: hidden;
+        transition: height linear 0.3s;
+    }
+    
+    .drop_list li {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    
+    .drop_list li a {
+        color: var(--color1);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--color1), var(--color1));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+    
+    .nav_li_drop:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+    
+    .drop_menu:hover .dlQS {
+        height: 65px;
+    }
+    
+    .drop_menu:hover .dlMI {
+        height: 270px;
+    }
+    
+    .drop_menu .drop_list li a:hover {
+        background-size: 0 1px, 100% 1px;
+    } */
+    
+    
+    
+    
+    /* Hero Section */
+    #Inicio {
+        width: 100%;
+        overflow: hidden;
+        /* background: rgb(8,7,27);
+        background: linear-gradient(143deg, rgba(8,7,27,1) 0%, rgba(2,23,68,1) 27%, rgba(50,247,255,1) 100%);  */
+        background-size: cover;
+        position: relative;
+        padding: 12vh 10vw;
+    }
+    
+    #Inicio form fieldset {
+        width: 100%;
+        border-radius: 2px;
+        border: none;
+        padding: 0.451vw 0 0.751vw 0;
+        background-color: transparent;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(3.8334vh, auto);
+        column-gap: 10px;
+        row-gap: 10px;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.77334vh;
+        font-weight: 500;
+        margin: 0 0 6vh 0;
+    }
+    
+    #Inicio form fieldset fieldset {
+        width: 100%;
+        border-radius: 2px;
+        border: 0.0976vw solid var(--colorW);
+        padding: 0.251vw 0.351vw 0.351vw;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.37334vh;
+        font-weight: 500;
+        display: block;
+        margin: 0 0 10px;
+    }
+    
+    #Inicio form fieldset fieldset input {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.53334vh;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    #Inicio form input:focus {
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    
+    #Inicio form fieldset fieldset div input {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 0.53334vh;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    #Inicio form .field2 {
+        row-gap: 0.1vh;
+    }
+    
+    #Inicio form .field3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #Inicio form .field5, #Inicio form .field6 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    #Inicio form fieldset fieldset textarea {
+        width: 100%;
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 400;
+    }
+    
+    select {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    select option {
+        background-color: var(--color3B);
+        font-weight: 400;
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+        border-radius: 2px;
+        border: 0.0976vw solid var(--colorW);
+        padding: 0.4vw;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.67334vh;
+        font-weight: 500;
+        margin: 0 0 3vh 0;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: var(--colorW);
+        color: var(--color3B);
+        cursor: pointer;
+    }
+    
+    #F1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #F2 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    #F3 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #F4 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    #F5 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    #F6 {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    
+    #F7 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    #F8 {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    
+    #F9 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    #F10 {
+        grid-column: 2;
+        grid-row: 5;
+    }
+    
+    #F11 {
+        grid-column: 1/3;
+        grid-row: 6;
+    }
+    
+    #F12 {
+        grid-column: 1;
+        grid-row: 7;
+    }
+    
+    #F13 {
+        grid-column: 2;
+        grid-row: 7;
+    }
+    
+    #F14 {
+        grid-column: 1/5;
+        grid-row: 2/4;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        width: 100%;
+        height: 8vh;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 10000000;
+        background-color: transparent;
+    }
+    
+    nav.active {
+        background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+    }
+
+    nav .hamburger_menu {
+        fill: var(--colorW);
+        display: block;
+        height: 2.2vh;
+        width: 28px;
+        position: absolute;
+        top: 2.9vh;
+        right: 4vw;
+    }
+    
+    nav .hamburger_menu img {
+        fill: var(--colorW);
+        display: block;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    
+    .nav_logo {
+        height: 3.4vh;
+        margin: 2.3vh 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 4vw;
+        z-index: 6;
+    }
+    
+    nav .nav_left p{
+        text-decoration: none;
+        color: var(--colorW);
+        line-height: 1.6vh;
+        font: 500 1.6vh var(--font1), sans-serif;
+        margin: 3.05vh 0;
+        justify-content: left;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 11.25vw;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+        z-index: 6;
+    }
+    
+    nav .nav_left:hover p {
+        background-size: 0 1px, 100% 1px;
+    }
+    
+    .nav_links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        background: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+        transition: all 0.35s ease-out;
+    }
+
+    .nav_links.open {
+        transform: translateX(0%);    
+    }
+    
+    .nav_li {
+        margin: 3.2vh auto ;
+        padding: 0;
+        font-size: 4vh;
+        line-height: 4vh;
+        font-family: var(--font1);
+        font-weight: 500;
+    }
+    
+    .nav_li_a {
+        color: var(--colorW);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+    
+    .nav_li_a:hover {
+        background-size: 0;
+    }
+    
+    
+    
+    /* .drop_list {
+        list-style: none;
+        color: var(--color1);
+        padding: 0 15px;
+        margin-top: 1px;
+        position: relative;
+        background: white;
+        width: inherit;
+        height: 0;
+        overflow: hidden;
+        transition: height linear 0.3s;
+    }
+    
+    .drop_list li {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    
+    .drop_list li a {
+        color: var(--color1);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--color1), var(--color1));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+    
+    .nav_li_drop:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+    
+    .drop_menu:hover .dlQS {
+        height: 65px;
+    }
+    
+    .drop_menu:hover .dlMI {
+        height: 270px;
+    }
+    
+    .drop_menu .drop_list li a:hover {
+        background-size: 0 1px, 100% 1px;
+    } */
+    
+    
+    
+    
+    /* Hero Section */
+    #Inicio {
+        width: 100%;
+        overflow: hidden;
+        /* background: rgb(8,7,27);
+        background: linear-gradient(143deg, rgba(8,7,27,1) 0%, rgba(2,23,68,1) 27%, rgba(50,247,255,1) 100%);  */
+        background-size: cover;
+        position: relative;
+        padding: 12vh 10vw;
+    }
+    
+    #Inicio form fieldset {
+        width: 100%;
+        border-radius: 2px;
+        border: none;
+        padding: 0.451vw 0 0.751vw 0;
+        background-color: transparent;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(3.8334vh, auto);
+        column-gap: 10px;
+        row-gap: 10px;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.77334vh;
+        font-weight: 500;
+        margin: 0 0 6vh 0;
+    }
+    
+    #Inicio form fieldset fieldset {
+        width: 100%;
+        border-radius: 2px;
+        border: 0.0976vw solid var(--colorW);
+        padding: 0.251vw 0.351vw 0.351vw;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.37334vh;
+        font-weight: 500;
+        display: block;
+        margin: 0 0 10px;
+    }
+    
+    #Inicio form fieldset fieldset input {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.53334vh;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    #Inicio form input:focus {
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    
+    #Inicio form fieldset fieldset div input {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 0.53334vh;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    #Inicio form .field2 {
+        row-gap: 0.1vh;
+    }
+    
+    #Inicio form .field3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    #Inicio form .field5, #Inicio form .field6 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    #Inicio form fieldset fieldset textarea {
+        width: 100%;
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 400;
+    }
+    
+    select {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    select option {
+        background-color: var(--color3B);
+        font-weight: 400;
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+        border-radius: 2px;
+        border: 0.0976vw solid var(--colorW);
+        padding: 0.4vw;
+        background-color: transparent;
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-size: 1.67334vh;
+        font-weight: 500;
+        margin: 0 0 3vh 0;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: var(--colorW);
+        color: var(--color3B);
+        cursor: pointer;
+    }
+    
+    #F1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #F2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #F3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    #F4 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    #F5 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    #F6 {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    
+    #F7 {
+        grid-column: 1;
+        grid-row: 7;
+    }
+    
+    #F8 {
+        grid-column: 1;
+        grid-row: 8;
+    }
+    
+    #F9 {
+        grid-column: 1;
+        grid-row: 9;
+    }
+    
+    #F10 {
+        grid-column: 1;
+        grid-row: 10;
+    }
+    
+    #F11 {
+        grid-column: 1;
+        grid-row: 11;
+    }
+    
+    #F12 {
+        grid-column: 1;
+        grid-row: 12;
+    }
+    
+    #F13 {
+        grid-column: 1;
+        grid-row: 13;
+    }
+    
+    #F14 {
+        grid-column: 1;
+        grid-row: 2/4;
+    }
+}
