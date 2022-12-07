@@ -1,0 +1,7111 @@
+﻿
+/* Sucesion breakpoint para responsive design */
+/* >1280px(width) - Initial  //  1280px(width) > & < 1024px(width)  //  1024px(width) > & < 768px(width)  //  768 > 400  ||||| Mobile: 480 x 320 // Mobile 320 x 480 */
+
+:root {
+    --color1B: #20395b;
+    --color2B: #21385B;
+    --color3B: #0C1220;
+    --color4B: #090f1d;
+    --colorG: #A1D683;
+    --colorB: black;
+    --colorW: white;
+    --colorGr: rgb(207, 207, 207);
+    --font1: Montserrat;
+    --font1S: Lora;
+    --font1P: "Hind Madurai";
+    --font2: Khand;
+    --font3: Inter;
+    --font4: Teko;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(95deg, var(--color3B) -38.7%, var(--color4B) 74.94%);
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* Navegacion ----------------------------------------------------------------*/
+
+nav {
+    width: 100%;
+    height: 8vh;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 10000000;
+    background-color: transparent;
+}
+
+nav.active {
+    background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+}
+
+nav .hamburger_menu {
+    display: none;
+}
+
+.nav_logo {
+    height: 3.4vh;
+    margin: 2.3vh 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 1.5vw;
+}
+
+nav .nav_left p{
+    text-decoration: none;
+    color: var(--colorW);
+    line-height: 1.6vh;
+    font: 500 1.6vh var(--font1), sans-serif;
+    margin: 3.05vh 0;
+    justify-content: left;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 3.8vw;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+nav .nav_left:hover p {
+    background-size: 0 1px, 100% 1px;
+}
+
+.nav_links {
+    position: absolute;
+    top: 0;
+    right: 1.8vw;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+.nav_li {
+    margin: 3.2vh 0;
+    padding: 0;
+    font-size: 1.6vh;
+    line-height: 1.6vh;
+    font-family: var(--font1);
+    font-weight: 500;
+}
+
+.nav_li_a {
+    color: var(--colorW);
+    text-decoration: none;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+.nav_li_a:hover {
+    background-size: 0 1px, 100% 1px;
+}
+
+
+
+/* .drop_list {
+    list-style: none;
+    color: var(--color1);
+    padding: 0 15px;
+    margin-top: 1px;
+    position: relative;
+    background: white;
+    width: inherit;
+    height: 0;
+    overflow: hidden;
+    transition: height linear 0.3s;
+}
+
+.drop_list li {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.drop_list li a {
+    color: var(--color1);
+    text-decoration: none;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--color1), var(--color1));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+.nav_li_drop:hover {
+    background-size: 0 1px, 100% 1px;
+}
+
+.drop_menu:hover .dlQS {
+    height: 65px;
+}
+
+.drop_menu:hover .dlMI {
+    height: 270px;
+}
+
+.drop_menu .drop_list li a:hover {
+    background-size: 0 1px, 100% 1px;
+} */
+
+
+
+
+/* Hero Section */
+#Inicio {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #00000075 0%, #00000075 10%, #0000009c 95%, #000000c9 100%);
+    background-size: cover;
+    position: relative;
+}
+
+#Inicio .background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    animation: change-background 30s linear infinite;
+}
+
+@keyframes change-background {
+    0% {
+        background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+        background-size: 119%;
+        background-position: left;
+    }
+    28% {
+        background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+        background-size: 125%;
+        background-position: left;
+    }
+    33% {
+        background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+        background-size: 114%;
+        background-position: center;
+    }
+    61% {
+        background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+        background-size: 126%;
+        background-position: center;
+    }
+    66%{
+        background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+        background-size: 103%;
+        background-position: left;
+    }
+    95%{
+        background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+        background-size: 116%;
+        background-position: left;
+    }
+    100%{
+        background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+        background-size: 119%;
+        background-position: left;
+    }
+}
+
+#Inicio .gallery_frame {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+#Inicio .gallery {
+    width: 200%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    transition: all 1s;
+}
+
+#Inicio .frame1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#Inicio .frame2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#Inicio .hero {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15vw;
+    margin: auto;
+}
+
+#Inicio .hero .hero_text {
+    width: 40.1vw;
+    height: 40vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+#Inicio .hero .hero_text h1 span {
+    font: 800 8vh var(--font3), sans-serif;
+    color: var(--colorW);
+    line-height: 8vh;
+    margin: 0;
+    padding: 0;
+}
+
+#Inicio .hero .hero_text h1 {
+    font: 800 clamp(8.5vh, 10vh, 11.5vh) var(--font3), sans-serif;
+    white-space: nowrap;
+    color: var(--colorW);
+    line-height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+#Inicio .hero .hero_text p {
+    font: 300 2vh var(--font1P), sans-serif;
+    color: var(--colorGr);
+    line-height: 2.8vh;
+    padding: 2vh 0 2vh 3vh;
+    margin: 2vh 0 0 1.5vw;
+    background-image: linear-gradient(var(--colorW), var(--colorW));
+    background-size: 2px 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+#Inicio .hero .hero_button_div {
+    position: absolute;
+    left: 52vw;
+    height: calc(1.8vh + 2.4vw);
+    bottom: 0;
+    top: 40vh;
+    margin: auto 0;
+}
+
+#Inicio .hero .hero_button_div .hero_button {
+    text-decoration: none;
+    padding: 0 1.2vw;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(9, 26, 51);
+    font: 400 1.8vh var(--font1), sans-serif;
+    line-height: 1.8vh;
+    color: var(--colorW);
+    width: 12vw;
+    height: 3.4vw;
+    border: none;
+    cursor: pointer;
+}
+
+#Inicio .hero .hero_button_div .hero_button:hover {
+    background: hsl(179, 47%, 52%);
+}
+
+#Inicio .social_icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 22vh;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 2vw;
+    margin: auto 0;
+}
+
+#Inicio .social_icons a:hover svg {
+    stroke: rgb(127, 255, 253);
+}
+
+#Inicio .social_icons a:nth-of-type(2) {
+    margin-left: 2px;
+}
+#Inicio .social_icons a:nth-of-type(3) {
+    margin-left: 1px;
+}
+#Inicio .social_icons a:nth-of-type(4) {
+    margin-left: -2px;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 82vw;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .escudos {
+    width: 82vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
+    background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
+    height: 50vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
+    background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
+    height: 50vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 50vh;
+    padding: 0;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown{
+    padding: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-family: var(--font3);
+    font-weight: 800;
+    height: 12vh;
+    font-size: 12vh;
+    line-height: 12vh;
+    align-items: center;
+    text-align: center;
+    color: var(--colorW);
+    z-index: 50;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .vs{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: auto;
+    font-family: var(--font3);
+    font-weight: 900;
+    font-size: 35vh;
+    line-height: 35vh;
+    height: 35vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo{
+    text-decoration: none;
+    background: rgb(9, 26, 51);
+    padding: 0;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+    font-family: var(--font1);
+    font-weight: 400;
+    height: 3vw;
+    width: 12vw;
+    border-radius: 5px;
+    font-size: 2vh;
+    line-height: 2vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--colorW);
+    z-index: 50;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
+    background: var(--colorW);
+    color: rgb(9, 26, 51);
+    font-weight: 600;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .back-to-frame1{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 1.3vw;
+    left: 1.7vw;
+    color: var(--colorW);
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 0 100%, 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .back-to-frame1:hover {
+    background-size: 0 1px, 100% 1px;
+    cursor: pointer;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .jornada-place{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 1.3vw;
+    right: 1.7vw;
+    color: var(--colorW);
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+    background-size: 100% 1px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s linear;
+}
+
+#Inicio .gallery_frame .gallery .frame2 .jornada-place:hover {
+    background-size: 0 1px, 100% 1px;
+}
+
+#Inicio .sponsors_watermark {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 1vw;
+    left: 1.5vw;
+    width: 35%;
+}
+
+#Inicio .sponsors_watermark.match {
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: inicioOpacity 1s linear;
+}
+
+#Inicio .sponsors_watermark a img {
+    position: relative;
+    height: 20px;
+}
+
+@keyframes inicioOpacity {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#Inicio .gallery_frame::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
+
+
+
+/* Latest News Section */
+#MainNews {
+    width: 100%;
+    height: 70vh;
+    display: block;
+}
+
+#MainNews .selector {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+#MainNews .news {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: 80%;
+    position: relative;
+    overflow-x: hidden;
+    box-shadow: inset -30px 40px 60px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#MainNews .news h3 {
+    text-decoration: none;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 22px;     /*Remember to change to resposive measures*/
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+#MainNews .news h5 {
+    text-decoration: none;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    font-size: 14px;     /*Remember to change to resposive measures*/
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+#MainNews #main {
+    width: 290%;
+    background-position: 50%;
+}
+
+#MainNews #main h3 {
+    text-decoration: none;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 28px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#MainNews #main h5 {
+    text-decoration: none;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    position: absolute;
+    display: block;
+    bottom: 60px;
+    left: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#MainNews .news1 {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_1.jpg);
+}
+
+#MainNews .news2 {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_2.jpg);
+}
+
+#MainNews .news3 {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_3.jpg);
+}
+
+#MainNews .news4 {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.jpg);
+    box-shadow: none;
+}
+
+
+
+
+/* Jugadoras - Sección experimental */
+/* #Jugadoras {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    height: 45vh;
+    position: relative;
+    background: linear-gradient(45deg, var(--color4B) 0%, #00273d 100%);
+    background-size: 200%;
+    animation: aurora 10s infinite;
+    overflow: hidden;
+    display: flex;
+}
+
+#Jugadoras .jugadoras_inner {
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02));
+    background-size: 200%;
+    animation: aurora 7s infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#Jugadoras .jugadora1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#Jugadoras .jugadora2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@keyframes aurora {
+    0% {
+        background-position: left top;
+    }
+    25% {
+        background-position: right top;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: left bottom;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+#Jugadoras .olympia_logo {
+    background-image: url(../gen_resources/olympia_branding/Escudo\ blanco\ recortado.png);
+    width: 30vw;
+    aspect-ratio: 1;
+    position: absolute;
+    top: -3vw;
+    left: -3vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    opacity: 0.07;
+    z-index: 0;
+}
+
+#Jugadoras  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40vh;
+    line-height: 40vh;
+    font-weight: 900;
+    font-family: var(--font4);
+    position: absolute;
+    top: 0;
+    margin: auto;
+    right: 1.5vw;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) -53.62%, rgba(255, 255, 255, 0.4) 100.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+#Jugadoras  h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 7.5vh;
+    line-height: 7.5vh;
+    color: var(--colorW);
+    font-weight: 600;
+    font-family: var(--font2);
+    position: absolute;
+    bottom: 1vw;
+    left: 1.5vw;
+    z-index: 3;
+}
+
+#Jugadoras  h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+    color: var(--colorW);
+    font-weight: 500;
+    font-family: var(--font2);
+    position: absolute;
+    bottom: calc(0.9vw + 7.5vh);
+    left: 1.5vw;
+    z-index: 3;
+}
+
+#Jugadoras  h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1vh;
+    line-height: 1vh;
+    color: var(--colorW);
+    font-weight: 400;
+    font-family: var(--font2);
+    position: absolute;
+    top: 1.4vw;
+    left: 1.5vw;
+    z-index: 1;
+}
+
+#Jugadoras .jugadora_img {
+    background-image: url(../gen_resources/senior/jugadoras_fondo-transparente/foto_arantxa.png);
+    height: 32vh;
+    width: 15vw;
+    position: absolute;
+    bottom: 0;
+    right: 7.5vw;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
+
+
+
+
+
+/* Players Section */
+#Players {
+    margin: 0;
+    width: 100%;
+    padding: 6vw 6vw 2vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Players .inscrip_buttons {
+    position: absolute;
+    top: 6vw;
+    bottom: 2vw;
+    height: 48px;
+    margin: auto;
+    right: 3.5%;
+    left: 4%;
+    display: flex;
+    justify-content: space-between;
+    fill: var(--colorW);
+}
+
+#Players .inscrip_buttons .insc_btn_1 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Players .inscrip_buttons .insc_btn_2 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Players .inscrip_buttons .left, #Players .inscrip_buttons .right{
+    transition: all 0.2s ease-in-out;
+}
+
+#Players .inscrip_buttons .left:hover, #Players .inscrip_buttons .left:active, #Players .inscrip_buttons .right:hover, #Players .inscrip_buttons .right:active {
+    fill: #92dae4;
+    cursor: pointer;
+}
+
+#Players .gallery_frame {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0vw;
+}
+
+#Players .gallery_frame .gallery {
+    display: flex;
+    width: 600%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    transition: all 1s;
+}
+
+#Players .gallery_frame .gallery .jugadora {
+    width: 21.6vw;
+    margin: 0 0.2vw;
+    height: 21.6vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+#Players .gallery_frame .gallery .jugadora img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2
+}
+
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(84.5%);
+    z-index: 90;
+    transition: transform 0.5s ease-out, opacity 2s ease-in;
+}
+
+#Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay {
+    transform: translateY(77.5%);
+}
+
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay-large {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateY(71%);
+    z-index: 90;
+    transition: transform 0.5s ease-out, opacity 2s ease-in;
+}
+
+#Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large {
+    transform: translateY(64%);
+}
+
+#Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia, #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
+    opacity: 1;
+}
+
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo, #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
+    position: absolute;
+    top: 0;
+    left: 0.9vw;
+    font-size: 2.89vw;
+    line-height: 2.89vw;
+    font-family: var(--font2);
+    font-weight: 700;
+    color: var(--colorW);
+    margin: 0;
+    padding: 0;
+}
+
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay .procedencia {
+    position: absolute;
+    top: 3vw;
+    left: 1vw;
+    font-size: 0.7vw;
+    line-height: 0.7vw;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
+    position: absolute;
+    top: 6vw;
+    left: 1vw;
+    font-size: 0.7vw;
+    line-height: 0.7vw;
+    font-family: var(--font1);
+    font-weight: 500;
+    color: var(--colorW);
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+}
+
+#Players::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#Players .gallery_frame::-webkit-scrollbar, #Players .gallery::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* #Players .buttons {
+    position: absolute;
+    top:0;
+} */
+
+
+
+
+
+/* Event Section */
+/* #Events {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Events .event {
+    width: 100%;
+    aspect-ratio: 3.2;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    background-size: 100%;
+    background-position: center;
+    transition: all 1.5s ease;
+}
+
+
+#Events .event:hover {
+    background-size: 105%;
+}
+
+#Events .event .evento_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(#00000080, #00000080);
+    transition: all 1.5s ease;
+    opacity: 0;
+}
+
+#Events .event:hover .evento_overlay {
+    opacity: 1;
+}
+
+#Events .event .evento_overlay a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid var(--colorW);
+    height: 5vh;
+    border-radius: 5px;
+    width: 16%;
+    text-decoration: none;
+    color: var(--colorW);
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vh;
+    font-weight: 500;
+}
+
+#Events .event .evento_overlay a:hover {
+    color: var(--color4B);
+    background: var(--colorW);
+}
+
+#Events .event h3 {
+    font-family: var(--font1);
+    color: var(--colorW);
+    font-weight: 500;
+    position: absolute;
+    bottom: 5%;
+    left: 3.4%;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#Events .event1 {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+}
+
+#Events::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#Events .events_gallery_frame::-webkit-scrollbar, #Events .events_gallery_frame .gallery::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+} */
+
+
+
+
+/* Cantera Section */
+#Cantera {
+    margin: 0;
+    width: 100%;
+    padding: 0 6vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Cantera .inscrip_buttons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 48px;
+    margin: auto;
+    right: 3.5%;
+    left: 4%;
+    display: flex;
+    justify-content: space-between;
+    fill: var(--colorW);
+}
+
+#Cantera .inscrip_buttons .insc_btn_1 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Cantera .inscrip_buttons .insc_btn_2 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Cantera .inscrip_buttons .left, #Cantera .inscrip_buttons .right{
+    transition: all 0.2s ease-in-out;
+}
+
+#Cantera .inscrip_buttons .left:hover, #Cantera .inscrip_buttons .left:active, #Cantera .inscrip_buttons .right:hover, #Cantera .inscrip_buttons .right:active {
+    fill: #92dae4;
+    cursor: pointer;
+}
+
+#Cantera .cantera_grid-gallery {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+#Cantera .cantera_grid-gallery .gallery {
+    overflow-x: hidden;
+    width: 850%;
+    display: flex;
+    transition: all 1s;
+}
+
+#Cantera .cantera_grid-gallery .gallery div {
+    width: 43.8vw;
+    height: 23.19vw;
+    margin: 0.2vw;
+    background: #16223d;
+    transition: all 1s;
+    position: relative;
+}
+
+#Cantera .cantera_grid-gallery .gallery h1 {
+    position: absolute;
+    bottom: 0.6vw;
+    left: 1.2vw;
+    padding: 0;
+    margin: 0;
+    color: var(--colorW);
+    transition: all 1s;
+    font-family: var(--font4);
+    font-weight: 500;
+    font-size: 2.7vw;
+    line-height: 3.2vw;
+}
+
+#Cantera .cantera_grid-gallery .gallery .benjA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .benjB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .alevA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ a.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#Cantera .cantera_grid-gallery .gallery .alevB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .alevC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .infanD {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .cadetA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ a.jpg);
+    background-size: cover;
+    background-position: 40%;
+}
+
+#Cantera .cantera_grid-gallery .gallery .cadetB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .juvA {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .juvB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .juvC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .senB {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .senC {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera .cantera_grid-gallery .gallery .vet {
+    background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/veteranas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Cantera::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#Cantera .cantera_grid-gallery::-webkit-scrollbar, #Cantera .gallery::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
+
+/* Inscription Section */
+#Inscribe {
+    margin: 0;
+    width: 100%;
+    padding: 6vw 0 0.7vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Inscribe .flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Inscribe .flex .inscrip_type {
+    width: 100%;
+    aspect-ratio: 1.5;
+    background-position: center;
+    position: relative;
+    filter: grayscale(0.8);
+    transition: all 0.2s ease-in-out;
+    background-size: 100%;
+}
+
+#Inscribe .flex .inscrip_type:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    background-size: 110%;
+}
+
+#Inscribe .flex .inscrip_type .texto_inscrip{
+    position: absolute;
+    bottom: 1.5vw;
+    left: 1.5vw;
+}
+
+#Inscribe .flex .inscrip_type .texto_inscrip h3 {
+    font: 500 3vh var(--font1), sans-serif;
+    line-height: 3vh;
+    padding: 0;
+    margin: 0;
+    color: var(--colorW);
+}
+
+#Inscribe .flex .inscrip_type .texto_inscrip p {
+    font: 300 1.5vh var(--font1P), sans-serif;
+    line-height: 1.5vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: var(--colorW);
+}
+
+#Inscribe .flex .jugadoras {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+}
+
+#Inscribe .flex .practicas {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+    margin: 0 0.7vw;
+}
+
+#Inscribe .flex .tecnico {
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
+}
+
+
+
+
+/* Shop Section */
+#Shop {
+    margin: 0;
+    width: 100%;
+    padding: 5vw;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Shop .inscrip_buttons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 48px;
+    margin: auto;
+    right: 2.5%;
+    left: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    fill: var(--colorW);
+}
+
+#Shop .inscrip_buttons .insc_btn_1 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Shop .inscrip_buttons .insc_btn_2 {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+}
+
+#Shop .inscrip_buttons .left, #Shop .inscrip_buttons .right {
+    transition: all 0.2s ease-in-out;
+}
+
+#Shop .inscrip_buttons .left:hover, #Shop .inscrip_buttons .left:active, #Shop .inscrip_buttons .right:hover, #Shop .inscrip_buttons .right:active {
+    fill: #92dae4;
+    cursor: pointer;
+}
+
+#Shop .gallery_frame {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#Shop .gallery_frame .gallery {
+    display: flex;
+    width: 300%;
+    overflow-x: hidden;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 1s;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Shop .gallery_frame .gallery .prenda {
+    aspect-ratio: 1/1.25;
+    width: 22.6vw;
+    margin: 0 0.2vw;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+#Shop .gallery_frame .gallery .prenda .overlay_prenda {
+    position: absolute;
+    left: -10px;
+    height: 10%;
+    top: 65%;
+    bottom: 25%;
+    z-index: 1;
+    font-size: 20px;
+    font-family: var(--font2);
+    font-weight: 800;
+    background-color: var(--colorW);
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 30px;
+    opacity: 0;
+    transform: skewX(-10deg) translateX(-100%);
+    transition: all 0.2s ease-in-out;
+}
+
+#Shop .gallery_frame .gallery .prenda:hover .overlay_prenda {
+    opacity: 1;
+    transform: skewX(-10deg) translateX(0%);
+}
+
+#Shop .gallery_frame .gallery .prenda .display {
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+#Shop .gallery_frame .gallery .prenda .display img {
+    height: 65%;
+    aspect-ratio: initial;
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+    margin: auto;
+}
+
+#Shop .gallery_frame .gallery .prenda:hover .display img {
+    height: 70%;
+}
+
+#Shop .gallery_frame .gallery .prenda1 .display {
+    background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda1 .overlay_prenda {
+    color: #2a3452ff;
+}
+
+#Shop .gallery_frame .gallery .prenda2 .display {
+    background-image: linear-gradient(90deg, #bfa842ff 0%, #dccd70ff 41%, #e3d977ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda2 .overlay_prenda {
+    color: #bfa842ff;
+}
+
+#Shop .gallery_frame .gallery .prenda3 .display {
+    background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+}
+#Shop .gallery_frame .gallery .prenda3 .overlay_prenda {
+    color: #98bab7ff;
+}
+
+#Shop .gallery_frame .gallery .prenda4 .display {
+    background-image: linear-gradient(90deg, #e18996ff 0%, #eaabb9ff 45%, #ecb4c0ff 87%);
+}
+#Shop .gallery_frame .gallery .prenda4 .overlay_prenda {
+    color: #e18996ff;
+}
+
+#Shop .gallery_frame .gallery .prenda5 .display {
+    background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+}
+#Shop .gallery_frame .gallery .prenda5 .overlay_prenda {
+    color: #98bab7ff;
+}
+
+#Shop .gallery_frame .gallery .prenda6 .display {
+    background-image: linear-gradient(90deg, #8cc3c3ff 0%, #455e69ff 50%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda6 .overlay_prenda {
+    color: #455e69ff;
+}
+
+#Shop .gallery_frame .gallery .prenda7 .display {
+    background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda7 .overlay_prenda {
+    color: #2a3452ff;
+}
+
+#Shop .gallery_frame .gallery .prenda8 .display {
+    background-image: linear-gradient(90deg, #252528ff 0%, #2c2a2bff 41%, #3b393bff 100%);
+}
+#Shop .gallery_frame .gallery .prenda8 .overlay_prenda {
+    color: #2c2a2bff;
+}
+
+#Shop .gallery_frame .gallery .prenda9 .display {
+    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda9 .overlay_prenda {
+    color: #474747ff;
+}
+
+#Shop .gallery_frame .gallery .prenda10 .display {
+    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda10 .overlay_prenda {
+    color: #474747ff;
+}
+
+#Shop .gallery_frame .gallery .prenda11 .display {
+    background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda11 .overlay_prenda {
+    color: #474747ff;
+}
+
+#Shop .gallery_frame .gallery .prenda12 .display {
+    background-image: linear-gradient(90deg, #152134ff 0%, #2a3452ff 100%);
+}
+#Shop .gallery_frame .gallery .prenda12 .overlay_prenda {
+    color: #2a3452ff;
+}
+
+#Shop::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#Shop .gallery_frame::-webkit-scrollbar, #Shop .gallery::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
+
+
+/* Newsletter Section */
+#Newsletter {
+    width: 100%;
+    height: 100vh;
+}
+
+#Newsletter .box {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 27.5vh 0;
+}
+
+#Newsletter .box .box_content {
+    width: 50%;
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    align-content: center;
+}
+
+#Newsletter .box .box_content .newsletter_box{
+    background-image: linear-gradient(108.13deg, rgb(12, 18, 32/*, 0.74*/) -38.7%, rgb(9, 15, 29/*, 0.74*/) 114.94%);
+    width: 50%;
+    height: 100%;
+    padding: 6.3vh 5vh;
+}
+
+#Newsletter .box .box_content .newsletter_box h3 {
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5vh;
+    margin: 3vh auto 1vh;
+}
+
+#Newsletter .box .box_content .newsletter_box p {
+    color: var(--colorW);
+    font-family: var(--font1);
+    text-align: center;
+    margin: 1vh auto 2.5vh;
+}
+
+#Newsletter .box .box_content .newsletter_box input {
+    display: block;
+    margin: 0 auto 1vh;
+    border-radius: 2px;
+    background: var(--colorW);
+    height: 3vh;
+    width: 85%;
+    border: none;
+    color: var(--color2);
+    padding: 1vh;
+    font-family: var(--font1);
+}
+
+#Newsletter .box .box_content .newsletter_box input[type="submit"] {
+    border: 2px solid var(--colorW);
+    background: transparent;   
+    color: var(--colorW);
+    height: 5vh;
+    width: 40%;
+    font-size: 1.8vh;
+    margin: 3vh auto 0;
+    font-family: var(--font1);
+    border-radius: 5px;
+}
+
+#Newsletter .box .box_content .newsletter_box input[type="submit"]:hover {
+    background: var(--colorW);   
+    color: var(--color1);
+    font-weight: 500;
+}
+
+#Newsletter .box .box_content .contact_box{
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    border-right: white 1px solid;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    padding: 8vh 5vh;
+}
+
+#Newsletter .box .box_content .contact_box h3 {
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5vh;
+    margin: 3vh auto 1vh;
+}
+
+#Newsletter .box .box_content .contact_box a {
+    border: 2px solid var(--colorW);
+    background: transparent;   
+    color: var(--colorW);
+    height: 5vh;
+    width: 40%;
+    display: block;
+    font-size: 1.8vh;
+    margin: 3vh auto 0;
+    border-radius: 5px;
+    font-family: var(--font1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#Newsletter .box .box_content .contact_box a:hover {
+    background: var(--colorW);   
+    color: var(--color2);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+
+
+/* Footer Section */
+#footer {
+    background-color: var(--color4B);
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#footer .social {
+    padding: 8vh 3vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .social h1 {
+    font-size: 35vh;
+    line-height: 30vh;
+    padding: 0;
+    margin: 0 0 -5vh;
+    color: var(--colorW);
+    font-family: var(--font4);
+    font-weight: 500;
+    letter-spacing: -5px;
+}
+
+#footer .social h1::before {
+    content: "";
+    animation: hashtag-change 3s linear infinite;
+}
+
+@keyframes hashtag-change {
+    0%{
+        content: "#CFFOLYMPIA";
+    }
+    33.3%{
+        content: "#SOÑAMOS";
+    }
+    66.6%{
+        content: "JUNTAS!";
+    }
+    100%{
+        content: "#CFFOLYMPIA";
+    }
+}
+
+#footer .social .social_icons {
+    margin: 0.7vh 0.2vw 0 0;
+    display: flex;
+    width: 14vw;
+    justify-content: space-between;
+}
+
+#footer .social .social_icons img {
+    height: 4vh;
+}
+
+#footer .divider {
+    margin: 2vh 3vw 0;
+    background: var(--colorW);
+    height: 3vh;
+}
+
+#footer .sponsors {
+    padding: 3vh 3vw;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#footer .sponsors .gallery_frame {
+    width: 94vw;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footer .sponsors .gallery_frame .gallery {
+    height: 100%;
+    display: flex;
+    animation: sponsors_move 22s linear infinite;
+}
+
+@keyframes sponsors_move {
+    0%{
+        transform: translateX(0);
+    }
+    /* 12.5%{
+        transform: translateX(-18.8vw);
+    }
+    25%{
+        transform: translateX(-37.6vw);
+    }
+    27.5%{
+        transform: translateX(-56.4vw);
+    }
+    50%{
+        transform: translateX(-75.2vw);
+    }
+    62.5%{
+        transform: translateX(-94vw);
+    }
+    75%{
+        transform: translateX(-112.8vw);
+    }
+    87.5%{
+        transform: translateX(-131.6vw);
+    } */
+    100%{
+        transform: translateX(-131.6vw);
+    }
+}
+
+#footer .sponsors .gallery_frame .gallery .sponsor {
+    flex-shrink: 0;
+    width: 17.9vw;
+    margin: 0 0.45vw;
+    background-image:linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
+    border-radius: 3px;
+    position: relative;
+    white-space: nowrap;
+}
+
+#footer .sponsors .gallery_frame .gallery .sponsor img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 55%;
+}
+
+#footer .info {
+    width: 100%;
+    height: 5vh;
+    padding: 1.9vh 3vw 1.9vh 3vw;
+    background-image:linear-gradient(180deg, #070c16 -378.7%, #070a16 174.94%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .info .links {
+    height: 1.2vh;
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .info .links a, #footer .info .links p {
+    font-family: var(--font1);
+    font-size: 1.2vh;
+    color: var(--colorW);
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+#footer .info .volver_arriba {
+    top: 20vh;
+    right: 3vw;
+    height: 12vh;
+    width: 12vh;
+    position: absolute;
+}
+
+#footer .info .volver_arriba img {
+    height: 12vh;
+    width: 12vh;
+    position: absolute;
+    animation: rotate 10s linear infinite;
+}
+
+#footer .info .volver_arriba a{
+    cursor: pointer;
+}
+
+#footer .info .volver_arriba svg {
+    height: 6vh;
+    width: 6vh;
+    position: absolute;
+    margin: 3vh 0 0 3vh
+}
+
+@keyframes rotate {
+    from {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    to {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+#footer::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+#footer .gallery_frame::-webkit-scrollbar, #footer .gallery_frame .gallery::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+@media (max-width: 1280px) {
+    /* Navegacion ----------------------------------------------------------------*/
+
+    nav {
+        width: 100%;
+        height: 8vh;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 10000000;
+        background-color: transparent;
+    }
+
+    nav.active {
+        background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+    }
+
+    nav .hamburger_menu {
+        display: none;
+    }
+
+    .nav_logo {
+        height: 3.4vh;
+        margin: 2.3vh 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 1.5vw;
+    }
+
+    nav .nav_left p{
+        text-decoration: none;
+        color: var(--colorW);
+        line-height: 1.6vh;
+        font: 500 1.6vh var(--font1), sans-serif;
+        margin: 3.05vh 0;
+        justify-content: left;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 4.4vw;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    nav .nav_left:hover p {
+        background-size: 0 1px, 100% 1px;
+    }
+
+    .nav_links {
+        position: absolute;
+        top: 0;
+        right: 1.8vw;
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 26vw;
+        justify-content: space-between;
+    }
+
+    .nav_li {
+        margin: 3.2vh 0;
+        padding: 0;
+        font-size: 1.6vh;
+        line-height: 1.6vh;
+        font-family: var(--font1);
+        font-weight: 500;
+    }
+
+    .nav_li_a {
+        color: var(--colorW);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    .nav_li_a:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+
+
+
+    /* .drop_list {
+        list-style: none;
+        color: var(--color1);
+        padding: 0 15px;
+        margin-top: 1px;
+        position: relative;
+        background: white;
+        width: inherit;
+        height: 0;
+        overflow: hidden;
+        transition: height linear 0.3s;
+    }
+
+    .drop_list li {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .drop_list li a {
+        color: var(--color1);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--color1), var(--color1));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    .nav_li_drop:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+
+    .drop_menu:hover .dlQS {
+        height: 65px;
+    }
+
+    .drop_menu:hover .dlMI {
+        height: 270px;
+    }
+
+    .drop_menu .drop_list li a:hover {
+        background-size: 0 1px, 100% 1px;
+    } */
+
+
+
+
+    /* Hero Section */
+    #Inicio {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-image: linear-gradient(180deg, #00000075 0%, #00000075 10%, #0000009c 95%, #000000c9 100%);
+        background-size: cover;
+        position: relative;
+    }
+
+    #Inicio .background {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        background-repeat: no-repeat;
+        animation: change-background 30s linear infinite;
+    }
+
+    @keyframes change-background {
+        0% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 119%;
+            background-position: left;
+        }
+        28% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 125%;
+            background-position: left;
+        }
+        33% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 114%;
+            background-position: center;
+        }
+        61% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 126%;
+            background-position: center;
+        }
+        66%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 103%;
+            background-position: left;
+        }
+        95%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 116%;
+            background-position: left;
+        }
+        100%{
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 119%;
+            background-position: left;
+        }
+    }
+
+    #Inicio .gallery_frame {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    #Inicio .gallery {
+        width: 200%;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        transition: all 1s;
+    }
+
+    #Inicio .frame1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    #Inicio .frame2 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    #Inicio .hero {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 15vw;
+        margin: auto;
+    }
+
+    #Inicio .hero .hero_text {
+        width: 40.1vw;
+        height: 40vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+
+    #Inicio .hero .hero_text h1 span {
+        font: 800 8vh var(--font3), sans-serif;
+        color: var(--colorW);
+        line-height: 8vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Inicio .hero .hero_text h1 {
+        font: 800 clamp(8.5vh, 10vh, 11.5vh) var(--font3), sans-serif;
+        white-space: nowrap;
+        color: var(--colorW);
+        line-height: 10vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Inicio .hero .hero_text p {
+        font: 300 2vh var(--font1P), sans-serif;
+        color: var(--colorGr);
+        line-height: 2.8vh;
+        padding: 2vh 0 2vh 3vh;
+        margin: 2vh 0 0 1.5vw;
+        background-image: linear-gradient(var(--colorW), var(--colorW));
+        background-size: 2px 100%;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    #Inicio .hero .hero_button_div {
+        position: absolute;
+        left: 52vw;
+        height: calc(1.8vh + 2.4vw);
+        bottom: 0;
+        top: 40vh;
+        margin: auto 0;
+    }
+
+    #Inicio .hero .hero_button_div .hero_button {
+        text-decoration: none;
+        padding: 0 1.2vw;
+        display: flex;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(9, 26, 51);
+        font: 400 1.8vh var(--font1), sans-serif;
+        line-height: 1.8vh;
+        color: var(--colorW);
+        width: 14vw;
+        height: 3.4vw;
+        border: none;
+        cursor: pointer;
+    }
+
+    #Inicio .hero .hero_button_div .hero_button:hover {
+        background: var(--colorW);
+        color: rgb(9, 26, 51);
+        font-weight: 600;
+    }
+
+    #Inicio .social_icons {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 22vh;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        left: 2vw;
+        margin: auto 0;
+    }
+
+    #Inicio .social_icons a:hover svg {
+        stroke: rgb(127, 255, 253);
+    }
+
+    #Inicio .social_icons a:nth-of-type(2) {
+        margin-left: 2px;
+    }
+    #Inicio .social_icons a:nth-of-type(3) {
+        margin-left: 1px;
+    }
+    #Inicio .social_icons a:nth-of-type(4) {
+        margin-left: -2px;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 82vw;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos {
+        width: 82vw;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
+        background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
+        height: 50vh;
+        width: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
+        background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
+        height: 50vh;
+        width: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 50vh;
+        padding: 0;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown{
+        padding: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: var(--font3);
+        font-weight: 800;
+        height: 12vh;
+        font-size: 12vh;
+        line-height: 12vh;
+        align-items: center;
+        text-align: center;
+        color: var(--colorW);
+        z-index: 50;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .vs{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 0;
+        margin: auto;
+        font-family: var(--font3);
+        font-weight: 900;
+        font-size: 35vh;
+        line-height: 35vh;
+        height: 35vh;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo{
+        text-decoration: none;
+        background: rgb(9, 26, 51);
+        padding: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        bottom: 0;
+        font-family: var(--font1);
+        font-weight: 400;
+        height: 3.4vw;
+        width: 14vw;
+        border-radius: 4px;
+        font-size: 1.8vh;
+        line-height: 1.8vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: var(--colorW);
+        z-index: 50;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
+        background: var(--colorW);
+        color: rgb(9, 26, 51);
+        font-weight: 600;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .back-to-frame1{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 1.3vw;
+        left: 1.7vw;
+        color: var(--colorW);
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 0 100%, 100% 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .back-to-frame1:hover {
+        background-size: 0 1px, 100% 1px;
+        cursor: pointer;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .jornada-place{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 1.3vw;
+        right: 1.7vw;
+        color: var(--colorW);
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .jornada-place:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+
+    #Inicio .sponsors_watermark {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: 1vw;
+        left: 1.5vw;
+        width: 45%;
+    }
+
+    #Inicio .sponsors_watermark.match {
+        left: 0;
+        right: 0;
+        margin: auto;
+        animation: inicioOpacity 1s linear;
+    }
+
+    #Inicio .sponsors_watermark a img {
+        position: relative;
+        height: 20px;
+    }
+
+    @keyframes inicioOpacity {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+    #Inicio .gallery_frame::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+
+
+
+
+    /* Latest News Section */
+    #MainNews {
+        width: 100%;
+        height: 70vh;
+        display: block;
+    }
+
+    #MainNews .selector {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+    }
+
+    #MainNews .news {
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-position: 80%;
+        position: relative;
+        overflow-x: hidden;
+        box-shadow: inset -30px 40px 60px rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    #MainNews .news h3 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        font-size: 20px;     /*Remember to change to resposive measures*/
+        line-height: 20px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #MainNews .news h5 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 60px;
+        left: 30px;
+        font-size: 12px;     /*Remember to change to resposive measures*/
+        line-height: 12px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #MainNews #main {
+        width: 290%;
+        background-position: 50%;
+    }
+
+    #MainNews #main h3 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #MainNews #main h5 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        display: block;
+        bottom: 60px;
+        left: 30px;
+        font-size: 15px;
+        line-height: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    #MainNews .news1 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_1.jpg);
+    }
+
+    #MainNews .news2 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_2.jpg);
+    }
+
+    #MainNews .news3 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_3.jpg);
+    }
+
+    #MainNews .news4 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.jpg);
+        box-shadow: none;
+    }
+
+
+
+
+    /* Jugadoras - Sección experimental */
+    /* #Jugadoras {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        height: 45vh;
+        position: relative;
+        background: linear-gradient(45deg, var(--color4B) 0%, #00273d 100%);
+        background-size: 200%;
+        animation: aurora 10s infinite;
+        overflow: hidden;
+        display: flex;
+    }
+
+    #Jugadoras .jugadoras_inner {
+        background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02));
+        background-size: 200%;
+        animation: aurora 7s infinite;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #Jugadoras .jugadora1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #Jugadoras .jugadora2 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    @keyframes aurora {
+        0% {
+            background-position: left top;
+        }
+        25% {
+            background-position: right top;
+        }
+        50% {
+            background-position: right bottom;
+        }
+        75% {
+            background-position: left bottom;
+        }
+        100% {
+            background-position: left top;
+        }
+    }
+
+    #Jugadoras .olympia_logo {
+        background-image: url(../gen_resources/olympia_branding/Escudo\ blanco\ recortado.png);
+        width: 30vw;
+        aspect-ratio: 1;
+        position: absolute;
+        top: -3vw;
+        left: -3vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        opacity: 0.07;
+        z-index: 0;
+    }
+
+    #Jugadoras  h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 40vh;
+        line-height: 40vh;
+        font-weight: 900;
+        font-family: var(--font4);
+        position: absolute;
+        top: 0;
+        margin: auto;
+        right: 1.5vw;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) -53.62%, rgba(255, 255, 255, 0.4) 100.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+        z-index: 1;
+    }
+
+    #Jugadoras  h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 7.5vh;
+        line-height: 7.5vh;
+        color: var(--colorW);
+        font-weight: 600;
+        font-family: var(--font2);
+        position: absolute;
+        bottom: 1vw;
+        left: 1.5vw;
+        z-index: 3;
+    }
+
+    #Jugadoras  h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 2.5vh;
+        line-height: 2.5vh;
+        color: var(--colorW);
+        font-weight: 500;
+        font-family: var(--font2);
+        position: absolute;
+        bottom: calc(0.9vw + 7.5vh);
+        left: 1.5vw;
+        z-index: 3;
+    }
+
+    #Jugadoras  h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 1vh;
+        line-height: 1vh;
+        color: var(--colorW);
+        font-weight: 400;
+        font-family: var(--font2);
+        position: absolute;
+        top: 1.4vw;
+        left: 1.5vw;
+        z-index: 1;
+    }
+
+    #Jugadoras .jugadora_img {
+        background-image: url(../gen_resources/senior/jugadoras_fondo-transparente/foto_arantxa.png);
+        height: 32vh;
+        width: 15vw;
+        position: absolute;
+        bottom: 0;
+        right: 7.5vw;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    } */
+
+
+
+
+
+    /* Players Section */
+    #Players {
+        margin: 0;
+        width: 100%;
+        padding: 6vw 6vw 2vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Players .inscrip_buttons {
+        position: absolute;
+        top: 6vw;
+        bottom: 2vw;
+        height: 48px;
+        margin: auto;
+        right: 2%;
+        left: 3%;
+        display: flex;
+        justify-content: space-between;
+        fill: var(--colorW);
+    }
+
+    #Players .inscrip_buttons .insc_btn_1 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Players .inscrip_buttons .insc_btn_2 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Players .inscrip_buttons .left, #Players .inscrip_buttons .right{
+        transition: all 0.2s ease-in-out;
+    }
+
+    #Players .inscrip_buttons .left:hover, #Players .inscrip_buttons .left:active, #Players .inscrip_buttons .right:hover, #Players .inscrip_buttons .right:active {
+        fill: #92dae4;
+        cursor: pointer;
+    }
+
+    #Players .gallery_frame {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: relative;
+        margin: 0vw;
+    }
+
+    #Players .gallery_frame .gallery {
+        display: flex;
+        width: 600%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        transition: all 1s;
+    }
+
+    #Players .gallery_frame .gallery .jugadora {
+        width: 21.6vw;
+        margin: 0 0.2vw;
+        height: 21.6vw;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #Players .gallery_frame .gallery .jugadora img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 2
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: translateY(84.5%);
+        z-index: 90;
+        transition: transform 0.5s ease-out, opacity 2s ease-in;
+    }
+
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay {
+        transform: translateY(77.5%);
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: translateY(71%);
+        z-index: 90;
+        transition: transform 0.5s ease-out, opacity 2s ease-in;
+    }
+
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large {
+        transform: translateY(64%);
+    }
+
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia, #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
+        opacity: 1;
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo, #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
+        position: absolute;
+        top: 0;
+        left: 0.9vw;
+        font-size: 2.89vw;
+        line-height: 2.89vw;
+        font-family: var(--font2);
+        font-weight: 700;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay .procedencia {
+        position: absolute;
+        top: 3vw;
+        left: 1vw;
+        font-size: 0.7vw;
+        line-height: 0.7vw;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
+        position: absolute;
+        top: 6vw;
+        left: 1vw;
+        font-size: 0.7vw;
+        line-height: 0.7vw;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+
+    #Players::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Players .gallery_frame::-webkit-scrollbar, #Players .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    /* #Players .buttons {
+        position: absolute;
+        top:0;
+    } */
+
+
+
+
+
+    /* Event Section */
+    /* #Events {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Events .event {
+        width: 100%;
+        aspect-ratio: 3.2;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        background-size: 100%;
+        background-position: center;
+        transition: all 1.5s ease;
+    }
+
+
+    #Events .event:hover {
+        background-size: 105%;
+    }
+
+    #Events .event .evento_overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(#00000080, #00000080);
+        transition: all 1.5s ease;
+        opacity: 0;
+    }
+
+    #Events .event:hover .evento_overlay {
+        opacity: 1;
+    }
+
+    #Events .event .evento_overlay a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 2px solid var(--colorW);
+        height: 5vh;
+        border-radius: 5px;
+        width: 16%;
+        text-decoration: none;
+        color: var(--colorW);
+        font-family: var(--font1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8vh;
+        font-weight: 500;
+    }
+
+    #Events .event .evento_overlay a:hover {
+        color: var(--color4B);
+        background: var(--colorW);
+    }
+
+    #Events .event h3 {
+        font-family: var(--font1);
+        color: var(--colorW);
+        font-weight: 500;
+        position: absolute;
+        bottom: 5%;
+        left: 3.4%;
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #Events .event1 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+    }
+
+    #Events::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Events .events_gallery_frame::-webkit-scrollbar, #Events .events_gallery_frame .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    } */
+
+
+
+
+    /* Cantera Section */
+    #Cantera {
+        margin: 0;
+        width: 100%;
+        padding: 0 6vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Cantera .inscrip_buttons {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 48px;
+        margin: auto;
+        right: 2%;
+        left: 3%;
+        display: flex;
+        justify-content: space-between;
+        fill: var(--colorW);
+    }
+
+    #Cantera .inscrip_buttons .insc_btn_1 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Cantera .inscrip_buttons .insc_btn_2 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Cantera .inscrip_buttons .left, #Cantera .inscrip_buttons .right{
+        transition: all 0.2s ease-in-out;
+    }
+
+    #Cantera .inscrip_buttons .left:hover, #Cantera .inscrip_buttons .left:active, #Cantera .inscrip_buttons .right:hover, #Cantera .inscrip_buttons .right:active {
+        fill: #92dae4;
+        cursor: pointer;
+    }
+
+    #Cantera .cantera_grid-gallery {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: all 1s;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery {
+        overflow-x: hidden;
+        width: 850%;
+        display: flex;
+        transition: all 1s;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery div {
+        width: 43.8vw;
+        height: 23.19vw;
+        margin: 0.2vw;
+        background: #16223d;
+        transition: all 1s;
+        position: relative;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery h1 {
+        position: absolute;
+        bottom: 0.6vw;
+        left: 1.2vw;
+        padding: 0;
+        margin: 0;
+        color: var(--colorW);
+        transition: all 1s;
+        font-family: var(--font2);
+        font-weight: 500;
+        font-size: 2.7vw;
+        line-height: 3.2vw;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .benjA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ a.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .benjB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .alevA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ a.jpg);
+        background-size: cover;
+        background-position: right;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .alevB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .alevC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
+        background-size: 140%;
+        background-position: 55% 60%;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanD {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ d.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .cadetA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ a.jpg);
+        background-size: cover;
+        background-position: 40%;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .cadetB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .juvA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ a.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .juvB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .juvC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .senB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .senC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .vet {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/veteranas.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Cantera .cantera_grid-gallery::-webkit-scrollbar, #Cantera .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+
+
+    /* Inscription Section */
+    #Inscribe {
+        margin: 0;
+        width: 100%;
+        padding: 6vw 0 0.7vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Inscribe .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #Inscribe .flex .inscrip_type {
+        width: 100%;
+        aspect-ratio: 1.5;
+        background-position: center;
+        position: relative;
+        filter: grayscale(0.8);
+        transition: all 0.2s ease-in-out;
+        background-size: 100%;
+    }
+
+    #Inscribe .flex .inscrip_type:hover {
+        filter: grayscale(0);
+        cursor: pointer;
+        background-size: 110%;
+    }
+
+    #Inscribe .flex .inscrip_type .texto_inscrip{
+        position: absolute;
+        bottom: 1.5vw;
+        left: 1.5vw;
+    }
+
+    #Inscribe .flex .inscrip_type .texto_inscrip h3 {
+        font: 500 3vh var(--font1), sans-serif;
+        line-height: 3vh;
+        padding: 0;
+        margin: 0;
+        color: var(--colorW);
+    }
+
+    #Inscribe .flex .inscrip_type .texto_inscrip p {
+        font: 300 1.5vh var(--font1P), sans-serif;
+        line-height: 1.5vh;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        color: var(--colorW);
+    }
+
+    #Inscribe .flex .jugadoras {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    }
+
+    #Inscribe .flex .practicas {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+        margin: 0 0.7vw;
+    }
+
+    #Inscribe .flex .tecnico {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
+    }
+
+
+
+
+    /* Shop Section */
+    /* #Shop {
+        margin: 0;
+        width: 100%;
+        padding: 5vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Shop .inscrip_buttons {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 48px;
+        margin: auto;
+        right: 2.5%;
+        left: 2.5%;
+        display: flex;
+        justify-content: space-between;
+        fill: var(--colorW);
+    }
+
+    #Shop .inscrip_buttons .insc_btn_1 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Shop .inscrip_buttons .insc_btn_2 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Shop .inscrip_buttons .left, #Shop .inscrip_buttons .right {
+        transition: all 0.2s ease-in-out;
+    }
+
+    #Shop .inscrip_buttons .left:hover, #Shop .inscrip_buttons .left:active, #Shop .inscrip_buttons .right:hover, #Shop .inscrip_buttons .right:active {
+        fill: #92dae4;
+        cursor: pointer;
+    }
+
+    #Shop .gallery_frame {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Shop .gallery_frame .gallery {
+        display: flex;
+        width: 300%;
+        overflow-x: hidden;
+        position: relative;
+        box-sizing: border-box;
+        transition: all 1s;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #Shop .gallery_frame .gallery .prenda {
+        aspect-ratio: 1/1.25;
+        width: 22.6vw;
+        margin: 0 0.2vw;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #Shop .gallery_frame .gallery .prenda .overlay_prenda {
+        position: absolute;
+        left: -10px;
+        height: 10%;
+        top: 65%;
+        bottom: 25%;
+        z-index: 1;
+        font-size: 20px;
+        font-family: var(--font2);
+        font-weight: 800;
+        background-color: var(--colorW);
+        display: flex;
+        align-items: center;
+        padding: 0 20px 0 30px;
+        opacity: 0;
+        transform: skewX(-10deg) translateX(-100%);
+        transition: all 0.2s ease-in-out;
+    }
+
+    #Shop .gallery_frame .gallery .prenda:hover .overlay_prenda {
+        opacity: 1;
+        transform: skewX(-10deg) translateX(0%);
+    }
+
+    #Shop .gallery_frame .gallery .prenda .display {
+        height: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+    }
+
+    #Shop .gallery_frame .gallery .prenda .display img {
+        height: 65%;
+        aspect-ratio: initial;
+        transition: all 0.2s ease-in-out;
+        background: transparent;
+        margin: auto;
+    }
+
+    #Shop .gallery_frame .gallery .prenda:hover .display img {
+        height: 70%;
+    }
+
+    #Shop .gallery_frame .gallery .prenda1 .display {
+        background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda1 .overlay_prenda {
+        color: #2a3452ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda2 .display {
+        background-image: linear-gradient(90deg, #bfa842ff 0%, #dccd70ff 41%, #e3d977ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda2 .overlay_prenda {
+        color: #bfa842ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda3 .display {
+        background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda3 .overlay_prenda {
+        color: #98bab7ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda4 .display {
+        background-image: linear-gradient(90deg, #e18996ff 0%, #eaabb9ff 45%, #ecb4c0ff 87%);
+    }
+    #Shop .gallery_frame .gallery .prenda4 .overlay_prenda {
+        color: #e18996ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda5 .display {
+        background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda5 .overlay_prenda {
+        color: #98bab7ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda6 .display {
+        background-image: linear-gradient(90deg, #8cc3c3ff 0%, #455e69ff 50%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda6 .overlay_prenda {
+        color: #455e69ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda7 .display {
+        background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda7 .overlay_prenda {
+        color: #2a3452ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda8 .display {
+        background-image: linear-gradient(90deg, #252528ff 0%, #2c2a2bff 41%, #3b393bff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda8 .overlay_prenda {
+        color: #2c2a2bff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda9 .display {
+        background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda9 .overlay_prenda {
+        color: #474747ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda10 .display {
+        background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda10 .overlay_prenda {
+        color: #474747ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda11 .display {
+        background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda11 .overlay_prenda {
+        color: #474747ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda12 .display {
+        background-image: linear-gradient(90deg, #152134ff 0%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda12 .overlay_prenda {
+        color: #2a3452ff;
+    }
+
+    #Shop::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Shop .gallery_frame::-webkit-scrollbar, #Shop .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    } */
+
+
+
+
+    /* Newsletter Section */
+    #Newsletter {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    #Newsletter .box {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    #Newsletter .box .box_content {
+        width: 60%;
+        height: 45vh;
+        margin: auto;
+        display: flex;
+        align-content: center;
+    }
+
+    #Newsletter .box .box_content .newsletter_box{
+        background-image: linear-gradient(108.13deg, rgb(12, 18, 32/*, 0.74*/) -38.7%, rgb(9, 15, 29/*, 0.74*/) 114.94%);
+        width: 50%;
+        height: 100%;
+        padding: 6.3vh 5vh;
+    }
+
+    #Newsletter .box .box_content .newsletter_box h3 {
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 500;
+        text-align: center;
+        font-size: 2.5vh;
+        margin: 3vh auto 1vh;
+    }
+
+    #Newsletter .box .box_content .newsletter_box p {
+        color: var(--colorW);
+        font-family: var(--font1);
+        text-align: center;
+        margin: 1vh auto 2.5vh;
+    }
+
+    #Newsletter .box .box_content .newsletter_box input {
+        display: block;
+        margin: 0 auto 1vh;
+        border-radius: 2px;
+        background: var(--colorW);
+        height: 3vh;
+        width: 85%;
+        border: none;
+        color: var(--color2);
+        padding: 1vh;
+        font-family: var(--font1);
+    }
+
+    #Newsletter .box .box_content .newsletter_box input[type="submit"] {
+        border: 2px solid var(--colorW);
+        background: transparent;   
+        color: var(--colorW);
+        height: 5vh;
+        width: 40%;
+        font-size: 1.8vh;
+        margin: 3vh auto 0;
+        font-family: var(--font1);
+        border-radius: 5px;
+    }
+
+    #Newsletter .box .box_content .newsletter_box input[type="submit"]:hover {
+        background: var(--colorW);   
+        color: var(--color1);
+        font-weight: 500;
+    }
+
+    #Newsletter .box .box_content .contact_box{
+        border-bottom: white 1px solid;
+        border-top: white 1px solid;
+        border-right: white 1px solid;
+        width: 50%;
+        height: 80%;
+        margin: auto;
+        padding: 8vh 5vh;
+    }
+
+    #Newsletter .box .box_content .contact_box h3 {
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 500;
+        text-align: center;
+        font-size: 2.5vh;
+        margin: 3vh auto 1vh;
+    }
+
+    #Newsletter .box .box_content .contact_box button {
+        border: 2px solid var(--colorW);
+        background: transparent;   
+        color: var(--colorW);
+        height: 5vh;
+        width: 40%;
+        display: block;
+        font-size: 1.8vh;
+        margin: 3vh auto 0;
+        border-radius: 5px;
+        font-family: var(--font1);
+    }
+
+    #Newsletter .box .box_content .contact_box button:hover {
+        background: var(--colorW);   
+        color: var(--color2);
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+
+
+
+    /* Footer Section */
+    #footer {
+        background-color: var(--color4B);
+        width: 100%;
+        height: 79.3vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #footer .social {
+        padding: 8vh 3vw 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer .social h1 {
+        font-size: 26vh;
+        line-height: 26vh;
+        padding: 0;
+        margin: 0 0 -5vh;
+        color: var(--colorW);
+        font-family: var(--font4);
+        font-weight: 500;
+        letter-spacing: -5px;
+    }
+
+    #footer .social h1::before {
+        content: "";
+        animation: hashtag-change 3s linear infinite;
+    }
+
+    @keyframes hashtag-change {
+        0%{
+            content: "#CFFOLYMPIA";
+        }
+        33.3%{
+            content: "#SOÑAMOS";
+        }
+        66.6%{
+            content: "JUNTAS!";
+        }
+        100%{
+            content: "#CFFOLYMPIA";
+        }
+    }
+
+    #footer .social .social_icons {
+        margin: 0.7vh 0.2vw 0 0;
+        display: flex;
+        width: 14vw;
+        justify-content: space-between;
+    }
+
+    #footer .social .social_icons img {
+        height: 3.4vh;
+    }
+
+    #footer .divider {
+        margin: 2vh 3vw 0;
+        background: var(--colorW);
+        height: 3vh;
+    }
+
+    #footer .sponsors {
+        padding: 3vh 3vw;
+        height: 40vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #footer .sponsors .gallery_frame {
+        width: 94vw;
+        height: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #footer .sponsors .gallery_frame .gallery {
+        height: 100%;
+        display: flex;
+        animation: sponsors_move 22s linear infinite;
+    }
+
+    @keyframes sponsors_move {
+        0%{
+            transform: translateX(0);
+        }
+        /* 12.5%{
+            transform: translateX(-18.8vw);
+        }
+        25%{
+            transform: translateX(-37.6vw);
+        }
+        27.5%{
+            transform: translateX(-56.4vw);
+        }
+        50%{
+            transform: translateX(-75.2vw);
+        }
+        62.5%{
+            transform: translateX(-94vw);
+        }
+        75%{
+            transform: translateX(-112.8vw);
+        }
+        87.5%{
+            transform: translateX(-131.6vw);
+        } */
+        100%{
+            transform: translateX(-131.6vw);
+        }
+    }
+
+    #footer .sponsors .gallery_frame .gallery .sponsor {
+        flex-shrink: 0;
+        width: 17.9vw;
+        margin: 0 0.45vw;
+        background-image:linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
+        border-radius: 3px;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    #footer .sponsors .gallery_frame .gallery .sponsor img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 55%;
+    }
+
+    #footer .info {
+        width: 100%;
+        height: 5vh;
+        padding: 1.9vh 3vw 1.9vh 3vw;
+        background-image:linear-gradient(180deg, #070c16 -378.7%, #070a16 174.94%);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer .info .links {
+        height: 1.2vh;
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer .info .links a, #footer .info .links p {
+        font-family: var(--font1);
+        font-size: 1.2vh;
+        color: var(--colorW);
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    #footer .info .volver_arriba {
+        top: 16.5vh;
+        right: 3vw;
+        height: 12vh;
+        width: 12vh;
+        position: absolute;
+    }
+
+    #footer .info .volver_arriba img {
+        height: 12vh;
+        width: 12vh;
+        position: absolute;
+        animation: rotate 10s linear infinite;
+    }
+
+    #footer .info .volver_arriba a{
+        cursor: pointer;
+    }
+
+    #footer .info .volver_arriba svg {
+        height: 6vh;
+        width: 6vh;
+        position: absolute;
+        margin: 3vh 0 0 3vh
+    }
+
+    @keyframes rotate {
+        from {
+            -ms-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+        to {
+            -ms-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+    }
+
+    #footer::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #footer .gallery_frame::-webkit-scrollbar, #footer .gallery_frame .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav {
+        width: 100%;
+        height: 8vh;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 10000000;
+        background-color: transparent;
+    }
+
+    nav.active {
+        background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+    }
+
+    nav .hamburger_menu {
+        display: none;
+    }
+
+    .nav_logo {
+        height: 3.4vh;
+        margin: 2.3vh 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 1.5vw;
+    }
+
+    nav .nav_left p{
+        text-decoration: none;
+        color: var(--colorW);
+        line-height: 1.6vh;
+        font: 500 1.6vh var(--font1), sans-serif;
+        margin: 3.05vh 0;
+        justify-content: left;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 4.4vw;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    nav .nav_left:hover p {
+        background-size: 0 1px, 100% 1px;
+    }
+
+    .nav_links {
+        position: absolute;
+        top: 0;
+        right: 1.8vw;
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 26vw;
+        justify-content: space-between;
+    }
+
+    .nav_li {
+        margin: 3.2vh 0;
+        padding: 0;
+        font-size: 1.6vh;
+        line-height: 1.6vh;
+        font-family: var(--font1);
+        font-weight: 500;
+    }
+
+    .nav_li_a {
+        color: var(--colorW);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    .nav_li_a:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+
+
+
+    /* .drop_list {
+        list-style: none;
+        color: var(--color1);
+        padding: 0 15px;
+        margin-top: 1px;
+        position: relative;
+        background: white;
+        width: inherit;
+        height: 0;
+        overflow: hidden;
+        transition: height linear 0.3s;
+    }
+
+    .drop_list li {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .drop_list li a {
+        color: var(--color1);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--color1), var(--color1));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    .nav_li_drop:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+
+    .drop_menu:hover .dlQS {
+        height: 65px;
+    }
+
+    .drop_menu:hover .dlMI {
+        height: 270px;
+    }
+
+    .drop_menu .drop_list li a:hover {
+        background-size: 0 1px, 100% 1px;
+    } */
+
+
+
+
+    /* Hero Section */
+    #Inicio {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-image: linear-gradient(180deg, #00000075 0%, #00000075 10%, #0000009c 95%, #000000c9 100%);
+        background-size: cover;
+        position: relative;
+    }
+
+    #Inicio .background {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        background-repeat: no-repeat;
+        animation: change-background 30s linear infinite;
+    }
+
+    @keyframes change-background {
+        0% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 119%;
+            background-position: left;
+        }
+        28% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 125%;
+            background-position: left;
+        }
+        33% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 114%;
+            background-position: center;
+        }
+        61% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 126%;
+            background-position: center;
+        }
+        66%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 103%;
+            background-position: left;
+        }
+        95%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 116%;
+            background-position: left;
+        }
+        100%{
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 119%;
+            background-position: left;
+        }
+    }
+
+    #Inicio .gallery_frame {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    #Inicio .gallery {
+        width: 200%;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        transition: all 1s;
+    }
+
+    #Inicio .frame1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    #Inicio .frame2 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    #Inicio .hero {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 15vw;
+        margin: auto;
+    }
+
+    #Inicio .hero .hero_text {
+        width: 40.1vw;
+        height: 40vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+
+    #Inicio .hero .hero_text h1 span {
+        font: 800 8vh var(--font3), sans-serif;
+        color: var(--colorW);
+        line-height: 8vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Inicio .hero .hero_text h1 {
+        font: 800 clamp(8.5vh, 10vh, 11.5vh) var(--font3), sans-serif;
+        white-space: nowrap;
+        color: var(--colorW);
+        line-height: 10vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Inicio .hero .hero_text p {
+        font: 300 2vh var(--font1P), sans-serif;
+        color: var(--colorGr);
+        line-height: 2.8vh;
+        padding: 2vh 0 2vh 3vh;
+        margin: 2vh 0 0 1.5vw;
+        background-image: linear-gradient(var(--colorW), var(--colorW));
+        background-size: 2px 100%;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        text-align: justify;
+    }
+
+    #Inicio .hero .hero_button_div {
+        position: absolute;
+        left: 52vw;
+        height: calc(1.8vh + 2.4vw);
+        bottom: 0;
+        top: 40vh;
+        margin: auto 0;
+    }
+
+    #Inicio .hero .hero_button_div .hero_button {
+        text-decoration: none;
+        padding: 0 1.2vw;
+        display: flex;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(9, 26, 51);
+        font: 400 1.8vh var(--font1), sans-serif;
+        line-height: 1.8vh;
+        color: var(--colorW);
+        width: 14vw;
+        height: 3.4vw;
+        border: none;
+        cursor: pointer;
+    }
+
+    #Inicio .hero .hero_button_div .hero_button:hover {
+        background: var(--colorW);
+        color: rgb(9, 26, 51);
+        font-weight: 600;
+    }
+
+    #Inicio .social_icons {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 22vh;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        left: 2vw;
+        margin: auto 0;
+    }
+
+    #Inicio .social_icons a:hover svg {
+        stroke: rgb(127, 255, 253);
+    }
+
+    #Inicio .social_icons a:nth-of-type(2) {
+        margin-left: 2px;
+    }
+    #Inicio .social_icons a:nth-of-type(3) {
+        margin-left: 1px;
+    }
+    #Inicio .social_icons a:nth-of-type(4) {
+        margin-left: -2px;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 82vw;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos {
+        width: 82vw;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 3;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
+        background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
+        height: 40vh;
+        width: 40vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
+        background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
+        height: 40vh;
+        width: 40vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 50vh;
+        padding: 0;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown{
+        padding: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: var(--font3);
+        font-weight: 800;
+        height: 12vh;
+        font-size: 12vh;
+        line-height: 12vh;
+        align-items: center;
+        text-align: center;
+        color: var(--colorW);
+        z-index: 4;
+        text-shadow: 0px 0px 32px rgba(0, 0, 0, 0.97);
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .vs{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 0;
+        margin: auto;
+        font-family: var(--font3);
+        font-weight: 900;
+        font-size: 35vh;
+        line-height: 35vh;
+        height: 35vh;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo{
+        text-decoration: none;
+        background: rgb(9, 26, 51);
+        padding: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        bottom: 0;
+        font-family: var(--font1);
+        font-weight: 400;
+        height: 3.4vw;
+        width: 14vw;
+        border-radius: 4px;
+        font-size: 1.8vh;
+        line-height: 1.8vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: var(--colorW);
+        z-index: 50;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
+        background: var(--colorW);
+        color: rgb(9, 26, 51);
+        font-weight: 600;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .back-to-frame1{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 1.3vw;
+        left: 1.7vw;
+        color: var(--colorW);
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 0 100%, 100% 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .back-to-frame1:hover {
+        background-size: 0 1px, 100% 1px;
+        cursor: pointer;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .jornada-place{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 1.3vw;
+        right: 1.7vw;
+        color: var(--colorW);
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .jornada-place:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+
+    #Inicio .sponsors_watermark {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: 1vw;
+        left: 1.5vw;
+        width: 45%;
+    }
+
+    #Inicio .sponsors_watermark.match {
+        left: 0;
+        right: 0;
+        margin: auto;
+        animation: inicioOpacity 1s linear;
+    }
+
+    #Inicio .sponsors_watermark a img {
+        position: relative;
+        height: 16px;
+    }
+
+    @keyframes inicioOpacity {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+    #Inicio .gallery_frame::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+
+
+
+
+    /* Latest News Section */
+    #MainNews {
+        width: 100%;
+        height: 70vh;
+        display: block;
+    }
+
+    #MainNews .selector {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+    }
+
+    #MainNews .news {
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-position: 80%;
+        position: relative;
+        overflow-x: hidden;
+        box-shadow: inset -30px 40px 60px rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    #MainNews .news h3 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        font-size: 16px;     /*Remember to change to resposive measures*/
+        line-height: 16px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #MainNews .news h5 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 54px;
+        left: 30px;
+        font-size: 10px;     /*Remember to change to resposive measures*/
+        line-height: 10px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #MainNews #main {
+        width: 290%;
+        background-position: 50%;
+    }
+
+    #MainNews #main h3 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #MainNews #main h5 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        display: block;
+        bottom: 54px;
+        left: 30px;
+        font-size: 15px;
+        line-height: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    #MainNews .news1 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_1.jpg);
+    }
+
+    #MainNews .news2 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_2.jpg);
+    }
+
+    #MainNews .news3 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_3.jpg);
+    }
+
+    #MainNews .news4 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.jpg);
+        box-shadow: none;
+    }
+
+
+
+
+    /* Jugadoras - Sección experimental */
+    /* #Jugadoras {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        height: 45vh;
+        position: relative;
+        background: linear-gradient(45deg, var(--color4B) 0%, #00273d 100%);
+        background-size: 200%;
+        animation: aurora 10s infinite;
+        overflow: hidden;
+        display: flex;
+    }
+
+    #Jugadoras .jugadoras_inner {
+        background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02));
+        background-size: 200%;
+        animation: aurora 7s infinite;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #Jugadoras .jugadora1 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #Jugadoras .jugadora2 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    @keyframes aurora {
+        0% {
+            background-position: left top;
+        }
+        25% {
+            background-position: right top;
+        }
+        50% {
+            background-position: right bottom;
+        }
+        75% {
+            background-position: left bottom;
+        }
+        100% {
+            background-position: left top;
+        }
+    }
+
+    #Jugadoras .olympia_logo {
+        background-image: url(../gen_resources/olympia_branding/Escudo\ blanco\ recortado.png);
+        width: 30vw;
+        aspect-ratio: 1;
+        position: absolute;
+        top: -3vw;
+        left: -3vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        opacity: 0.07;
+        z-index: 0;
+    }
+
+    #Jugadoras  h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 40vh;
+        line-height: 40vh;
+        font-weight: 900;
+        font-family: var(--font4);
+        position: absolute;
+        top: 0;
+        margin: auto;
+        right: 1.5vw;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) -53.62%, rgba(255, 255, 255, 0.4) 100.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+        z-index: 1;
+    }
+
+    #Jugadoras  h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 7.5vh;
+        line-height: 7.5vh;
+        color: var(--colorW);
+        font-weight: 600;
+        font-family: var(--font2);
+        position: absolute;
+        bottom: 1vw;
+        left: 1.5vw;
+        z-index: 3;
+    }
+
+    #Jugadoras  h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 2.5vh;
+        line-height: 2.5vh;
+        color: var(--colorW);
+        font-weight: 500;
+        font-family: var(--font2);
+        position: absolute;
+        bottom: calc(0.9vw + 7.5vh);
+        left: 1.5vw;
+        z-index: 3;
+    }
+
+    #Jugadoras  h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 1vh;
+        line-height: 1vh;
+        color: var(--colorW);
+        font-weight: 400;
+        font-family: var(--font2);
+        position: absolute;
+        top: 1.4vw;
+        left: 1.5vw;
+        z-index: 1;
+    }
+
+    #Jugadoras .jugadora_img {
+        background-image: url(../gen_resources/senior/jugadoras_fondo-transparente/foto_arantxa.png);
+        height: 32vh;
+        width: 15vw;
+        position: absolute;
+        bottom: 0;
+        right: 7.5vw;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    } */
+
+
+
+
+
+    /* Players Section */
+    #Players {
+        margin: 0;
+        width: 100%;
+        padding: 6vw 6vw 2vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Players .inscrip_buttons {
+        position: absolute;
+        top: 6vw;
+        bottom: 2vw;
+        height: 48px;
+        margin: auto;
+        right: 2%;
+        left: 3%;
+        display: flex;
+        justify-content: space-between;
+        fill: var(--colorW);
+        display: none;
+    }
+
+    #Players .gallery_frame {
+        width: 100%;
+        height: 100%;
+        overflow-x: scroll;
+        position: relative;
+        margin: 0vw;
+    }
+
+    #Players .gallery_frame .gallery {
+        display: flex;
+        width: 600%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: scroll;
+        display: flex;
+        transition: all 1s;
+    }
+
+    #Players .gallery_frame .gallery .jugadora {
+        width: 21.6vw;
+        margin: 0 0.2vw;
+        height: 21.6vw;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #Players .gallery_frame .gallery .jugadora img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 2
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: translateY(84.5%);
+        z-index: 90;
+        transition: transform 0.5s ease-out, opacity 2s ease-in;
+    }
+
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay {
+        transform: translateY(77.5%);
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: translateY(71%);
+        z-index: 90;
+        transition: transform 0.5s ease-out, opacity 2s ease-in;
+    }
+
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large {
+        transform: translateY(64%);
+    }
+
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia, #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
+        opacity: 1;
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo, #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
+        position: absolute;
+        top: 0;
+        left: 0.9vw;
+        font-size: 2.89vw;
+        line-height: 2.89vw;
+        font-family: var(--font2);
+        font-weight: 700;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay .procedencia {
+        position: absolute;
+        top: 3vw;
+        left: 1vw;
+        font-size: 0.7vw;
+        line-height: 0.7vw;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
+        position: absolute;
+        top: 6vw;
+        left: 1vw;
+        font-size: 0.7vw;
+        line-height: 0.7vw;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+
+    #Players::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Players .gallery_frame::-webkit-scrollbar, #Players .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    /* #Players .buttons {
+        position: absolute;
+        top:0;
+    } */
+
+
+
+
+
+    /* Event Section */
+    /* #Events {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Events .event {
+        width: 100%;
+        aspect-ratio: 3.2;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        background-size: 100%;
+        background-position: center;
+        transition: all 1.5s ease;
+    }
+
+
+    #Events .event:hover {
+        background-size: 105%;
+    }
+
+    #Events .event .evento_overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(#00000080, #00000080);
+        transition: all 1.5s ease;
+        opacity: 0;
+    }
+
+    #Events .event:hover .evento_overlay {
+        opacity: 1;
+    }
+
+    #Events .event .evento_overlay a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 2px solid var(--colorW);
+        height: 5vh;
+        border-radius: 5px;
+        width: 16%;
+        text-decoration: none;
+        color: var(--colorW);
+        font-family: var(--font1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8vh;
+        font-weight: 500;
+    }
+
+    #Events .event .evento_overlay a:hover {
+        color: var(--color4B);
+        background: var(--colorW);
+    }
+
+    #Events .event h3 {
+        font-family: var(--font1);
+        color: var(--colorW);
+        font-weight: 500;
+        position: absolute;
+        bottom: 5%;
+        left: 3.4%;
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #Events .event1 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+    }
+
+    #Events::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Events .events_gallery_frame::-webkit-scrollbar, #Events .events_gallery_frame .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    } */
+
+
+
+
+    /* Cantera Section */
+    #Cantera {
+        margin: 0;
+        width: 100%;
+        padding: 0 6vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Cantera .inscrip_buttons {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 48px;
+        margin: auto;
+        right: 2%;
+        left: 3%;
+        display: flex;
+        justify-content: space-between;
+        fill: var(--colorW);
+        display: none;
+    }
+
+    #Cantera .cantera_grid-gallery {
+        overflow: scroll;
+        width: 100%;
+        height: 100%;
+        transition: all 1s;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery {
+        overflow-x: scroll;
+        width: 850%;
+        display: flex;
+        transition: all 1s;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery div {
+        width: 43.8vw;
+        height: 23.19vw;
+        margin: 0.2vw;
+        background: #16223d;
+        transition: all 1s;
+        position: relative;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery h1 {
+        position: absolute;
+        bottom: 0.6vw;
+        left: 1.2vw;
+        padding: 0;
+        margin: 0;
+        color: var(--colorW);
+        transition: all 1s;
+        font-family: var(--font2);
+        font-weight: 500;
+        font-size: 2.7vw;
+        line-height: 3.2vw;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .benjA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ a.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .benjB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .alevA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ a.jpg);
+        background-size: cover;
+        background-position: right;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .alevB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .alevC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
+        background-size: 140%;
+        background-position: 55% 60%;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .infanD {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ d.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .cadetA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ a.jpg);
+        background-size: cover;
+        background-position: 40%;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .cadetB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .juvA {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ a.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .juvB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .juvC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .senB {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ b.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .senC {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ c.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera .cantera_grid-gallery .gallery .vet {
+        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/veteranas.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #Cantera::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Cantera .cantera_grid-gallery::-webkit-scrollbar, #Cantera .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+
+
+    /* Inscription Section */
+    #Inscribe {
+        margin: 0;
+        width: 100%;
+        padding: 6vw 0 0.7vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Inscribe .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #Inscribe .flex .inscrip_type {
+        width: 100%;
+        aspect-ratio: 1.5;
+        background-position: center;
+        position: relative;
+        filter: grayscale(0.8);
+        transition: all 0.2s ease-in-out;
+        background-size: 100%;
+    }
+
+    #Inscribe .flex .inscrip_type:hover {
+        filter: grayscale(0);
+        cursor: pointer;
+        background-size: 110%;
+    }
+
+    #Inscribe .flex .inscrip_type .texto_inscrip{
+        position: absolute;
+        bottom: 1.5vw;
+        left: 1.5vw;
+    }
+
+    #Inscribe .flex .inscrip_type .texto_inscrip h3 {
+        font: 500 3vh var(--font1), sans-serif;
+        line-height: 3vh;
+        padding: 0;
+        margin: 0;
+        color: var(--colorW);
+    }
+
+    #Inscribe .flex .inscrip_type .texto_inscrip p {
+        font: 300 1.5vh var(--font1P), sans-serif;
+        line-height: 1.8vh;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        color: var(--colorW);
+    }
+
+    #Inscribe .flex .jugadoras {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    }
+
+    #Inscribe .flex .practicas {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+        margin: 0 0.7vw;
+    }
+
+    #Inscribe .flex .tecnico {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
+    }
+
+
+
+
+    /* Shop Section */
+    /* #Shop {
+        margin: 0;
+        width: 100%;
+        padding: 5vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Shop .inscrip_buttons {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 48px;
+        margin: auto;
+        right: 2.5%;
+        left: 2.5%;
+        display: flex;
+        justify-content: space-between;
+        fill: var(--colorW);
+    }
+
+    #Shop .inscrip_buttons .insc_btn_1 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Shop .inscrip_buttons .insc_btn_2 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+
+    #Shop .inscrip_buttons .left, #Shop .inscrip_buttons .right {
+        transition: all 0.2s ease-in-out;
+    }
+
+    #Shop .inscrip_buttons .left:hover, #Shop .inscrip_buttons .left:active, #Shop .inscrip_buttons .right:hover, #Shop .inscrip_buttons .right:active {
+        fill: #92dae4;
+        cursor: pointer;
+    }
+
+    #Shop .gallery_frame {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    #Shop .gallery_frame .gallery {
+        display: flex;
+        width: 300%;
+        overflow-x: hidden;
+        position: relative;
+        box-sizing: border-box;
+        transition: all 1s;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #Shop .gallery_frame .gallery .prenda {
+        aspect-ratio: 1/1.25;
+        width: 22.6vw;
+        margin: 0 0.2vw;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #Shop .gallery_frame .gallery .prenda .overlay_prenda {
+        position: absolute;
+        left: -10px;
+        height: 10%;
+        top: 65%;
+        bottom: 25%;
+        z-index: 1;
+        font-size: 20px;
+        font-family: var(--font2);
+        font-weight: 800;
+        background-color: var(--colorW);
+        display: flex;
+        align-items: center;
+        padding: 0 20px 0 30px;
+        opacity: 0;
+        transform: skewX(-10deg) translateX(-100%);
+        transition: all 0.2s ease-in-out;
+    }
+
+    #Shop .gallery_frame .gallery .prenda:hover .overlay_prenda {
+        opacity: 1;
+        transform: skewX(-10deg) translateX(0%);
+    }
+
+    #Shop .gallery_frame .gallery .prenda .display {
+        height: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+    }
+
+    #Shop .gallery_frame .gallery .prenda .display img {
+        height: 65%;
+        aspect-ratio: initial;
+        transition: all 0.2s ease-in-out;
+        background: transparent;
+        margin: auto;
+    }
+
+    #Shop .gallery_frame .gallery .prenda:hover .display img {
+        height: 70%;
+    }
+
+    #Shop .gallery_frame .gallery .prenda1 .display {
+        background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda1 .overlay_prenda {
+        color: #2a3452ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda2 .display {
+        background-image: linear-gradient(90deg, #bfa842ff 0%, #dccd70ff 41%, #e3d977ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda2 .overlay_prenda {
+        color: #bfa842ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda3 .display {
+        background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda3 .overlay_prenda {
+        color: #98bab7ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda4 .display {
+        background-image: linear-gradient(90deg, #e18996ff 0%, #eaabb9ff 45%, #ecb4c0ff 87%);
+    }
+    #Shop .gallery_frame .gallery .prenda4 .overlay_prenda {
+        color: #e18996ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda5 .display {
+        background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda5 .overlay_prenda {
+        color: #98bab7ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda6 .display {
+        background-image: linear-gradient(90deg, #8cc3c3ff 0%, #455e69ff 50%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda6 .overlay_prenda {
+        color: #455e69ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda7 .display {
+        background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda7 .overlay_prenda {
+        color: #2a3452ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda8 .display {
+        background-image: linear-gradient(90deg, #252528ff 0%, #2c2a2bff 41%, #3b393bff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda8 .overlay_prenda {
+        color: #2c2a2bff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda9 .display {
+        background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda9 .overlay_prenda {
+        color: #474747ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda10 .display {
+        background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda10 .overlay_prenda {
+        color: #474747ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda11 .display {
+        background-image: linear-gradient(90deg, #474747ff 0%, #888888ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda11 .overlay_prenda {
+        color: #474747ff;
+    }
+
+    #Shop .gallery_frame .gallery .prenda12 .display {
+        background-image: linear-gradient(90deg, #152134ff 0%, #2a3452ff 100%);
+    }
+    #Shop .gallery_frame .gallery .prenda12 .overlay_prenda {
+        color: #2a3452ff;
+    }
+
+    #Shop::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #Shop .gallery_frame::-webkit-scrollbar, #Shop .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    } */
+
+
+
+
+    /* Newsletter Section */
+    #Newsletter {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    #Newsletter .box {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    #Newsletter .box .box_content {
+        width: 65%;
+        height: 45vh;
+        margin: auto;
+        display: flex;
+        align-content: center;
+    }
+
+    #Newsletter .box .box_content .newsletter_box{
+        background-image: linear-gradient(108.13deg, rgb(12, 18, 32/*, 0.74*/) -38.7%, rgb(9, 15, 29/*, 0.74*/) 114.94%);
+        width: 50%;
+        height: 100%;
+        padding: 6.3vh 5vh;
+    }
+
+    #Newsletter .box .box_content .newsletter_box h3 {
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 500;
+        text-align: center;
+        font-size: 2.5vh;
+        margin: 3vh auto 1vh;
+    }
+
+    #Newsletter .box .box_content .newsletter_box p {
+        color: var(--colorW);
+        font-family: var(--font1);
+        text-align: center;
+        margin: 1vh auto 2.5vh;
+        font-size: 12px;
+    }
+
+    #Newsletter .box .box_content .newsletter_box input {
+        display: block;
+        margin: 0 auto 1vh;
+        border-radius: 2px;
+        background: var(--colorW);
+        height: 3vh;
+        width: 85%;
+        border: none;
+        color: var(--color2);
+        padding: 1vh;
+        font-family: var(--font1);
+    }
+
+    #Newsletter .box .box_content .newsletter_box input[type="submit"] {
+        border: 2px solid var(--colorW);
+        background: transparent;   
+        color: var(--colorW);
+        height: 5vh;
+        width: 40%;
+        font-size: 1.8vh;
+        margin: 3vh auto 0;
+        font-family: var(--font1);
+        border-radius: 5px;
+    }
+
+    #Newsletter .box .box_content .newsletter_box input[type="submit"]:hover {
+        background: var(--colorW);   
+        color: var(--color1);
+        font-weight: 500;
+    }
+
+    #Newsletter .box .box_content .contact_box{
+        border-bottom: white 1px solid;
+        border-top: white 1px solid;
+        border-right: white 1px solid;
+        width: 50%;
+        height: 80%;
+        margin: auto;
+        padding: 8vh 5vh;
+    }
+
+    #Newsletter .box .box_content .contact_box h3 {
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 500;
+        text-align: center;
+        font-size: 2.5vh;
+        margin: 3vh auto 1vh;
+    }
+
+    #Newsletter .box .box_content .contact_box button {
+        border: 2px solid var(--colorW);
+        background: transparent;   
+        color: var(--colorW);
+        height: 5vh;
+        width: 40%;
+        display: block;
+        font-size: 1.8vh;
+        margin: 3vh auto 0;
+        border-radius: 5px;
+        font-family: var(--font1);
+    }
+
+    #Newsletter .box .box_content .contact_box button:hover {
+        background: var(--colorW);   
+        color: var(--color2);
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+
+
+
+    /* Footer Section */
+    #footer {
+        background-color: var(--color4B);
+        width: 100%;
+        height: 76.7vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #footer .social {
+        padding: 8vh 3vw 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer .social h1 {
+        font-size: 24vh;
+        line-height: 24vh;
+        padding: 0;
+        margin: 0 0 -5vh;
+        color: var(--colorW);
+        font-family: var(--font4);
+        font-weight: 500;
+        letter-spacing: -5px;
+    }
+
+    #footer .social h1::before {
+        content: "";
+        animation: hashtag-change 3s linear infinite;
+    }
+
+    @keyframes hashtag-change {
+        0%{
+            content: "#CFFOLYMPIA";
+        }
+        33.3%{
+            content: "#SOÑAMOS";
+        }
+        66.6%{
+            content: "JUNTAS!";
+        }
+        100%{
+            content: "#CFFOLYMPIA";
+        }
+    }
+
+    #footer .social .social_icons {
+        margin: 0.7vh 0.2vw 0 0;
+        display: flex;
+        width: 14vw;
+        justify-content: space-between;
+    }
+
+    #footer .social .social_icons img {
+        height: 3vh;
+    }
+
+    #footer .divider {
+        margin: 2vh 3vw 0;
+        background: var(--colorW);
+        height: 2.4vh;
+    }
+
+    #footer .sponsors {
+        padding: 3vh 3vw;
+        height: 40vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #footer .sponsors .gallery_frame {
+        width: 94vw;
+        height: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #footer .sponsors .gallery_frame .gallery {
+        height: 100%;
+        display: flex;
+        animation: sponsors_move 22s linear infinite;
+    }
+
+    @keyframes sponsors_move {
+        0%{
+            transform: translateX(0);
+        }
+        /* 12.5%{
+            transform: translateX(-18.8vw);
+        }
+        25%{
+            transform: translateX(-37.6vw);
+        }
+        27.5%{
+            transform: translateX(-56.4vw);
+        }
+        50%{
+            transform: translateX(-75.2vw);
+        }
+        62.5%{
+            transform: translateX(-94vw);
+        }
+        75%{
+            transform: translateX(-112.8vw);
+        }
+        87.5%{
+            transform: translateX(-131.6vw);
+        } */
+        100%{
+            transform: translateX(-131.6vw);
+        }
+    }
+
+    #footer .sponsors .gallery_frame .gallery .sponsor {
+        flex-shrink: 0;
+        width: 17.9vw;
+        margin: 0 0.45vw;
+        background-image:linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
+        border-radius: 3px;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    #footer .sponsors .gallery_frame .gallery .sponsor img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 55%;
+    }
+
+    #footer .info {
+        width: 100%;
+        height: 5vh;
+        padding: 1.9vh 3vw 1.9vh 3vw;
+        background-image:linear-gradient(180deg, #070c16 -378.7%, #070a16 174.94%);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer .info .links {
+        height: 1.2vh;
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #footer .info .links a, #footer .info .links p {
+        font-family: var(--font1);
+        font-size: 1.2vh;
+        color: var(--colorW);
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    #footer .info .volver_arriba {
+        top: 16.5vh;
+        right: 3vw;
+        height: 10vh;
+        width: 10vh;
+        position: absolute;
+    }
+
+    #footer .info .volver_arriba img {
+        height: 10vh;
+        width: 10vh;
+        position: absolute;
+        animation: rotate 10s linear infinite;
+    }
+
+    #footer .info .volver_arriba a{
+        cursor: pointer;
+    }
+
+    #footer .info .volver_arriba svg {
+        height: 5vh;
+        width: 5vh;
+        position: absolute;
+        margin: 2.5vh 0 0 2.5vh
+    }
+
+    @keyframes rotate {
+        from {
+            -ms-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+        to {
+            -ms-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+    }
+
+    #footer::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    #footer .gallery_frame::-webkit-scrollbar, #footer .gallery_frame .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        width: 100%;
+        height: 8vh;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 10000000;
+        background-color: transparent;
+    }
+    
+    nav.active {
+        background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+    }
+
+    nav .hamburger_menu {
+        fill: var(--colorW);
+        display: block;
+        height: 2.2vh;
+        width: 28px;
+        position: absolute;
+        top: 2.9vh;
+        right: 4vw;
+    }
+    
+    nav .hamburger_menu img {
+        fill: var(--colorW);
+        display: block;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    
+    .nav_logo {
+        height: 3.4vh;
+        margin: 2.3vh 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 4vw;
+        z-index: 6;
+    }
+    
+    nav .nav_left p{
+        text-decoration: none;
+        color: var(--colorW);
+        line-height: 1.6vh;
+        font: 500 1.6vh var(--font1), sans-serif;
+        margin: 3.05vh 0;
+        justify-content: left;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 11.25vw;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+        z-index: 6;
+    }
+    
+    nav .nav_left:hover p {
+        background-size: 0 1px, 100% 1px;
+    }
+    
+    .nav_links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        background: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
+        transition: all 0.35s ease-out;
+    }
+
+    .nav_links.open {
+        transform: translateX(0%);    
+    }
+    
+    .nav_li {
+        margin: 3.2vh auto ;
+        padding: 0;
+        font-size: 4vh;
+        line-height: 4vh;
+        font-family: var(--font1);
+        font-weight: 500;
+    }
+    
+    .nav_li_a {
+        color: var(--colorW);
+        text-decoration: none;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+    }
+    
+    .nav_li_a:hover {
+        background-size: 0;
+    }
+    
+    
+    
+    
+    /* Hero Section */
+    #Inicio {
+        width: 100%;
+        height: 95vh;
+        overflow: hidden;
+        background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 10%, #0000009c 95%, #000000c9 100%);
+        background-size: cover;
+        position: relative;
+    }
+    
+    #Inicio .background {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        background-repeat: no-repeat;
+        animation: change-background 30s linear infinite;
+    }
+    
+    @keyframes change-background {
+        0% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 250%;
+            background-position: 35%;
+        }
+        28% {
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 260%;
+            background-position: 45%;
+        }
+        33% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 240%;
+            background-position: 50%;
+        }
+        61% {
+            background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
+            background-size: 270%;
+            background-position: 53%;
+        }
+        66%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 240%;
+            background-position: 40%;
+        }
+        95%{
+            background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
+            background-size: 250%;
+            background-position: 30%;
+        }
+        100%{
+            background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
+            background-size: 250%;
+            background-position: 35%;
+        }
+    }
+    
+    #Inicio .gallery_frame {
+        width: 100%;
+        height: 95vh;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+    
+    #Inicio .gallery {
+        width: 100%;
+        height: 95vh;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        transition: all 1s;
+    }
+    
+    #Inicio .frame1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    #Inicio .frame2 {
+        width: 100vw;
+        height: 100%;
+        position: relative;
+    }
+    
+    #Inicio .hero {
+        position: absolute;
+        top: 24vw;
+        left: 6vw;
+        right: 6vw;
+        margin: 0 auto;
+    }
+    
+    #Inicio .hero .hero_text {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    #Inicio .hero .hero_text h1 span {
+        font: 800 6.7vh var(--font3), sans-serif;
+        color: var(--colorW);
+        line-height: 8vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    #Inicio .hero .hero_text h1 {
+        font: 800 5.3vh var(--font3), sans-serif;
+        white-space: nowrap;
+        color: var(--colorW);
+        line-height: 7vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    #Inicio .hero .hero_text p {
+        font: 300 3vw var(--font1P), sans-serif;
+        color: var(--colorGr);
+        line-height: 3.6vw;
+        background-image: none;
+        text-align: justify;
+        padding: 2vh 0;
+        margin: 0;
+    }
+    
+    #Inicio .hero .hero_button_div {
+        position: absolute;
+        left: 32vw;
+        right: 0;
+        height: calc(1.8vh + 2.4vw);
+        bottom: 0;
+        top: 40vh;
+        margin: auto;
+        display: none;
+    }
+    
+    #Inicio .hero .hero_button_div .hero_button {
+        text-decoration: none;
+        padding: 0 1.2vw;
+        display: flex;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        background: rgb(9, 26, 51);
+        font: 400 1.8vh var(--font1), sans-serif;
+        line-height: 1.8vh;
+        color: var(--colorW);
+        width: 12vw;
+        height: 3.4vw;
+        border: none;
+        cursor: pointer;
+        display: none;
+    }
+    
+    #Inicio .social_icons {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 22vh;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        left: 2vw;
+        margin: auto 0;
+        display: none;
+    }
+
+    #Inicio .gallery_frame .gallery .frame2 .match-data {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0vw;
+        right: 0vw;
+        margin: auto;
+        width: 90vw;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos {
+        width: 90vw;
+        position: absolute;
+        top: 0;
+        bottom: 7vh;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
+        background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
+        height: 30vw;
+        width: 30vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
+        background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
+        height: 30vw;
+        width: 30vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs{
+        position: absolute;
+        top: 0;
+        bottom: 7vh;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 50vh;
+        padding: 0;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown{
+        padding: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        font-family: var(--font3);
+        font-weight: 800;
+        height: 10vw;
+        font-size: 10vw;
+        line-height: 10vw;
+        align-items: center;
+        text-align: center;
+        color: var(--colorW);
+        z-index: 4;
+        text-shadow: 0px 0px 32px rgba(0, 0, 0, 0.97);
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .vs{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 0;
+        margin: auto;
+        font-family: var(--font3);
+        font-weight: 900;
+        font-size: 30vw;
+        line-height: 30vw;
+        height: 30vw;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo{
+        text-decoration: none;
+        background: rgb(9, 26, 51);
+        padding: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40%;
+        bottom: 12%;
+        font-family: var(--font1);
+        font-weight: 400;
+        height: 8vw;
+        width: 30vw;
+        border-radius: 5px;
+        font-size: 1.7vh;
+        line-height: 1.7vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: var(--colorW);
+        z-index: 50;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
+        background: var(--colorW);
+        color: rgb(9, 26, 51);
+        font-weight: 600;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .back-to-frame1{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 1.3vw;
+        left: 1.7vw;
+        color: var(--colorW);
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 0 100%, 100% 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+        display: none;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .jornada-place{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 1.3vw;
+        right: 1.7vw;
+        color: var(--colorW);
+        font-family: var(--font3);
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+        background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
+        background-size: 100% 1px, 0 1px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 0.15s linear;
+        display: none;
+    }
+    
+    #Inicio .gallery_frame .gallery .frame2 .jornada-place:hover {
+        background-size: 0 1px, 100% 1px;
+    }
+    
+    #Inicio .sponsors_watermark {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        bottom: 2vw;
+        left: 4vw;
+        right: 4vw;
+        width: 92vw;
+    }
+    
+    #Inicio .sponsors_watermark.match {
+        left: 0;
+        right: 0;
+        margin: auto;
+        animation: inicioOpacity 1s linear;
+    }
+    
+    #Inicio .sponsors_watermark a img {
+        position: relative;
+        height: 8px;
+    }
+    
+    @keyframes inicioOpacity {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+    
+    #Inicio .gallery_frame::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    
+    
+    
+    
+    
+    /* Latest News Section */
+    #MainNews {
+        width: 100%;
+        height: unset;
+        padding: 6vw 4vw 0;
+    }
+    
+    #MainNews .selector {
+        display: flex;
+        flex-direction: column;
+        width: 88vw;
+    }
+    
+    #MainNews .news {
+        width: 92vw;
+        height: 52vw;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow-x: hidden;
+        box-shadow: inset -30px 40px 60px rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    #MainNews .news h3 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 11px;   
+        line-height: 11px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #MainNews .news h5 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 23px;
+        left: 10px;
+        font-size: 8px;     /*Remember to change to resposive measures*/
+        line-height: 8px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #MainNews #main {
+        width: 92vw;
+        height: 52vw;
+        background-position:center;
+    }
+    
+    #MainNews #main h3 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 11px;     /*Remember to change to resposive measures*/
+        line-height: 11px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #MainNews #main h5 {
+        text-decoration: none;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        position: absolute;
+        bottom: 23px;
+        left: 10px;
+        font-size: 8px;     /*Remember to change to resposive measures*/
+        line-height: 8px;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #MainNews .news1 {
+        background-position: center center;
+        margin: 0 0 3vw;
+    }
+    
+    #MainNews .news2 {
+        background-position: center center;
+        margin: 0 0 3vw;
+    }
+    
+    #MainNews .news3 {
+        background-position: center center;
+        margin: 0 0 0;
+    }
+    
+    #MainNews .news4 {
+        background-position: center 20%;
+        display: none;
+    }
+    
+    
+
+    /* Players Section */
+    #Players {
+        margin: 0;
+        width: 100%;
+        padding: 10vw 4vw 3vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    #Players .inscrip_buttons {
+        display: none;
+    }
+    
+    #Players .gallery_frame {
+        width: 100%;
+        height: 100%;
+        overflow-x: scroll;
+        position: relative;
+        margin: 0vw;
+    }
+    
+    #Players .gallery_frame .gallery {
+        display: flex;
+        width: 1060%;
+        height: 100%;
+        box-sizing: border-box;
+        overflow-x: scroll;
+        display: flex;
+        transition: all 1s;
+    }
+    
+    #Players .gallery_frame .gallery .jugadora {
+        width: 39vw;
+        margin: 0 1vw;
+        height: 39vw;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        border-radius: 3px;
+    }
+
+    #Players .gallery_frame .gallery .jugadora img {
+        border-radius: 3px;
+    }
+
+    #Players .gallery_frame .gallery .jugadora:first-of-type {
+        margin: 0 1vw 0 0;
+    }
+
+    #Players .gallery_frame .gallery .jugadora:last-of-type {
+        margin: 0 0 0 1vw;
+    }
+    
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: translateY(84.5%);
+        z-index: 90;
+        transition: transform 0.5s ease-out, opacity 2s ease-in;
+    }
+    
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay {
+        transform: translateY(77.5%);
+    }
+    
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform: translateY(71%);
+        z-index: 90;
+        transition: transform 0.5s ease-out, opacity 2s ease-in;
+    }
+    
+    #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large {
+        transform: translateY(64%);
+    }
+    
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo, #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
+        position: absolute;
+        top: 0;
+        left: 2.5vw;
+        font-size: 5vw;
+        line-height: 5vw;
+        font-family: var(--font2);
+        font-weight: 700;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+    }
+    
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay .procedencia {
+        position: absolute;
+        top: 6.2vw;
+        left: 3vw;
+        font-size: 1.35vw;
+        line-height: 1.35vw;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+    
+    #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
+        position: absolute;
+        top: 11vw;
+        left: 3vw;
+        font-size: 1.35vw;
+        line-height: 1.35vw;
+        font-family: var(--font1);
+        font-weight: 500;
+        color: var(--colorW);
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+    
+    
+    
+    
+    
+    /* Event Section */
+    /* #Events {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    #Events .event {
+        width: 100%;
+        aspect-ratio: 3.2;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        background-size: 100%;
+        background-position: center;
+        transition: all 1.5s ease;
+    }
+    
+    
+    #Events .event:hover {
+        background-size: 105%;
+    }
+    
+    #Events .event .evento_overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(#00000080, #00000080);
+        transition: all 1.5s ease;
+        opacity: 0;
+    }
+    
+    #Events .event:hover .evento_overlay {
+        opacity: 1;
+    }
+    
+    #Events .event .evento_overlay a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 2px solid var(--colorW);
+        height: 5vh;
+        border-radius: 5px;
+        width: 16%;
+        text-decoration: none;
+        color: var(--colorW);
+        font-family: var(--font1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8vh;
+        font-weight: 500;
+    }
+    
+    #Events .event .evento_overlay a:hover {
+        color: var(--color4B);
+        background: var(--colorW);
+    }
+    
+    #Events .event h3 {
+        font-family: var(--font1);
+        color: var(--colorW);
+        font-weight: 500;
+        position: absolute;
+        bottom: 5%;
+        left: 3.4%;
+        font-size: 18px;
+        line-height: 18px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #Events .event1 {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.jpg);
+    }
+    
+    #Events::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    
+    #Events .events_gallery_frame::-webkit-scrollbar, #Events .events_gallery_frame .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    } */
+    
+    
+    
+    
+    /* Cantera Section */
+    #Cantera {
+        margin: 0;
+        width: 100%;
+        padding: 0 4vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    #Cantera .inscrip_buttons {
+        display: none;
+    }
+
+    
+    #Cantera .cantera_grid-gallery {
+        overflow: scroll;
+        width: 100%;
+        height: 100%;
+        transition: all 1s;
+    }
+    
+    #Cantera .cantera_grid-gallery .gallery {
+        overflow-x: scroll;
+        width: 1600%;
+        display: flex;
+        transition: all 1s;
+    }
+    
+    #Cantera .cantera_grid-gallery .gallery div {
+        width: 92.1176471vw;
+        height: 38.261vw;
+        margin: 0 1vw;
+        background: #16223d;
+        transition: all 1s;
+        position: relative;
+        border-radius: 2px;
+        background-size: cover;
+    }
+    
+    #Cantera .cantera_grid-gallery .gallery h1 {
+        position: absolute;
+        left: 4.2vw;
+        padding: 0;
+        margin: 0;
+        color: var(--colorW);
+        transition: all 1s;
+        font-family: var(--font2);
+        font-weight: 500;
+        font-size: 3.5vh;
+        bottom: 4.2vw;
+    }
+
+    /* #Cantera .cantera_grid-gallery .gallery .benjA {
+        background-image: none;
+    } 
+    #Cantera .cantera_grid-gallery .gallery .benjB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .alevA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .alevB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .alevC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .infanD {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .cadetA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .cadetB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .juvA {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .juvB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .juvC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .senB {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .senC {
+        background-image: none;    
+    }
+    #Cantera .cantera_grid-gallery .gallery .vet {
+        background-image: none;    
+    } */
+    
+    
+    
+    /* Inscription Section */
+    #Inscribe {
+        margin: 0;
+        width: 100%;
+        padding: 10vw 4vw 8vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    #Inscribe .flex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #Inscribe .flex .inscrip_type {
+        width: 100%;
+        aspect-ratio: 3;
+        background-position: center;
+        position: relative;
+        filter: grayscale(0);
+        transition: all 0.2s ease-in-out;
+        background-size: 100%;
+        border-radius: 3px;
+    }
+    
+    #Inscribe .flex .inscrip_type:hover {
+        filter: grayscale(0);
+        cursor: pointer;
+        background-size: 100%;
+    }
+    
+    #Inscribe .flex .inscrip_type .texto_inscrip{
+        position: absolute;
+        bottom: 1.5vw;
+        left: 1.5vw;
+    }
+    
+    #Inscribe .flex .inscrip_type .texto_inscrip h3 {
+        font: 500 3vh var(--font1), sans-serif;
+        line-height: 3vh;
+        padding: 0;
+        margin: 0;
+        color: var(--colorW);
+    }
+    
+    #Inscribe .flex .inscrip_type .texto_inscrip p {
+        font: 300 1.5vh var(--font1P), sans-serif;
+        line-height: 1.5vh;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        color: var(--colorW);
+    }
+
+    #Inscribe .flex .jugadoras {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+        margin: 0 0 1vh;
+    }
+    
+    #Inscribe .flex .practicas {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
+        margin: 0 0 1vh;
+    }
+    
+    #Inscribe .flex .tecnico {
+        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
+    }
+    
+    
+    
+    
+    /* Shop Section */
+    /* #Shop {
+        margin: 0;
+        width: 100%;
+        padding: 5vw;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    #Shop .inscrip_buttons {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 48px;
+        margin: auto;
+        right: 2.5%;
+        left: 2.5%;
+        display: flex;
+        justify-content: space-between;
+        fill: var(--colorW);
+    }
+    
+    #Shop .inscrip_buttons .insc_btn_1 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+    
+    #Shop .inscrip_buttons .insc_btn_2 {
+        width: 48px;
+        height: 48px;
+        background: transparent;
+        border: none;
+    }
+    
+    #Shop .inscrip_buttons .left, #Shop .inscrip_buttons .right {
+        transition: all 0.2s ease-in-out;
+    }
+    
+    #Shop .inscrip_buttons .left:hover, #Shop .inscrip_buttons .left:active, #Shop .inscrip_buttons .right:hover, #Shop .inscrip_buttons .right:active {
+        fill: #92dae4;
+        cursor: pointer;
+    }
+    
+    #Shop .gallery_frame {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+    #Shop .gallery_frame .gallery {
+        display: flex;
+        width: 300%;
+        overflow-x: hidden;
+        position: relative;
+        box-sizing: border-box;
+        transition: all 1s;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #Shop .gallery_frame .gallery .prenda {
+        aspect-ratio: 1/1.25;
+        width: 22.6vw;
+        margin: 0 0.2vw;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #Shop .gallery_frame .gallery .prenda .overlay_prenda {
+        position: absolute;
+        left: -10px;
+        height: 10%;
+        top: 65%;
+        bottom: 25%;
+        z-index: 1;
+        font-size: 20px;
+        font-family: var(--font2);
+        font-weight: 800;
+        background-color: var(--colorW);
+        display: flex;
+        align-items: center;
+        padding: 0 20px 0 30px;
+        opacity: 0;
+        transform: skewX(-10deg) translateX(-100%);
+        transition: all 0.2s ease-in-out;
+    }
+    
+    #Shop .gallery_frame .gallery .prenda:hover .overlay_prenda {
+        opacity: 1;
+        transform: skewX(-10deg) translateX(0%);
+    }
+    
+    #Shop .gallery_frame .gallery .prenda .display {
+        height: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+    }
+    
+    #Shop .gallery_frame .gallery .prenda .display img {
+        height: 65%;
+        aspect-ratio: initial;
+        transition: all 0.2s ease-in-out;
+        background: transparent;
+        margin: auto;
+    }
+    
+    #Shop .gallery_frame .gallery .prenda:hover .display img {
+        height: 70%;
+    } */
+    
+    
+    /* Newsletter Section */
+    #Newsletter {
+        width: 100%;
+        height: 60vh;
+    }
+    
+    #Newsletter .box {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+    
+    #Newsletter .box .box_content {
+        width: 80%;
+        height: 45vh;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    
+    #Newsletter .box .box_content .newsletter_box{
+        background-image: linear-gradient(108.13deg, rgb(12, 18, 32/*, 0.74*/) -38.7%, rgb(9, 15, 29/*, 0.74*/) 114.94%);
+        width: 100%;
+        height: 100%;
+        padding: 6.3vh 5vh;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    
+    #Newsletter .box .box_content .newsletter_box h3 {
+        color: var(--colorW);
+        font-family: var(--font1);
+        font-weight: 500;
+        text-align: center;
+        font-size: 2.5vh;
+        margin: 3vh auto 1vh;
+    }
+    
+    #Newsletter .box .box_content .newsletter_box p {
+        color: var(--colorW);
+        font-family: var(--font1);
+        text-align: center;
+        margin: 1vh auto 2.5vh;
+        font-size: 1.8vh;
+    }
+    
+    #Newsletter .box .box_content .newsletter_box input {
+        display: block;
+        margin: 0 auto 1vh;
+        border-radius: 2px;
+        background: var(--colorW);
+        height: 4vh;
+        width: 85%;
+        border: none;
+        color: var(--color2);
+        padding: 1vh;
+        font-size: 2vh;
+        font-family: var(--font1);
+    }
+    
+    #Newsletter .box .box_content .newsletter_box input[type="submit"] {
+        border: 1.5px solid var(--colorW);
+        background: transparent;   
+        color: var(--colorW);
+        height: 5vh;
+        width: 85%;
+        font-size: 2vh;
+        margin: 3vh auto 0;
+        font-family: var(--font1);
+        border-radius: 5px;
+        padding: 0;
+    }
+    
+    #Newsletter .box .box_content .newsletter_box input[type="submit"]:hover {
+        background: var(--colorW);   
+        color: var(--color1);
+        font-weight: 500;
+    }
+    
+    #Newsletter .box .box_content .contact_box{
+        display: none;
+    }
+    
+    
+    
+    
+    /* Footer Section */
+    #footer {
+        background-color: var(--color4B);
+        width: 100%;
+        height: unset;
+        padding: 0 4vw 2vw;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    #footer .social {
+        padding: 4vh 0vw 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #footer .social .hashtag {
+        font-size: 18vw;
+        width: 88vw;
+        line-height: 18vw;
+        padding: 0;
+        margin: 0 0 -3vh;
+        color: var(--colorW);
+        font-family: var(--font4);
+        font-weight: 500;
+        letter-spacing: 0px;
+    }
+    
+    #footer .social .social_icons {
+        margin: 0.7vh 0.2vw 0 0;
+        display: flex;
+        width: 14vw;
+        justify-content: space-between;
+        display: none;
+    }
+    
+    #footer .divider {
+        margin: 2vh 0 0;
+        background: var(--colorW);
+        height: 1.5vh;
+    }
+    
+    #footer .sponsors {
+        padding: 0;
+        height: 8vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    #footer .sponsors .gallery_frame {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    #footer .sponsors .gallery_frame .gallery {
+        height: 100%;
+        display: flex;
+        animation: sponsors_move 22s linear infinite;
+    }
+    
+    @keyframes sponsors_move {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(-131.6vw);
+        }
+    }
+    
+    #footer .sponsors .gallery_frame .gallery .sponsor {
+        flex-shrink: 0;
+        width: 17.9vw;
+        margin: 0 0.45vw;
+        background-image: unset;
+        border-radius: 3px;
+        position: relative;
+        white-space: nowrap;
+    }
+    
+    #footer .sponsors .gallery_frame .gallery .sponsor img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 55%;
+    }
+    
+    #footer .info {
+        width: 100%;
+        height: 5vh;
+        padding: 1.9vh 3vw 1.9vh 3vw;
+        background-image:linear-gradient(180deg, #070c16 -378.7%, #070a16 174.94%);
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+    
+    #footer .info .links {
+        height: 1.2vh;
+        width: 55vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #footer .info .links a, #footer .info .links p {
+        font-family: var(--font1);
+        font-size: 1.2vh;
+        color: var(--colorW);
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+    }
+    
+    #footer .info .volver_arriba {
+        top: 20vh;
+        right: 3vw;
+        height: 12vh;
+        width: 12vh;
+        position: absolute;
+        display: none;
+    }
+    
+    #footer .info .volver_arriba img {
+        height: 12vh;
+        width: 12vh;
+        position: absolute;
+        animation: rotate 10s linear infinite;
+    }
+    
+    #footer .info .volver_arriba a{
+        cursor: pointer;
+    }
+    
+    #footer .info .volver_arriba svg {
+        height: 6vh;
+        width: 6vh;
+        position: absolute;
+        margin: 3vh 0 0 3vh
+    }
+    
+    @keyframes rotate {
+        from {
+            -ms-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+        to {
+            -ms-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+    }
+    
+    #footer::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    
+    #footer .gallery_frame::-webkit-scrollbar, #footer .gallery_frame .gallery::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}
