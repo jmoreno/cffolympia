@@ -1,4 +1,3 @@
-
 //Navigation and beginning animation
 const nav = document.querySelector("#nav");
 const SCROLL_START = document.querySelector("#Inicio .overlay")
@@ -54,7 +53,7 @@ function matchDataDisplay() {
 
 //Countdown
 const timeLeft = document.querySelector("#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown")
-const matchDay = new Date("Nov 04, 2022 11:00:00")
+const matchDay = new Date("Dec 18, 2022 17:00:00")
 const second = 1000
 const minute = second * 60
 const hour = minute * 60
@@ -107,7 +106,7 @@ let translation_index = 1;
 
 jugadoras_slide = (direction) => {
 
-    if ((direction === "next" && translation_index === 6) || (direction === "prev" && translation_index === 1)) {
+    if ((direction === "next" && translation_index === 5) || (direction === "prev" && translation_index === 1)) {
         return
     }
     else {
@@ -149,7 +148,7 @@ shop_slide = (direction) => {
 
 //Cantera slider
 const equipos_cantera = document.querySelectorAll("#Cantera .cantera_grid-gallery .gallery");
-const equipos_cantera_translate = 29.4117647 * (2/5);
+const equipos_cantera_translate = 12.5 * (1);
 let translate_cantera = 0;
 let cantera_translation_index = 1;
 
@@ -160,7 +159,7 @@ cantera_slide = (direction) => {
     }
     else if((direction === "next" && cantera_translation_index === 8) || (direction === "prev" && cantera_translation_index === 9)) {
         direction === "next" ? cantera_translation_index++ : cantera_translation_index--;
-        direction === "next" ? translate_cantera -= (equipos_cantera_translate / 2) : translate_cantera += (equipos_cantera_translate /2);
+        // direction === "next" ? translate_cantera -= (equipos_cantera_translate / 2) : translate_cantera += (equipos_cantera_translate /2);
 
         equipos_cantera.forEach (
             equipos_cantera => (equipos_cantera.style.transform = `translateX(${translate_cantera}%)`)
@@ -199,24 +198,3 @@ function mainNewsFunc(page) {
         document.querySelector(`#MainNews .news${newsArr[i]}`).removeAttribute('id','main')
     }
 }
-
-
-
-
-
-
-//Cambiar contenido de hashtag footer
-// const HASHTAG = document.querySelector("#footer .social .hashtag")
-// const hashtagArr = ["#CFFOLYMPIA", "#CANTERA", "#1ªNACIONAL", "#OLYMPIA", "#FUTBOLISTAS", "#SOÑAMOS", "#JUNTAS"]
-// let nextHashtag = 1
-
-// function hashtagContentChange () {
-//     HASHTAG.innerText = hashtagArr[nextHashtag - 1]
-//     nextHashtag++
-//     if (nextHashtag >= 8) {
-//         nextHashtag = 1
-//     }
-//     else {
-//         return
-//     }
-// }
