@@ -1,7 +1,3 @@
-﻿
-/* Sucesion breakpoint para responsive design */
-/* >1280px(width) - Initial  //  1280px(width) > & < 1024px(width)  //  1024px(width) > & < 768px(width)  //  768 > 400  ||||| Mobile: 480 x 320 // Mobile 320 x 480 */
-
 :root {
     --color1B: #20395b;
     --color2B: #21385B;
@@ -403,7 +399,7 @@ nav .nav_left:hover p {
 }
 
 #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
-    background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
+    background-image: url(../gen_resources/escudos_equipos_partidos/atl_lince.png);
     height: 50vh;
     width: 50vh;
     background-repeat: no-repeat;
@@ -1172,7 +1168,7 @@ nav .nav_left:hover p {
 
 #Cantera .cantera_grid-gallery .gallery {
     overflow-x: hidden;
-    width: 850%;
+    width: 800%;
     display: flex;
     transition: all 1s;
 }
@@ -1232,7 +1228,7 @@ nav .nav_left:hover p {
 
 #Cantera .cantera_grid-gallery .gallery .infanA {
     background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
 }
 
@@ -1368,16 +1364,16 @@ nav .nav_left:hover p {
 }
 
 #Inscribe .flex .jugadoras {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_jugadoras.JPG);
 }
 
 #Inscribe .flex .practicas {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
-    margin: 0 0.7vw;
+    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_practicas.JPG);
 }
 
 #Inscribe .flex .tecnico {
     background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
+    margin: 0 0.7vw;
 }
 
 
@@ -1606,7 +1602,7 @@ nav .nav_left:hover p {
 #Newsletter .box {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
+    background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto_fondo_newsletter.JPG);
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -2293,7 +2289,6 @@ nav .nav_left:hover p {
     }
 
     #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
-        background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
         height: 50vh;
         width: 50vh;
         background-repeat: no-repeat;
@@ -2302,7 +2297,6 @@ nav .nav_left:hover p {
     }
 
     #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
-        background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
         height: 50vh;
         width: 50vh;
         background-repeat: no-repeat;
@@ -2566,22 +2560,7 @@ nav .nav_left:hover p {
         padding: 0;
     }
 
-
-
-    #MainNews .news1 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_1.jpg);
-    }
-
-    #MainNews .news2 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_2.jpg);
-    }
-
-    #MainNews .news3 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_3.jpg);
-    }
-
     #MainNews .news4 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.jpg);
         box-shadow: none;
     }
 
@@ -3100,103 +3079,86 @@ nav .nav_left:hover p {
     }
 
     #Cantera .cantera_grid-gallery .gallery .benjA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ a.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .benjB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .alevA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ a.jpg);
         background-size: cover;
         background-position: right;
     }
 
     #Cantera .cantera_grid-gallery .gallery .alevB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .alevC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
         background-size: 140%;
         background-position: 55% 60%;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanD {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ d.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .cadetA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ a.jpg);
         background-size: cover;
         background-position: 40%;
     }
 
     #Cantera .cantera_grid-gallery .gallery .cadetB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .juvA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ a.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .juvB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .juvC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .senB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .senC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .vet {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/veteranas.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -3264,19 +3226,6 @@ nav .nav_left:hover p {
         padding-bottom: 0;
         margin-bottom: 0;
         color: var(--colorW);
-    }
-
-    #Inscribe .flex .jugadoras {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
-    }
-
-    #Inscribe .flex .practicas {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
-        margin: 0 0.7vw;
-    }
-
-    #Inscribe .flex .tecnico {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
     }
 
 
@@ -3506,7 +3455,6 @@ nav .nav_left:hover p {
     #Newsletter .box {
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
         background-size: cover;
         background-position: center;
         object-fit: cover;
@@ -4193,7 +4141,6 @@ nav .nav_left:hover p {
     }
 
     #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
-        background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
         height: 40vh;
         width: 40vh;
         background-repeat: no-repeat;
@@ -4202,7 +4149,6 @@ nav .nav_left:hover p {
     }
 
     #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
-        background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
         height: 40vh;
         width: 40vh;
         background-repeat: no-repeat;
@@ -4468,21 +4414,7 @@ nav .nav_left:hover p {
     }
 
 
-
-    #MainNews .news1 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_1.jpg);
-    }
-
-    #MainNews .news2 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_2.jpg);
-    }
-
-    #MainNews .news3 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_3.jpg);
-    }
-
     #MainNews .news4 {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.jpg);
         box-shadow: none;
     }
 
@@ -4957,103 +4889,86 @@ nav .nav_left:hover p {
     }
 
     #Cantera .cantera_grid-gallery .gallery .benjA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ a.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .benjB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .alevA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ a.jpg);
         background-size: cover;
         background-position: right;
     }
 
     #Cantera .cantera_grid-gallery .gallery .alevB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .alevC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
         background-size: 140%;
         background-position: 55% 60%;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .infanD {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ d.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .cadetA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ a.jpg);
         background-size: cover;
         background-position: 40%;
     }
 
     #Cantera .cantera_grid-gallery .gallery .cadetB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .juvA {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ a.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .juvB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .juvC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .senB {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ b.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .senC {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ c.jpg);
         background-size: cover;
         background-position: center;
     }
 
     #Cantera .cantera_grid-gallery .gallery .vet {
-        background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/veteranas.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -5121,19 +5036,6 @@ nav .nav_left:hover p {
         padding-bottom: 0;
         margin-bottom: 0;
         color: var(--colorW);
-    }
-
-    #Inscribe .flex .jugadoras {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
-    }
-
-    #Inscribe .flex .practicas {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
-        margin: 0 0.7vw;
-    }
-
-    #Inscribe .flex .tecnico {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
     }
 
 
@@ -5363,7 +5265,6 @@ nav .nav_left:hover p {
     #Newsletter .box {
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
         background-size: cover;
         background-position: center;
         object-fit: cover;
@@ -5834,37 +5735,37 @@ nav .nav_left:hover p {
     @keyframes change-background {
         0% {
             background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
-            background-size: 250%;
+            background-size: cover;
             background-position: 35%;
         }
         28% {
             background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
-            background-size: 260%;
+            background-size: cover;
             background-position: 45%;
         }
         33% {
             background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
-            background-size: 240%;
+            background-size: cover;
             background-position: 50%;
         }
         61% {
             background-image: url(../gen_resources/general\ images/background/foto_2.jpg);
-            background-size: 270%;
+            background-size: cover;
             background-position: 53%;
         }
         66%{
             background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
-            background-size: 240%;
+            background-size: cover;
             background-position: 40%;
         }
         95%{
             background-image: url(../gen_resources/general\ images/background/foto_3.jpg);
-            background-size: 250%;
+            background-size: cover;
             background-position: 30%;
         }
         100%{
             background-image: url(../gen_resources/general\ images/background/foto_1.jpg);
-            background-size: 250%;
+            background-size: cover;
             background-position: 35%;
         }
     }
@@ -6016,7 +5917,6 @@ nav .nav_left:hover p {
     }
     
     #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-local {
-        background-image: url(../gen_resources/escudos_equipos_partidos/olympia.png);
         height: 30vw;
         width: 30vw;
         background-repeat: no-repeat;
@@ -6025,7 +5925,6 @@ nav .nav_left:hover p {
     }
     
     #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
-        background-image: url(../gen_resources/escudos_equipos_partidos/atleti.png);
         height: 30vw;
         width: 30vw;
         background-repeat: no-repeat;
@@ -6337,7 +6236,7 @@ nav .nav_left:hover p {
     
     #Players .gallery_frame .gallery {
         display: flex;
-        width: 1060%;
+        width: 883.3333%;
         height: 100%;
         box-sizing: border-box;
         overflow-x: scroll;
@@ -6565,13 +6464,13 @@ nav .nav_left:hover p {
     
     #Cantera .cantera_grid-gallery .gallery {
         overflow-x: scroll;
-        width: 1600%;
+        width: 1505.88235%;
         display: flex;
         transition: all 1s;
     }
     
     #Cantera .cantera_grid-gallery .gallery div {
-        width: 92.1176471vw;
+        width: 94.1176471vw;
         height: 38.261vw;
         margin: 0 1vw;
         background: #16223d;
@@ -6594,57 +6493,59 @@ nav .nav_left:hover p {
         bottom: 4.2vw;
     }
 
-    /* #Cantera .cantera_grid-gallery .gallery .benjA {
-        background-image: none;
+    #Cantera .cantera_grid-gallery .gallery .benjA {
+        background-size: cover;
+        margin: 0 1vw 0 0;
     } 
     #Cantera .cantera_grid-gallery .gallery .benjB {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .alevA {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .alevB {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .alevC {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .infanA {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .infanB {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .infanC {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .infanD {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .cadetA {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .cadetB {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .juvA {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .juvB {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .juvC {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .senB {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .senC {
-        background-image: none;    
+        background-size: cover;
     }
     #Cantera .cantera_grid-gallery .gallery .vet {
-        background-image: none;    
-    } */
+        background-size: cover;
+        margin: 0 0 0 1vw;
+    } 
     
     
     
@@ -6703,17 +6604,11 @@ nav .nav_left:hover p {
     }
 
     #Inscribe .flex .jugadoras {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
-        margin: 0 0 1vh;
-    }
-    
-    #Inscribe .flex .practicas {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto\ 6.jpg);
         margin: 0 0 1vh;
     }
     
     #Inscribe .flex .tecnico {
-        background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
+        margin: 0 0 1vh;
     }
     
     
@@ -6846,12 +6741,11 @@ nav .nav_left:hover p {
     #Newsletter .box {
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto\ 1.JPG);
         background-size: cover;
         background-position: center;
         object-fit: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: unset;
         margin: 0 auto;
         padding: 0;
         position: relative;
