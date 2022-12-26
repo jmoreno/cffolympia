@@ -59,7 +59,7 @@ const navigate = document.querySelector("nav")
 const main = document.querySelector("main")
 const footer = document.querySelector("#footer")
 
-const matchDayan = new Date("Jan 1, 2023 00:00:00")
+const matchDayan = new Date("Jan 1, 2022 00:00:00")
 const secondan = 1000
 const minutean = secondan * 60
 const houran = minutean * 60
