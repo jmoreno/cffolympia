@@ -50,10 +50,62 @@ function matchDataDisplay() {
 }
 
 
+//Countdown de AÑO NUEVO
+
+const timeLeftan = document.querySelector(".countdown_an")
+const tiempoDesc = document.querySelector(".header_an")
+const navidad = document.querySelector(".navidad")
+const navigate = document.querySelector("nav")
+const main = document.querySelector("main")
+const footer = document.querySelector("#footer")
+
+const matchDayan = new Date("Dec 25, 2022 13:29:00")
+const secondan = 1000
+const minutean = secondan * 60
+const houran = minutean * 60
+const dayan = houran * 24
+let timerIdan
+
+function countDownan() {
+    const todayan = new Date()
+    const timeSpanan = matchDayan - todayan
+
+    navigate.style.display = "hidden"
+    main.style.display = "hidden"
+    footer.style.display = "hidden"
+    
+    if (timeSpanan <= 0) {
+        timeLeftan.classList.add("hidden")
+        tiempoDesc.classList.add("hidden")
+        navidad.classList.add("hidden")
+        navigate.style.display = "block"
+        main.style.display = "block"
+        footer.style.display = "block"
+        clearInterval(timerIdan)
+        return
+    }
+
+    const daysan = Math.floor(timeSpanan / dayan)
+    const hoursan = Math.floor((timeSpanan % dayan) / houran).toLocaleString(undefined,{minimumIntegerDigits: 2})
+    const minutesan = Math.floor((timeSpanan % houran) / minutean).toLocaleString(undefined,{minimumIntegerDigits: 2})
+    const seconds1an = Math.floor((timeSpanan % minutean) / secondan)
+    const seconds2an = seconds1an.toLocaleString(undefined,{minimumIntegerDigits: 2})
+
+    if (timeSpanan >= minutean) {
+        timeLeftan.innerText = `${daysan}:${hoursan}:${minutesan}:${seconds2an}`
+    }
+    else {
+        timeLeftan.innerText = `${seconds1an}`
+    }
+
+}
+timerIdan = setInterval(countDownan, secondan)
+
+
 
 //Countdown
 const timeLeft = document.querySelector("#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown")
-const matchDay = new Date("Dec 18, 2022 17:00:00")
+const matchDay = new Date("Jan 8, 2023 17:00:00")
 const second = 1000
 const minute = second * 60
 const hour = minute * 60
@@ -198,3 +250,28 @@ function mainNewsFunc(page) {
         document.querySelector(`#MainNews .news${newsArr[i]}`).removeAttribute('id','main')
     }
 }
+
+
+
+// Cookies
+const botonAceptarCookies = document.getElementById('btn-aceptar-cookies');
+const avisoCookies = document.getElementById('aviso-cookies');
+const fondoAvisoCookies = document.getElementById('fondo-aviso-cookies');
+
+dataLayer = [];
+
+if(!localStorage.getItem('cookies-aceptadas')){
+	avisoCookies.classList.add('activo');
+	fondoAvisoCookies.classList.add('activo');
+} else {
+	dataLayer.push({'event': 'cookies-aceptadas'});
+}
+
+botonAceptarCookies.addEventListener('click', () => {
+	avisoCookies.classList.remove('activo');
+	fondoAvisoCookies.classList.remove('activo');
+
+	localStorage.setItem('cookies-aceptadas', true);
+
+	dataLayer.push({'event': 'cookies-aceptadas'});
+});
