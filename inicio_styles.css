@@ -4476,6 +4476,11 @@ nav .nav_left:hover p {
         width: 45%;
     }
 
+    #Inicio .sponsors_watermark .mahou_hero {
+        height: 20px;
+        margin-top: -2px;
+    }
+
     #Inicio .sponsors_watermark.match {
         left: 0;
         right: 0;
@@ -6266,6 +6271,11 @@ nav .nav_left:hover p {
         left: 4vw;
         right: 4vw;
         width: 92vw;
+    }
+
+    #Inicio .sponsors_watermark .mahou_hero {
+        height: 10px;
+        margin-top: 0;
     }
     
     #Inicio .sponsors_watermark.match {
