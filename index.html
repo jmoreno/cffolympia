@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <title>CFF Olympia Las Rozas</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <!-- ETIQUETAS META -->
     <meta charset="utf-8" />
@@ -163,7 +163,7 @@
                 <a href="https://www.ruesma.com/"><img src="../gen_resources/sponsor_logos/logo_ruesma_mini.png" alt="Ruesma, patrocinador oficial del CFF Olympia Las Rozas"/></a>
                 <a href="https://www.aliberico.com/es/"><img src="../gen_resources/sponsor_logos/logo_aliberico_mini.png" alt="Alibérico, patrocinador oficial del CFF Olympia Las Rozas"/></a>
                 <a href="https://lraingenieria.es/"><img src="../gen_resources/sponsor_logos/logo_lra_mini.png" alt="LRA, patrocinador oficial del CFF Olympia Las Rozas"/></a>
-                <a href="https://www.mahou.es/"><img class="mahou_hero" src="../gen_resources/sponsor_logos/logo_mahou_mini.png" alt="Mahou, patrocinador oficial del CFF Olympia Las Rozas"/></a>
+                <a  href="https://www.mahou.es/"><img class="mahou_hero" src="../gen_resources/sponsor_logos/logo_mahou_mini.png" alt="Mahou, patrocinador oficial del CFF Olympia Las Rozas"/></a>
                 <a href="https://grupomimo.com/"><img src="../gen_resources/sponsor_logos/logo_mimo_mini.png" alt="Mimó, patrocinador oficial del CFF Olympia Las Rozas"/></a>
                 <a href="https://appletreecommunications.com/es/"><img src="../gen_resources/sponsor_logos/logo_appletree_mini.png" alt="Appletree, patrocinador oficial del CFF Olympia Las Rozas"/></a>
                 <a href="http://vercocinas.es/"><img src="../gen_resources/sponsor_logos/logo_vercocinas_mini.png" alt="Vercocinas, patrocinador oficial del CFF Olympia Las Rozas"/></a>
@@ -391,10 +391,19 @@
                     <div class="newsletter_box">
                         <h3>NEWSLETTER</h3>
                         <p>Noticias, eventos, torneos...<br/> ¡Apúntate a la Newsletter del Olympia!</p>
-                        <form action="inicio_mail.php" method="POST">
+                        <form action="https://formsubmit.co/your@email.com" method="POST">
+                            <input type="hidden" name="_subject" value="Alguien quiere apuntarse a la Newsletter del Olympia">
+                            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
                             <input placeholder="Nombre y Apellidos" type="text" name="name" required/>
                             <input placeholder="Email" type="email" name="email" required/>
+
+                            <button class="g-recaptcha" 
+                            data-sitekey="reCAPTCHA_site_key" 
+                            data-callback='onSubmit' 
+                            data-action='submit'>Submit</button>
+
                             <input value="¡Apúntame!" type="submit"/>
+                            
                             <!-- <button type="submit">Send</button> -->
                        </form>
                     </div>
