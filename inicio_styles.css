@@ -683,6 +683,11 @@ nav .nav_left:hover p {
     width: 35%;
 }
 
+#Inicio .sponsors_watermark .mahou_hero {
+    height: 26px;
+    margin-top: -3px;
+}
+
 #Inicio .sponsors_watermark.match {
     left: 0;
     right: 0;
