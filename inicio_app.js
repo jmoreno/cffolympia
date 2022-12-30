@@ -70,9 +70,9 @@ function countDownan() {
     const todayan = new Date()
     const timeSpanan = matchDayan - todayan
 
-    navigate.style.display = "hidden"
-    main.style.display = "hidden"
-    footer.style.display = "hidden"
+    navigate.style.display = "none"
+    main.style.display = "none"
+    footer.style.display = "none"
     
     if (timeSpanan <= 0) {
         timeLeftan.classList.add("hidden")
