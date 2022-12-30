@@ -398,18 +398,19 @@
                             <input placeholder="Nombre y Apellidos" type="text" name="Nombre" required/>
                             <input placeholder="Email" type="email" name="Correo" required/>
 
-                            <button class="g-recaptcha" 
-                            data-sitekey="6LcAVa8jAAAAADQsg2ca8v9D_iV-nnxGi3QYghiS" 
-                            data-callback='onSubmit' 
-                            data-action='submit'>¡Apúntame!</button>
-
                             <script>
                                 function onSubmit(token) {
                                     document.getElementById("demo-form").submit();
                                 }
                             </script>
 
-                            <!-- <input value="¡Apúntame!" type="submit"/> -->
+                            <input 
+                            class="g-recaptcha" 
+                            data-sitekey="6LcAVa8jAAAAADQsg2ca8v9D_iV-nnxGi3QYghiS" 
+                            data-callback='onSubmit' 
+                            data-action='submit' 
+                            value="¡Apúntame!" 
+                            type="submit"/>
                             
                             <!-- <button type="submit">Send</button> -->
                        </form>
