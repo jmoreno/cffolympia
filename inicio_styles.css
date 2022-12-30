@@ -1,3 +1,6 @@
+/* Sucesion breakpoint para responsive design */
+/* >1280px(width) - Initial  //  1280px(width) > & < 1024px(width)  //  1024px(width) > & < 768px(width)  //  768 > 400  ||||| Mobile: 480 x 320 // Mobile 320 x 480 */
+
 :root {
     --color1B: #20395b;
     --color2B: #21385B;
@@ -1797,8 +1800,9 @@ nav .nav_left:hover p {
     padding: 1vh;
     font-family: var(--font1);
 }
-
-#Newsletter .box .box_content .newsletter_box input[type="submit"] {
+/* --------------------- */
+#Newsletter .box .box_content .newsletter_box button {
+    display: block;
     border: 2px solid var(--colorW);
     background: transparent;   
     color: var(--colorW);
@@ -1809,11 +1813,12 @@ nav .nav_left:hover p {
     font-family: var(--font1);
     border-radius: 5px;
 }
-
-#Newsletter .box .box_content .newsletter_box input[type="submit"]:hover {
+/* ---------------------------------------------------------------------------------------------------- -*/
+#Newsletter .box .box_content .newsletter_box button:hover {
     background: var(--colorW);   
     color: var(--color1);
     font-weight: 500;
+    cursor: pointer;
 }
 
 #Newsletter .box .box_content .contact_box{
