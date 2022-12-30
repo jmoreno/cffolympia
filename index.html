@@ -391,16 +391,17 @@
                     <div class="newsletter_box">
                         <h3>NEWSLETTER</h3>
                         <p>Noticias, eventos, torneos...<br/> ¡Apúntate a la Newsletter del Olympia!</p>
-                        <form action="https://formsubmit.co/your@email.com" method="POST">
+                        <form action="https://formsubmit.co/hugoprieto.developer@gmail.com" method="POST">
                             <input type="hidden" name="_subject" value="Alguien quiere apuntarse a la Newsletter del Olympia">
-                            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-                            <input placeholder="Nombre y Apellidos" type="text" name="name" required/>
-                            <input placeholder="Email" type="email" name="email" required/>
+                            <input type="hidden" name="_next" value="https://cffolympia.es/mail_index.html">
+                            <input type="hidden" name="_cc" value="another@gmail.com"> <!--TO DO-->
+                            <input placeholder="Nombre y Apellidos" type="text" name="Nombre" required/>
+                            <input placeholder="Email" type="email" name="Correo" required/>
 
                             <button class="g-recaptcha" 
                             data-sitekey="6LcAVa8jAAAAADQsg2ca8v9D_iV-nnxGi3QYghiS" 
                             data-callback='onSubmit' 
-                            data-action='submit'>Submit</button>
+                            data-action='submit'>¡Apúntame!</button>
 
                             <script>
                                 function onSubmit(token) {
@@ -408,7 +409,7 @@
                                 }
                             </script>
 
-                            <input value="¡Apúntame!" type="submit"/>
+                            <!-- <input value="¡Apúntame!" type="submit"/> -->
                             
                             <!-- <button type="submit">Send</button> -->
                        </form>
