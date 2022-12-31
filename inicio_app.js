@@ -92,7 +92,7 @@ function countDownan() {
     const seconds2an = seconds1an.toLocaleString(undefined,{minimumIntegerDigits: 2})
 
     if (timeSpanan >= minutean) {
-        timeLeftan.innerText = `${daysan}:${hoursan}:${minutesan}:${seconds2an}`
+        timeLeftan.innerText = `${minutesan}:${seconds2an}`
     }
     else {
         timeLeftan.innerText = `${seconds1an}`
