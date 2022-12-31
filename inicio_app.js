@@ -50,59 +50,6 @@ function matchDataDisplay() {
 }
 
 
-//Countdown de AÑO NUEVO
-
-const timeLeftan = document.querySelector(".countdown_an")
-const tiempoDesc = document.querySelector(".header_an")
-const navidad = document.querySelector(".navidad")
-const navigate = document.querySelector("nav")
-const main = document.querySelector("main")
-const footer = document.querySelector("#footer")
-
-const matchDayan = new Date("Jan 1, 2023 00:00:00")
-const secondan = 1000
-const minutean = secondan * 60
-const houran = minutean * 60
-const dayan = houran * 24
-let timerIdan
-
-function countDownan() {
-    const todayan = new Date()
-    const timeSpanan = matchDayan - todayan
-
-    navigate.style.display = "none"
-    main.style.display = "none"
-    footer.style.display = "none"
-    
-    if (timeSpanan <= 0) {
-        timeLeftan.classList.add("hidden")
-        tiempoDesc.classList.add("hidden")
-        navidad.classList.add("hidden")
-        navigate.style.display = "block"
-        main.style.display = "block"
-        footer.style.display = "block"
-        clearInterval(timerIdan)
-        return
-    }
-
-    const daysan = Math.floor(timeSpanan / dayan)
-    const hoursan = Math.floor((timeSpanan % dayan) / houran).toLocaleString(undefined,{minimumIntegerDigits: 2})
-    const minutesan = Math.floor((timeSpanan % houran) / minutean).toLocaleString(undefined,{minimumIntegerDigits: 2})
-    const seconds1an = Math.floor((timeSpanan % minutean) / secondan)
-    const seconds2an = seconds1an.toLocaleString(undefined,{minimumIntegerDigits: 2})
-
-    if (timeSpanan >= minutean) {
-        timeLeftan.innerText = `${daysan}:${hoursan}:${minutesan}:${seconds2an}`
-    }
-    else {
-        timeLeftan.innerText = `${seconds1an}`
-    }
-
-}
-timerIdan = setInterval(countDownan, secondan)
-
-
-
 //Countdown
 const timeLeft = document.querySelector("#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown")
 const matchDay = new Date("Jan 8, 2023 17:00:00")
