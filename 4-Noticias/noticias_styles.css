@@ -208,7 +208,7 @@ nav .nav_left:hover p {
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: 0 20%; /*Esta a veces requiere ser cambiada*/
     border-radius: 2.5px;
 }
 
@@ -319,7 +319,7 @@ nav .nav_left:hover p {
 }
 
 #Inicio .grid .noticia .img4 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_4.JPG);
+    background-image: url(../gen_resources/general\ images/foto_noticia_4.jpg);
 }
 
 #Inicio .grid .noticia .img5 {
@@ -327,7 +327,7 @@ nav .nav_left:hover p {
 }
 
 #Inicio .grid .noticia .img6 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_6.jpg);
+    background-image: url(../gen_resources/general\ images/foto_noticia_6.JPG);
 }
 
 #Inicio .grid .noticia .img7 {
