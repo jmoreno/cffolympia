@@ -187,7 +187,7 @@ nav .nav_left:hover p {
     display: grid;
     width: 100%;
     max-width: 1800px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-row-gap: 40px;
     grid-column-gap: 15px;
     justify-items: stretch;
@@ -201,12 +201,22 @@ nav .nav_left:hover p {
     overflow: hidden;
 }
 
+#Shop .grid .element a {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
 #Shop .grid .element .display {
     position: relative;
     background-image: linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
     width: 100%;
     aspect-ratio: 0.67;
     margin-bottom: 10px;
+    background-size: cover;
 }
 
 #Shop .grid .element .display img {
