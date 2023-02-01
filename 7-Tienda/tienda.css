@@ -222,6 +222,7 @@ nav .nav_left:hover p {
 #Shop .grid .element .display img {
     position: relative;
     background-size: cover;
+    height: 100%;
 }
 
 #Shop .grid .element .display .price {
