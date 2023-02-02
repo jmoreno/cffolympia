@@ -95,7 +95,7 @@ nav .nav_left:hover p {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 20vw;
+    width: 24vw;
     justify-content: space-between;
 }
 
@@ -433,7 +433,7 @@ button:hover {
         list-style-type: none;
         padding: 0;
         margin: 0;
-        width: 26vw;
+        width: 30vw;
         justify-content: space-between;
     }
 

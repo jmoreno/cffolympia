@@ -95,7 +95,7 @@ nav .nav_left:hover p {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 20vw;
+    width: 24vw;
     justify-content: space-between;
 }
 
@@ -220,7 +220,7 @@ nav .nav_left:hover p {
 }
 
 #Shop .grid .element .display img {
-    position: relative;
+    position: absolute;
     background-size: cover;
     height: 100%;
 }
@@ -457,8 +457,9 @@ nav .nav_left:hover p {
     }
     
     #Shop .grid .element .display img {
-        position: relative;
+        position: absolute;
         background-size: cover;
+        height: 100%;
     }
     
     #Shop .grid .element .display .price {
@@ -670,8 +671,9 @@ nav .nav_left:hover p {
     }
     
     #Shop .grid .element .display img {
-        position: relative;
+        position: absolute;
         background-size: cover;
+        height: 100%;
     }
     
     #Shop .grid .element .display .price {
