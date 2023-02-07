@@ -222,3 +222,20 @@ botonAceptarCookies.addEventListener('click', () => {
 
 	dataLayer.push({'event': 'cookies-aceptadas'});
 });
+
+
+//Seccion de podcast
+const epFlex = document.querySelector(".podcast__gallery-flex")
+
+class Episode {
+    constructor (name = "LUNES NOCHE FÚTBOL DE MADRID", imgLink = "/gen_resources/general images/lunes_noche_futbol.jpg", epLink){
+        this.name = name;
+        this.imgLink = imgLink;
+        this.epLink = epLink;
+    }
+}
+
+let ep1 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #1 | 16/01/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/Pjo7oMxt0z0?t=4244")
+let ep2 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #2 | 23/01/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/8cKPmhVXRfw?t=4880")
+let ep3 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #3 | 31/01/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "")
+let ep4 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #4 | 06/02/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "")
