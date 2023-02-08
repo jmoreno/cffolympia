@@ -476,12 +476,12 @@ nav .nav_left:hover p {
 }
 
 #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
-    background-image: url(../gen_resources/escudos_equipos_partidos/olimpico.png);
+    background-image: url(../gen_resources/escudos_equipos_partidos/salamanca.png);
     height: 50vh;
-    width: 50vh;
+    width: 60vh; /*50vh*/
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs{
@@ -773,154 +773,73 @@ nav .nav_left:hover p {
 
 
 
-/* Jugadoras - Sección experimental */
-/* #Jugadoras {
-    margin: 0;
+/* Podcast with RFFM section */
+
+.podcast {
     width: 100%;
-    padding: 0;
-    height: 45vh;
-    position: relative;
-    background: linear-gradient(45deg, var(--color4B) 0%, #00273d 100%);
-    background-size: 200%;
-    animation: aurora 10s infinite;
-    overflow: hidden;
-    display: flex;
+    display: block;
+    padding: 4vw 6vw 3vw;
+    background-image: linear-gradient(90deg, #10182c, #10182c);
 }
 
-#Jugadoras .jugadoras_inner {
-    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02));
-    background-size: 200%;
-    animation: aurora 7s infinite;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-#Jugadoras .jugadora1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-#Jugadoras .jugadora2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-@keyframes aurora {
-    0% {
-        background-position: left top;
-    }
-    25% {
-        background-position: right top;
-    }
-    50% {
-        background-position: right bottom;
-    }
-    75% {
-        background-position: left bottom;
-    }
-    100% {
-        background-position: left top;
-    }
-}
-
-#Jugadoras .olympia_logo {
-    background-image: url(../gen_resources/olympia_branding/Escudo\ blanco\ recortado.png);
-    width: 30vw;
-    aspect-ratio: 1;
-    position: absolute;
-    top: -3vw;
-    left: -3vw;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
-    opacity: 0.07;
-    z-index: 0;
-}
-
-#Jugadoras  h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 40vh;
-    line-height: 40vh;
-    font-weight: 900;
-    font-family: var(--font4);
-    position: absolute;
-    top: 0;
-    margin: auto;
-    right: 1.5vw;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) -53.62%, rgba(255, 255, 255, 0.4) 100.81%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-align: center;
-    align-items: center;
-    vertical-align: middle;
-    z-index: 1;
-}
-
-#Jugadoras  h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 7.5vh;
-    line-height: 7.5vh;
-    color: var(--colorW);
+.podcast__title {
+    text-decoration: none;
+    font-family: var(--font3);
     font-weight: 600;
-    font-family: var(--font2);
-    position: absolute;
-    bottom: 1vw;
-    left: 1.5vw;
-    z-index: 3;
-}
-
-#Jugadoras  h3 {
+    color: var(--colorW);
+    font-size: 2rem;
+    line-height: 2rem;
     margin: 0;
     padding: 0;
-    font-size: 2.5vh;
-    line-height: 2.5vh;
-    color: var(--colorW);
-    font-weight: 500;
-    font-family: var(--font2);
-    position: absolute;
-    bottom: calc(0.9vw + 7.5vh);
-    left: 1.5vw;
-    z-index: 3;
 }
 
-#Jugadoras  h4 {
+.podcast__gallery-frame {
+    padding: 24px 0;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    font-size: 1vh;
-    line-height: 1vh;
-    color: var(--colorW);
+}
+
+.podcast__gallery-flex {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.podcast__episode {
+    text-decoration: none;
+    font-family: var(--font2);
     font-weight: 400;
-    font-family: var(--font2);
-    position: absolute;
-    top: 1.4vw;
-    left: 1.5vw;
-    z-index: 1;
+    color: var(--colorW);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin: 0;
+    padding: 0;
 }
 
-#Jugadoras .jugadora_img {
-    background-image: url(../gen_resources/senior/jugadoras_fondo-transparente/foto_arantxa.png);
-    height: 32vh;
-    width: 15vw;
-    position: absolute;
-    bottom: 0;
-    right: 7.5vw;
-    z-index: 2;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-} */
+.podcast__img {
+    height: 270px;
+}
 
+.podcast__gallery-flex::-webkit-scrollbar {
+    height: 8px;
+    width: 100%;
+}
 
+.podcast__gallery-flex::-webkit-scrollbar-track {
+    background: transparent;
+    width: 8px;
+}
+
+.podcast__gallery-flex::-webkit-scrollbar-thumb {
+    background: #2c3547;
+    border-radius: 4px;
+    width: 8px;
+}
+  
+.podcast__gallery-flex::-webkit-scrollbar-thumb:hover {
+    background: #1b2336;
+}
 
 
 
@@ -928,7 +847,7 @@ nav .nav_left:hover p {
 #Players {
     margin: 0;
     width: 100%;
-    padding: 6vw 6vw 2vw;
+    padding: 3vw 6vw 2vw;
     overflow-x: hidden;
     position: relative;
 }

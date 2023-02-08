@@ -52,7 +52,7 @@ function matchDataDisplay() {
 
 //Countdown
 const timeLeft = document.querySelector("#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown")
-const matchDay = new Date("Feb 5, 2023 16:30:00")
+const matchDay = new Date("Feb 12, 2023 17:00:00")
 const second = 1000
 const minute = second * 60
 const hour = minute * 60
@@ -227,6 +227,8 @@ botonAceptarCookies.addEventListener('click', () => {
 //Seccion de podcast
 const epFlex = document.querySelector(".podcast__gallery-flex")
 
+let arrEps = []
+
 class Episode {
     constructor (name = "LUNES NOCHE FÚTBOL DE MADRID", imgLink = "/gen_resources/general images/lunes_noche_futbol.jpg", epLink){
         this.name = name;
@@ -235,7 +237,19 @@ class Episode {
     }
 }
 
-let ep1 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #1 | 16/01/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/Pjo7oMxt0z0?t=4244")
-let ep2 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #2 | 23/01/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/8cKPmhVXRfw?t=4880")
-let ep3 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #3 | 31/01/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "")
-let ep4 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #4 | 06/02/2023", "/gen_resources/general images/lunes_noche_futbol.jpg", "")
+let ep1 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #1 | Noelia Llamas y Nuria Díaz", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/Pjo7oMxt0z0?t=4244")
+let ep2 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #2 | Cris Menéndez e Irene González", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/8cKPmhVXRfw?t=4880")
+let ep3 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #3 | Alba Masa", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://www.youtube.com/live/TQEcYiiyh7c?feature=share&t=5249")
+let ep4 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #4 | Arantxa y Raquel Guardado", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://www.youtube.com/live/_IOZnSWAAZM?feature=share&t=5415")
+
+arrEps.push(ep4, ep3, ep2, ep1)
+
+for (let episode of arrEps) {
+    epFlex.innerHTML += 
+    `<a class="podcast__episode" href="${episode.epLink}">
+        <picture>
+            <img src="${episode.imgLink}" alt="Portada programa ${episode.name}" class="podcast__img"/>
+        </picture>
+        ${episode.name}
+    </a>`
+}
