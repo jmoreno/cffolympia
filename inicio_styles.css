@@ -773,81 +773,13 @@ nav .nav_left:hover p {
 
 
 
-/* Podcast with RFFM section */
-
-.podcast {
-    width: 100%;
-    display: block;
-    padding: 4vw 6vw 3vw;
-    background-image: linear-gradient(90deg, #10182c, #10182c);
-}
-
-.podcast__title {
-    text-decoration: none;
-    font-family: var(--font3);
-    font-weight: 600;
-    color: var(--colorW);
-    font-size: 2rem;
-    line-height: 2rem;
-    margin: 0;
-    padding: 0;
-}
-
-.podcast__gallery-frame {
-    padding: 24px 0;
-    width: 100%;
-    margin: 0;
-}
-
-.podcast__gallery-flex {
-    display: flex;
-    gap: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-
-.podcast__episode {
-    text-decoration: none;
-    font-family: var(--font2);
-    font-weight: 400;
-    color: var(--colorW);
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    margin: 0;
-    padding: 0;
-}
-
-.podcast__img {
-    height: 270px;
-}
-
-.podcast__gallery-flex::-webkit-scrollbar {
-    height: 8px;
-    width: 100%;
-}
-
-.podcast__gallery-flex::-webkit-scrollbar-track {
-    background: transparent;
-    width: 8px;
-}
-
-.podcast__gallery-flex::-webkit-scrollbar-thumb {
-    background: #2c3547;
-    border-radius: 4px;
-    width: 8px;
-}
-  
-.podcast__gallery-flex::-webkit-scrollbar-thumb:hover {
-    background: #1b2336;
-}
-
 
 
 /* Players Section */
 #Players {
     margin: 0;
     width: 100%;
-    padding: 3vw 6vw 2vw;
+    padding: 6vw 6vw 2vw;
     overflow-x: hidden;
     position: relative;
 }
@@ -1316,12 +1248,80 @@ nav .nav_left:hover p {
 }
 
 
+/* Podcast with RFFM section */
+
+.podcast {
+    width: 100%;
+    display: block;
+    padding: 4vw 6vw 0vw;
+}
+
+.podcast__title {
+    text-decoration: none;
+    font-family: var(--font3);
+    font-weight: 600;
+    color: var(--colorW);
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.podcast__gallery-frame {
+    padding: 24px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.podcast__gallery-flex {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.podcast__episode {
+    text-decoration: none;
+    font-family: var(--font2);
+    font-weight: 400;
+    color: var(--colorW);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.podcast__img {
+    height: 270px;
+}
+
+.podcast__gallery-flex::-webkit-scrollbar {
+    height: 8px;
+    width: 100%;
+}
+
+.podcast__gallery-flex::-webkit-scrollbar-track {
+    background: transparent;
+    width: 8px;
+}
+
+.podcast__gallery-flex::-webkit-scrollbar-thumb {
+    background: #2c3547;
+    border-radius: 4px;
+    width: 8px;
+}
+  
+.podcast__gallery-flex::-webkit-scrollbar-thumb:hover {
+    background: #1b2336;
+}
+
+
 
 /* Inscription Section */
 #Inscribe {
     margin: 0;
     width: 100%;
-    padding: 6vw 0 0.7vw;
+    padding: 5vw 0 0.7vw;
     overflow-x: hidden;
     position: relative;
 }
@@ -3182,6 +3182,75 @@ nav .nav_left:hover p {
 
 
 
+    /* Podcast with RFFM section */
+
+    .podcast {
+        width: 100%;
+        display: block;
+        padding: 4vw 6vw 0vw;
+    }
+
+    .podcast__title {
+        text-decoration: none;
+        font-family: var(--font3);
+        font-weight: 600;
+        color: var(--colorW);
+        font-size: 2rem;
+        line-height: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .podcast__gallery-frame {
+        padding: 24px 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .podcast__gallery-flex {
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .podcast__episode {
+        text-decoration: none;
+        font-family: var(--font2);
+        font-weight: 400;
+        color: var(--colorW);
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .podcast__img {
+        height: 270px;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar {
+        height: 8px;
+        width: 100%;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar-track {
+        background: transparent;
+        width: 8px;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar-thumb {
+        background: #2c3547;
+        border-radius: 4px;
+        width: 8px;
+    }
+  
+    .podcast__gallery-flex::-webkit-scrollbar-thumb:hover {
+        background: #1b2336;
+    }
+
+
+
     /* Inscription Section */
     #Inscribe {
         margin: 0;
@@ -4308,6 +4377,11 @@ nav .nav_left:hover p {
         margin-top: -2px;
     }
 
+    #Inicio .sponsors_watermark .aliberico_hero {
+        height: 20px;
+        margin-top: -3px;
+    }
+
     #Inicio .sponsors_watermark.match {
         left: 0;
         right: 0;
@@ -4433,156 +4507,7 @@ nav .nav_left:hover p {
 
 
 
-    /* Jugadoras - Sección experimental */
-    /* #Jugadoras {
-        margin: 0;
-        width: 100%;
-        padding: 0;
-        height: 45vh;
-        position: relative;
-        background: linear-gradient(45deg, var(--color4B) 0%, #00273d 100%);
-        background-size: 200%;
-        animation: aurora 10s infinite;
-        overflow: hidden;
-        display: flex;
-    }
-
-    #Jugadoras .jugadoras_inner {
-        background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.02));
-        background-size: 200%;
-        animation: aurora 7s infinite;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
-
-    #Jugadoras .jugadora1 {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-
-    #Jugadoras .jugadora2 {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-
-    @keyframes aurora {
-        0% {
-            background-position: left top;
-        }
-        25% {
-            background-position: right top;
-        }
-        50% {
-            background-position: right bottom;
-        }
-        75% {
-            background-position: left bottom;
-        }
-        100% {
-            background-position: left top;
-        }
-    }
-
-    #Jugadoras .olympia_logo {
-        background-image: url(../gen_resources/olympia_branding/Escudo\ blanco\ recortado.png);
-        width: 30vw;
-        aspect-ratio: 1;
-        position: absolute;
-        top: -3vw;
-        left: -3vw;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: left;
-        opacity: 0.07;
-        z-index: 0;
-    }
-
-    #Jugadoras  h1 {
-        margin: 0;
-        padding: 0;
-        font-size: 40vh;
-        line-height: 40vh;
-        font-weight: 900;
-        font-family: var(--font4);
-        position: absolute;
-        top: 0;
-        margin: auto;
-        right: 1.5vw;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 1) -53.62%, rgba(255, 255, 255, 0.4) 100.81%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-align: center;
-        align-items: center;
-        vertical-align: middle;
-        z-index: 1;
-    }
-
-    #Jugadoras  h2 {
-        margin: 0;
-        padding: 0;
-        font-size: 7.5vh;
-        line-height: 7.5vh;
-        color: var(--colorW);
-        font-weight: 600;
-        font-family: var(--font2);
-        position: absolute;
-        bottom: 1vw;
-        left: 1.5vw;
-        z-index: 3;
-    }
-
-    #Jugadoras  h3 {
-        margin: 0;
-        padding: 0;
-        font-size: 2.5vh;
-        line-height: 2.5vh;
-        color: var(--colorW);
-        font-weight: 500;
-        font-family: var(--font2);
-        position: absolute;
-        bottom: calc(0.9vw + 7.5vh);
-        left: 1.5vw;
-        z-index: 3;
-    }
-
-    #Jugadoras  h4 {
-        margin: 0;
-        padding: 0;
-        font-size: 1vh;
-        line-height: 1vh;
-        color: var(--colorW);
-        font-weight: 400;
-        font-family: var(--font2);
-        position: absolute;
-        top: 1.4vw;
-        left: 1.5vw;
-        z-index: 1;
-    }
-
-    #Jugadoras .jugadora_img {
-        background-image: url(../gen_resources/senior/jugadoras_fondo-transparente/foto_arantxa.png);
-        height: 32vh;
-        width: 15vw;
-        position: absolute;
-        bottom: 0;
-        right: 7.5vw;
-        z-index: 2;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    } */
-
-
-
-
+    
 
     /* Players Section */
     #Players {
@@ -4994,6 +4919,79 @@ nav .nav_left:hover p {
         width: 0px;
         height: 0px;
     }
+
+
+
+
+
+    /* Podcast with RFFM section */
+
+    .podcast {
+        width: 100%;
+        display: block;
+        padding: 4vw 6vw 0vw;
+    }
+
+    .podcast__title {
+        text-decoration: none;
+        font-family: var(--font3);
+        font-weight: 600;
+        color: var(--colorW);
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .podcast__gallery-frame {
+        padding: 24px 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .podcast__gallery-flex {
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .podcast__episode {
+        text-decoration: none;
+        font-family: var(--font2);
+        font-weight: 400;
+        color: var(--colorW);
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .podcast__img {
+        height: 180px;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar {
+        height: 0px;
+        width: 0%;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar-track {
+        background: transparent;
+        width: 0px;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar-thumb {
+        background: #2c3547;
+        border-radius: 4px;
+        width: 0px;
+    }
+  
+    .podcast__gallery-flex::-webkit-scrollbar-thumb:hover {
+        background: #1b2336;
+    }
+
+
 
 
 
@@ -6083,6 +6081,11 @@ nav .nav_left:hover p {
         height: 10px;
         margin-top: 0;
     }
+
+    #Inicio .sponsors_watermark .aliberico_hero {
+        height: 10px;
+        margin-top: 0px;
+    }
     
     #Inicio .sponsors_watermark.match {
         left: 0;
@@ -6250,7 +6253,7 @@ nav .nav_left:hover p {
     
     #Players .gallery_frame .gallery {
         display: flex;
-        width: 883.3333%;
+        width:fit-content;
         height: 100%;
         box-sizing: border-box;
         overflow-x: scroll;
@@ -6261,6 +6264,7 @@ nav .nav_left:hover p {
     #Players .gallery_frame .gallery .jugadora {
         width: 39vw;
         margin: 0 1vw;
+        gap: 0 10px;
         height: 39vw;
         background-size: cover;
         background-position: center;
@@ -6562,12 +6566,86 @@ nav .nav_left:hover p {
     } 
     
     
+
+
+
+    /* Podcast with RFFM section */
+
+    .podcast {
+        width: 100%;
+        display: block;
+        padding: 6vw 6vw 0vw;
+    }
+
+    .podcast__title {
+        text-decoration: none;
+        font-family: var(--font3);
+        font-weight: 500;
+        color: var(--colorW);
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .podcast__gallery-frame {
+        padding: 12px 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .podcast__gallery-flex {
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .podcast__episode {
+        text-decoration: none;
+        font-family: var(--font2);
+        font-weight: 400;
+        color: var(--colorW);
+        font-size: 0.7rem;
+        line-height: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .podcast__img {
+        height: 160px;
+        border-radius: 3px;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar {
+        height: 0px;
+        width: 0%;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar-track {
+        background: transparent;
+        width: 0px;
+    }
+
+    .podcast__gallery-flex::-webkit-scrollbar-thumb {
+        background: #2c3547;
+        border-radius: 4px;
+        width: 0px;
+    }
+  
+    .podcast__gallery-flex::-webkit-scrollbar-thumb:hover {
+        background: #1b2336;
+    }
+
+
+
+
     
     /* Inscription Section */
     #Inscribe {
         margin: 0;
         width: 100%;
-        padding: 10vw 4vw 8vw;
+        padding: 6vw 4vw 8vw;
         overflow-x: hidden;
         position: relative;
     }

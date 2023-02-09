@@ -105,7 +105,7 @@ let translation_index = 1;
 
 jugadoras_slide = (direction) => {
 
-    if ((direction === "next" && translation_index === 5) || (direction === "prev" && translation_index === 1)) {
+    if ((direction === "next" && translation_index === 6) || (direction === "prev" && translation_index === 1)) {
         return
     }
     else {
@@ -230,17 +230,17 @@ const epFlex = document.querySelector(".podcast__gallery-flex")
 let arrEps = []
 
 class Episode {
-    constructor (name = "LUNES NOCHE FÚTBOL DE MADRID", imgLink = "/gen_resources/general images/lunes_noche_futbol.jpg", epLink){
+    constructor (name = "LUNES NOCHE FÚTBOL DE MADRID", imgLink = "/gen_resources/general images/lunes_noche_futbol_blue.jpg", epLink){
         this.name = name;
         this.imgLink = imgLink;
         this.epLink = epLink;
     }
 }
 
-let ep1 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #1 | Noelia Llamas y Nuria Díaz", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/Pjo7oMxt0z0?t=4244")
-let ep2 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #2 | Cris Menéndez e Irene González", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://youtu.be/8cKPmhVXRfw?t=4880")
-let ep3 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #3 | Alba Masa", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://www.youtube.com/live/TQEcYiiyh7c?feature=share&t=5249")
-let ep4 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #4 | Arantxa y Raquel Guardado", "/gen_resources/general images/lunes_noche_futbol.jpg", "https://www.youtube.com/live/_IOZnSWAAZM?feature=share&t=5415")
+let ep1 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #1 | Noelia Llamas y Nuria Díaz", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://youtu.be/Pjo7oMxt0z0?t=4244")
+let ep2 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #2 | Cris Menéndez e Irene González", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://youtu.be/8cKPmhVXRfw?t=4880")
+let ep3 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #3 | Alba Masa", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/TQEcYiiyh7c?feature=share&t=5249")
+let ep4 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #4 | Arantxa y Raquel Guardado", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/_IOZnSWAAZM?feature=share&t=5415")
 
 arrEps.push(ep4, ep3, ep2, ep1)
 
