@@ -476,9 +476,9 @@ nav .nav_left:hover p {
 }
 
 #Inicio .gallery_frame .gallery .frame2 .match-data .escudos .escudo-visit {
-    background-image: url(../gen_resources/escudos_equipos_partidos/salamanca.png);
+    background-image: url(../gen_resources/escudos_equipos_partidos/pozuelo.png);
     height: 50vh;
-    width: 60vh; /*50vh*/
+    width: 50vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

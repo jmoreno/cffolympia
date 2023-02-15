@@ -52,7 +52,7 @@ function matchDataDisplay() {
 
 //Countdown
 const timeLeft = document.querySelector("#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown")
-const matchDay = new Date("Feb 12, 2023 17:00:00")
+const matchDay = new Date("Feb 19, 2023 16:30:00")
 const second = 1000
 const minute = second * 60
 const hour = minute * 60
@@ -123,27 +123,27 @@ jugadoras_slide = (direction) => {
 
 
 
-//Shop slider
-const prendas_shop = document.querySelectorAll("#Shop .gallery_frame .gallery");
-const prendas_shop_translate = 16.6666667 * 2;
-let translate_shop = 0;
-let shop_translation_index = 1;
+// //Shop slider
+// const prendas_shop = document.querySelectorAll("#Shop .gallery_frame .gallery");
+// const prendas_shop_translate = 16.6666667 * 2;
+// let translate_shop = 0;
+// let shop_translation_index = 1;
 
-shop_slide = (direction) => {
+// shop_slide = (direction) => {
 
-    if ((direction === "next" && shop_translation_index === 3) || (direction === "prev" && shop_translation_index === 1)) {
-        return
-    }
-    else {
-        direction === "next" ? shop_translation_index++ : shop_translation_index--;
-        direction === "next" ? translate_shop -= prendas_shop_translate : translate_shop += prendas_shop_translate;
+//     if ((direction === "next" && shop_translation_index === 3) || (direction === "prev" && shop_translation_index === 1)) {
+//         return
+//     }
+//     else {
+//         direction === "next" ? shop_translation_index++ : shop_translation_index--;
+//         direction === "next" ? translate_shop -= prendas_shop_translate : translate_shop += prendas_shop_translate;
 
-        prendas_shop.forEach (
-            prendas_shop => (prendas_shop.style.transform = `translateX(${translate_shop}%)`)
-        )
+//         prendas_shop.forEach (
+//             prendas_shop => (prendas_shop.style.transform = `translateX(${translate_shop}%)`)
+//         )
 
-    }
-}
+//     }
+// }
 
 //Cantera slider
 const equipos_cantera = document.querySelectorAll("#Cantera .cantera_grid-gallery .gallery");
@@ -241,8 +241,9 @@ let ep1 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #1 | Noelia Llamas y Nuria
 let ep2 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #2 | Cris Menéndez e Irene González", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://youtu.be/8cKPmhVXRfw?t=4880")
 let ep3 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #3 | Alba Masa", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/TQEcYiiyh7c?feature=share&t=5249")
 let ep4 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #4 | Arantxa y Raquel Guardado", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/_IOZnSWAAZM?feature=share&t=5415")
+let ep5 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #5 | Rosa Torres e Iratxe Rodríguez", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/fWi-vovvN7c?feature=share&t=4562")
 
-arrEps.push(ep4, ep3, ep2, ep1)
+arrEps.push(ep5, ep4, ep3, ep2, ep1)
 
 for (let episode of arrEps) {
     epFlex.innerHTML += 
