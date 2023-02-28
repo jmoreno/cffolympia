@@ -243,9 +243,10 @@ let ep3 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #3 | Alba Masa", "/gen_res
 let ep4 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #4 | Arantxa y Raquel Guardado", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/_IOZnSWAAZM?feature=share&t=5415")
 let ep5 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #5 | Rosa Torres e Iratxe Rodríguez", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/fWi-vovvN7c?feature=share&t=4562")
 let ep6 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #6 | Manuela Alfayate", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/S7mw2GlnGu8?feature=share&t=5516")
+let ep7 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #7 | Gabriela de la Villa", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/70MoHl7iGFs?feature=share&t=5827")
 
 
-arrEps.push(ep6, ep5, ep4, ep3, ep2, ep1)
+arrEps.push(ep7, ep6, ep5, ep4, ep3, ep2, ep1)
 
 for (let episode of arrEps) {
     epFlex.innerHTML += 
