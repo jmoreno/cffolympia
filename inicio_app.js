@@ -36,6 +36,27 @@ function dropDownNavBar() {
 }
 
 
+//POPUP
+const popup = document.querySelector(".estrellas")
+
+function ocultarPopup() {
+    popup.style.display = 'none';
+}
+  
+  function mostrarPopup() {
+    popup.style.display = 'block';
+  }
+  
+  window.onload = mostrarPopup;
+
+
+
+
+
+
+
+
+
 //Portada Display
 const galeriaInicioYMatch = document.querySelector("#Inicio .gallery_frame .gallery")
 const sponsorsWatermark = document.querySelector("#Inicio .sponsors_watermark")

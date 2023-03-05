@@ -313,18 +313,17 @@ nav .nav_left:hover p {
     font-family: var(--font1);
 }
 
-#Shop .box .form_box p {
+#Shop .box .form_box select {
     display: block;
-    margin: 25px 0 0;
-    color: var(--colorW);
+    margin: 0 0 1vh;
+    border-radius: 2px;
+    background: var(--colorW);
+    height: 3vh;
+    width: 100%;
+    border: none;
+    color: var(--color2);
+    padding: 0 0.7vh;
     font-family: var(--font1);
-    font-size: 0.8rem;
-}
-
-#Shop .box .form_box a {
-    color: var(--colorW);
-    font-family: var(--font1);
-    font-size: 0.8rem;
 }
 
 #Shop .box .form_box button[type="submit"] {
@@ -338,6 +337,20 @@ nav .nav_left:hover p {
     margin: 3vh auto 0;
     font-family: var(--font1);
     border-radius: 5px;
+}
+
+#Shop .box .form_box p {
+    display: block;
+    margin: 25px 0 0;
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-size: 0.8rem;
+}
+
+#Shop .box .form_box a {
+    color: var(--colorW);
+    font-family: var(--font1);
+    font-size: 0.8rem;
 }
 
 #Shop .box .form_box button[type="submit"]:hover {
@@ -625,6 +638,19 @@ nav .nav_left:hover p {
         padding: 1vh;
         font-family: var(--font1);
     }
+
+    #Shop .box .form_box select {
+        display: block;
+        margin: 0 0 1vh;
+        border-radius: 2px;
+        background: var(--colorW);
+        height: 3vh;
+        width: 100%;
+        border: none;
+        color: var(--color2);
+        padding: 0 0.7vh;
+        font-family: var(--font1);
+    }
     
     #Shop .box .form_box button[type="submit"] {
         display: block;
@@ -899,6 +925,19 @@ nav .nav_left:hover p {
         border: none;
         color: var(--color2);
         padding: 1vh;
+        font-family: var(--font1);
+    }
+
+    #Shop .box .form_box select {
+        display: block;
+        margin: 0 0 1vh;
+        border-radius: 2px;
+        background: var(--colorW);
+        height: 3vh;
+        width: 100%;
+        border: none;
+        color: var(--color2);
+        padding: 0 0.7vh;
         font-family: var(--font1);
     }
     
