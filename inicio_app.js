@@ -273,7 +273,7 @@ for (let episode of arrEps) {
     epFlex.innerHTML += 
     `<a class="podcast__episode" href="${episode.epLink}">
         <picture>
-            <img src="${episode.imgLink}" alt="Portada programa ${episode.name}" class="podcast__img"/>
+            <img loading="lazy" src="${episode.imgLink}" alt="Portada programa ${episode.name}" class="podcast__img"/>
         </picture>
         ${episode.name}
     </a>`
