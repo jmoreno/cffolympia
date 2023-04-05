@@ -280,3 +280,14 @@ for (let episode of arrEps) {
         ${episode.name}
     </a>`
 }
+
+
+//Noticias a partir de ahora
+// const newsGallery = document.querySelector("#MainNews.selector");
+
+// let arrNews = [];
+
+// class News {
+//     constructor ()
+// }
+
