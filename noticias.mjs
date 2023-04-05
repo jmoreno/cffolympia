@@ -104,6 +104,14 @@ let A11 = new Article ({
     tag: "VETERANAS"
 });
 
-arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11);
+let A12 = new Article ({
+    title: "Empate del Juvenil A frente al Atlético de Madrid",
+    imgLink: "../gen_resources/general\ images/noticia_12.jpg",
+    text: "El Juvenil A empata con el Atlético de Madrid por 3 a 3 en la vigésimo sexta jornada de la liga.",
+    date: "02/04/2023",
+    tag: "CANTERA"
+});
+
+arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12);
 
 export let articulos = arrArticles;

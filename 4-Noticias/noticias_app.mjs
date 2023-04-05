@@ -5,7 +5,7 @@ const newsGrid = document.querySelector(".grid");
 for (let i = articulos.length - 1; i >= 0; i--) {
     newsGrid.innerHTML += 
     `<div class="${i == (articulos.length - 1) ? 'main_' : ""}noticia" id="${i == (articulos.length - 1) ? 'main"' : articulos.length - 1 - i}">
-        <div class="img${articulos.length - i} img" style="background-image: url('${articulos[i].imgLink}'); ${articulos.length - i == 1 ? "background-position: center 26%;" : "" };"></div>
+        <div class="img${articulos.length - i} img" style="background-image: url('${articulos[i].imgLink}'); ${articulos.length - i == 1 ? "background-position: center 60%;" : "" };"></div>
         <div class="content">
             <h1>${articulos[i].title}</h1>
             <p>${articulos[i].text}</p>
