@@ -306,56 +306,6 @@ nav .nav_left:hover p {
 }
 
 
-#Inicio .grid .main_noticia .img1 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_1.JPG);
-    background-position: center 26%;
-}
-
-#Inicio .grid .noticia .img2 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_2.jpg);
-}
-
-#Inicio .grid .noticia .img3 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_3.jpg);
-}
-
-#Inicio .grid .noticia .img4 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_4.jpg);
-}
-
-#Inicio .grid .noticia .img5 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_5.JPG);
-}
-
-#Inicio .grid .noticia .img6 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_6.JPG);
-}
-
-#Inicio .grid .noticia .img7 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_7.JPG);
-}
-
-#Inicio .grid .noticia .img8 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_8.JPG);
-}
-
-#Inicio .grid .noticia .img9 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_9.JPG);
-}
-
-#Inicio .grid .noticia .img10 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_10.JPG);
-}
-
-#Inicio .grid .noticia .img11 {
-    background-image: url(../gen_resources/general\ images/foto_noticia_11.JPG);
-}
-
-
-
-
-
-
 
 @media (max-width: 1280px) {
     nav {

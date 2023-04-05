@@ -124,7 +124,7 @@ const grupos_jugadoras_translate = 16.6666667;
 let translate_jugadoras = 0;
 let translation_index = 1;
 
-jugadoras_slide = (direction) => {
+let jugadoras_slide = (direction) => {
 
     if ((direction === "next" && translation_index === 6) || (direction === "prev" && translation_index === 1)) {
         return
@@ -172,7 +172,7 @@ const equipos_cantera_translate = 12.5 * (1);
 let translate_cantera = 0;
 let cantera_translation_index = 1;
 
-cantera_slide = (direction) => {
+let cantera_slide = (direction) => {
 
     if ((direction === "next" && cantera_translation_index === 9) || (direction === "prev" && cantera_translation_index === 1)) {
         return
@@ -200,9 +200,7 @@ cantera_slide = (direction) => {
 
 
 
-
 //Main News onhover content enlarger
-document.querySelector(`#MainNews .news1`).setAttribute('id','main')
 
 function mainNewsFunc(page) {
 
@@ -268,8 +266,9 @@ let ep7 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #7 | Gabriela de la Villa"
 let ep8 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #8 | Claudia Domínguez", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://youtu.be/NIC4C8th3SE?t=4430")
 let ep9 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #9 | Sara Yagüe", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https:/https://www.youtube.com/live/mNlmfJrzERs?feature=share&t=6017")
 let ep10 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #10 | Lucía Fernández", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/To3hy6NKU5g?feature=share&t=5162")
+let ep11 = new Episode ("LUNES NOCHE FÚTBOL DE MADRID #11 | Noemí Andrés y Daniela Sanchís", "/gen_resources/general images/lunes_noche_futbol_blue.jpg", "https://www.youtube.com/live/GaWPCAhUCVs?feature=share&t=4838")
 
-arrEps.push(ep10, ep9, ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1)
+arrEps.push(ep11, ep10, ep9, ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1)
 
 for (let episode of arrEps) {
     epFlex.innerHTML += 
@@ -280,14 +279,3 @@ for (let episode of arrEps) {
         ${episode.name}
     </a>`
 }
-
-
-//Noticias a partir de ahora
-// const newsGallery = document.querySelector("#MainNews.selector");
-
-// let arrNews = [];
-
-// class News {
-//     constructor ()
-// }
-

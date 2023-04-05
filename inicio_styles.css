@@ -862,26 +862,6 @@ nav .nav_left:hover p {
 
 
 
-#MainNews .news1 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_1.jpg);
-}
-
-#MainNews .news2 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_2.jpg);
-}
-
-#MainNews .news3 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_3.jpg);
-}
-
-#MainNews .news4 {
-    background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_noticia_4.JPG);
-    box-shadow: none;
-}
-
-
-
-
 
 
 /* Players Section */
