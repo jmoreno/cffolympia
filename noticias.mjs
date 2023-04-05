@@ -105,7 +105,7 @@ let A11 = new Article ({
 });
 
 let A12 = new Article ({
-    title: "Empate del Juvenil A frente al Atlético de Madrid",
+    title: "Empate del Juvenil A frente al Atlético de Madrid.",
     imgLink: "../gen_resources/general\ images/noticia_12.jpg",
     text: "El Juvenil A empata con el Atlético de Madrid por 3 a 3 en la vigésimo sexta jornada de la liga.",
     date: "02/04/2023",

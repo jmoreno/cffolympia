@@ -243,6 +243,51 @@ botonAceptarCookies.addEventListener('click', () => {
 });
 
 
+
+
+
+
+//Sección de jugadora mahou 5 estrellas
+const mahouMain = document.querySelector(".mahou__main");
+const mahouMainImg = document.querySelector(".mahou__img-frame");
+const mahouGallery = document.querySelector(".mahou__gallery-flex");
+
+let arrJugadorasMahou = [];
+
+class JugadoraMahou {
+    constructor ({name = "Jugadora Mahou 5 estrellas del mes", month, imgLink}) {
+        this.title = name;
+        this.month = month;
+        this.imgLink = imgLink;
+    };
+};
+
+let jm1 = new JugadoraMahou ({name: "Patri Camacho - Nov 2022", month: "NOVIEMBRE", imgLink: "./gen_resources/general images/mahou/patri_camacho.jpg"});
+let jm2 = new JugadoraMahou ({name: "Noemí Andrés - Dic 2022", month: "DICIEMBRE", imgLink: "./gen_resources/general images/mahou/noemi_andres.jpg"});
+let jm3 = new JugadoraMahou ({name: "Cris Menéndez - Ene 2023", month: "ENERO", imgLink: "./gen_resources/general images/mahou/cris_menendez.jpg"});
+let jm4 = new JugadoraMahou ({name: "Rosa Torres - Feb 2023", month: "FEBRERO", imgLink: "./gen_resources/general images/mahou/rosa_torres.jpg"});
+let jm5 = new JugadoraMahou ({name: "Arantxa de la Chica - Mar 2023", month: "MARZO", imgLink: "./gen_resources/general images/mahou/arantxa_delachica.jpg"});
+
+arrJugadorasMahou.push(jm5, jm4, jm3, jm2, jm1);
+
+for (let jugadora of arrJugadorasMahou) {
+    
+    if (jugadora == arrJugadorasMahou[0]) { 
+        mahouMainImg.innerHTML += 
+        `<img title="${jugadora.title}" src="${jugadora.imgLink}" loading="lazy" alt="Jugadora Mahou 5 estrellas del mes de ${jugadora.month.toLowerCase()}" class="mahou__main-img"/>`;
+        mahouMain.innerHTML += 
+        `<h2 class="mahou__month">${jugadora.month}</h2>`;
+    }
+
+    else {
+        mahouGallery.innerHTML += 
+        `<img title="${jugadora.title}" src="${jugadora.imgLink}" loading="lazy" alt="Jugadora Mahou 5 estrellas del mes de ${jugadora.month.toLowerCase()}" class="mahou__img"/>`
+    };
+
+};
+
+
+
 //Seccion de podcast
 const epFlex = document.querySelector(".podcast__gallery-flex")
 
