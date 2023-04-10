@@ -249,7 +249,7 @@ botonAceptarCookies.addEventListener('click', () => {
 
 //Sección de jugadora mahou 5 estrellas
 const mahouMain = document.querySelector(".mahou__main");
-const mahouMainImg = document.querySelector(".mahou__img-frame");
+const mahouMainImg = document.querySelector(".mahou__main-img-frame");
 const mahouGallery = document.querySelector(".mahou__gallery-flex");
 
 let arrJugadorasMahou = [];
@@ -281,7 +281,7 @@ for (let jugadora of arrJugadorasMahou) {
 
     else {
         mahouGallery.innerHTML += 
-        `<img title="${jugadora.title}" src="${jugadora.imgLink}" loading="lazy" alt="Jugadora Mahou 5 estrellas del mes de ${jugadora.month.toLowerCase()}" class="mahou__img"/>`
+        `<div class="mahou__img-frame"><img title="${jugadora.title}" src="${jugadora.imgLink}" loading="lazy" alt="Jugadora Mahou 5 estrellas del mes de ${jugadora.month.toLowerCase()}" class="mahou__img"/></div>`
     };
 
 };
