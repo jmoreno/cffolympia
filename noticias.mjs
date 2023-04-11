@@ -113,13 +113,13 @@ let A12 = new Article ({
 });
 
 let A13 = new Article ({
-    title: "Empate del Juvenil A frente al Atlético de Madrid.",
-    imgLink: "../gen_resources/general\ images/noticia_12.jpg",
-    text: "El Juvenil A empata con el Atlético de Madrid por 3 a 3 en la vigésimo sexta jornada de la liga.",
-    date: "02/04/2023",
-    tag: "CANTERA"
+    title: "El Olympia regresa de la SWIT cup.",
+    imgLink: "../gen_resources/general\ images/noticia_13.jpg",
+    text: "El Olympia regresa a casa tras participar en el torneo SWIT de Sabadell.",
+    date: "10/04/2023",
+    tag: "SWIT"
 });
 
-arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12);
+arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13);
 
 export let articulos = arrArticles;
