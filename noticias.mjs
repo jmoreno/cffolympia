@@ -120,6 +120,14 @@ let A13 = new Article ({
     tag: "SWIT"
 });
 
-arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13);
+let A14 = new Article ({
+    title: "Victoria conjunta del Olympia y Jugones.",
+    imgLink: "../gen_resources/general\ images/noticia_14.JPG",
+    text: "Las veteranas del Olympia y de Jugones se unen para ganar por 3 a 0 al Moralzarzal.",
+    date: "17/04/2023",
+    tag: "VETERANAS"
+});
+
+arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14);
 
 export let articulos = arrArticles;
