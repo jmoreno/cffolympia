@@ -128,6 +128,22 @@ let A14 = new Article ({
     tag: "VETERANAS"
 });
 
-arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14);
+let A15 = new Article ({
+    title: "¡CAMPEONAS DE LA 1ª EDICIÓN!",
+    imgLink: "../gen_resources/general\ images/noticia_15.JPG",
+    text: "El Benjamín queda campeón de la primera edición de la liga F7 femenino categoría benjamín tras remontar un 1-0 en su último partido frente al Atlético de Madrid, ganando por 1-2.",
+    date: "23/04/2023",
+    tag: "BENJAMÍN F7"
+});
+
+let A16 = new Article ({
+    title: "¡CAMPEONAS DE LIGA!",
+    imgLink: "../gen_resources/general\ images/noticia_16.JPG",
+    text: "El Cadete B logra quedar campeón de liga tras su victoria frente al Colmenarejo por 4-0.",
+    date: "23/04/2023",
+    tag: "CADETE"
+});
+
+arrArticles.push(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15, A16);
 
 export let articulos = arrArticles;
