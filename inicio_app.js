@@ -73,7 +73,7 @@ function matchDataDisplay() {
 
 //Countdown
 const timeLeft = document.querySelector("#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown")
-const matchDay = new Date("May 7, 2023 12:00:00")
+const matchDay = new Date("May 14, 2023 12:00:00")
 const second = 1000
 const minute = second * 60
 const hour = minute * 60
