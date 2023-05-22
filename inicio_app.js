@@ -380,8 +380,20 @@ let ep13 = new Episode(
   "/gen_resources/general images/lunes_noche_futbol_blue.jpg",
   "https://www.youtube.com/live/sdbdQ2Wg2CA?feature=share&t=5252"
 );
+let ep14 = new Episode(
+  "LUNES NOCHE FÚTBOL DE MADRID #14 | Elena Anós",
+  "/gen_resources/general images/lunes_noche_futbol_blue.jpg",
+  "https://www.youtube.com/live/TR6B5jRHeEs?feature=share&t=6345"
+);
+let ep15 = new Episode(
+  "LUNES NOCHE FÚTBOL DE MADRID #15 | Ana de la Chica y Lucía Fresno",
+  "/gen_resources/general images/lunes_noche_futbol_blue.jpg",
+  "https://www.youtube.com/live/1KhlzNgqsWg?feature=share&t=1170"
+);
 
 arrEps.push(
+  qp15,
+  ep14,
   ep13,
   ep12,
   ep11,
