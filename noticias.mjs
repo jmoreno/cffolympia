@@ -93,7 +93,7 @@ let A10 = new Article({
   imgLink: "../gen_resources/general images/noticia_10.jpg",
   text: "El Senior B se mantiene como líder.",
   date: "07/03/2023",
-  tag: "EQUIPO FILIAL",
+  tag: "SENIOR B",
 });
 
 let A11 = new Article({
@@ -160,6 +160,14 @@ let A18 = new Article({
   tag: "BENJAMÍN",
 });
 
+let A19 = new Article({
+  title: "¡SENIOR B CAMPEÓN DE LIGA!",
+  imgLink: "../gen_resources/general images/noticia_19.JPG",
+  text: "El Senior B se proclama campeón de liga tras un 5-0 frente a la E.F. Carabanchel.",
+  date: "28/05/2023",
+  tag: "SENIOR B",
+});
+
 arrArticles.push(
   A1,
   A2,
@@ -178,7 +186,8 @@ arrArticles.push(
   A15,
   A16,
   A17,
-  A18
+  A18,
+  A19
 );
 
 export let articulos = arrArticles;
