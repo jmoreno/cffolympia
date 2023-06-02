@@ -280,8 +280,13 @@ let jm5 = new JugadoraMahou({
   month: "MARZO",
   imgLink: "./gen_resources/general images/mahou/arantxa_delachica.jpg",
 });
+let jm6 = new JugadoraMahou({
+  name: "Alba Masa - Abr 2023",
+  month: "ABRIL",
+  imgLink: "./gen_resources/general images/mahou/alba_masa.jpg",
+});
 
-arrJugadorasMahou.push(jm5, jm4, jm3, jm2, jm1);
+arrJugadorasMahou.push(jm6, jm5, jm4, jm3, jm2, jm1);
 
 for (let jugadora of arrJugadorasMahou) {
   if (jugadora == arrJugadorasMahou[0]) {
@@ -392,7 +397,7 @@ let ep15 = new Episode(
 );
 
 arrEps.push(
-  qp15,
+  ep15,
   ep14,
   ep13,
   ep12,
