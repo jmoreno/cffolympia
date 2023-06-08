@@ -395,8 +395,20 @@ let ep15 = new Episode(
   "/gen_resources/general images/lunes_noche_futbol_blue.jpg",
   "https://www.youtube.com/live/1KhlzNgqsWg?feature=share&t=1170"
 );
+let ep16 = new Episode(
+  "LUNES NOCHE FÚTBOL DE MADRID #16 | Iciar y Estrella",
+  "/gen_resources/general images/lunes_noche_futbol_blue.jpg",
+  "https://www.youtube.com/live/qW4za_yhgOA?feature=share&t=5914"
+);
+let ep17 = new Episode(
+  "LUNES NOCHE FÚTBOL DE MADRID #17 | Emanuel, Pedro y Sofía",
+  "/gen_resources/general images/lunes_noche_futbol_blue.jpg",
+  "https://www.youtube.com/live/Lp51bkBQzys?feature=share&t=4846"
+);
 
 arrEps.push(
+  ep17,
+  ep16,
   ep15,
   ep14,
   ep13,

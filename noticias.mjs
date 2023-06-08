@@ -168,6 +168,14 @@ let A19 = new Article({
   tag: "SENIOR B",
 });
 
+let A20 = new Article({
+  title: "Disponible el Campamento del Olympia",
+  imgLink: "../gen_resources/general images/noticia_20.JPG",
+  text: "Si quieres apuntarte, contacta con nosotros.",
+  date: "01/06/2023",
+  tag: "CAMPAMENTO",
+});
+
 arrArticles.push(
   A1,
   A2,
@@ -187,7 +195,8 @@ arrArticles.push(
   A16,
   A17,
   A18,
-  A19
+  A19,
+  A20
 );
 
 export let articulos = arrArticles;
