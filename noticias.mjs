@@ -176,6 +176,38 @@ let A20 = new Article({
   tag: "CAMPAMENTO",
 });
 
+let A21 = new Article({
+  title: "Campeonas del X Torneo Solidario Zósimo Ibáñez",
+  imgLink: "../gen_resources/general images/noticia_21.JPG",
+  text: "El Alevín se hace con el primer puesto del X Torneo Solidario Zósimo Ibáñez.",
+  date: "11/06/2023",
+  tag: "ALEVÍN",
+});
+
+let A22 = new Article({
+  title: "¡Campeona de España con la Selección Madrileña Sub17!",
+  imgLink: "../gen_resources/general images/noticia_22.JPG",
+  text: "La jugadora Elsa Sánchez (Senior A) se proclama campeona del Campeonato de Selecciones Autonómicas Sub17 2023.",
+  date: "11/06/2023",
+  tag: "MADRILEÑA",
+});
+
+let A23 = new Article({
+  title: "Subcampeonas del XIX Torneo Estrellas de Móstoles",
+  imgLink: "../gen_resources/general images/noticia_23.JPG",
+  text: "El Infantil se proclama subcampeón de la 19ª edición del Torneo de Fútbol Estrellas de Móstoles.",
+  date: "11/06/2023",
+  tag: "INFANTIL",
+});
+
+let A24 = new Article({
+  title: "¡ASCENSO A PREFERENTE!",
+  imgLink: "../gen_resources/general images/noticia_24.JPG",
+  text: "El Senior C logra el ascenso a categoría Preferente tras vencer al Collado Villalba por 5 a 3.",
+  date: "11/06/2023",
+  tag: "SENIOR C",
+});
+
 arrArticles.push(
   A1,
   A2,
@@ -196,7 +228,11 @@ arrArticles.push(
   A17,
   A18,
   A19,
-  A20
+  A20,
+  A21,
+  A22,
+  A23,
+  A24
 );
 
 export let articulos = arrArticles;
