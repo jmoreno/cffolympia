@@ -208,6 +208,14 @@ let A24 = new Article({
   tag: "SENIOR C",
 });
 
+let A25 = new Article({
+  title: "Alba Masa jugadora Mahou 5 estrellas de la temporada",
+  imgLink: "../gen_resources/general images/noticia_25.JPG",
+  text: "Alba Masa se proclama jugadora Mahou 5 estrellas de la temporada 22-23.",
+  date: "15/06/2023",
+  tag: "MAHOU",
+});
+
 arrArticles.push(
   A1,
   A2,
@@ -232,7 +240,8 @@ arrArticles.push(
   A21,
   A22,
   A23,
-  A24
+  A24,
+  A25
 );
 
 export let articulos = arrArticles;
