@@ -108,6 +108,33 @@ function countDown() {
 }
 timerId = setInterval(countDown, second);
 
+//Renovadas slider
+const grupos_renovadas = document.querySelectorAll(
+  "#Renovadas .gallery_frame .gallery"
+);
+const grupos_renovadas_translate = 16.6666667;
+let translate_renovadas = 0;
+let translation_index_ren = 1;
+
+let renovadas_slide = (direction) => {
+  if (
+    (direction === "next" && translation_index_ren === 1) ||
+    (direction === "prev" && translation_index_ren === 1)
+  ) {
+    return;
+  } else {
+    direction === "next" ? translation_index_ren++ : translation_index_ren--;
+    direction === "next"
+      ? (translate_renovadas -= grupos_renovadas_translate)
+      : (translate_renovadas += grupos_renovadas_translate);
+
+    grupos_renovadas.forEach(
+      (grupos_renovadas) =>
+        (grupos_renovadas.style.transform = `translateX(${translate_renovadas}%)`)
+    );
+  }
+};
+
 //Jugadoras slider
 const grupos_jugadoras = document.querySelectorAll(
   "#Players .gallery_frame .gallery"
