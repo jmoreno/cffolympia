@@ -22,11 +22,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(
-    95deg,
-    var(--color3B) -38.7%,
-    var(--color4B) 74.94%
-  );
+  background-image: linear-gradient(95deg, var(--color3B) -38.7%, var(--color4B) 74.94%);
 }
 
 body::-webkit-scrollbar {
@@ -53,12 +49,7 @@ nav {
 }
 
 nav.active {
-  background-image: linear-gradient(
-    108.13deg,
-    var(--color1B) -247%,
-    var(--color2B) -128.7%,
-    var(--color3B) 74.94%
-  );
+  background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
 }
 
 nav .hamburger_menu {
@@ -85,8 +76,7 @@ nav .nav_left p {
   position: absolute;
   top: 0;
   left: 3.8vw;
-  background-image: linear-gradient(#00000000, #00000000),
-    linear-gradient(var(--colorW), var(--colorW));
+  background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
   background-size: 100% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -121,8 +111,7 @@ nav .nav_left:hover p {
 .nav_li_a {
   color: var(--colorW);
   text-decoration: none;
-  background-image: linear-gradient(#00000000, #00000000),
-    linear-gradient(var(--colorW), var(--colorW));
+  background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
   background-size: 100% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -270,22 +259,8 @@ nav .nav_left:hover p {
   margin: auto;
   z-index: 100;
   overflow: hidden;
-  -webkit-clip-path: polygon(
-    8.658% 0%,
-    100% 0%,
-    100% 82.5%,
-    91.342% 100%,
-    0% 100%,
-    0% 17.5%
-  );
-  clip-path: polygon(
-    8.658% 0%,
-    100% 0%,
-    100% 82.5%,
-    91.342% 100%,
-    0% 100%,
-    0% 17.5%
-  );
+  -webkit-clip-path: polygon(8.658% 0%, 100% 0%, 100% 82.5%, 91.342% 100%, 0% 100%, 0% 17.5%);
+  clip-path: polygon(8.658% 0%, 100% 0%, 100% 82.5%, 91.342% 100%, 0% 100%, 0% 17.5%);
   background-color: #be8a47;
   display: inline-block;
   box-sizing: border-box;
@@ -371,13 +346,7 @@ nav .nav_left:hover p {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-image: linear-gradient(
-    180deg,
-    #00000075 0%,
-    #00000075 10%,
-    #0000009c 95%,
-    #000000c9 100%
-  );
+  background-image: linear-gradient(180deg, #00000075 0%, #00000075 10%, #0000009c 95%, #000000c9 100%);
   background-size: cover;
   position: relative;
 }
@@ -652,11 +621,7 @@ nav .nav_left:hover p {
   font-size: 35vh;
   line-height: 35vh;
   height: 35vh;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.9) -53.62%,
-    rgba(255, 255, 255, 0.1) 105.81%
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -690,13 +655,7 @@ nav .nav_left:hover p {
   z-index: 50;
 }
 
-#Inicio
-  .gallery_frame
-  .gallery
-  .frame2
-  .match-data
-  .countdown-vs
-  .ver-directo:hover {
+#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
   background: var(--colorW);
   color: rgb(9, 26, 51);
   font-weight: 600;
@@ -714,8 +673,7 @@ nav .nav_left:hover p {
   font-weight: 400;
   font-size: 13px;
   line-height: 13px;
-  background-image: linear-gradient(#00000000, #00000000),
-    linear-gradient(var(--colorW), var(--colorW));
+  background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
   background-size: 100% 1px, 0 1px;
   background-position: 0 100%, 100% 100%;
   background-repeat: no-repeat;
@@ -739,8 +697,7 @@ nav .nav_left:hover p {
   font-weight: 400;
   font-size: 13px;
   line-height: 13px;
-  background-image: linear-gradient(#00000000, #00000000),
-    linear-gradient(var(--colorW), var(--colorW));
+  background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
   background-size: 100% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -957,7 +914,7 @@ nav .nav_left:hover p {
 #Renovadas .gallery_frame .gallery .jugadora {
   width: 21.6vw;
   margin: 0 0.2vw;
-  height: 21.6vw;
+  height: 26.6vw;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1004,28 +961,13 @@ nav .nav_left:hover p {
   transform: translateY(64%);
 }
 
-#Renovadas
-  .gallery_frame
-  .gallery
-  .jugadora:hover
-  > .jugadora_overlay-large
-  .procedencia,
-#Renovadas
-  .gallery_frame
-  .gallery
-  .jugadora:hover
-  > .jugadora_overlay
-  .procedencia {
+#Renovadas .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia,
+#Renovadas .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
   opacity: 1;
 }
 
 #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
-#Renovadas
-  .gallery_frame
-  .gallery
-  .jugadora
-  .jugadora_overlay-large
-  .nombre-completo {
+#Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
   position: absolute;
   top: 0;
   left: 0.9vw;
@@ -1052,12 +994,7 @@ nav .nav_left:hover p {
   opacity: 0;
 }
 
-#Renovadas
-  .gallery_frame
-  .gallery
-  .jugadora
-  .jugadora_overlay-large
-  .procedencia {
+#Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
   position: absolute;
   top: 6vw;
   left: 1vw;
@@ -1199,28 +1136,13 @@ nav .nav_left:hover p {
   transform: translateY(64%);
 }
 
-#Players
-  .gallery_frame
-  .gallery
-  .jugadora:hover
-  > .jugadora_overlay-large
-  .procedencia,
-#Players
-  .gallery_frame
-  .gallery
-  .jugadora:hover
-  > .jugadora_overlay
-  .procedencia {
+#Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia,
+#Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
   opacity: 1;
 }
 
 #Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
-#Players
-  .gallery_frame
-  .gallery
-  .jugadora
-  .jugadora_overlay-large
-  .nombre-completo {
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
   position: absolute;
   top: 0;
   left: 0.9vw;
@@ -1247,12 +1169,7 @@ nav .nav_left:hover p {
   opacity: 0;
 }
 
-#Players
-  .gallery_frame
-  .gallery
-  .jugadora
-  .jugadora_overlay-large
-  .procedencia {
+#Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
   position: absolute;
   top: 6vw;
   left: 1vw;
@@ -1467,120 +1384,103 @@ nav .nav_left:hover p {
 }
 
 #Cantera .cantera_grid-gallery .gallery .benjA {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/benjamin\ a.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ a.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .benjB {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/benjamin\ b.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/benjamin\ b.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .alevA {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/alevin\ a.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ a.jpg);
   background-size: cover;
   background-position: right;
 }
 
 #Cantera .cantera_grid-gallery .gallery .alevB {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/alevin\ b.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ b.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .alevC {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/alevin\ c.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/alevin\ c.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .infanA {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/infantil\ a.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ a.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .infanB {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/infantil\ b.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ b.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .infanC {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/infantil\ c.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ c.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .infanD {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/infantil\ d.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/infantil\ d.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .cadetA {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/cadete\ a.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ a.jpg);
   background-size: cover;
   background-position: 40%;
 }
 
 #Cantera .cantera_grid-gallery .gallery .cadetB {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/cadete\ b.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/cadete\ b.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .juvA {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/juvenil\ a.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ a.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .juvB {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/juvenil\ b.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ b.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .juvC {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/juvenil\ c.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/juvenil\ c.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .senB {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/senior\ b.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ b.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .senC {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/senior\ c.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/senior\ c.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #Cantera .cantera_grid-gallery .gallery .vet {
-  background-image: linear-gradient(#00000035, #00000035),
-    url(../gen_resources/general\ images/veteranas.jpg);
+  background-image: linear-gradient(#00000035, #00000035), url(../gen_resources/general\ images/veteranas.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1860,18 +1760,15 @@ nav .nav_left:hover p {
 }
 
 #Inscribe .flex .jugadoras {
-  background-image: linear-gradient(#00000000, #00000070),
-    url(../gen_resources/general\ images/foto_inscrip_jugadoras.JPG);
+  background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_jugadoras.JPG);
 }
 
 #Inscribe .flex .practicas {
-  background-image: linear-gradient(#00000000, #00000070),
-    url(../gen_resources/general\ images/foto_inscrip_practicas.JPG);
+  background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_practicas.JPG);
 }
 
 #Inscribe .flex .tecnico {
-  background-image: linear-gradient(#00000000, #00000070),
-    url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
+  background-image: linear-gradient(#00000000, #00000070), url(../gen_resources/general\ images/foto_inscrip_entrenador.JPG);
   margin: 0 0.7vw;
 }
 
@@ -1997,100 +1894,56 @@ nav .nav_left:hover p {
 }
 
 #Shop .gallery_frame .gallery .prenda1 .display {
-  background-image: linear-gradient(
-    90deg,
-    #152134ff 6%,
-    #182438ff 34%,
-    #1b273dff 54%,
-    #2a3452ff 100%
-  );
+  background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
 }
 #Shop .gallery_frame .gallery .prenda1 .overlay_prenda {
   color: #2a3452ff;
 }
 
 #Shop .gallery_frame .gallery .prenda2 .display {
-  background-image: linear-gradient(
-    90deg,
-    #bfa842ff 0%,
-    #dccd70ff 41%,
-    #e3d977ff 100%
-  );
+  background-image: linear-gradient(90deg, #bfa842ff 0%, #dccd70ff 41%, #e3d977ff 100%);
 }
 #Shop .gallery_frame .gallery .prenda2 .overlay_prenda {
   color: #bfa842ff;
 }
 
 #Shop .gallery_frame .gallery .prenda3 .display {
-  background-image: linear-gradient(
-    90deg,
-    #738989ff 0%,
-    #98bab7ff 71%,
-    #a8c8c6ff 94%,
-    #c1dedfff 100%
-  );
+  background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
 }
 #Shop .gallery_frame .gallery .prenda3 .overlay_prenda {
   color: #98bab7ff;
 }
 
 #Shop .gallery_frame .gallery .prenda4 .display {
-  background-image: linear-gradient(
-    90deg,
-    #e18996ff 0%,
-    #eaabb9ff 45%,
-    #ecb4c0ff 87%
-  );
+  background-image: linear-gradient(90deg, #e18996ff 0%, #eaabb9ff 45%, #ecb4c0ff 87%);
 }
 #Shop .gallery_frame .gallery .prenda4 .overlay_prenda {
   color: #e18996ff;
 }
 
 #Shop .gallery_frame .gallery .prenda5 .display {
-  background-image: linear-gradient(
-    90deg,
-    #738989ff 0%,
-    #98bab7ff 71%,
-    #a8c8c6ff 94%,
-    #c1dedfff 100%
-  );
+  background-image: linear-gradient(90deg, #738989ff 0%, #98bab7ff 71%, #a8c8c6ff 94%, #c1dedfff 100%);
 }
 #Shop .gallery_frame .gallery .prenda5 .overlay_prenda {
   color: #98bab7ff;
 }
 
 #Shop .gallery_frame .gallery .prenda6 .display {
-  background-image: linear-gradient(
-    90deg,
-    #8cc3c3ff 0%,
-    #455e69ff 50%,
-    #2a3452ff 100%
-  );
+  background-image: linear-gradient(90deg, #8cc3c3ff 0%, #455e69ff 50%, #2a3452ff 100%);
 }
 #Shop .gallery_frame .gallery .prenda6 .overlay_prenda {
   color: #455e69ff;
 }
 
 #Shop .gallery_frame .gallery .prenda7 .display {
-  background-image: linear-gradient(
-    90deg,
-    #152134ff 6%,
-    #182438ff 34%,
-    #1b273dff 54%,
-    #2a3452ff 100%
-  );
+  background-image: linear-gradient(90deg, #152134ff 6%, #182438ff 34%, #1b273dff 54%, #2a3452ff 100%);
 }
 #Shop .gallery_frame .gallery .prenda7 .overlay_prenda {
   color: #2a3452ff;
 }
 
 #Shop .gallery_frame .gallery .prenda8 .display {
-  background-image: linear-gradient(
-    90deg,
-    #252528ff 0%,
-    #2c2a2bff 41%,
-    #3b393bff 100%
-  );
+  background-image: linear-gradient(90deg, #252528ff 0%, #2c2a2bff 41%, #3b393bff 100%);
 }
 #Shop .gallery_frame .gallery .prenda8 .overlay_prenda {
   color: #2c2a2bff;
@@ -2144,8 +1997,7 @@ nav .nav_left:hover p {
 #Newsletter .box {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(#00000070, #00000070),
-    url(../gen_resources/general\ images/foto_fondo_newsletter.JPG);
+  background-image: linear-gradient(#00000070, #00000070), url(../gen_resources/general\ images/foto_fondo_newsletter.JPG);
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -2164,11 +2016,7 @@ nav .nav_left:hover p {
 }
 
 #Newsletter .box .box_content .newsletter_box {
-  background-image: linear-gradient(
-    108.13deg,
-    rgb(12, 18, 32 /*, 0.74*/) -38.7%,
-    rgb(9, 15, 29 /*, 0.74*/) 114.94%
-  );
+  background-image: linear-gradient(108.13deg, rgb(12, 18, 32 /*, 0.74*/) -38.7%, rgb(9, 15, 29 /*, 0.74*/) 114.94%);
   width: 50%;
   height: 100%;
   padding: 6.3vh 5vh;
@@ -2383,11 +2231,7 @@ nav .nav_left:hover p {
   flex-shrink: 0;
   width: 17.9vw;
   margin: 0 0.45vw;
-  background-image: linear-gradient(
-    180deg,
-    var(--color2B) -378.7%,
-    var(--color3B) 174.94%
-  );
+  background-image: linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
   border-radius: 3px;
   position: relative;
   white-space: nowrap;
@@ -2498,12 +2342,7 @@ nav .nav_left:hover p {
   }
 
   nav.active {
-    background-image: linear-gradient(
-      108.13deg,
-      var(--color1B) -247%,
-      var(--color2B) -128.7%,
-      var(--color3B) 74.94%
-    );
+    background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
   }
 
   nav .hamburger_menu {
@@ -2530,8 +2369,7 @@ nav .nav_left:hover p {
     position: absolute;
     top: 0;
     left: 4.4vw;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -2566,8 +2404,7 @@ nav .nav_left:hover p {
   .nav_li_a {
     color: var(--colorW);
     text-decoration: none;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -2636,22 +2473,8 @@ nav .nav_left:hover p {
     margin: auto;
     z-index: 100;
     overflow: hidden;
-    -webkit-clip-path: polygon(
-      8.658% 0%,
-      100% 0%,
-      100% 82.5%,
-      91.342% 100%,
-      0% 100%,
-      0% 17.5%
-    );
-    clip-path: polygon(
-      8.658% 0%,
-      100% 0%,
-      100% 82.5%,
-      91.342% 100%,
-      0% 100%,
-      0% 17.5%
-    );
+    -webkit-clip-path: polygon(8.658% 0%, 100% 0%, 100% 82.5%, 91.342% 100%, 0% 100%, 0% 17.5%);
+    clip-path: polygon(8.658% 0%, 100% 0%, 100% 82.5%, 91.342% 100%, 0% 100%, 0% 17.5%);
     background-color: #be8a47;
     display: inline-block;
     box-sizing: border-box;
@@ -2737,13 +2560,7 @@ nav .nav_left:hover p {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(
-      180deg,
-      #00000075 0%,
-      #00000075 10%,
-      #0000009c 95%,
-      #000000c9 100%
-    );
+    background-image: linear-gradient(180deg, #00000075 0%, #00000075 10%, #0000009c 95%, #000000c9 100%);
     background-size: cover;
     position: relative;
   }
@@ -2979,11 +2796,7 @@ nav .nav_left:hover p {
     font-size: 35vh;
     line-height: 35vh;
     height: 35vh;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.9) -53.62%,
-      rgba(255, 255, 255, 0.1) 105.81%
-    );
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -2992,13 +2805,7 @@ nav .nav_left:hover p {
     vertical-align: middle;
   }
 
-  #Inicio
-    .gallery_frame
-    .gallery
-    .frame2
-    .match-data
-    .countdown-vs
-    .ver-directo {
+  #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo {
     text-decoration: none;
     background: rgb(9, 26, 51);
     padding: 0;
@@ -3023,13 +2830,7 @@ nav .nav_left:hover p {
     z-index: 50;
   }
 
-  #Inicio
-    .gallery_frame
-    .gallery
-    .frame2
-    .match-data
-    .countdown-vs
-    .ver-directo:hover {
+  #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
     background: var(--colorW);
     color: rgb(9, 26, 51);
     font-weight: 600;
@@ -3047,8 +2848,7 @@ nav .nav_left:hover p {
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 0 100%, 100% 100%;
     background-repeat: no-repeat;
@@ -3072,8 +2872,7 @@ nav .nav_left:hover p {
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -3478,33 +3277,13 @@ nav .nav_left:hover p {
     transform: translateY(64%);
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay-large
-    .procedencia,
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay
-    .procedencia {
+  #Renovadas .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia,
+  #Renovadas .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
     opacity: 1;
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay
-    .nombre-completo,
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .nombre-completo {
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
     position: absolute;
     top: 0;
     left: 0.9vw;
@@ -3531,12 +3310,7 @@ nav .nav_left:hover p {
     opacity: 0;
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .procedencia {
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
     position: absolute;
     top: 6vw;
     left: 1vw;
@@ -3678,28 +3452,13 @@ nav .nav_left:hover p {
     transform: translateY(64%);
   }
 
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay-large
-    .procedencia,
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay
-    .procedencia {
+  #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia,
+  #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
     opacity: 1;
   }
 
   #Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .nombre-completo {
+  #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
     position: absolute;
     top: 0;
     left: 0.9vw;
@@ -3726,12 +3485,7 @@ nav .nav_left:hover p {
     opacity: 0;
   }
 
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .procedencia {
+  #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
     position: absolute;
     top: 6vw;
     left: 1vw;
@@ -4547,11 +4301,7 @@ nav .nav_left:hover p {
   }
 
   #Newsletter .box .box_content .newsletter_box {
-    background-image: linear-gradient(
-      108.13deg,
-      rgb(12, 18, 32 /*, 0.74*/) -38.7%,
-      rgb(9, 15, 29 /*, 0.74*/) 114.94%
-    );
+    background-image: linear-gradient(108.13deg, rgb(12, 18, 32 /*, 0.74*/) -38.7%, rgb(9, 15, 29 /*, 0.74*/) 114.94%);
     width: 50%;
     height: 100%;
     padding: 6.3vh 5vh;
@@ -4760,11 +4510,7 @@ nav .nav_left:hover p {
     flex-shrink: 0;
     width: 17.9vw;
     margin: 0 0.45vw;
-    background-image: linear-gradient(
-      180deg,
-      var(--color2B) -378.7%,
-      var(--color3B) 174.94%
-    );
+    background-image: linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
     border-radius: 3px;
     position: relative;
     white-space: nowrap;
@@ -4874,12 +4620,7 @@ nav .nav_left:hover p {
   }
 
   nav.active {
-    background-image: linear-gradient(
-      108.13deg,
-      var(--color1B) -247%,
-      var(--color2B) -128.7%,
-      var(--color3B) 74.94%
-    );
+    background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
   }
 
   nav .hamburger_menu {
@@ -4906,8 +4647,7 @@ nav .nav_left:hover p {
     position: absolute;
     top: 0;
     left: 4.4vw;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -4942,8 +4682,7 @@ nav .nav_left:hover p {
   .nav_li_a {
     color: var(--colorW);
     text-decoration: none;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -5012,22 +4751,8 @@ nav .nav_left:hover p {
     margin: auto;
     z-index: 100;
     overflow: hidden;
-    -webkit-clip-path: polygon(
-      8.658% 0%,
-      100% 0%,
-      100% 82.5%,
-      91.342% 100%,
-      0% 100%,
-      0% 17.5%
-    );
-    clip-path: polygon(
-      8.658% 0%,
-      100% 0%,
-      100% 82.5%,
-      91.342% 100%,
-      0% 100%,
-      0% 17.5%
-    );
+    -webkit-clip-path: polygon(8.658% 0%, 100% 0%, 100% 82.5%, 91.342% 100%, 0% 100%, 0% 17.5%);
+    clip-path: polygon(8.658% 0%, 100% 0%, 100% 82.5%, 91.342% 100%, 0% 100%, 0% 17.5%);
     background-color: #be8a47;
     display: inline-block;
     box-sizing: border-box;
@@ -5113,13 +4838,7 @@ nav .nav_left:hover p {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(
-      180deg,
-      #00000075 0%,
-      #00000075 10%,
-      #0000009c 95%,
-      #000000c9 100%
-    );
+    background-image: linear-gradient(180deg, #00000075 0%, #00000075 10%, #0000009c 95%, #000000c9 100%);
     background-size: cover;
     position: relative;
   }
@@ -5359,11 +5078,7 @@ nav .nav_left:hover p {
     font-size: 35vh;
     line-height: 35vh;
     height: 35vh;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.9) -53.62%,
-      rgba(255, 255, 255, 0.1) 105.81%
-    );
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -5372,13 +5087,7 @@ nav .nav_left:hover p {
     vertical-align: middle;
   }
 
-  #Inicio
-    .gallery_frame
-    .gallery
-    .frame2
-    .match-data
-    .countdown-vs
-    .ver-directo {
+  #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo {
     text-decoration: none;
     background: rgb(9, 26, 51);
     padding: 0;
@@ -5403,13 +5112,7 @@ nav .nav_left:hover p {
     z-index: 50;
   }
 
-  #Inicio
-    .gallery_frame
-    .gallery
-    .frame2
-    .match-data
-    .countdown-vs
-    .ver-directo:hover {
+  #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
     background: var(--colorW);
     color: rgb(9, 26, 51);
     font-weight: 600;
@@ -5427,8 +5130,7 @@ nav .nav_left:hover p {
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 0 100%, 100% 100%;
     background-repeat: no-repeat;
@@ -5452,8 +5154,7 @@ nav .nav_left:hover p {
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -5695,33 +5396,13 @@ nav .nav_left:hover p {
     transform: translateY(64%);
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay-large
-    .procedencia,
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay
-    .procedencia {
+  #Renovadas .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia,
+  #Renovadas .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
     opacity: 1;
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay
-    .nombre-completo,
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .nombre-completo {
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
     position: absolute;
     top: 0;
     left: 0.9vw;
@@ -5748,12 +5429,7 @@ nav .nav_left:hover p {
     opacity: 0;
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .procedencia {
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
     position: absolute;
     top: 6vw;
     left: 1vw;
@@ -5869,28 +5545,13 @@ nav .nav_left:hover p {
     transform: translateY(64%);
   }
 
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay-large
-    .procedencia,
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora:hover
-    > .jugadora_overlay
-    .procedencia {
+  #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay-large .procedencia,
+  #Players .gallery_frame .gallery .jugadora:hover > .jugadora_overlay .procedencia {
     opacity: 1;
   }
 
   #Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .nombre-completo {
+  #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
     position: absolute;
     top: 0;
     left: 0.9vw;
@@ -5917,12 +5578,7 @@ nav .nav_left:hover p {
     opacity: 0;
   }
 
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .procedencia {
+  #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
     position: absolute;
     top: 6vw;
     left: 1vw;
@@ -6712,11 +6368,7 @@ nav .nav_left:hover p {
   }
 
   #Newsletter .box .box_content .newsletter_box {
-    background-image: linear-gradient(
-      108.13deg,
-      rgb(12, 18, 32 /*, 0.74*/) -38.7%,
-      rgb(9, 15, 29 /*, 0.74*/) 114.94%
-    );
+    background-image: linear-gradient(108.13deg, rgb(12, 18, 32 /*, 0.74*/) -38.7%, rgb(9, 15, 29 /*, 0.74*/) 114.94%);
     width: 50%;
     height: 100%;
     padding: 6.3vh 5vh;
@@ -6926,11 +6578,7 @@ nav .nav_left:hover p {
     flex-shrink: 0;
     width: 17.9vw;
     margin: 0 0.45vw;
-    background-image: linear-gradient(
-      180deg,
-      var(--color2B) -378.7%,
-      var(--color3B) 174.94%
-    );
+    background-image: linear-gradient(180deg, var(--color2B) -378.7%, var(--color3B) 174.94%);
     border-radius: 3px;
     position: relative;
     white-space: nowrap;
@@ -7040,12 +6688,7 @@ nav .nav_left:hover p {
   }
 
   nav.active {
-    background-image: linear-gradient(
-      108.13deg,
-      var(--color1B) -247%,
-      var(--color2B) -128.7%,
-      var(--color3B) 74.94%
-    );
+    background-image: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
   }
 
   nav .hamburger_menu {
@@ -7090,8 +6733,7 @@ nav .nav_left:hover p {
     position: absolute;
     top: 0;
     left: 11.25vw;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -7116,12 +6758,7 @@ nav .nav_left:hover p {
     width: 100%;
     height: 100%;
     transform: translateX(-100%);
-    background: linear-gradient(
-      108.13deg,
-      var(--color1B) -247%,
-      var(--color2B) -128.7%,
-      var(--color3B) 74.94%
-    );
+    background: linear-gradient(108.13deg, var(--color1B) -247%, var(--color2B) -128.7%, var(--color3B) 74.94%);
     transition: all 0.35s ease-out;
   }
 
@@ -7141,8 +6778,7 @@ nav .nav_left:hover p {
   .nav_li_a {
     color: var(--colorW);
     text-decoration: none;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -7167,22 +6803,8 @@ nav .nav_left:hover p {
     margin: auto;
     z-index: 100;
     overflow: hidden;
-    -webkit-clip-path: polygon(
-      8.658% 0%,
-      100% 0%,
-      100% 91%,
-      91.342% 100%,
-      0% 100%,
-      0% 9%
-    );
-    clip-path: polygon(
-      8.658% 0%,
-      100% 0%,
-      100% 91%,
-      91.342% 100%,
-      0% 100%,
-      0% 9%
-    );
+    -webkit-clip-path: polygon(8.658% 0%, 100% 0%, 100% 91%, 91.342% 100%, 0% 100%, 0% 9%);
+    clip-path: polygon(8.658% 0%, 100% 0%, 100% 91%, 91.342% 100%, 0% 100%, 0% 9%);
     background-color: #be8a47;
     display: inline-block;
     box-sizing: border-box;
@@ -7277,13 +6899,7 @@ nav .nav_left:hover p {
     width: 100%;
     height: 95vh;
     overflow: hidden;
-    background-image: linear-gradient(
-      180deg,
-      #0000009c 0%,
-      #0000009c 10%,
-      #0000009c 95%,
-      #000000c9 100%
-    );
+    background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 10%, #0000009c 95%, #000000c9 100%);
     background-size: cover;
     position: relative;
   }
@@ -7504,11 +7120,7 @@ nav .nav_left:hover p {
     font-size: 30vw;
     line-height: 30vw;
     height: 30vw;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.9) -53.62%,
-      rgba(255, 255, 255, 0.1) 105.81%
-    );
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) -53.62%, rgba(255, 255, 255, 0.1) 105.81%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -7517,13 +7129,7 @@ nav .nav_left:hover p {
     vertical-align: middle;
   }
 
-  #Inicio
-    .gallery_frame
-    .gallery
-    .frame2
-    .match-data
-    .countdown-vs
-    .ver-directo {
+  #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo {
     text-decoration: none;
     background: rgb(9, 26, 51);
     padding: 0;
@@ -7548,13 +7154,7 @@ nav .nav_left:hover p {
     z-index: 50;
   }
 
-  #Inicio
-    .gallery_frame
-    .gallery
-    .frame2
-    .match-data
-    .countdown-vs
-    .ver-directo:hover {
+  #Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .ver-directo:hover {
     background: var(--colorW);
     color: rgb(9, 26, 51);
     font-weight: 600;
@@ -7572,8 +7172,7 @@ nav .nav_left:hover p {
     font-weight: 400;
     font-size: 13px;
     line-height: 13px;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 0 100%, 100% 100%;
     background-repeat: no-repeat;
@@ -7593,8 +7192,7 @@ nav .nav_left:hover p {
     font-weight: 400;
     font-size: 13px;
     line-height: 13px;
-    background-image: linear-gradient(#00000000, #00000000),
-      linear-gradient(var(--colorW), var(--colorW));
+    background-image: linear-gradient(#00000000, #00000000), linear-gradient(var(--colorW), var(--colorW));
     background-size: 100% 1px, 0 1px;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -7850,18 +7448,8 @@ nav .nav_left:hover p {
     transform: translateY(64%);
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay
-    .nombre-completo,
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .nombre-completo {
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
     position: absolute;
     top: 0;
     left: 2.5vw;
@@ -7888,12 +7476,7 @@ nav .nav_left:hover p {
     opacity: 0;
   }
 
-  #Renovadas
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .procedencia {
+  #Renovadas .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
     position: absolute;
     top: 11vw;
     left: 3vw;
@@ -7991,12 +7574,7 @@ nav .nav_left:hover p {
   }
 
   #Players .gallery_frame .gallery .jugadora .jugadora_overlay .nombre-completo,
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .nombre-completo {
+  #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .nombre-completo {
     position: absolute;
     top: 0;
     left: 2.5vw;
@@ -8023,12 +7601,7 @@ nav .nav_left:hover p {
     opacity: 0;
   }
 
-  #Players
-    .gallery_frame
-    .gallery
-    .jugadora
-    .jugadora_overlay-large
-    .procedencia {
+  #Players .gallery_frame .gallery .jugadora .jugadora_overlay-large .procedencia {
     position: absolute;
     top: 11vw;
     left: 3vw;
@@ -8668,11 +8241,7 @@ nav .nav_left:hover p {
   }
 
   #Newsletter .box .box_content .newsletter_box {
-    background-image: linear-gradient(
-      108.13deg,
-      rgb(12, 18, 32 /*, 0.74*/) -38.7%,
-      rgb(9, 15, 29 /*, 0.74*/) 114.94%
-    );
+    background-image: linear-gradient(108.13deg, rgb(12, 18, 32 /*, 0.74*/) -38.7%, rgb(9, 15, 29 /*, 0.74*/) 114.94%);
     width: 100%;
     height: 100%;
     padding: 6.3vh 5vh;
