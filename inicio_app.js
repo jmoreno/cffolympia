@@ -57,7 +57,9 @@ function matchDataDisplay() {
 }
 
 //Countdown
-const timeLeft = document.querySelector("#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown");
+const timeLeft = document.querySelector(
+  "#Inicio .gallery_frame .gallery .frame2 .match-data .countdown-vs .countdown"
+);
 const matchDay = new Date("May 14, 2023 12:00:00");
 const second = 1000;
 const minute = second * 60;
@@ -85,7 +87,9 @@ function countDown() {
   const hours = Math.floor((timeSpan % day) / hour).toLocaleString(undefined, {
     minimumIntegerDigits: 2,
   });
-  const minutes = Math.floor((timeSpan % hour) / minute).toLocaleString(undefined, { minimumIntegerDigits: 2 });
+  const minutes = Math.floor((timeSpan % hour) / minute).toLocaleString(undefined, {
+    minimumIntegerDigits: 2,
+  });
   const seconds1 = Math.floor((timeSpan % minute) / second);
   const seconds2 = seconds1.toLocaleString(undefined, {
     minimumIntegerDigits: 2,
@@ -108,13 +112,21 @@ let translate_renovadas = 0;
 let translation_index_ren = 1;
 
 let renovadas_slide = (direction) => {
-  if ((direction === "next" && translation_index_ren === 2) || (direction === "prev" && translation_index_ren === 1)) {
+  if (
+    (direction === "next" && translation_index_ren === 4) ||
+    (direction === "prev" && translation_index_ren === 1)
+  ) {
     return;
   } else {
     direction === "next" ? translation_index_ren++ : translation_index_ren--;
-    direction === "next" ? (translate_renovadas -= grupos_renovadas_translate) : (translate_renovadas += grupos_renovadas_translate);
+    direction === "next"
+      ? (translate_renovadas -= grupos_renovadas_translate)
+      : (translate_renovadas += grupos_renovadas_translate);
 
-    grupos_renovadas.forEach((grupos_renovadas) => (grupos_renovadas.style.transform = `translateX(${translate_renovadas}%)`));
+    grupos_renovadas.forEach(
+      (grupos_renovadas) =>
+        (grupos_renovadas.style.transform = `translateX(${translate_renovadas}%)`)
+    );
   }
 };
 
@@ -125,13 +137,21 @@ let translate_jugadoras = 0;
 let translation_index = 1;
 
 let jugadoras_slide = (direction) => {
-  if ((direction === "next" && translation_index === 6) || (direction === "prev" && translation_index === 1)) {
+  if (
+    (direction === "next" && translation_index === 6) ||
+    (direction === "prev" && translation_index === 1)
+  ) {
     return;
   } else {
     direction === "next" ? translation_index++ : translation_index--;
-    direction === "next" ? (translate_jugadoras -= grupos_jugadoras_translate) : (translate_jugadoras += grupos_jugadoras_translate);
+    direction === "next"
+      ? (translate_jugadoras -= grupos_jugadoras_translate)
+      : (translate_jugadoras += grupos_jugadoras_translate);
 
-    grupos_jugadoras.forEach((grupos_jugadoras) => (grupos_jugadoras.style.transform = `translateX(${translate_jugadoras}%)`));
+    grupos_jugadoras.forEach(
+      (grupos_jugadoras) =>
+        (grupos_jugadoras.style.transform = `translateX(${translate_jugadoras}%)`)
+    );
   }
 };
 
@@ -164,18 +184,30 @@ let translate_cantera = 0;
 let cantera_translation_index = 1;
 
 let cantera_slide = (direction) => {
-  if ((direction === "next" && cantera_translation_index === 9) || (direction === "prev" && cantera_translation_index === 1)) {
+  if (
+    (direction === "next" && cantera_translation_index === 9) ||
+    (direction === "prev" && cantera_translation_index === 1)
+  ) {
     return;
-  } else if ((direction === "next" && cantera_translation_index === 8) || (direction === "prev" && cantera_translation_index === 9)) {
+  } else if (
+    (direction === "next" && cantera_translation_index === 8) ||
+    (direction === "prev" && cantera_translation_index === 9)
+  ) {
     direction === "next" ? cantera_translation_index++ : cantera_translation_index--;
     // direction === "next" ? translate_cantera -= (equipos_cantera_translate / 2) : translate_cantera += (equipos_cantera_translate /2);
 
-    equipos_cantera.forEach((equipos_cantera) => (equipos_cantera.style.transform = `translateX(${translate_cantera}%)`));
+    equipos_cantera.forEach(
+      (equipos_cantera) => (equipos_cantera.style.transform = `translateX(${translate_cantera}%)`)
+    );
   } else {
     direction === "next" ? cantera_translation_index++ : cantera_translation_index--;
-    direction === "next" ? (translate_cantera -= equipos_cantera_translate) : (translate_cantera += equipos_cantera_translate);
+    direction === "next"
+      ? (translate_cantera -= equipos_cantera_translate)
+      : (translate_cantera += equipos_cantera_translate);
 
-    equipos_cantera.forEach((equipos_cantera) => (equipos_cantera.style.transform = `translateX(${translate_cantera}%)`));
+    equipos_cantera.forEach(
+      (equipos_cantera) => (equipos_cantera.style.transform = `translateX(${translate_cantera}%)`)
+    );
   }
 };
 
@@ -285,7 +317,11 @@ const epFlex = document.querySelector(".podcast__gallery-flex");
 let arrEps = [];
 
 class Episode {
-  constructor(name = "LUNES NOCHE FÚTBOL DE MADRID", imgLink = "/gen_resources/general images/lunes_noche_futbol_blue.jpg", epLink) {
+  constructor(
+    name = "LUNES NOCHE FÚTBOL DE MADRID",
+    imgLink = "/gen_resources/general images/lunes_noche_futbol_blue.jpg",
+    epLink
+  ) {
     this.name = name;
     this.imgLink = imgLink;
     this.epLink = epLink;
@@ -378,7 +414,25 @@ let ep17 = new Episode(
   "https://www.youtube.com/live/Lp51bkBQzys?feature=share&t=4846"
 );
 
-arrEps.push(ep17, ep16, ep15, ep14, ep13, ep12, ep11, ep10, ep9, ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1);
+arrEps.push(
+  ep17,
+  ep16,
+  ep15,
+  ep14,
+  ep13,
+  ep12,
+  ep11,
+  ep10,
+  ep9,
+  ep8,
+  ep7,
+  ep6,
+  ep5,
+  ep4,
+  ep3,
+  ep2,
+  ep1
+);
 
 for (let episode of arrEps) {
   epFlex.innerHTML += `<a class="podcast__episode" href="${episode.epLink}">
