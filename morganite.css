@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "Morganite-Thin";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-Thin.ttf") format("truetype");
   font-weight: 100;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-Thin";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-Thin.ttf") format("truetype");
   font-weight: 100;
   font-display: swap;
@@ -14,14 +14,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-ExtraLight";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-ExtraLightItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-ExtraLightItalic.ttf") format("truetype");
   font-weight: 200;
   font-display: swap;
@@ -29,14 +29,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-Light";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-Light.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-LightItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
@@ -44,14 +44,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-Book";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-Book.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-BookItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-BookItalic.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
@@ -59,14 +59,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-Medium";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-Medium.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-MediumItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
@@ -74,14 +74,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-SemiBold";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-SemiBoldItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
@@ -89,14 +89,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-Bold";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-BoldItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
@@ -104,14 +104,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-ExtraBold";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-ExtraBoldItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-display: swap;
@@ -119,14 +119,14 @@
 }
 
 @font-face {
-  font-family: "Morganite-Black";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-Black.ttf") format("truetype");
   font-weight: 900;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: "Morganite-BlackItalic";
+  font-family: "Morganite";
   src: url("/fonts/Morganite-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-display: swap;
