@@ -2,7 +2,8 @@ let SEASON_SENIOR_A = [
   // Jornada 1
   {
     imgURL: "public/img/escudos/atleti.png",
-    date: "Aug 16, 2022 17:36:00",
+    date: "Sep 16, 2023 17:36:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/cBVar1VN3xc8E1hC6",
     liveURL: "",
@@ -10,7 +11,8 @@ let SEASON_SENIOR_A = [
   // Jornada 2
   {
     imgURL: "public/img/escudos/atleti.png",
-    date: "Jun 29, 2023 12:00:00",
+    date: "Sep 29, 2023 12:00:00",
+    shortDate: "29/09/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/cBVar1VN3xc8E1hC6",
     liveURL: "",
@@ -18,7 +20,8 @@ let SEASON_SENIOR_A = [
   // Jornada 3
   {
     imgURL: "public/img/escudos/atleti.png",
-    date: "Jun 29, 2023 12:00:00",
+    date: "Sep 30, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/cBVar1VN3xc8E1hC6",
     liveURL: "",
@@ -26,7 +29,8 @@ let SEASON_SENIOR_A = [
   // Jornada 4
   {
     imgURL: "public/img/escudos/atleti.png",
-    date: "Jun 29, 2023 12:00:00",
+    date: "Oct 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -35,6 +39,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -43,6 +48,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -51,6 +57,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -59,6 +66,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -67,6 +75,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -75,6 +84,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -83,6 +93,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -91,6 +102,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -99,6 +111,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -107,6 +120,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 21, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -115,6 +129,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 23, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -123,6 +138,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 27, 2024 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -131,6 +147,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -139,6 +156,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -147,6 +165,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -155,6 +174,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -163,6 +183,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -171,6 +192,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -179,6 +201,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jun 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -187,6 +210,7 @@ let SEASON_SENIOR_A = [
   {
     imgURL: "public/img/escudos/atleti.png",
     date: "Jul 29, 2023 12:00:00",
+    shortDate: "16/09/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
