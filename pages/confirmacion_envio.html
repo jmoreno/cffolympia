@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>CFF OLYMPIA ⚽ Confirmación de envío</title>
+
+    <!-- ETIQUETAS META -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google-site-verification" content="eqHCBAW8FA5-Ks7_d2mXiWkN22gW1YbiXhQtBghdGqk" />
+    <meta name="author" content="Club Deportivo Básico CFF Olympia Las Rozas" />
+    <meta
+      name="description"
+      content="Web oficial del Club Deportivo Básico Femenino CFF Olympia Las Rozas" />
+    <meta
+      name="keywords"
+      content="Cff Olympia, Olympia, Cff Olympia Las Rozas, Formulario enviado correctamente" />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+    <meta name="theme-color" content="#030722" />
+    <meta name="msapplication-navbutton-color" content="#fff" />
+    <link rel="icon" type="image/png" href="/public/favicon.png" />
+
+    <!-- LINKS -->
+    <link rel="base" href="http://www.cffolympia.es" />
+    <link rel="canonical" href="http://www.cffolympia.es" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Anton:400" />
+    <link rel="stylesheet" href="/styles.css" type="text/css" />
+
+    <!-- COMPONENTS -->
+    <script src="/components/header_comp.js" type="text/javascript" defer></script>
+  </head>
+
+  <!-- STRUCTURE -->
+  <body>
+    <header-component></header-component>
+    <main>
+      <style>
+        .sent {
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .sent__content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .sent__text {
+          font-family: var(--title);
+          font-weight: 800;
+          font-size: 8rem;
+          color: var(--mint);
+          padding: 0;
+          margin: 0;
+        }
+        .sent__btn {
+          margin: 2rem 0 0;
+          width: 100%;
+          background: var(--blue);
+          border-radius: 500rem;
+          border: 0.3rem solid var(--mint);
+          position: relative;
+          font-family: var(--stitle);
+          font-weight: 400;
+          font-size: 3rem;
+          color: var(--mint);
+          padding: 1.5rem 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-decoration: none;
+        }
+
+        @media (max-width: 700px) {
+          .sent__text {
+            font-size: 7rem;
+          }
+          .sent__btn {
+            font-size: 2.5rem;
+          }
+        }
+        @media (max-width: 620px) {
+          .sent__text {
+            font-size: 6rem;
+          }
+          .sent__btn {
+            border: 0.25rem solid var(--mint);
+          }
+        }
+        @media (max-width: 530px) {
+          .sent__text {
+            font-size: 5rem;
+          }
+          .sent__btn {
+            margin: 1.5rem 0 0;
+            font-size: 2rem;
+            padding: 1.3rem 0;
+          }
+        }
+        @media (max-width: 450px) {
+          .sent__text {
+            font-size: 3.9rem;
+          }
+          .sent__btn {
+            font-size: 1.8rem;
+            padding: 1.1rem 0;
+          }
+        }
+      </style>
+      <section class="sent">
+        <div class="sent__content">
+          <span class="sent__text">FORMULARIO ENVIADO CORRECTAMENTE</span>
+          <a href="/index.html" class="sent__btn">VOLVER A INICIO</a>
+          <a href="https://www.instagram.com/cff_olympia/" class="sent__btn">IR A INSTAGRAM</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
