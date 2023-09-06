@@ -24,7 +24,6 @@ for (let i = 0; i < SEASON_SENIOR_A.length; i++) {
 let SenAImgURl = SEASON_SENIOR_A[nextMatchArrIndex].imgURL;
 let SenAMapsURl = SEASON_SENIOR_A[nextMatchArrIndex].mapsURL;
 let SenALiveURl = SEASON_SENIOR_A[nextMatchArrIndex].liveURL;
-let SenAHashtag = SEASON_SENIOR_A[nextMatchArrIndex].hashtag;
 ///////////////////////////////////////////////////////////
 
 let MATCHDATA = {
@@ -33,7 +32,6 @@ let MATCHDATA = {
     date: nextMatch,
     mapsURL: SenAMapsURl,
     liveURL: SenALiveURl,
-    hashtag: SenAHashtag,
   },
   senior_b: {
     imgURL: "/public/img/escudos/atleti.png",

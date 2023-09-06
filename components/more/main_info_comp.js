@@ -195,23 +195,23 @@ mainInfoTemplate.innerHTML = `
 <section class="info">
   <div class="info__container info__horario--jug">
     <h2 class="info__title">HORARIO GENERAL</h2>
-    <a href="/public/docs/Horarios de Entrenamiento CFF Olympia Temporada 23-24.pdf" target="_blank" class="info__anchor">Ver Horario</a>
+    <a href="" class="info__anchor">Ver Horario</a>
   </div>
   <div class="info__container info__horario--por">
     <h2 class="info__title">HORARIO PORTERAS</h2>
-    <a href="/public/docs/Horarios de Entrenamiento de Porteras CFF Olympia Temporada 23-24.pdf" target="_blank" class="info__anchor">Ver Horario</a>
+    <a href="" class="info__anchor">Ver Horario</a>
   </div>
   <div class="info__container info__rgpd">
     <h2 class="info__title">PRIVACIDAD</h2>
-    <a href="/public/docs/Política de privacidad CFF Olympia Las Rozas.pdf" target="_blank" class="info__anchor">Ver Políticas</a>
+    <a href="" class="info__anchor">Ver Políticas</a>
   </div>
   <div class="info__container info__reglamento">
     <h2 class="info__title">REGLAMENTO</h2>
-    <a href="/public/docs/Reglamento interno del CFF Olympia.pdf" target="_blank" class="info__anchor">Ver Reglamento</a>
+    <a href="" class="info__anchor">Ver Reglamento</a>
   </div>
   <div class="info__container info__mutualidad">
     <h2 class="info__title">LESIONES</h2>
-    <a href="https://www.rffm.es/cartera-de-servicios/rffm-servicios-medicos/mutualidad" target="_blank" class="info__anchor">Ver Mutualidad</a>
+    <a href="" class="info__anchor">Ver Mutualidad</a>
   </div>
 </section>
 `;

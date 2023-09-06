@@ -4,7 +4,6 @@ let matchDate = MATCHDATA.senior_a.date;
 let oponentImg = MATCHDATA.senior_a.imgURL;
 let mapsURL = MATCHDATA.senior_a.mapsURL;
 let liveURL = MATCHDATA.senior_a.liveURL;
-let hashtag = MATCHDATA.senior_a.hashtag;
 
 const seniorAMatchSlide = document.createElement("template");
 
@@ -534,7 +533,7 @@ seniorAMatchSlide.innerHTML = `
     </div>
     <div class="slide__foot">
       <a href="https://www.instagram.com/cff_olympia/" class="slide__link">
-        ${hashtag}
+        #OLYMPIATLETI
       </a>
       <a href="${mapsURL}" class="slide__link">
         VER UBICACIÓN

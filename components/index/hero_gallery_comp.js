@@ -122,7 +122,7 @@ heroGalleryTemplate.innerHTML = `
     </div>
   </div>
   <div class="hero__gallery-control">
-    <a href="/public/docs/Calendario_Senior_A.pdf" target="_blank" class="hero__link">Ver Calendario</a>
+    <a href="" class="hero__link">Ver Calendario</a>
     <div class="hero__btns">
       <div class="hero__btn-left">
         <img src="public/img/general/arrowleft.svg" alt="Flecha apuntando a la izquierda" />

@@ -235,3 +235,240 @@ main {
   width: 0px;
   height: 0px;
 }
+@import url("/morganite.css");
+
+:root {
+  --white: #fff;
+  --blue: #030722;
+  --mint: #a3d9d6;
+  --title: "Morganite";
+  --stitle: "Anton";
+  --text: "Roboto";
+}
+
+::selection {
+  background-color: var(--mint);
+  color: var(--blue);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 1em;
+}
+p,
+ul,
+ol {
+  font-size: 1em;
+}
+ul {
+  margin: 0 0 1em 25px;
+  list-style: none;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+  font-family: var(--title);
+}
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  font-family: var(--title);
+}
+h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+  font-family: var(--title);
+}
+h4 {
+  font-size: 1.6em;
+  font-weight: 600;
+  font-family: var(--title);
+}
+h5 {
+  font-size: 1.4em;
+  font-weight: 500;
+  font-family: var(--title);
+}
+h6 {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: var(--title);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 62.5%;
+  vertical-align: baseline;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: 0;
+  vertical-align: baseline;
+  color: var(--white);
+  font-family: var(--text), Arial, Helvetica, sans-serif;
+  background: var(--blue);
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}

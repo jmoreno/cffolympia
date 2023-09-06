@@ -68,7 +68,10 @@ teamCarouselTemplate.innerHTML = `
   background: linear-gradient(323deg, var(--blue), var(--mint));
   border-radius: 1rem;
   position: relative;
+<<<<<<< HEAD
   overflow: hidden;
+=======
+>>>>>>> 88c6e0231e1b6ac410e543938b90c1b929b6fef6
 }
 .team__player:first-child {
   margin-left: 4rem;
@@ -149,6 +152,7 @@ teamCarouselTemplate.innerHTML = `
   margin: 0 auto;
   z-index:3;
 }
+<<<<<<< HEAD
 .player__img--sponsor {
   position: relative;
   height: 100%;
@@ -157,6 +161,8 @@ teamCarouselTemplate.innerHTML = `
   object-fit: contain;
   object-position: center;
 }
+=======
+>>>>>>> 88c6e0231e1b6ac410e543938b90c1b929b6fef6
 
 @media (max-width: 1700px) {
   .player__name {
@@ -347,6 +353,7 @@ class TeamSection extends HTMLElement {
     const carousel = shadow.querySelector(".team__carousel");
 
     //PLAYERS LOADING
+<<<<<<< HEAD
     for (let i = 0; i < SeniorA.sponsors.length; i++) {
       let bgColor = SeniorA.sponsors[i].bgColor;
       let imgURL = SeniorA.sponsors[i].imgURL;
@@ -358,6 +365,14 @@ class TeamSection extends HTMLElement {
       `;
     }
     for (let i = 0; i < SeniorA.players.length; i++) {
+=======
+    for (let i = 0; i < SeniorA.players.length; i++) {
+      //Remember that the img is th cut one and the bg goes as the bg of team_player div.
+      //...this is so that i can do certain animations. The bg image is selected depending on the position
+      //One day I might add some new data under the h3
+
+      // [ ] We still have to add the element for the dorsal which appears behind the img and before the bg
+>>>>>>> 88c6e0231e1b6ac410e543938b90c1b929b6fef6
       let name = SeniorA.players[i].name;
       let number = SeniorA.players[i].number;
       let imgURL = SeniorA.players[i].imgURL;
@@ -372,6 +387,14 @@ class TeamSection extends HTMLElement {
       `;
     }
     for (let i = 0; i < SeniorA.staff.length; i++) {
+<<<<<<< HEAD
+=======
+      //Remember that the img is th cut one and the bg goes as the bg of team_player div.
+      //...this is so that i can do certain animations. The bg image is selected depending on the position
+      //One day I might add some new data under the h3
+
+      // [ ] We still have to add the element for the dorsal which appears behind the img and before the bg
+>>>>>>> 88c6e0231e1b6ac410e543938b90c1b929b6fef6
       let name = SeniorA.staff[i].name;
       let status = SeniorA.staff[i].status;
       let imgURL = SeniorA.staff[i].imgURL;

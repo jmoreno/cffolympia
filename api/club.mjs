@@ -1,10 +1,9 @@
 let CLUB = [];
 class Team {
-  constructor({ general = {}, staff = [], players = [], sponsors = [] }) {
+  constructor({ general = {}, staff = [], players = [] }) {
     this.general = general;
     this.staff = staff;
     this.players = players;
-    this.sponsors = sponsors;
   }
 }
 
@@ -1790,14 +1789,6 @@ let SeniorA = new Team({
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
   },
-  sponsors: [
-    {
-      //Ruesma
-      imgURL: "/public/sponsors/logo_ruesma--color.png",
-      bgColor: "#fff",
-      pageURL: "https://www.ruesma.com/",
-    },
-  ],
   staff: [
     {
       name: "Lydia Vizcaíno",
@@ -1810,19 +1801,19 @@ let SeniorA = new Team({
       status: "Segundo entrenador",
     },
     {
+      name: "Jaime Fernández",
+      imgURL: "/public/img/equipos/senior_a/jaime_fernandez.png",
+      status: "Asistente",
+    },
+    {
       name: "Tuco García",
       imgURL: "/public/img/equipos/senior_a/tuco_garcia.png",
       status: "Entrenador de Porteras",
     },
     {
-      name: "Elena Martínez",
-      imgURL: "/public/img/equipos/senior_a/elena_martinez.png",
+      name: "Elena de la Fuente",
+      imgURL: "/public/img/equipos/senior_a/elena_de_la_fuente.png",
       status: "Preparadora Física",
-    },
-    {
-      name: "Jaime Fernández",
-      imgURL: "/public/img/equipos/senior_a/jaime_fernandez.png",
-      status: "Readaptador",
     },
     {
       name: "Rodrigo Collado",
@@ -1835,16 +1826,6 @@ let SeniorA = new Team({
       status: "Fisioterapeuta",
     },
     {
-      name: "Sergio de la Fuente",
-      imgURL: "/public/img/equipos/senior_a/sergio_de_la_fuente.png",
-      status: "Ayudante Técnico",
-    },
-    {
-      name: "Jorge Ballesteros",
-      imgURL: "/public/img/equipos/senior_a/jorge_ballesteros.png",
-      status: "Ayudante Técnico",
-    },
-    {
       name: "Pablo Prieto",
       imgURL: "/public/img/equipos/senior_a/pablo_prieto.png",
       status: "Analista",
@@ -1854,16 +1835,16 @@ let SeniorA = new Team({
       imgURL: "/public/img/equipos/senior_a/blanca_pedauye.png",
       status: "Nutricionista",
     },
-    // {
-    //   name: "María José Massuh",
-    //   imgURL: "/public/img/equipos/senior_a/maria_jose_massuh.png",
-    //   status: "Nutricionista",
-    // },
-    // {
-    //   name: "Belén de Gracia",
-    //   imgURL: "/public/img/equipos/senior_a/belen_de_gracia.png",
-    //   status: "Nutricionista",
-    // },
+    {
+      name: "María José Massuh",
+      imgURL: "/public/img/equipos/senior_a/maria_jose_massuh.png",
+      status: "Nutricionista",
+    },
+    {
+      name: "Belén de Gracia",
+      imgURL: "/public/img/equipos/senior_a/belen_de_gracia.png",
+      status: "Nutricionista",
+    },
     {
       name: "Nacho García",
       imgURL: "/public/img/equipos/senior_a/nacho_garcia.png",
@@ -1881,19 +1862,19 @@ let SeniorA = new Team({
       name: "Cristina Contreras",
       imgURL: "/public/img/equipos/senior_a/cristina_contreras.png",
       number: "2",
-      position: "Def Lateral",
+      position: "Lateral",
     },
     {
       name: "Noemí Andrés",
       imgURL: "/public/img/equipos/senior_a/noemi_andres.png",
       number: "3",
-      position: "Def Central",
+      position: "",
     },
     {
       name: "Belén Lafuente",
       imgURL: "/public/img/equipos/senior_a/belen_lafuente.png",
       number: "5",
-      position: "Def Central",
+      position: "",
     },
     {
       name: "Gema Prieto",
@@ -1911,13 +1892,13 @@ let SeniorA = new Team({
       name: "Marta Moreno",
       imgURL: "/public/img/equipos/senior_a/marta_moreno.png",
       number: "8",
-      position: "Mediocentro",
+      position: "",
     },
     {
       name: "Rocío Zafra",
       imgURL: "/public/img/equipos/senior_a/rocio_zafra.png",
       number: "9",
-      position: "Delantera",
+      position: "",
     },
     {
       name: "Valeria Tena",
@@ -1929,13 +1910,13 @@ let SeniorA = new Team({
       name: "Andrea García",
       imgURL: "/public/img/equipos/senior_a/andrea_garcia.png",
       number: "11",
-      position: "Mediocentro",
+      position: "",
     },
     {
       name: "Gabi de la Villa",
       imgURL: "/public/img/equipos/senior_a/gabi_de_la_villa.png",
       number: "12",
-      position: "Def Lateral",
+      position: "",
     },
     {
       name: "Lucía Contreras",
@@ -1953,13 +1934,13 @@ let SeniorA = new Team({
       name: "Aitana Sánchez",
       imgURL: "/public/img/equipos/senior_a/aitana_sanchez.png",
       number: "16",
-      position: "Mediocentro",
+      position: "",
     },
     {
       name: "Sara Sánchez",
       imgURL: "/public/img/equipos/senior_a/sara_sanchez.png",
       number: "17",
-      position: "Extremo",
+      position: "",
     },
     {
       name: "Andrea Totana",
@@ -1977,43 +1958,43 @@ let SeniorA = new Team({
       name: "Alba Masa",
       imgURL: "/public/img/equipos/senior_a/alba_masa.png",
       number: "22",
-      position: "Def Central",
+      position: "",
     },
     {
       name: "María Herrero",
       imgURL: "/public/img/equipos/senior_a/maria_herrero.png",
       number: "23",
-      position: "Mediocentro",
+      position: "",
     },
     {
       name: "Lucía Sánchez",
       imgURL: "/public/img/equipos/senior_a/lucia_sanchez.png",
       number: "24",
-      position: "Extremo",
+      position: "",
     },
     {
       name: "Cris Menéndez",
       imgURL: "/public/img/equipos/senior_a/cris_menendez.png",
       number: "26",
-      position: "Mediocentro",
+      position: "",
     },
     {
       name: "Patri Camacho",
       imgURL: "/public/img/equipos/senior_a/patri_camacho.png",
       number: "27",
-      position: "Extremo",
+      position: "",
     },
     {
       name: "Elisa Puerta",
       imgURL: "/public/img/equipos/senior_a/elisa_puerta.png",
       number: "28",
-      position: "Def Lateral",
+      position: "",
     },
     {
       name: "Manuela Alfayate",
       imgURL: "/public/img/equipos/senior_a/manuela_alfayate.png",
       number: "30",
-      position: "Def Central",
+      position: "",
     },
     {
       name: "Lucía Fernández",
