@@ -1,0 +1,279 @@
+<!-- ©2023 CFF OLYMPIA, ALL RIGHTS RESERVED -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GGKZMGWV3S"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GGKZMGWV3S");
+    </script>
+    <title>CFF OLYMPIA ⚽ WEB OFICIAL</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google-site-verification" content="eqHCBAW8FA5-Ks7_d2mXiWkN22gW1YbiXhQtBghdGqk" />
+    <meta name="author" content="Club Deportivo Básico CFF Olympia Las Rozas" />
+    <meta
+      name="description"
+      content="Web oficial del Club Deportivo Básico Femenino CFF Olympia Las Rozas" />
+    <meta
+      name="keywords"
+      content="Cff Olympia, Olympia, Fútbol Femenino, Cff Olympia Femenino, Cff Olympia Las Rozas, Las Rozas, Cff Olympia Las Rozas Femenino, Recinto Ferial Las Rozas, Fútbol Femenino en Las Rozas, Club de fútbol femenino, Fútbol femenino Madrid, Líderes en fútbol femenino en Las Rozas, Fútbol Femenino Base, Primera Nacional Femenino" />
+    <meta name="robots" content="index/follow" />
+    <meta name="googlebot" content="index/follow" />
+    <meta name="theme-color" content="#030722" />
+    <meta name="msapplication-navbutton-color" content="#fff" />
+    <link rel="icon" type="image/png" href="./public/favicon.png" />
+    <link rel="base" href="http://www.cffolympia.es" />
+    <link rel="canonical" href="http://www.cffolympia.es" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Anton:400" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="components/header_comp.js" type="text/javascript" defer></script>
+    <script src="components/index/hero_gallery_comp.js" type="module" defer></script>
+    <script src="components/index/slides/senior-a-match_slide.js" type="module" defer></script>
+    <script src="components/index/slides/sponsors.slide.js" type="module" defer></script>
+    <script src="components/sponsormarquee_comp.js" type="module" defer></script>
+    <script src="components/index/main_news_comp.js" type="module" defer></script>
+    <script src="components/index/team_section_comp.js" type="module" defer></script>
+    <script src="components/index/senior_a_matches_comp.js" type="module" defer></script>
+    <script src="components/index/multipurpose_grid_comp.js" type="module" defer></script>
+    <script src="components/index/inscribe_c2a_comp.js" type="text/javascript" defer></script>
+    <script src="components/index/events_carousel_comp.js" type="module" defer></script>
+    <script src="components/index/olympia_video_comp.js" type="module" defer></script>
+    <script src="components/index/rffmplay_comp.js" type="module" defer></script>
+    <script src="components/index/c2a_comp.js" type="module" defer></script>
+    <script src="components/footer_comp.js" type="module" defer></script>
+  </head>
+
+  <body>
+    <!-- /////////////////////////////////////////////////////////// -->
+    <style>
+      ::selection {
+        background-color: var(--mint);
+        color: var(--blue);
+      }
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+      }
+      .animation {
+        position: fixed;
+        z-index: 100000000000000;
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background: var(--mint);
+        align-items: center;
+        justify-content: center;
+        transition: all 1s ease;
+      }
+      .animation__copyright {
+        position: absolute;
+        text-align: center;
+        bottom: 8%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        color: var(--blue);
+        text-decoration: none;
+        font-family: var(--text);
+        font-size: 1.4rem;
+        font-weight: 500;
+      }
+      .animation__container {
+        position: relative;
+        overflow: hidden;
+        height: 54%;
+        width: 50%;
+        transition: all 1.5s ease;
+      }
+      .animation__img {
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+        transition: all 1s ease;
+      }
+      .animation__img--1 {
+        transform: translateY(100%);
+      }
+      .animation__img--2 {
+        transform: translateY(100%);
+      }
+      .animation__img--3 {
+        transform: translateY(100%);
+      }
+      .animation__title-div {
+        position: absolute;
+        bottom: 8%;
+        left: 9%;
+        overflow: hidden;
+      }
+      .animation__title {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        color: var(--white);
+        text-decoration: none;
+        font-family: var(--title);
+        font-size: 37vh;
+        font-weight: 600;
+        transform: translateY(100%);
+        transition: all 1.5s ease;
+      }
+      .animation__scrolldown {
+        bottom: 13.6%;
+        right: 9%;
+        height: 17vh;
+        width: 17vh;
+        position: absolute;
+        overflow: hidden;
+        opacity: 0;
+        transition: all 1.5s ease;
+      }
+      .scrolldown__circle-text {
+        height: 100%;
+        width: 100%;
+        animation: rotate 10s linear infinite;
+      }
+      .scrolldow__arrow {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 4.5vh;
+        width: 4.5vh;
+      }
+      @keyframes rotate {
+        from {
+          -ms-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+        to {
+          -ms-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+      }
+      @media (max-width: 1280px) {
+        .animation {
+          display: none;
+        }
+      }
+    </style>
+
+    <section class="animation">
+      <span class="animation__copyright">©2023 OLYMPIA, ALL RIGHTS RESERVED</span>
+      <div class="animation__container">
+        <img
+          src="/public/img/noticias/noticia_3.JPG"
+          alt=""
+          class="animation__img animation__img--1" />
+        <img
+          src="/public/img/noticias/noticia_10.jpg"
+          alt=""
+          class="animation__img animation__img--2" />
+        <img
+          src="/public/img/social-index/initial_3.jpg"
+          alt=""
+          class="animation__img animation__img--3" />
+        <div class="animation__title-div">
+          <h1 class="animation__title">CFF OLYMPIA</h1>
+        </div>
+        <div class="animation__scrolldown">
+          <img src="/public/img/general/scrolldown.png" alt="" class="scrolldown__circle-text" />
+          <img src="/public/img/general/scrolldown_arrow.png" alt="" class="scrolldow__arrow" />
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const bg = document.querySelector(".animation");
+      const container = document.querySelector(".animation__container");
+      const img1 = document.querySelector(".animation__img--1");
+      const img2 = document.querySelector(".animation__img--2");
+      const img3 = document.querySelector(".animation__img--3");
+      //const titlediv = document.querySelector(".animation__title-div");
+      const title = document.querySelector(".animation__title");
+      const scrolldown = document.querySelector(".animation__scrolldown");
+      let access = false;
+      let done = false;
+
+      if (window.innerWidth > 1280) {
+        setTimeout(() => {
+          img1.style.transform = "translateY(0%)";
+        }, 1000);
+        setTimeout(() => {
+          img2.style.transform = "translateY(-100.5%)";
+        }, 2200);
+        setTimeout(() => {
+          img3.style.transform = "translateY(-201%)";
+        }, 3400);
+        setTimeout(() => {
+          container.style.height = "100%";
+          container.style.width = "100%";
+        }, 5000);
+        setTimeout(() => {
+          title.style.transform = "translateY(0%)";
+        }, 6500);
+        setTimeout(() => {
+          scrolldown.style.opacity = "1";
+        }, 6700);
+        setTimeout(() => {
+          access = true;
+        }, 8200);
+
+        window.onscroll = () => {
+          if (access && !done) {
+            scrollTo(0, 0);
+            bg.style.transform = "translateY(-100%)";
+            done = !done;
+            setTimeout(() => {
+              bg.style.display = "none";
+            }, 2000);
+          } else if (!access) {
+            scrollTo(0, 0);
+          }
+        };
+      }
+    </script>
+    <!-- /////////////////////////////////////////////////////////// -->
+
+    <header-component></header-component>
+    <main>
+      <hero_gallery-component> </hero_gallery-component>
+      <sponsor-marquee></sponsor-marquee>
+      <main_news-component></main_news-component>
+      <team_section-component></team_section-component>
+      <senior-a_matches-component></senior-a_matches-component>
+      <multipurpose_grid-component></multipurpose_grid-component>
+      <inscribe_c2a-component></inscribe_c2a-component>
+      <!-- <events_section-component></events_section-component> -->
+      <video_section-component></video_section-component>
+      <rffmplay_section-component></rffmplay_section-component>
+      <c2a-component></c2a-component>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>
