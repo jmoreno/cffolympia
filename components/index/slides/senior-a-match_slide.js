@@ -559,7 +559,7 @@ class SeniorAMatchSlide extends HTMLElement {
     const slideMatch = shadow2.querySelector(".slide__match");
     if (liveURL) {
       slideMatch.innerHTML += `
-      <a href="${liveURL}" class="match__video-btn">
+      <a href="${liveURL}" target="_blank" class="match__video-btn">
         <img
           src="public/img/general/recbutton.png"
           alt="En directo"

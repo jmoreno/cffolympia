@@ -158,6 +158,7 @@ nav {
   </div>
   <ul class="nav__right">
     <li class="nav__element"><a class="nav__link" href="/pages/inscribete.html">INSCRÍBETE</a></li>
+    <li class="nav__element"><a class="nav__link" target="_blank" href="https://estrellasporlaigualdad.cffolympia.es">ESTRELLAS</a></li>
     <!--<li class="nav__element"><a class="nav__link" href="/pages/equipos.html">EQUIPOS</a></li>-->
     <li class="nav__element"><a class="nav__link" href="/pages/noticias.html?grupo=1">NOTICIAS</a></li>
     <li class="nav__element"><a class="nav__link" href="/pages/tienda.html">TIENDA</a></li>
