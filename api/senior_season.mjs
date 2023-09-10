@@ -1,12 +1,10 @@
-//[ ]
-
 let SEASON_SENIOR_A = [
   // Jornada 1
   {
     imgURL: "public/img/escudos/las_rozas.png",
     date: "Sep 09, 2023 19:15:00",
     shortDate: "09/09/23",
-    result: "-",
+    result: "6-2",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "https://www.youtube.com/watch?v=1kpeZIWwikA",
     hashtag: "#OLYMPIAVSLASROZAS",
@@ -14,7 +12,7 @@ let SEASON_SENIOR_A = [
   // Jornada 2
   {
     imgURL: "public/img/escudos/oceja.png",
-    date: "Sep 17, 2023 17:00:00",
+    date: "Sep 17, 2023 16:45:00",
     shortDate: "17/09/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
