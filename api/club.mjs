@@ -1804,11 +1804,11 @@ let SeniorA = new Team({
       imgURL: "/public/img/equipos/senior_a/lydia_vizcaino.png",
       status: "Primera entrenadora",
     },
-    {
-      name: "Guillermo Fernández",
-      imgURL: "/public/img/equipos/senior_a/guillermo_fernandez.png",
-      status: "Segundo entrenador",
-    },
+    // {
+    //   name: "Guillermo Fernández",
+    //   imgURL: "/public/img/equipos/senior_a/guillermo_fernandez.png",
+    //   status: "Segundo entrenador",
+    // },
     {
       name: "Tuco García",
       imgURL: "/public/img/equipos/senior_a/tuco_garcia.png",

@@ -16,7 +16,7 @@ let SEASON_SENIOR_A = [
     shortDate: "17/09/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
-    liveURL: "",
+    liveURL: "https://www.youtube.com/live/CEu7xRyJ3pM?si=LUMkvYnmob37YOga",
     hashtag: "#OLYMPIAOCEJA",
   },
   // Jornada 3
