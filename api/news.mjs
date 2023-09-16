@@ -175,7 +175,7 @@ let a25 = new Articulo({
 
 let a26 = new Articulo({
   title: "¡Victoria en el derbi roceño!",
-  imgLink: "/public/img/noticias/noticia_26.JPG",
+  imgLink: "/public/img/noticias/noticia_26.jpg",
   text: "El Primer Equipo se impone por 6 a 2 frente a Las Rozas en la primera jornada de liga.",
   date: "10/09/2023",
   imgPosition: "center center",
