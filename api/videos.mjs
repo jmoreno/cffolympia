@@ -14,7 +14,13 @@ let v1 = new Video({
   videoURL: "https://youtu.be/2qdIcb7fZzA",
 });
 
+let v2 = new Video({
+  name: "CFF Olympia vs CD Oceja",
+  imgURL: "public/img/video_covers/olympia-oceja.jpg",
+  videoURL: "https://www.youtube.com/watch?v=CEu7xRyJ3pM",
+});
+
 //Máximo 15-20 video para no petar la web, iremos quitando superando el umbral de los 15 yo creo
-VIDEOS.push(v1);
+VIDEOS.push(v2, v1);
 
 export default VIDEOS;
