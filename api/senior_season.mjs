@@ -22,7 +22,7 @@ let SEASON_SENIOR_A = [
   // Jornada 3
   {
     imgURL: "public/img/escudos/malaga_city.png",
-    date: "Sep 24, 2023 17:00:00",
+    date: "Sep 24, 2023 16:00:00",
     shortDate: "24/09/23",
     result: "-",
     mapsURL: "https://maps.app.goo.gl/MheWF23Ubp75ZotZA",
@@ -32,7 +32,7 @@ let SEASON_SENIOR_A = [
   // Jornada 4
   {
     imgURL: "public/img/escudos/san_fernando.png",
-    date: "Oct 01, 2023 17:00:00",
+    date: "Oct 01, 2023 17:15:00",
     shortDate: "01/10/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
