@@ -25,8 +25,8 @@ let SEASON_SENIOR_A = [
     date: "Sep 24, 2023 17:00:00",
     shortDate: "24/09/23",
     result: "-",
-    mapsURL: "",
-    liveURL: "",
+    mapsURL: "https://maps.app.goo.gl/MheWF23Ubp75ZotZA",
+    liveURL: "https://www.youtube.com/@fcmc",
     hashtag: "#OLYMPIAMALAGACITY",
   },
   // Jornada 4

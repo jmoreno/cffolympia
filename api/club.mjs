@@ -1804,6 +1804,11 @@ let SeniorA = new Team({
       imgURL: "/public/img/equipos/senior_a/lydia_vizcaino.png",
       status: "Primera entrenadora",
     },
+    {
+      name: "Jaime Fernández",
+      imgURL: "/public/img/equipos/senior_a/jaime_fernandez.png",
+      status: "Segundo entrenador",
+    },
     // {
     //   name: "Guillermo Fernández",
     //   imgURL: "/public/img/equipos/senior_a/guillermo_fernandez.png",
@@ -1818,11 +1823,6 @@ let SeniorA = new Team({
       name: "Elena Martínez",
       imgURL: "/public/img/equipos/senior_a/elena_martinez.png",
       status: "Preparadora Física",
-    },
-    {
-      name: "Jaime Fernández",
-      imgURL: "/public/img/equipos/senior_a/jaime_fernandez.png",
-      status: "Readaptador",
     },
     {
       name: "Rodrigo Collado",
@@ -1899,13 +1899,13 @@ let SeniorA = new Team({
       name: "Gema Prieto",
       imgURL: "/public/img/equipos/senior_a/gema_prieto.png",
       number: "6",
-      position: "",
+      position: "Extremo",
     },
     {
       name: "Paula Andujar",
       imgURL: "/public/img/equipos/senior_a/paula_andujar.png",
       number: "7",
-      position: "",
+      position: "Def Central",
     },
     {
       name: "Marta Moreno",
@@ -1965,13 +1965,13 @@ let SeniorA = new Team({
       name: "Andrea Totana",
       imgURL: "/public/img/equipos/senior_a/andrea_totana.png",
       number: "18",
-      position: "",
+      position: "Def Lateral",
     },
     {
       name: "Yoli Albalat",
       imgURL: "/public/img/equipos/senior_a/yoli_albalat.png",
       number: "20",
-      position: "",
+      position: "Mediocentro",
     },
     {
       name: "Alba Masa",
@@ -2019,9 +2019,8 @@ let SeniorA = new Team({
       name: "Lucía Fernández",
       imgURL: "/public/img/equipos/senior_a/lucia_fernandez.png",
       number: "77",
-      position: "",
+      position: "Mediocentro",
     },
-    //No está puesta Rosa
   ],
 });
 

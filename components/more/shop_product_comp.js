@@ -561,13 +561,13 @@ class Product extends HTMLElement {
           class="product__form"
           action="https://formsubmit.co/info@cffolympia.es"
           method="POST">
-          <input type="hidden" name="_subject" value="Nuevo pedido de Camiseta Básica" />
+          <input type="hidden" name="_subject" value="Nuevo pedido de ${name}" />
           <input type="hidden" name="_next" value="https://cffolympia.es/confirmacion_envio.html">
           <input
             type="hidden"
             name="_url"
             value="https://www.cffolympia.es/pages/producto_tienda.html?producto=camiseta_basica" />
-          <input type="hidden" name="Producto" value="Camiseta Básica" />
+          <input type="hidden" name="Producto" value="${name}" />
           <input
             type="text"
             class="form__input"
