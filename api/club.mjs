@@ -1785,7 +1785,7 @@ let JuvenilB = new Team({
 let SeniorA = new Team({
   general: {
     name: "Senior A",
-    imgURL: "",
+    imgURL: "/public/img/equipos/senior_a/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=senior_a",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so

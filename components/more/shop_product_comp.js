@@ -584,8 +584,8 @@ class Product extends HTMLElement {
           ${selectorsHTML}
           ${otherInputsHTML}
           <span class="form__text">
-            El importe del pedido debe realizarse a la cuenta del CFF Olympia nº ES63 2100 5620
-            1302 0019 5951. El justificante de la transferencia debe enviarse al correo
+            El importe del pedido debe realizarse a la cuenta del Artyco nº ES84 1465 0716 5417 2794 2566
+            o bien relizar un Bizum al número 651811147. El justificante de la transferencia debe enviarse al correo
             <a href="mailto:equipaciones@cffolympia.es">equipaciones@cffolympia.es</a>.
           </span>
           <button class="form__submit" type="submit">REALIZAR PEDIDO</button>

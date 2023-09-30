@@ -24,7 +24,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/malaga_city.png",
     date: "Sep 24, 2023 16:00:00",
     shortDate: "24/09/23",
-    result: "-",
+    result: "0-0",
     mapsURL: "https://maps.app.goo.gl/MheWF23Ubp75ZotZA",
     liveURL: "https://www.youtube.com/@fcmc",
     hashtag: "#OLYMPIAMALAGACITY",
@@ -42,7 +42,7 @@ let SEASON_SENIOR_A = [
   // Jornada 5
   {
     imgURL: "public/img/escudos/sport_extremadura.png",
-    date: "Oct 08, 2023 17:00:00",
+    date: "Oct 08, 2023 17:15:00",
     shortDate: "08/10/23",
     result: "-",
     mapsURL: "",
@@ -52,7 +52,7 @@ let SEASON_SENIOR_A = [
   // Jornada 6
   {
     imgURL: "public/img/escudos/futbolellas.png",
-    date: "Oct 15, 2023 17:00:00",
+    date: "Oct 15, 2023 17:15:00",
     shortDate: "15/10/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
@@ -62,7 +62,7 @@ let SEASON_SENIOR_A = [
   // Jornada 7
   {
     imgURL: "public/img/escudos/la_rambla.png",
-    date: "Oct 22, 2023 17:00:00",
+    date: "Oct 22, 2023 17:15:00",
     shortDate: "22/10/23",
     result: "-",
     mapsURL: "",
@@ -72,7 +72,7 @@ let SEASON_SENIOR_A = [
   // Jornada 8
   {
     imgURL: "public/img/escudos/ciudad_alcala.png",
-    date: "Oct 29, 2023 17:00:00",
+    date: "Oct 29, 2023 17:15:00",
     shortDate: "29/10/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
@@ -82,7 +82,7 @@ let SEASON_SENIOR_A = [
   // Jornada 9
   {
     imgURL: "public/img/escudos/sevilla.png",
-    date: "Nov 05, 2023 17:00:00",
+    date: "Nov 05, 2023 17:15:00",
     shortDate: "05/11/23",
     result: "-",
     mapsURL: "",
@@ -92,7 +92,7 @@ let SEASON_SENIOR_A = [
   // Jornada 10
   {
     imgURL: "public/img/escudos/castellon.png",
-    date: "Nov 12, 2023 17:00:00",
+    date: "Nov 12, 2023 17:15:00",
     shortDate: "12/11/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
@@ -102,7 +102,7 @@ let SEASON_SENIOR_A = [
   // Jornada 11
   {
     imgURL: "public/img/escudos/don_benito.png",
-    date: "Nov 19, 2023 17:00:00",
+    date: "Nov 19, 2023 17:15:00",
     shortDate: "19/11/23",
     result: "-",
     mapsURL: "",
