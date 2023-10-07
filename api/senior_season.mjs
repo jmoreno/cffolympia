@@ -34,7 +34,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/san_fernando.png",
     date: "Oct 01, 2023 17:15:00",
     shortDate: "01/10/23",
-    result: "-",
+    result: "10-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIASANFERNANDO",
@@ -42,11 +42,12 @@ let SEASON_SENIOR_A = [
   // Jornada 5
   {
     imgURL: "public/img/escudos/sport_extremadura.png",
-    date: "Oct 08, 2023 17:15:00",
+    date: "Oct 08, 2023 12:30:00",
     shortDate: "08/10/23",
     result: "-",
     mapsURL: "",
-    liveURL: "",
+    liveURL:
+      "https://extv.es/videos/detail/90114-sport-extremadura-cd-vs-cdff-olympia-las-rozas-08102023",
     hashtag: "#OLTMPIASPORTEXTREMADURA",
   },
   // Jornada 6
