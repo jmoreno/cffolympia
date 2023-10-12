@@ -44,7 +44,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/sport_extremadura.png",
     date: "Oct 08, 2023 12:30:00",
     shortDate: "08/10/23",
-    result: "-",
+    result: "2-2",
     mapsURL: "",
     liveURL:
       "https://extv.es/videos/detail/90114-sport-extremadura-cd-vs-cdff-olympia-las-rozas-08102023",

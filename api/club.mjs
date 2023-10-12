@@ -210,6 +210,102 @@ let BenjaminB = new Team({
   ],
 });
 
+let BenjaminC = new Team({
+  general: {
+    name: "Benjamín C",
+    imgURL: "",
+    pageURL: "/pages/equipo_olympia.html?equipo=benjamin_c",
+    //calendarURL: "", //For the full match calendar in matchapp or other app/web
+    //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
+  },
+  staff: [
+    {
+      name: "",
+      imgURL: "",
+      status: "",
+    },
+    {
+      name: "",
+      imgURL: "",
+      status: "",
+    },
+  ],
+  players: [
+    {
+      name: "Paula Riera",
+      imgURL: "",
+      number: "10",
+      position: "",
+    },
+    {
+      name: "Irene Cerro",
+      imgURL: "",
+      number: "11",
+      position: "",
+    },
+    {
+      name: "Sara Cerro",
+      imgURL: "",
+      number: "12",
+      position: "",
+    },
+    {
+      name: "Eva Gaztañaga",
+      imgURL: "",
+      number: "21",
+      position: "",
+    },
+    {
+      name: "Lola Méndez",
+      imgURL: "",
+      number: "22",
+      position: "",
+    },
+    {
+      name: "Paula Resino",
+      imgURL: "",
+      number: "23",
+      position: "",
+    },
+    {
+      name: "Hannah Van Beek",
+      imgURL: "",
+      number: "26",
+      position: "",
+    },
+    {
+      name: "Raquel García",
+      imgURL: "",
+      number: "29",
+      position: "",
+    },
+    {
+      name: "Ángela García",
+      imgURL: "",
+      number: "30",
+      position: "",
+    },
+    {
+      name: "Claudia Van Beek",
+      imgURL: "",
+      number: "33",
+      position: "",
+    },
+    {
+      name: "Paula Gómez",
+      imgURL: "",
+      number: "36",
+      position: "",
+    },
+    {
+      name: "Aisha Canet",
+      imgURL: "",
+      number: "38",
+      position: "",
+    },
+  ],
+});
+
 let AlevinA = new Team({
   general: {
     name: "Alevín A",
@@ -2551,6 +2647,7 @@ CLUB.push(
   BenjaminFS,
   BenjaminA,
   BenjaminB,
+  BenjaminC,
   AlevinA,
   AlevinB,
   AlevinC,
