@@ -24,8 +24,14 @@ let ep2 = new Episode({
   episodeURL: "https://www.youtube.com/live/FU3VHhOyoD8?si=Tx5OdiILTR3eLCpZ&t=4750",
 });
 
+let ep3 = new Episode({
+  name: "03/ Valentina Ruiz",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/AfpH7J4ZE9A?si=ZGd05JxDUtLWbyab&t=5647",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
-RFFM_EPISODES.push(ep2, ep1);
+RFFM_EPISODES.push(ep3, ep2, ep1);
 
 export default RFFM_EPISODES;
 

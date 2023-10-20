@@ -55,7 +55,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/futbolellas.png",
     date: "Oct 15, 2023 17:15:00",
     shortDate: "15/10/23",
-    result: "-",
+    result: "3-1",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIAFUTBOLELLAS",
@@ -63,7 +63,7 @@ let SEASON_SENIOR_A = [
   // Jornada 7
   {
     imgURL: "public/img/escudos/la_rambla.png",
-    date: "Oct 22, 2023 17:15:00",
+    date: "Oct 22, 2023 17:30:00",
     shortDate: "22/10/23",
     result: "-",
     mapsURL: "",
@@ -73,7 +73,7 @@ let SEASON_SENIOR_A = [
   // Jornada 8
   {
     imgURL: "public/img/escudos/ciudad_alcala.png",
-    date: "Oct 29, 2023 17:15:00",
+    date: "Oct 29, 2023 17:00:00",
     shortDate: "29/10/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
@@ -83,7 +83,7 @@ let SEASON_SENIOR_A = [
   // Jornada 9
   {
     imgURL: "public/img/escudos/sevilla.png",
-    date: "Nov 05, 2023 17:15:00",
+    date: "Nov 05, 2023 16:00:00",
     shortDate: "05/11/23",
     result: "-",
     mapsURL: "",
@@ -93,7 +93,7 @@ let SEASON_SENIOR_A = [
   // Jornada 10
   {
     imgURL: "public/img/escudos/castellon.png",
-    date: "Nov 12, 2023 17:15:00",
+    date: "Nov 12, 2023 17:00:00",
     shortDate: "12/11/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",

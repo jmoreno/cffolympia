@@ -1,6 +1,37 @@
 let SHOP_PRODUCTS = [
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
+    name: "SUDADERA BLANCA OLYMPIA",
+    price: "21,50 EUR",
+    imgURL: "/public/img/shop/hoodie_front.png",
+    hoverImgURL: "/public/img/shop/hoodie_front.png",
+    productImages: [
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+    ],
+    pageName: "sudadera_blanca",
+    pageURL: "/pages/producto_tienda.html?producto=sudadera_blanca",
+    selections: [
+      {
+        name: "Talla",
+        isRequired: true,
+        options: ["Talla: XS", "Talla: S", "Talla: M", "Talla: L"],
+      },
+    ],
+    otherInputs: [
+      {
+        type: "hidden",
+        name: "_cc",
+        placeholder: "",
+        value: "info@artycosl.com",
+        isRequired: false,
+      },
+    ],
+  },
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  {
     name: "CAMISETA BÁSICA OLYMPIA (NUEVO)",
     price: "12,00 EUR",
     imgURL: "/public/img/shop/camiseta_basica_front.png",
