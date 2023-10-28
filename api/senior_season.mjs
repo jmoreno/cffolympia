@@ -77,7 +77,7 @@ let SEASON_SENIOR_A = [
     shortDate: "29/10/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
-    liveURL: "",
+    liveURL: "https://www.youtube.com/live/HTJxXKPeXqg?si=7vWWfV4ekHYQ8el3",
     hashtag: "#OLYMPIAALCALA",
   },
   // Jornada 9

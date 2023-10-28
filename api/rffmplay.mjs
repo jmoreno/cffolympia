@@ -30,8 +30,14 @@ let ep3 = new Episode({
   episodeURL: "https://www.youtube.com/live/AfpH7J4ZE9A?si=ZGd05JxDUtLWbyab&t=5647",
 });
 
+let ep4 = new Episode({
+  name: "04/ Lucía Fernández",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/hsfeHaAmFyw?si=qtnpRxr4UT3Qavr0&t=5579",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
-RFFM_EPISODES.push(ep3, ep2, ep1);
+RFFM_EPISODES.push(ep4, ep3, ep2, ep1);
 
 export default RFFM_EPISODES;
 
