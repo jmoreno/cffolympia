@@ -157,6 +157,7 @@ nav {
     <a href="/index.html"><h1>CFF OLYMPIA</h1></a>
   </div>
   <ul class="nav__right">
+    <li class="nav__element"><a class="nav__link" target="_blank" style="text-decoration: underline;" href="https://university-soccer.com/">UNIVERSITY SOCCER</a></li>
     <li class="nav__element"><a class="nav__link" href="/pages/inscribete.html">INSCRÍBETE</a></li>
     <li class="nav__element"><a class="nav__link" target="_blank" href="https://estrellasporlaigualdad.cffolympia.es">ESTRELLAS</a></li>
     <!--<li class="nav__element"><a class="nav__link" href="/pages/equipos.html">EQUIPOS</a></li>-->
