@@ -2,7 +2,7 @@ let SHOP_PRODUCTS = [
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
     name: "LLAVERO PERSONALIZADO (NUEVO)",
-    price: "4,00 EUR - Hasta el 24/11",
+    price: "5,00 EUR",
     imgURL: "/public/img/shop/llavero_front.png",
     hoverImgURL: "/public/img/shop/llavero_back.png",
     productImages: [
