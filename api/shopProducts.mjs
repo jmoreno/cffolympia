@@ -1,36 +1,36 @@
 let SHOP_PRODUCTS = [
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  // {
-  //   name: "LLAVERO PERSONALIZADO (NUEVO)",
-  //   price: "5,00 EUR",
-  //   imgURL: "/public/img/shop/llavero_front.png",
-  //   hoverImgURL: "/public/img/shop/llavero_back.png",
-  //   productImages: [
-  //     "/public/img/noticias/noticia_3.JPG",
-  //     "/public/img/noticias/noticia_3.JPG",
-  //     "/public/img/noticias/noticia_3.JPG",
-  //     "/public/img/noticias/noticia_3.JPG",
-  //   ],
-  //   pageName: "llavero_personalizado",
-  //   pageURL: "/pages/producto_tienda.html?producto=llavero_personalizado",
-  //   selections: [],
-  //   otherInputs: [
-  //     {
-  //       type: "text",
-  //       name: "Nombre en llavero",
-  //       placeholder: "Nombre en llavero",
-  //       value: "",
-  //       isRequired: true,
-  //     },
-  //     {
-  //       type: "number",
-  //       name: "Dorsal en llavero",
-  //       placeholder: "Dorsal en llavero",
-  //       value: "",
-  //       isRequired: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "LLAVERO PERSONALIZADO (NUEVO)",
+    price: "5,00 EUR",
+    imgURL: "/public/img/shop/llavero_front.png",
+    hoverImgURL: "/public/img/shop/llavero_back.png",
+    productImages: [
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+    ],
+    pageName: "llavero_personalizado",
+    pageURL: "/pages/producto_tienda.html?producto=llavero_personalizado",
+    selections: [],
+    otherInputs: [
+      {
+        type: "text",
+        name: "Nombre en llavero",
+        placeholder: "Nombre en llavero",
+        value: "",
+        isRequired: true,
+      },
+      {
+        type: "number",
+        name: "Dorsal en llavero",
+        placeholder: "Dorsal en llavero",
+        value: "",
+        isRequired: true,
+      },
+    ],
+  },
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
     name: "SUDADERA BLANCA OLYMPIA",
@@ -117,80 +117,80 @@ let SHOP_PRODUCTS = [
     otherInputs: [],
   },
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  // {
-  //   name: "CINTAS DEL PELO OLYMPIA",
-  //   price: "9,00 EUR",
-  //   imgURL: "/public/img/shop/cintas_front.png",
-  //   hoverImgURL: "/public/img/shop/cintas_front.png",
-  //   productImages: [
-  //     "/public/img/noticias/noticia_3.JPG",
-  //     "/public/img/noticias/noticia_11.JPG",
-  //     "/public/img/noticias/noticia_13.JPG",
-  //     "/public/img/noticias/noticia_1.JPG",
-  //   ],
-  //   pageName: "cintas_pelo",
-  //   pageURL: "/pages/producto_tienda.html?producto=cintas_pelo",
-  //   selections: [
-  //     {
-  //       name: "Color",
-  //       isRequired: true,
-  //       options: [
-  //         "Azul Oscuro",
-  //         "Blanco",
-  //         "Rosa",
-  //         "1ud Rosa & 1ud Blanco (15 € total)",
-  //         "1ud Azul Osc & 1ud Blanco (15 € total)",
-  //         "2uds Azul Oscuro (15 € total)",
-  //         "2uds Blanco (15 € total)",
-  //         "2uds Rosa (15 € total)",
-  //       ],
-  //     },
-  //     {
-  //       name: "Texto",
-  //       isRequired: true,
-  //       options: [
-  //         "Texto: Olympia",
-  //         'Texto: "Nombre personalizado"',
-  //         'Texto: "Nombre personalizado" + "Dorsal"',
-  //         'Texto: "Nombre personalizado" + Olympia',
-  //         'Texto: "Nombre personalizado" + "Dorsal" + Olympia',
-  //       ],
-  //     },
-  //   ],
-  //   otherInputs: [
-  //     {
-  //       type: "text",
-  //       name: "Nombre personalizado (si aplica)",
-  //       placeholder: "Nombre personalizado (si aplica)",
-  //       value: "",
-  //       isRequired: false,
-  //     },
-  //     {
-  //       type: "number",
-  //       name: "Dorsal (si aplica)",
-  //       placeholder: "Dorsal (si aplica)",
-  //       value: "",
-  //       isRequired: false,
-  //     },
-  //   ],
-  // },
+  {
+    name: "CINTAS DEL PELO OLYMPIA",
+    price: "9,00 EUR",
+    imgURL: "/public/img/shop/cintas_front.png",
+    hoverImgURL: "/public/img/shop/cintas_front.png",
+    productImages: [
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_11.JPG",
+      "/public/img/noticias/noticia_13.JPG",
+      "/public/img/noticias/noticia_1.JPG",
+    ],
+    pageName: "cintas_pelo",
+    pageURL: "/pages/producto_tienda.html?producto=cintas_pelo",
+    selections: [
+      {
+        name: "Color",
+        isRequired: true,
+        options: [
+          "Azul Oscuro",
+          "Blanco",
+          "Rosa",
+          "1ud Rosa & 1ud Blanco (15 € total)",
+          "1ud Azul Osc & 1ud Blanco (15 € total)",
+          "2uds Azul Oscuro (15 € total)",
+          "2uds Blanco (15 € total)",
+          "2uds Rosa (15 € total)",
+        ],
+      },
+      {
+        name: "Texto",
+        isRequired: true,
+        options: [
+          "Texto: Olympia",
+          'Texto: "Nombre personalizado"',
+          'Texto: "Nombre personalizado" + "Dorsal"',
+          'Texto: "Nombre personalizado" + Olympia',
+          'Texto: "Nombre personalizado" + "Dorsal" + Olympia',
+        ],
+      },
+    ],
+    otherInputs: [
+      {
+        type: "text",
+        name: "Nombre personalizado (si aplica)",
+        placeholder: "Nombre personalizado (si aplica)",
+        value: "",
+        isRequired: false,
+      },
+      {
+        type: "number",
+        name: "Dorsal (si aplica)",
+        placeholder: "Dorsal (si aplica)",
+        value: "",
+        isRequired: false,
+      },
+    ],
+  },
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  // {
-  //   name: "BUFANDA OLYMPIA",
-  //   price: "15,00 EUR",
-  //   imgURL: "/public/img/shop/bufanda_front.png",
-  //   hoverImgURL: "/public/img/shop/bufanda_front.png",
-  //   productImages: [
-  //     "/public/img/noticias/noticia_3.JPG",
-  //     "/public/img/noticias/noticia_3.JPG",
-  //     "/public/img/noticias/noticia_3.JPG",
-  //     "/public/img/noticias/noticia_3.JPG",
-  //   ],
-  //   pageName: "bufanda",
-  //   pageURL: "/pages/producto_tienda.html?producto=bufanda",
-  //   selections: [],
-  //   otherInputs: [],
-  // },
+  {
+    name: "BUFANDA OLYMPIA",
+    price: "15,00 EUR",
+    imgURL: "/public/img/shop/bufanda_front.png",
+    hoverImgURL: "/public/img/shop/bufanda_front.png",
+    productImages: [
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+    ],
+    pageName: "bufanda",
+    pageURL: "/pages/producto_tienda.html?producto=bufanda",
+    selections: [],
+    otherInputs: [],
+  },
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
     name: "ABRIGO OLYMPIA",

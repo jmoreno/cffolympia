@@ -583,11 +583,11 @@ class Product extends HTMLElement {
           <input type="email" class="form__input" placeholder="EMAIL" name="Email" required style="margin-bottom: 2rem;" />
           ${selectorsHTML}
           ${otherInputsHTML}
-          <span class="form__text">
+          <!--<span class="form__text">
             El importe del pedido debe realizarse a la cuenta del Artyco nº ES84 1465 0716 5417 2794 2566
             o bien relizar un Bizum al número 651811147. El justificante de la transferencia debe enviarse al correo
             <a href="mailto:equipaciones@cffolympia.es">equipaciones@cffolympia.es</a>.
-          </span>
+          </span> -->
           <button class="form__submit" type="submit">REALIZAR PEDIDO</button>
         </form>
       </div>
