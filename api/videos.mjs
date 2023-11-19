@@ -20,7 +20,13 @@ let v2 = new Video({
   videoURL: "https://www.youtube.com/watch?v=CEu7xRyJ3pM",
 });
 
+let v3 = new Video({
+  name: "CFF Olympia vs CD Castellón",
+  imgURL: "public/img/video_covers/olympia-castellon.jpg",
+  videoURL: "https://www.youtube.com/watch?v=vOY_4-xlits",
+});
+
 //Máximo 15-20 video para no petar la web, iremos quitando superando el umbral de los 15 yo creo
-VIDEOS.push(v2, v1);
+VIDEOS.push(v3, v2, v1);
 
 export default VIDEOS;

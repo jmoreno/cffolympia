@@ -42,8 +42,20 @@ let ep5 = new Episode({
   episodeURL: "https://youtu.be/GyovTvZpCQU?si=w30k5ZjQhC9BbNJI&t=5557",
 });
 
+let ep6 = new Episode({
+  name: "06/ Lucía Núñez",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/ky2jCe8AurI?si=hyzcUntovyECD-qo&t=4646",
+});
+
+let ep7 = new Episode({
+  name: "07/ Elisa García",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/VfkXOnjhZys?si=AgkjcrSAGSFXbvOM&t=5271",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
-RFFM_EPISODES.push(ep5, ep4, ep3, ep2, ep1);
+RFFM_EPISODES.push(ep7, ep6, ep5, ep4, ep3, ep2, ep1);
 
 export default RFFM_EPISODES;
 

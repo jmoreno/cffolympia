@@ -181,7 +181,43 @@ let a26 = new Articulo({
   imgPosition: "center center",
 });
 
+let a27 = new Articulo({
+  title: "¡En tercera posición!",
+  imgLink: "/public/img/noticias/noticia_27.jpg",
+  text: "Nuestro primer equipo suma tres importes puntos que le permite seguir trabajando y colocarse en tercera posición a tan solo tres puntos del líder.",
+  date: "06/11/2023",
+  imgPosition: "center center",
+});
+
+let a28 = new Articulo({
+  title: "¡Senior B líder!",
+  imgLink: "/public/img/noticias/noticia_28.jpg",
+  text: "Nuestras jugadoras del Senior B se colocan en la primera posición tras haber cerrado el fin de semana con un contundente resultado. ¡Enhorabuena campeonas, a seguir trabajando en esta línea!",
+  date: "10/11/2023",
+  imgPosition: "center center",
+});
+
+let a29 = new Articulo({
+  title: "Apple Tree renueva patrocinio",
+  imgLink: "/public/img/noticias/noticia_29.jpg",
+  text: "Apple Tree ratifica su compromiso con el deporte femenino y renueva el patrocinio con el club.",
+  date: "16/11/2023",
+  imgPosition: "center center",
+});
+
+let a30 = new Articulo({
+  title: "Primera reunión con University Soccer",
+  imgLink: "/public/img/noticias/noticia_30.jpg",
+  text: "Se celebra la primera reunión de University Soccer con las familias del Olympia.",
+  date: "17/11/2023",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a30,
+  a29,
+  a28,
+  a27,
   a26,
   a25,
   a24,

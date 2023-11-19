@@ -85,7 +85,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/sevilla.png",
     date: "Nov 05, 2023 16:00:00",
     shortDate: "05/11/23",
-    result: "-",
+    result: "2-1",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIASEVILLA",
@@ -95,7 +95,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/castellon.png",
     date: "Nov 12, 2023 17:00:00",
     shortDate: "12/11/23",
-    result: "-",
+    result: "3-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIACASTELLON",
@@ -103,8 +103,8 @@ let SEASON_SENIOR_A = [
   // Jornada 11
   {
     imgURL: "public/img/escudos/don_benito.png",
-    date: "Nov 19, 2023 17:15:00",
-    shortDate: "19/11/23",
+    date: "Nov 25, 2023 12:30:00",
+    shortDate: "25/11/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -113,8 +113,8 @@ let SEASON_SENIOR_A = [
   // Jornada 12
   {
     imgURL: "public/img/escudos/extremadura.png",
-    date: "Nov 26, 2023 17:00:00",
-    shortDate: "26/11/23",
+    date: "Dec 03, 2023 17:00:00",
+    shortDate: "03/11/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",

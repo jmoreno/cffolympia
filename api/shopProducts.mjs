@@ -1,6 +1,38 @@
 let SHOP_PRODUCTS = [
   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
+    name: "LLAVERO PERSONALIZADO (NUEVO)",
+    price: "4,00 EUR - Hasta el 24/11",
+    imgURL: "/public/img/shop/llavero_front.png",
+    hoverImgURL: "/public/img/shop/llavero_back.png",
+    productImages: [
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+      "/public/img/noticias/noticia_3.JPG",
+    ],
+    pageName: "llavero_personalizado",
+    pageURL: "/pages/producto_tienda.html?producto=llavero_personalizado",
+    selections: [],
+    otherInputs: [
+      {
+        type: "text",
+        name: "Nombre en llavero",
+        placeholder: "Nombre en llavero",
+        value: "",
+        isRequired: true,
+      },
+      {
+        type: "number",
+        name: "Dorsal en llavero",
+        placeholder: "Dorsal en llavero",
+        value: "",
+        isRequired: true,
+      },
+    ],
+  },
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  {
     name: "SUDADERA BLANCA OLYMPIA",
     price: "21,50 EUR",
     imgURL: "/public/img/shop/hoodie_front.png",

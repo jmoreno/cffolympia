@@ -529,7 +529,7 @@ class Product extends HTMLElement {
         placeholder="${otherInputs[i].placeholder}"
         name="${otherInputs[i].name}"
         value="${otherInputs[i].value}"
-        ${selections[i].isRequired ? "required" : ""} />`;
+        ${otherInputs[i].isRequired ? "required" : ""} />`;
     }
 
     productsContainer.innerHTML += `
