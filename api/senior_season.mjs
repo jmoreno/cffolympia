@@ -105,7 +105,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/don_benito.png",
     date: "Nov 25, 2023 12:30:00",
     shortDate: "25/11/23",
-    result: "-",
+    result: "3-0",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIADONBENITO",
@@ -123,8 +123,8 @@ let SEASON_SENIOR_A = [
   // Jornada 13
   {
     imgURL: "public/img/escudos/cadiz.png",
-    date: "Dec 03, 2023 17:00:00",
-    shortDate: "03/12/23",
+    date: "Dec 10, 2023 17:00:00",
+    shortDate: "10/12/23",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -133,8 +133,8 @@ let SEASON_SENIOR_A = [
   // Jornada 14
   {
     imgURL: "public/img/escudos/granada.png",
-    date: "Dec 10, 2023 17:00:00",
-    shortDate: "10/12/23",
+    date: "Dec 17, 2023 17:00:00",
+    shortDate: "17/12/23",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
