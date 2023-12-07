@@ -60,8 +60,20 @@ let ep8 = new Episode({
   episodeURL: "https://www.youtube.com/live/HNM1-oNSJPw?si=m56FvC2FcP3GVc8N&t=4905",
 });
 
+let ep9 = new Episode({
+  name: "09/ Nelisa Pereira y Mónica Navas",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/ZnAXR_jjgqQ?si=G3AvrtIMPpEX6TyZ&t=5298",
+});
+
+let ep10 = new Episode({
+  name: "10/ Raquel Guardado",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/B_cwOY1u-vI?si=ikRiLJbxPgIREA07&t=4741",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
-RFFM_EPISODES.push(ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1);
+RFFM_EPISODES.push(ep10 ,ep9, ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1);
 
 export default RFFM_EPISODES;
 

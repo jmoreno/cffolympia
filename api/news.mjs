@@ -213,7 +213,16 @@ let a30 = new Articulo({
   imgPosition: "center center",
 });
 
+let a31 = new Articulo({
+  title: "Día del entrenador 2022 - 2023",
+  imgLink: "/public/img/noticias/noticia_31.jpg",
+  text: "Damos la enhorabuena a nuestros entrenadores por haber alcanzado el primer puesto de su liga en sus respectivas categorías.",
+  date: "02/12/2023",
+  imgPosition: "40% center",
+});
+
 NOTICIAS.push(
+  a31,
   a30,
   a29,
   a28,

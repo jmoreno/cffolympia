@@ -115,7 +115,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/extremadura.png",
     date: "Dec 03, 2023 17:00:00",
     shortDate: "03/11/23",
-    result: "-",
+    result: "6-1",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIAEXTREMADURA",
@@ -127,7 +127,7 @@ let SEASON_SENIOR_A = [
     shortDate: "10/12/23",
     result: "-",
     mapsURL: "",
-    liveURL: "",
+    liveURL: "https://tv.cadizcf.com/",
     hashtag: "#OLYMPIACADIZ",
   },
   // Jornada 14
