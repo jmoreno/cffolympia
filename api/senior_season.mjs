@@ -133,8 +133,8 @@ let SEASON_SENIOR_A = [
   // Jornada 14
   {
     imgURL: "public/img/escudos/granada.png",
-    date: "Dec 17, 2023 17:00:00",
-    shortDate: "17/12/23",
+    date: "Jan 07, 2024 17:00:00",
+    shortDate: "07/01/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -143,8 +143,8 @@ let SEASON_SENIOR_A = [
   // Jornada 15
   {
     imgURL: "public/img/escudos/samper.png",
-    date: "Jan 07, 2024 17:00:00",
-    shortDate: "07/01/24",
+    date: "Jan 14, 2024 17:00:00",
+    shortDate: "14/01/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
