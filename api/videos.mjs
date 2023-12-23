@@ -38,7 +38,13 @@ let v5 = new Video({
   videoURL: "https://x.com/cff_olympia/status/1732156436514226562?s=46&t=FN9ri0Tbnwc3FJpmnM1Wpw",
 });
 
+let v6 = new Video({
+  name: "Entrevista a Ana y Arantxa de la Chica",
+  imgURL: "public/img/video_covers/entrevista-ana-arantxa.jpg",
+  videoURL: "https://www.youtube.com/watch?v=kd4BevsWr_0",
+});
+
 //Máximo 15-20 video para no petar la web, iremos quitando superando el umbral de los 15 yo creo
-VIDEOS.push(v5, v4, v3, v2, v1);
+VIDEOS.push(v6, v5, v4, v3, v2, v1);
 
 export default VIDEOS;

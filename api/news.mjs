@@ -221,7 +221,16 @@ let a31 = new Articulo({
   imgPosition: "40% center",
 });
 
+let a32 = new Articulo({
+  title: "Bota de oro a nuestra Directora Deportiva, Ana de la Chica.",
+  imgLink: "/public/img/noticias/noticia_32.jpg",
+  text: "GALA DE FÚTBOL EN MADRID 2023. La @RFFM_oficial ha entregado a nuestra Directora Deportiva la BOTA DE ORO a Ana de la Chica por ser la mejor entrenadora. Orgullo Olympia",
+  date: "17/12/2023",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a32,
   a31,
   a30,
   a29,
