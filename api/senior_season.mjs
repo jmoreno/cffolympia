@@ -137,7 +137,7 @@ let SEASON_SENIOR_A = [
     shortDate: "07/01/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
-    liveURL: "",
+    liveURL: "https://www.youtube.com/live/MW6JTZ6GZkw?si=3Rc4H4IAd0IRhOPw",
     hashtag: "#OLYMPIAGRANADA",
   },
   // Jornada 15
