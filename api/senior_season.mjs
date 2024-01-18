@@ -143,7 +143,7 @@ let SEASON_SENIOR_A = [
   // Jornada 15
   {
     imgURL: "public/img/escudos/samper.png",
-    date: "Jan 14, 2024 17:00:00",
+    date: "Jan 14, 2024 18:00:00",
     shortDate: "14/01/24",
     result: "-",
     mapsURL: "",
@@ -153,8 +153,8 @@ let SEASON_SENIOR_A = [
   // Jornada 16
   {
     imgURL: "public/img/escudos/las_rozas.png",
-    date: "Jan 14, 2024 17:00:00",
-    shortDate: "14/01/24",
+    date: "Jan 21, 2024 17:00:00",
+    shortDate: "21/01/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -163,8 +163,8 @@ let SEASON_SENIOR_A = [
   // Jornada 17
   {
     imgURL: "public/img/escudos/oceja.png",
-    date: "Jan 21, 2024 17:00:00",
-    shortDate: "21/01/24",
+    date: "Jan 28, 2024 17:00:00",
+    shortDate: "28/01/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -173,8 +173,8 @@ let SEASON_SENIOR_A = [
   // Jornada 18
   {
     imgURL: "public/img/escudos/malaga_city.png",
-    date: "Jan 28, 2024 17:00:00",
-    shortDate: "28/01/24",
+    date: "Feb 04, 2024 17:00:00",
+    shortDate: "04/02/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -183,8 +183,8 @@ let SEASON_SENIOR_A = [
   // Jornada 19
   {
     imgURL: "public/img/escudos/san_fernando.png",
-    date: "Feb 04, 2024 17:00:00",
-    shortDate: "04/02/24",
+    date: "Feb 11, 2024 17:00:00",
+    shortDate: "11/02/24",
     result: "-",
     mapsURL: "",
     liveURL: "",

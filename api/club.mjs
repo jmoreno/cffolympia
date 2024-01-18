@@ -11,31 +11,6 @@ class Team {
 ////////////////////////////////////////////////////
 //                   ALL TEAMS                    //
 ////////////////////////////////////////////////////
-let BenjaminFS = new Team({
-  general: {
-    name: "Benjamín FS",
-    imgURL: "",
-    pageURL: "/pages/equipo_olympia.html?equipo=benjamin_fs",
-    //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
-    //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
-  },
-  staff: [
-    {
-      name: "",
-      imgURL: "",
-      status: "Primera entrenadora",
-    },
-  ],
-  players: [
-    {
-      name: "",
-      imgURL: "",
-      number: "",
-      position: "Delantera",
-    },
-  ],
-});
-
 let BenjaminA = new Team({
   general: {
     name: "Benjamín A",
@@ -2644,7 +2619,6 @@ CLUB.push(
   SeniorA,
   SeniorB,
   SeniorC,
-  BenjaminFS,
   BenjaminA,
   BenjaminB,
   BenjaminC,

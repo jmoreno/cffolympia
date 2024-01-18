@@ -1,13 +1,5 @@
 import { CLUB } from "/api/club.mjs";
 
-////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////
-//
-//  FALTA ESTILIZAR LAS IMAGENES CUANDO LAS TENGAMOS
-//
-////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////
-
 const equipoPersonasTemplate = document.createElement("template");
 
 equipoPersonasTemplate.innerHTML = `
@@ -135,14 +127,14 @@ equipoPersonasTemplate.innerHTML = `
     white-space: nowrap;
     text-transform: uppercase;
   }
-  .player__img {
+  .person__img {
     position: absolute;
     height: calc(100% * (400 / 440));
     bottom: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
-    z-index: 3;
+    z-index:3;
   }
 
   @media (max-width: 1680px) {
