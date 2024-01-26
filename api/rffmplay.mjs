@@ -84,8 +84,14 @@ let ep12 = new Episode({
   episodeURL: "https://www.youtube.com/live/XXUmvELlys0?si=GQZ5xtrXkN33lOnm&t=5860",
 });
 
+let ep13 = new Episode({
+  name: "13/ Nuria Díaz",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/ZM0QQnZOWRY?si=8zmEqC553d8-AzgT&t=5384",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
-RFFM_EPISODES.push(ep12, ep11, ep10, ep9, ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1);
+RFFM_EPISODES.push(ep13, ep12, ep11, ep10, ep9, ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1);
 
 export default RFFM_EPISODES;
 

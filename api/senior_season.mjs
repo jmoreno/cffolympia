@@ -125,7 +125,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/cadiz.png",
     date: "Dec 10, 2023 17:00:00",
     shortDate: "10/12/23",
-    result: "-",
+    result: "2-0",
     mapsURL: "",
     liveURL: "https://tv.cadizcf.com/",
     hashtag: "#OLYMPIACADIZ",
@@ -135,7 +135,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/granada.png",
     date: "Jan 07, 2024 17:00:00",
     shortDate: "07/01/24",
-    result: "-",
+    result: "4-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "https://www.youtube.com/live/MW6JTZ6GZkw?si=3Rc4H4IAd0IRhOPw",
     hashtag: "#OLYMPIAGRANADA",
@@ -145,7 +145,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/samper.png",
     date: "Jan 14, 2024 18:00:00",
     shortDate: "14/01/24",
-    result: "-",
+    result: "2-1",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIASAMPER",
@@ -155,7 +155,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/las_rozas.png",
     date: "Jan 21, 2024 17:00:00",
     shortDate: "21/01/24",
-    result: "-",
+    result: "2-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIAVSLASROZAS",
@@ -193,8 +193,8 @@ let SEASON_SENIOR_A = [
   // Jornada 20
   {
     imgURL: "public/img/escudos/sport_extremadura.png",
-    date: "Feb 11, 2024 17:00:00",
-    shortDate: "11/02/24",
+    date: "Feb 18, 2024 17:00:00",
+    shortDate: "18/02/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -203,8 +203,8 @@ let SEASON_SENIOR_A = [
   // Jornada 21
   {
     imgURL: "public/img/escudos/futbolellas.png",
-    date: "Feb 18, 2024 17:00:00",
-    shortDate: "18/02/24",
+    date: "Feb 25, 2024 17:00:00",
+    shortDate: "25/02/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -213,8 +213,8 @@ let SEASON_SENIOR_A = [
   // Jornada 22
   {
     imgURL: "public/img/escudos/la_rambla.png",
-    date: "Feb 25, 2024 17:00:00",
-    shortDate: "25/02/24",
+    date: "Mar 03, 2024 17:00:00",
+    shortDate: "03/03/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
