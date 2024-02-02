@@ -44,7 +44,19 @@ let v6 = new Video({
   videoURL: "https://www.youtube.com/watch?v=kd4BevsWr_0",
 });
 
+let v7 = new Video({
+  name: "RFFM Podcast 01 - Arantxa de la Chica",
+  imgURL: "/public/img/video_covers/rffmpodcast.png",
+  videoURL: "https://youtu.be/Yzmc53_AP5Y?si=zjXAVwWhnYZnxrGa",
+});
+
+let v8 = new Video({
+  name: "RFFM Podcast 02 - Lucía Sánchez",
+  imgURL: "/public/img/video_covers/rffmpodcast.png",
+  videoURL: "https://youtu.be/HZK2-hsCITE?si=R5T2h73MD5Q19rZ3",
+});
+
 //Máximo 15-20 video para no petar la web, iremos quitando superando el umbral de los 15 yo creo
-VIDEOS.push(v6, v5, v4, v3, v2, v1);
+VIDEOS.push(v8, v7, v6, v5, v4, v3, v2, v1);
 
 export default VIDEOS;

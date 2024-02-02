@@ -165,7 +165,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/oceja.png",
     date: "Jan 28, 2024 17:00:00",
     shortDate: "28/01/24",
-    result: "-",
+    result: "3-0",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIAOCEJA",
