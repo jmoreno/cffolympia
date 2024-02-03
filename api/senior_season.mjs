@@ -177,7 +177,7 @@ let SEASON_SENIOR_A = [
     shortDate: "04/02/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
-    liveURL: "",
+    liveURL: "https://www.youtube.com/live/QXssc2PWIwg?si=e3SNvTrH-t0PYxt7",
     hashtag: "#OLYMPIAMALAGACITY",
   },
   // Jornada 19
@@ -213,8 +213,8 @@ let SEASON_SENIOR_A = [
   // Jornada 22
   {
     imgURL: "public/img/escudos/la_rambla.png",
-    date: "Mar 03, 2024 17:00:00",
-    shortDate: "03/03/24",
+    date: "Mar 10, 2024 17:00:00",
+    shortDate: "10/03/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -223,8 +223,8 @@ let SEASON_SENIOR_A = [
   // Jornada 23
   {
     imgURL: "public/img/escudos/ciudad_alcala.png",
-    date: "Mar 10, 2024 17:00:00",
-    shortDate: "10/03/24",
+    date: "Mar 17, 2024 17:00:00",
+    shortDate: "17/03/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -233,8 +233,8 @@ let SEASON_SENIOR_A = [
   // Jornada 24
   {
     imgURL: "public/img/escudos/sevilla.png",
-    date: "Mar 17, 2024 17:00:00",
-    shortDate: "17/03/24",
+    date: "Mar 24, 2024 17:00:00",
+    shortDate: "24/03/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -243,8 +243,8 @@ let SEASON_SENIOR_A = [
   // Jornada 25
   {
     imgURL: "public/img/escudos/castellon.png",
-    date: "Mar 24, 2024 17:00:00",
-    shortDate: "24/03/24",
+    date: "Apr 07, 2024 17:00:00",
+    shortDate: "07/04/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -253,8 +253,8 @@ let SEASON_SENIOR_A = [
   // Jornada 26
   {
     imgURL: "public/img/escudos/don_benito.png",
-    date: "Apr 07, 2024 17:00:00",
-    shortDate: "07/04/24",
+    date: "Apr 14, 2024 17:00:00",
+    shortDate: "14/04/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -263,8 +263,8 @@ let SEASON_SENIOR_A = [
   // Jornada 27
   {
     imgURL: "public/img/escudos/extremadura.png",
-    date: "Apr 14, 2024 17:00:00",
-    shortDate: "14/04/24",
+    date: "Apr 21, 2024 17:00:00",
+    shortDate: "21/04/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -273,8 +273,8 @@ let SEASON_SENIOR_A = [
   // Jornada 28
   {
     imgURL: "public/img/escudos/cadiz.png",
-    date: "Apr 21, 2024 17:00:00",
-    shortDate: "21/04/24",
+    date: "Apr 28, 2024 17:00:00",
+    shortDate: "28/04/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
@@ -283,8 +283,8 @@ let SEASON_SENIOR_A = [
   // Jornada 29
   {
     imgURL: "public/img/escudos/granada.png",
-    date: "Apr 28, 2024 17:00:00",
-    shortDate: "28/04/24",
+    date: "May 05, 2024 17:00:00",
+    shortDate: "05/05/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -293,8 +293,8 @@ let SEASON_SENIOR_A = [
   // Jornada 30
   {
     imgURL: "public/img/escudos/samper.png",
-    date: "May 05, 2024 17:00:00",
-    shortDate: "05/05/24",
+    date: "May 12, 2024 17:00:00",
+    shortDate: "12/05/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
