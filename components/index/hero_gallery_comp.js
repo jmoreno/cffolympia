@@ -120,7 +120,7 @@ heroGalleryTemplate.innerHTML = `
 <section class="hero__frame">
   <div class="hero__gallery">
     <div class="hero__slider">
-      <<senior-a_match-slide class="match-slide"></senior-a_match-slide>
+      <senior-a_match-slide class="match-slide"></senior-a_match-slide>
       <stand_up-slide class="match-slide"></stand_up-slide>
       
       <!--<senior-a_match-slide2 class="match-slide"></senior-a_match-slide2>-->
