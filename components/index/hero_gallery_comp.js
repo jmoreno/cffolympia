@@ -77,6 +77,9 @@ heroGalleryTemplate.innerHTML = `
   justify-content: space-between;
   align-items: center;
 }
+.hero__btn {
+  
+}
 .hero__btn-left {
   height: 100%;
 }
@@ -117,19 +120,20 @@ heroGalleryTemplate.innerHTML = `
 <section class="hero__frame">
   <div class="hero__gallery">
     <div class="hero__slider">
+      <<senior-a_match-slide class="match-slide"></senior-a_match-slide>
       <stand_up-slide class="match-slide"></stand_up-slide>
-      <senior-a_match-slide class="match-slide"></senior-a_match-slide>
+      
       <!--<senior-a_match-slide2 class="match-slide"></senior-a_match-slide2>-->
     </div>
   </div>
   <div class="hero__gallery-control">
     <a href="/public/docs/Calendario_Senior_A.pdf" target="_blank" class="hero__link">Ver Calendario</a>
     <div class="hero__btns">
-      <div class="hero__btn-left">
+      <div class="hero__btn-left hero__btn">
         <img src="public/img/general/arrowleft.svg" alt="Flecha apuntando a la izquierda" />
       </div>
       <p class="hero__gallery-page">1/${numberOfSlides}</p>
-      <div class="hero__btn-right">
+      <div class="hero__btn-right hero__btn">
         <img src="public/img/general/arrowright.svg" alt="Flecha apuntando a la derecha" />
       </div>  
     </div>

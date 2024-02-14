@@ -96,8 +96,37 @@ let ep14 = new Episode({
   episodeURL: "https://www.youtube.com/live/7nQMbA_RgYo?si=oGMnnr1aBnEf9QII&t=4831",
 });
 
+let ep15 = new Episode({
+  name: "15/ Sara Yagüe",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/weB7LWdjGIk?si=YWt039mGIqhNRrRz&t=5143",
+});
+
+let ep16 = new Episode({
+  name: "16/ Claudia Hernando",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/S_ZaoxbRQ-I?si=mzFi9wFNWngtyNkQ&t=4437",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
-RFFM_EPISODES.push(ep14, ep13, ep12, ep11, ep10, ep9, ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1);
+RFFM_EPISODES.push(
+  ep16,
+  ep15,
+  ep14,
+  ep13,
+  ep12,
+  ep11,
+  ep10,
+  ep9,
+  ep8,
+  ep7,
+  ep6,
+  ep5,
+  ep4,
+  ep3,
+  ep2,
+  ep1
+);
 
 export default RFFM_EPISODES;
 

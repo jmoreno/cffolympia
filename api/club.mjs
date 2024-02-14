@@ -1961,12 +1961,6 @@ let SeniorA = new Team({
       position: "Def Central",
     },
     {
-      name: "Belén Lafuente",
-      imgURL: "/public/img/equipos/senior_a/belen_lafuente.png",
-      number: "5",
-      position: "Def Central",
-    },
-    {
       name: "Gema Prieto",
       imgURL: "/public/img/equipos/senior_a/gema_prieto.png",
       number: "6",
