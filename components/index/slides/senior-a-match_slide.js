@@ -18,7 +18,7 @@ seniorAMatchSlide.innerHTML = `
       padding: 0;
   }
   .gallery__slide {
-    background-image: url("/public/img/hero_slides/slide1.jpg");
+    background-image: linear-gradient(270deg, #00000050, #00000090), url("/public/img/hero_slides/slide_senior_a.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -235,11 +235,20 @@ let a33 = new Articulo({
   text: `¡Volvemos con la madrileña!<br/>
   El CFF Olympia vuelve a estar presente en la convocatoria de la Selección Madrileña Femenina Sub 17 con tres de nuestras jugadoras para un partido amistoso contra nuestro Senior A, un encuentro donde además de sonrisas, hubo goles y buen ambiente. La victoria se la llevo el Senior A con un resultado 2-1 pero todas disfrutaron de este increíble deporte, ¡Seguir trabajando duro!<br/>
   ¡Enhorabuena a Lorena Fernández, Clara Fajardo y Lucía Núñez!`,
-  date: "01/02/2023",
+  date: "01/02/2024",
+  imgPosition: "center center",
+});
+
+let a34 = new Articulo({
+  title: "L Í D E R E S ✌️",
+  imgLink: "/public/img/noticias/noticia_34.jpg",
+  text: "El Senior A se proclama líder y sumamos tres importantes puntos para seguir #soñandojuntas. GRACIAS AFICCIÓN. GRACIAS CANTERA.",
+  date: "19/02/2024",
   imgPosition: "center center",
 });
 
 NOTICIAS.push(
+  a34,
   a33,
   a32,
   a31,

@@ -97,7 +97,7 @@ let ep14 = new Episode({
 });
 
 let ep15 = new Episode({
-  name: "15/ Sara Yagüe",
+  name: "15/ Sarah Yagüe",
   imgURL: "public/img/video_covers/rffmplay.jpg",
   episodeURL: "https://www.youtube.com/live/weB7LWdjGIk?si=YWt039mGIqhNRrRz&t=5143",
 });
@@ -108,8 +108,22 @@ let ep16 = new Episode({
   episodeURL: "https://www.youtube.com/live/S_ZaoxbRQ-I?si=mzFi9wFNWngtyNkQ&t=4437",
 });
 
+let ep17 = new Episode({
+  name: "17/ Mireya Nieto y Gadea Torres",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/WWwFWaBuWsA?si=-UTPvpJq-Z_kvB-w&t=5090",
+});
+
+let ep18 = new Episode({
+  name: "18/ Lucía Fernández",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/8IY4sQ2ndt4?si=G63XCJ9kQ2QkXBQ7&t=5403",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
+  ep18,
+  ep17,
   ep16,
   ep15,
   ep14,

@@ -57,7 +57,12 @@ let jm10 = new JugadoraMahou({
   month: "DICIEMBRE",
   imageURL: "/public/img/mahou/diciembre23.jpg",
 });
+let jm11 = new JugadoraMahou({
+  name: "Rocío Zafra",
+  month: "ENERO",
+  imageURL: "/public/img/mahou/enero24.jpg",
+});
 
-JUGADORAS_MAHOU.push(jm10, jm9, jm8, jm7, jm6, jm5, jm4, jm3, jm2, jm1);
+JUGADORAS_MAHOU.push(jm11, jm10, jm9, jm8, jm7, jm6, jm5, jm4, jm3, jm2, jm1);
 
 export default JUGADORAS_MAHOU;

@@ -48,7 +48,7 @@ let MATCHDATA = {
     date: "Jun 24, 2023 14:00:00",
   },
   juvenil_b: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   cadete_a: {
@@ -56,11 +56,11 @@ let MATCHDATA = {
     date: "Jun 24, 2023 14:00:00",
   },
   cadete_b: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   cadete_c: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   infantil_f11: {
@@ -72,43 +72,43 @@ let MATCHDATA = {
     date: "Jun 24, 2023 14:00:00",
   },
   infantil_b: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   infantil_c: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   infantil_d: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   alevin_a: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   alevin_b: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   alevin_c: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   benjamin_a: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   benjamin_b: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   benjamin_fs: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
   veteranas: {
-    //imgURL: "/public/img/escudos/atleti.pn",
+    //imgURL: "/public/img/escudos/atleti.png",
     date: "Jun 24, 2023 14:00:00",
   },
 };

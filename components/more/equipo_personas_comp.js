@@ -34,6 +34,7 @@ equipoPersonasTemplate.innerHTML = `
     color: var(--white);
     margin: 0 0 2rem;
     padding: 0;
+    text-transform: uppercase;
   }
   .team__group {
     width: 100%;
@@ -291,7 +292,7 @@ equipoPersonasTemplate.innerHTML = `
 </style>
 
 <section class="team">
-  <h2 class="team__name">SENIOR A</h2>
+  <h2 class="team__name"></h2>
   <h3 class="team__group-name">JUGADORAS</h3>
   <div class="team__group team__group--jug">
     
@@ -330,6 +331,9 @@ class equipoPersonas extends HTMLElement {
     );
 
     //TEAM LOADER
+    const teamNameTitle = shadow.querySelector(".team__name");
+    teamNameTitle.innerText = CLUB[equipoArrPosition].general.name;
+
     const groupJugadoras = shadow.querySelector(".team__group--jug");
     for (let i = 1; i <= CLUB[equipoArrPosition].players.length; i++) {
       let name = CLUB[equipoArrPosition].players[i - 1].name;
