@@ -247,7 +247,16 @@ let a34 = new Articulo({
   imgPosition: "center center",
 });
 
+let a35 = new Articulo({
+  title: "8M Día de la Mujer",
+  imgLink: "/public/img/noticias/noticia_35.png",
+  text: "Cinco formas de celebrar el Día Internacional de la Mujer como jugadora del CFF Olympia:<br/>1. Celebrar los logros de tus compañeras.<br/>2. Ayudar a generar compromiso y transmitir que juntas todo se puede lograr.<br/>3. Motivar a otros para que aprendan y se involucren en el fútbol femenino.<br/>4. Dar ejemplo siempre en el campo y en los entrenamientos.<br/>5. Inspirar a otros con tu pasión por el fútbol.",
+  date: "08/03/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a35,
   a34,
   a33,
   a32,

@@ -217,7 +217,7 @@ let SEASON_SENIOR_A = [
     shortDate: "10/03/24",
     result: "-",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
-    liveURL: "",
+    liveURL: "https://www.youtube.com/live/eL_15eYj9V0?si=Xxr5k3-_JG8cQ3Jm",
     hashtag: "#OLYMPIALARAMBLA",
   },
   // Jornada 23
