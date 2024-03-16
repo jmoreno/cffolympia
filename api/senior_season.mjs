@@ -215,7 +215,7 @@ let SEASON_SENIOR_A = [
     imgURL: "public/img/escudos/la_rambla.png",
     date: "Mar 10, 2024 17:00:00",
     shortDate: "10/03/24",
-    result: "-",
+    result: "3-2",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "https://www.youtube.com/live/eL_15eYj9V0?si=Xxr5k3-_JG8cQ3Jm",
     hashtag: "#OLYMPIALARAMBLA",

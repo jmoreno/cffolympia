@@ -120,8 +120,15 @@ let ep18 = new Episode({
   episodeURL: "https://www.youtube.com/live/8IY4sQ2ndt4?si=G63XCJ9kQ2QkXBQ7&t=5403",
 });
 
+let ep19 = new Episode({
+  name: "19/ Sofía Pérez, Clara Fajardo y Vicky Pérez",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/18AChrMcF2E?si=9Fw8FYb9x_gikl2z&t=4349",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
+  ep19,
   ep18,
   ep17,
   ep16,
