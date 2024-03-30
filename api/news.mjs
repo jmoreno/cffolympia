@@ -255,7 +255,34 @@ let a35 = new Articulo({
   imgPosition: "center center",
 });
 
+let a36 = new Articulo({
+  title: "Merecida victoria",
+  imgLink: "/public/img/noticias/noticia_36.jpg",
+  text: "El primer equipo compitió en su último partido, sumando tres puntos y mantiene el liderato.",
+  date: "28/03/2024",
+  imgPosition: "center center",
+});
+
+let a37 = new Articulo({
+  title: "Manteniendo el liderato",
+  imgLink: "/public/img/noticias/noticia_37.jpg",
+  text: "Las chicas del filial siguen intratables, y también mantienen el liderato. Exelente temporada.",
+  date: "28/03/2024",
+  imgPosition: "center center",
+});
+
+let a38 = new Articulo({
+  title: "Empate contra el líder",
+  imgLink: "/public/img/noticias/noticia_38.jpg",
+  text: "Las chicas del Senior C empatan frente a las líderes. Un partido disputado donde hicieron un gran trabajo.",
+  date: "28/03/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a38,
+  a37,
+  a36,
   a35,
   a34,
   a33,
