@@ -1997,12 +1997,12 @@ let SeniorA = new Team({
       number: "12",
       position: "Def Lateral",
     },
-    {
-      name: "Lucía Contreras",
-      imgURL: "/public/img/equipos/senior_a/lucia_contreras.png",
-      number: "13",
-      position: "Portera",
-    },
+    // {
+    //   name: "Lucía Contreras",
+    //   imgURL: "/public/img/equipos/senior_a/lucia_contreras.png",
+    //   number: "13",
+    //   position: "Portera",
+    // },
     {
       name: "Arantxa de la Chica",
       imgURL: "/public/img/equipos/senior_a/arantxa_de_la_chica.png",
