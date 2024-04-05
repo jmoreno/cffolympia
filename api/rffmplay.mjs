@@ -128,8 +128,8 @@ let ep19 = new Episode({
 
 let ep20 = new Episode({
   name: "20/ Jaime Fernández y Manuela Alfayate",
-  imgURL: "https://www.youtube.com/live/vjQrIiH6w8E?si=gyAYia83OnFxXZ63&t=4347",
-  episodeURL: "https://www.youtube.com/live/18AChrMcF2E?si=9Fw8FYb9x_gikl2z&t=4349",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/vjQrIiH6w8E?si=gyAYia83OnFxXZ63&t=4347",
 });
 
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
