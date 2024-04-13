@@ -279,7 +279,25 @@ let a38 = new Articulo({
   imgPosition: "center center",
 });
 
+let a39 = new Articulo({
+  title: "Ana en las jornadas de reciclaje de la RFFM",
+  imgLink: "/public/img/noticias/noticia_39.jpg",
+  text: '<a href="https://www.rffm.es/noticias/generosa-diseccion-del-trabajo-formativo-en-cuatro-clubes-madrilenos-en-una-nueva-jornada-de-actualizacion-y-reciclaje-del-comite-de-entrenadores-dedicada-a-la-direccion-y-coordinacion-de-cantera">https://www.rffm.es/noticias/generosa-diseccion-del-trabajo-formativo-en-cuatro-clubes-madrilenos-en-una-nueva-jornada-de-actualizacion-y-reciclaje-del-comite-de-entrenadores-dedicada-a-la-direccion-y-coordinacion-de-cantera</a>',
+  date: "11/04/2024",
+  imgPosition: "center center",
+});
+
+let a40 = new Articulo({
+  title: "Entrevista a Lydia Vizcaíno",
+  imgLink: "/public/img/noticias/noticia_40.jpg",
+  text: '<a href="https://twitter.com/futboleras_ff/status/1767843817359651113">https://twitter.com/futboleras_ff/status/1767843817359651113</a>',
+  date: "12/04/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a40,
+  a39,
   a38,
   a37,
   a36,

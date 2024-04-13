@@ -132,8 +132,15 @@ let ep20 = new Episode({
   episodeURL: "https://www.youtube.com/live/vjQrIiH6w8E?si=gyAYia83OnFxXZ63&t=4347",
 });
 
+let ep21 = new Episode({
+  name: "21/ Arantxa de la Chica",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/G--d2fG1XfU?si=veUt00zdeabWcf8t&t=4677",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
+  ep21,
   ep20,
   ep19,
   ep18,
