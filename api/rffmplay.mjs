@@ -138,8 +138,22 @@ let ep21 = new Episode({
   episodeURL: "https://www.youtube.com/live/G--d2fG1XfU?si=veUt00zdeabWcf8t&t=4677",
 });
 
+let ep22 = new Episode({
+  name: "20/ Marta Moreno",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/eLLmjG2ljoU?feature=shared&t=5262",
+});
+
+let ep23 = new Episode({
+  name: "21/ Arantxa de la Chica y Marta Moreno",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/uKKcEwrhUUw?si=LixKE9JkjZVvVXd0&t=5778",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
+  ep23,
+  ep22,
   ep21,
   ep20,
   ep19,

@@ -295,7 +295,16 @@ let a40 = new Articulo({
   imgPosition: "center center",
 });
 
+let a41 = new Articulo({
+  title: "Más 3 puntos",
+  imgLink: "/public/img/noticias/noticia_41.png",
+  text: "El primer equipo sigue concentrado hacia su objetivo. Constancia, fuerza, equipo y actitud.",
+  date: "29/04/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a41,
   a40,
   a39,
   a38,
