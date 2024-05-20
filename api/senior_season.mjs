@@ -263,17 +263,17 @@ let SEASON_SENIOR_A = [
   // Jornada 27
   {
     imgURL: "public/img/escudos/extremadura.png",
-    date: "Apr 21, 2024 17:00:00",
+    date: "Dec 21, 2024 17:00:00",
     shortDate: "21/04/24",
     result: "7-2",
     mapsURL: "",
     liveURL: "",
-    hashtag: "#OLYMPIAEXTREMADURA",
+    hashtag: "#OLYMPIAASCIENDE",
   },
   // Jornada 28
   {
     imgURL: "public/img/escudos/cadiz.png",
-    date: "Apr 28, 2024 17:00:00",
+    date: "Dec 28, 2024 17:00:00",
     shortDate: "28/04/24",
     result: "2-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
@@ -283,7 +283,7 @@ let SEASON_SENIOR_A = [
   // Jornada 29
   {
     imgURL: "public/img/escudos/granada.png",
-    date: "May 05, 2024 17:00:00",
+    date: "Dec 05, 2024 17:00:00",
     shortDate: "05/05/24",
     result: "3-0",
     mapsURL: "",
@@ -293,9 +293,9 @@ let SEASON_SENIOR_A = [
   // Jornada 30
   {
     imgURL: "public/img/escudos/samper.png",
-    date: "May 12, 2024 17:00:00",
+    date: "Dec 12, 2024 17:00:00",
     shortDate: "12/05/24",
-    result: "-",
+    result: "1-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIASAMPER",

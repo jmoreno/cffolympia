@@ -1,3 +1,5 @@
+// Notice we have commented some part of the html and the timer.
+
 import MATCHDATA from "/api/matches.mjs";
 
 let matchDate = MATCHDATA.senior_a.date;
@@ -504,10 +506,10 @@ seniorAMatchSlide.innerHTML = `
         <div class="match__escudo1-frame">
           <div class="match__escudo1"></div>
         </div>
-        <p class="match__vs">VS</p>
+        <!--<p class="match__vs">VS</p>
         <div class="match__escudo2-frame">
           <div class="match__escudo2"></div>
-        </div>
+        </div>-->
       </div>
     </div>
     <div class="slide__foot">
@@ -548,47 +550,47 @@ class SeniorAMatchSlide extends HTMLElement {
     }
 
     //TIMER
-    const timeLeft = shadow2.querySelector(".slide__title--timer");
-    const matchDay = new Date(matchDate);
-    const second = 1000;
-    const minute = second * 60;
-    const hour = minute * 60;
-    const matchDuration = hour * 2;
-    const day = hour * 24;
-    let timerId;
+    // const timeLeft = shadow2.querySelector(".slide__title--timer");
+    // const matchDay = new Date(matchDate);
+    // const second = 1000;
+    // const minute = second * 60;
+    // const hour = minute * 60;
+    // const matchDuration = hour * 2;
+    // const day = hour * 24;
+    // let timerId;
 
-    function countDown() {
-      const today = new Date();
-      const timeSpan = matchDay - today;
+    // function countDown() {
+    //   const today = new Date();
+    //   const timeSpan = matchDay - today;
 
-      if (timeSpan <= -matchDuration) {
-        timeLeft.innerText = "TERMINADO";
-        clearInterval(timerId);
-        return;
-      }
-      if (timeSpan <= 0) {
-        timeLeft.innerText = "EN JUEGO";
-        clearInterval(timerId);
-        return;
-      }
+    //   if (timeSpan <= -matchDuration) {
+    //     timeLeft.innerText = "TERMINADO";
+    //     clearInterval(timerId);
+    //     return;
+    //   }
+    //   if (timeSpan <= 0) {
+    //     timeLeft.innerText = "EN JUEGO";
+    //     clearInterval(timerId);
+    //     return;
+    //   }
 
-      const days = Math.floor(timeSpan / day).toLocaleString(undefined, {
-        minimumIntegerDigits: 2,
-      });
-      const hours = Math.floor((timeSpan % day) / hour).toLocaleString(undefined, {
-        minimumIntegerDigits: 2,
-      });
-      const minutes = Math.floor((timeSpan % hour) / minute).toLocaleString(undefined, {
-        minimumIntegerDigits: 2,
-      });
-      const seconds = Math.floor((timeSpan % minute) / second);
-      const seconds2digits = seconds.toLocaleString(undefined, {
-        minimumIntegerDigits: 2,
-      });
+    //   const days = Math.floor(timeSpan / day).toLocaleString(undefined, {
+    //     minimumIntegerDigits: 2,
+    //   });
+    //   const hours = Math.floor((timeSpan % day) / hour).toLocaleString(undefined, {
+    //     minimumIntegerDigits: 2,
+    //   });
+    //   const minutes = Math.floor((timeSpan % hour) / minute).toLocaleString(undefined, {
+    //     minimumIntegerDigits: 2,
+    //   });
+    //   const seconds = Math.floor((timeSpan % minute) / second);
+    //   const seconds2digits = seconds.toLocaleString(undefined, {
+    //     minimumIntegerDigits: 2,
+    //   });
 
-      timeLeft.innerText = `${days}:${hours}:${minutes}:${seconds2digits}`;
-    }
-    timerId = setInterval(countDown, second);
+    //   timeLeft.innerText = `${days}:${hours}:${minutes}:${seconds2digits}`;
+    // }
+    // timerId = setInterval(countDown, second);
   }
 }
 
