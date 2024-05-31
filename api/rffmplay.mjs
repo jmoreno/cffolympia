@@ -139,19 +139,33 @@ let ep21 = new Episode({
 });
 
 let ep22 = new Episode({
-  name: "20/ Marta Moreno",
+  name: "22/ Marta Moreno",
   imgURL: "public/img/video_covers/rffmplay.jpg",
   episodeURL: "https://www.youtube.com/live/eLLmjG2ljoU?feature=shared&t=5262",
 });
 
 let ep23 = new Episode({
-  name: "21/ Arantxa de la Chica y Marta Moreno",
+  name: "23/ Arantxa de la Chica y Marta Moreno",
   imgURL: "public/img/video_covers/rffmplay.jpg",
   episodeURL: "https://www.youtube.com/live/uKKcEwrhUUw?si=LixKE9JkjZVvVXd0&t=5778",
 });
 
+let ep24 = new Episode({
+  name: "24/ Ana de la Chica, Iratxe, Alfayate y Daniela de Miguel",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/x7YgrVMH2CY?si=7MYEN9WWZt1t_deJ&t=5254",
+});
+
+let ep25 = new Episode({
+  name: "25/ Arantxa de la Chica y Clara Fajardo",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/DDATht-x6bY?si=4M__nTghrpv0Lrg1&t=5009",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
+  ep25,
+  ep24,
   ep23,
   ep22,
   ep21,
