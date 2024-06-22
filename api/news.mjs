@@ -303,7 +303,43 @@ let a41 = new Articulo({
   imgPosition: "center center",
 });
 
+let a42 = new Articulo({
+  title: "Gala de la mujer",
+  imgLink: "/public/img/noticias/noticia_42.jpg",
+  text: "",
+  date: "20/06/2024",
+  imgPosition: "center center",
+});
+
+let a43 = new Articulo({
+  title: "Juvenil B asciende a Preferente",
+  imgLink: "/public/img/noticias/noticia_43.jpg",
+  text: "",
+  date: "20/06/2024",
+  imgPosition: "center center",
+});
+
+let a44 = new Articulo({
+  title: "Alevín A asciende a Autonómica",
+  imgLink: "/public/img/noticias/noticia_44.jpg",
+  text: "",
+  date: "20/06/2024",
+  imgPosition: "center center",
+});
+
+let a45 = new Articulo({
+  title: "Triple Ascenso",
+  imgLink: "/public/img/noticias/noticia_45.jpg",
+  text: "",
+  date: "20/06/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a45,
+  a44,
+  a43,
+  a42,
   a41,
   a40,
   a39,

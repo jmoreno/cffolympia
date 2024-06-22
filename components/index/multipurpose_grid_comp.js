@@ -485,7 +485,7 @@ class MultiPurposeGrid extends HTMLElement {
         <div class="carousel__content">
           <a href="" class="carousel__anchor">${name}</a> <!-- ${pageURL} -->
         </div>
-        <img src="${imgURL}" alt="Imagen del equipo" class="carousel__img" />
+        <img src="${imgURL}" alt="Imagen del equipo" loading="lazy" class="carousel__img" />
       </div>
       `;
     }
@@ -508,7 +508,7 @@ class MultiPurposeGrid extends HTMLElement {
             <span class="mahou-player__text">${month}</span>
           </div>
         </div>
-        <img src="${imageURL}" title="${name}" alt="Imagen de la jugadora Mahou 5 estrellas" class="mahou-player__img" />
+        <img src="${imageURL}" title="${name}" loading="lazy" alt="Imagen de la jugadora Mahou 5 estrellas" class="mahou-player__img" />
       </div>
       `;
     }

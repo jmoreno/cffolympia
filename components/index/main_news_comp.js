@@ -38,7 +38,7 @@ mainNewsTemplate.innerHTML = `
 }
 .news__marquee {
     font-size: 3rem;
-    line-height: 3.8rem;
+    line-height: 4rem;
     color: var(--blue);
     font-family: var(--title);
     font-weight: 700;

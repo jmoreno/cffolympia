@@ -33,8 +33,8 @@ c2aTemplate.innerHTML = `
 }
 .social__hashtag span {
     color: transparent;
-    -webkit-text-stroke: 0.15rem var(--white);
-    text-stroke: 0.15rem var(--white);
+    -webkit-text-stroke: 0.15rem var(--gold);
+    text-stroke: 0.15rem var(--gold);
 }
 .social__links {
     width: 100%;

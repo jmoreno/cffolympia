@@ -14,7 +14,7 @@ class Team {
 let BenjaminA = new Team({
   general: {
     name: "Benjamín A",
-    imgURL: "",
+    imgURL: "/public/img/equipos/benjamin_a/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=benjamin_a",
     //calendarURL: "", //For the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -92,7 +92,7 @@ let BenjaminA = new Team({
 let BenjaminB = new Team({
   general: {
     name: "Benjamín B",
-    imgURL: "",
+    imgURL: "/public/img/equipos/benjamin_b/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=benjamin_b",
     //calendarURL: "", //For the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -188,7 +188,7 @@ let BenjaminB = new Team({
 let BenjaminC = new Team({
   general: {
     name: "Benjamín C",
-    imgURL: "",
+    imgURL: "/public/img/equipos/benjamin_c/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=benjamin_c",
     //calendarURL: "", //For the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -284,7 +284,7 @@ let BenjaminC = new Team({
 let AlevinA = new Team({
   general: {
     name: "Alevín A",
-    imgURL: "",
+    imgURL: "/public/img/equipos/alevin_a/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=alevin_a",
     //calendarURL: "", //For the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -386,7 +386,7 @@ let AlevinA = new Team({
 let AlevinB = new Team({
   general: {
     name: "Alevín B",
-    imgURL: "",
+    imgURL: "/public/img/equipos/alevin_b/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=alevin_b",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -482,7 +482,7 @@ let AlevinB = new Team({
 let AlevinC = new Team({
   general: {
     name: "Alevín C",
-    imgURL: "",
+    imgURL: "/public/img/equipos/alevin_c/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=alevin_c",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -590,7 +590,7 @@ let AlevinC = new Team({
 let InfantilA = new Team({
   general: {
     name: "Infantil A",
-    imgURL: "",
+    imgURL: "/public/img/equipos/infantil_a/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=infantil_a",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -704,7 +704,7 @@ let InfantilA = new Team({
 let InfantilB = new Team({
   general: {
     name: "Infantil B",
-    imgURL: "",
+    imgURL: "/public/img/equipos/infantil_b/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=infantil_b",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -806,7 +806,7 @@ let InfantilB = new Team({
 let InfantilC = new Team({
   general: {
     name: "Infantil C",
-    imgURL: "",
+    imgURL: "/public/img/equipos/infantil_c/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=infantil_c",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -902,7 +902,7 @@ let InfantilC = new Team({
 let InfantilD = new Team({
   general: {
     name: "Infantil D",
-    imgURL: "",
+    imgURL: "/public/img/equipos/infantil_d/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=infantil_d",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -993,7 +993,7 @@ let InfantilD = new Team({
 let InfantilF11 = new Team({
   general: {
     name: "Infantil F11",
-    imgURL: "",
+    imgURL: "/public/img/equipos/infantil_f11/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=infantil_f11",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -1117,7 +1117,7 @@ let InfantilF11 = new Team({
 let CadeteA = new Team({
   general: {
     name: "Cadete A",
-    imgURL: "",
+    imgURL: "/public/img/equipos/cadete_a/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=cadete_a",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -1248,7 +1248,7 @@ let CadeteA = new Team({
 let CadeteB = new Team({
   general: {
     name: "Cadete B",
-    imgURL: "",
+    imgURL: "/public/img/equipos/cadete_b/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=cadete_b",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -1397,7 +1397,7 @@ let CadeteB = new Team({
 let CadeteC = new Team({
   general: {
     name: "Cadete C",
-    imgURL: "",
+    imgURL: "/public/img/equipos/cadete_c/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=cadete_c",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -1541,7 +1541,7 @@ let CadeteC = new Team({
 let JuvenilA = new Team({
   general: {
     name: "Juvenil A",
-    imgURL: "",
+    imgURL: "/public/img/equipos/juvenil_a/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=juvenil_a",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -1694,7 +1694,7 @@ let JuvenilA = new Team({
 let JuvenilB = new Team({
   general: {
     name: "Juvenil B",
-    imgURL: "",
+    imgURL: "/public/img/equipos/juvenil_b/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=juvenil_b",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -2087,7 +2087,7 @@ let SeniorA = new Team({
 let SeniorB = new Team({
   general: {
     name: "Senior B",
-    imgURL: "",
+    imgURL: "/public/img/equipos/senior_b/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=senior_b",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -2280,7 +2280,7 @@ let SeniorB = new Team({
 let SeniorC = new Team({
   general: {
     name: "Senior C",
-    imgURL: "",
+    imgURL: "/public/img/equipos/senior_c/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=senior_c",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -2454,7 +2454,7 @@ let SeniorC = new Team({
 let Veteranas = new Team({
   general: {
     name: "Veteranas",
-    imgURL: "",
+    imgURL: "/public/img/equipos/veteranas/cover.jpg",
     pageURL: "/pages/equipo_olympia.html?equipo=veteranas",
     //calendarURL: "", //Fot the full match calendar in matchapp or other app/web
     //matches: //Will have to find a way of fetching the data from matches into each team in order to have an automated calendar or so
@@ -2590,25 +2590,6 @@ let Veteranas = new Team({
 });
 
 //EXPORTATION
-CLUB.push(SeniorA, SeniorB);
+CLUB.push(SeniorA, SeniorB, SeniorC, BenjaminA, BenjaminB, BenjaminC, AlevinA, AlevinB, AlevinC, InfantilA, InfantilB, InfantilC, InfantilD, InfantilF11, CadeteA, CadeteB, CadeteC, JuvenilA, JuvenilB, Veteranas);
 
 export { CLUB, SeniorA };
-
-// SeniorC,
-// BenjaminA,
-// BenjaminB,
-// BenjaminC,
-// AlevinA,
-// AlevinB,
-// AlevinC,
-// InfantilF11,
-// InfantilA,
-// InfantilB,
-// InfantilC,
-// InfantilD,
-// CadeteA,
-// CadeteB,
-// CadeteC,
-// JuvenilA,
-// JuvenilB,
-// Veteranas

@@ -3,7 +3,12 @@
 :root {
   --white: #fff;
   --blue: #030722;
-  --mint: #a3d9d6;
+  --blue-sm: #102952;
+  --mint: #9AD2CA; /*a3d9d6*/
+  --mint-int: #409986;
+  --mint-dk: #1A6656;
+  --gold: #E0A143;
+
   --title: "Morganite";
   --stitle: "Anton";
   --text: "Roboto";
