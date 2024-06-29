@@ -162,8 +162,15 @@ let ep25 = new Episode({
   episodeURL: "https://www.youtube.com/live/DDATht-x6bY?si=4M__nTghrpv0Lrg1&t=5009",
 });
 
+let ep26 = new Episode({
+  name: "25/ Iratxe Rodríguez",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://youtu.be/kRf73OVbYqA?list=PLktT4paNQ5csG91nzRXs44i-pCpYWi7Cw&t=2746",
+});
+
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
+  ep26,
   ep25,
   ep24,
   ep23,
