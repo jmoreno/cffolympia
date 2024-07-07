@@ -152,11 +152,11 @@ sponsorMarqueeTemplate.innerHTML = `
         class="sponsor"
         alt="Ruesma, patrocinador oficial del Olympia" />
     </a>
-    <a href="https://www.aliberico.com/es/" class="sponsors__link">
+    <a href="https://www.standup-international.com/es/es/" class="sponsors__link">
         <img
-        src="/public/sponsors/logo_aliberico.png"
+        src="/public/sponsors/logo_standup.png"
         class="sponsor"
-        alt="Alibérico, patrocinador oficial del Olympia" />
+        alt="Stand UP, patrocinador oficial del Olympia" />
     </a>
     <a href="https://www.mahou.es/" class="sponsors__link">
         <img
@@ -196,11 +196,11 @@ sponsorMarqueeTemplate.innerHTML = `
         class="sponsor"
         alt="Ruesma, patrocinador oficial del Olympia" />
     </a>
-    <a href="https://www.aliberico.com/es/" class="sponsors__link">
+    <a href="https://www.standup-international.com/es/es/" class="sponsors__link">
         <img
-        src="/public/sponsors/logo_aliberico.png"
+        src="/public/sponsors/logo_standup.png"
         class="sponsor"
-        alt="Alibérico, patrocinador oficial del Olympia" />
+        alt="Stand UP, patrocinador oficial del Olympia" />
     </a>
     <a href="https://www.mahou.es/" class="sponsors__link">
         <img

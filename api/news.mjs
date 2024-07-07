@@ -335,7 +335,16 @@ let a45 = new Articulo({
   imgPosition: "center center",
 });
 
+let a46 = new Articulo({
+  title: "CAMPEONAS DONOSTI CUP G19",
+  imgLink: "/public/img/noticias/noticia_46.jpg",
+  text: "Algunos equipos de nuestra cantera, han viajado. San Sebastián para disputar el torneo internacional. Tras un gran papel de nuestras categorías G12 y G17, fue nuestro G19 quien en el mítico estadio de Anoeta (Reale Arena), se hicieron con el trofeo de campeonas frente a top tec (Selección de jugadoras catalana). Gadea torres además de hacer el gol que nos hizo levantar el título, se llevó el MVP.<br/><br/>Enhorabuena chicas, pero sobre tod, enhorabuena afición por viajar con el Olympia y hacer de cualquier lugar, nuestra casa.",
+  date: "07/07/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a46,
   a45,
   a44,
   a43,
