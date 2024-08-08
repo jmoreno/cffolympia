@@ -164,6 +164,12 @@ sponsorMarqueeTemplate.innerHTML = `
         class="sponsor"
         alt="Mahou, patrocinador oficial del Olympia" />
     </a>
+    <a href="https://www.hyundai.es/concesionarios/motorgamboa" class="sponsors__link">
+        <img
+        src="/public/sponsors/logo_hyundaigamboa.png"
+        class="sponsor"
+        alt="Hyundai motor gamboa, patrocinador oficial del Olympia" />
+    </a>
     <a href="https://lraingenieria.es/" class="sponsors__link">
         <img
         src="/public/sponsors/logo_lra.png"
@@ -207,6 +213,12 @@ sponsorMarqueeTemplate.innerHTML = `
         src="/public/sponsors/logo_mahou.png"
         class="sponsor"
         alt="Mahou, patrocinador oficial del Olympia" />
+    </a>
+    <a href="https://www.hyundai.es/concesionarios/motorgamboa" class="sponsors__link">
+        <img
+        src="/public/sponsors/logo_hyundaigamboa.png"
+        class="sponsor"
+        alt="Hyundai motor gamboa, patrocinador oficial del Olympia" />
     </a>
     <a href="https://lraingenieria.es/" class="sponsors__link">
         <img

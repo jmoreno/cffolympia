@@ -343,7 +343,16 @@ let a46 = new Articulo({
   imgPosition: "center center",
 });
 
+let a47 = new Articulo({
+  title: "HYUNDAI MOTOR GAMBOA APOYA AL OLYMPIA",
+  imgLink: "/public/img/noticias/noticia_47.jpg",
+  text: "Hyundai motor Gamboa se une en el camino del Olympia para fomentar el fútbol femenino e impulsar nuestro club.",
+  date: "03/08/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a47,
   a46,
   a45,
   a44,
