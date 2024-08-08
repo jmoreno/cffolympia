@@ -1,0 +1,45 @@
+{
+  "name": "CFF Olympia Las Rozas",
+  "short_name": "Olympia",
+  "theme_color": "#a3d9d6",
+  "background_color": "#030722",
+  "display_override": ["fullscreen"],
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+  "description": "Web oficial del Club Deportivo Básico Femenino CFF Olympia Las Rozas",
+  "categories": ["futbol", "soccer", "deporte", "sports", "women", "femenino"],
+  "icons": [
+    {
+      "src": "/public/favicon.png",
+      "type": "image/png",
+      "sizes": "40x40"
+    },
+    {
+      "src": "/public/img/escudos/olympia.png",
+      "type": "image/png",
+      "sizes": "1080x1080"
+    },
+    {
+      "src": "public/img/general/escudoblanco.svg",
+      "sizes": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/public/pwa/screenshots/wide1.png",
+      "sizes": "3840x2160",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Olympia App Homescreen"
+    },
+    {
+      "src": "/public/pwa/screenshots/narrow1.png",
+      "sizes": "1290x2796",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Olympia App Homescreen"
+    }
+  ]
+}
