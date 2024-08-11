@@ -1,3 +1,7 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/pwa-examples/js13kpwa/sw.js");
+}
+
 self.addEventListener("install", function (event) {
   event.waitUntil(preLoad());
 });

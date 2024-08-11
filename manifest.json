@@ -8,6 +8,7 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "start_url": "/",
+  "lang": "es-es",
   "description": "Web oficial del Club Deportivo Básico Femenino CFF Olympia Las Rozas",
   "categories": ["futbol", "soccer", "deporte", "sports", "women", "femenino"],
   "icons": [
