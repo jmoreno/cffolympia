@@ -3,7 +3,7 @@
   "short_name": "CFF Olympia",
   "theme_color": "#a3d9d6",
   "background_color": "#030722",
-  "display_override": ["fullscreen"],
+  "display_override": ["fullscreen", "standalone"],
   "display": "standalone",
   "orientation": "portrait-primary",
   "scope": "/",
