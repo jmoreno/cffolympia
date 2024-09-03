@@ -2,8 +2,8 @@ let SEASON_SENIOR_A = [
   // Jornada 1
   {
     imgURL: "public/img/escudos/cd_tenerife.png",
-    date: "Sep 08, 2024 19:00:00",
-    shortDate: "08/09/24",
+    date: "Sep 07, 2024 17:00:00",
+    shortDate: "07/09/24",
     result: "-",
     mapsURL: "",
     liveURL: "",
@@ -22,7 +22,7 @@ let SEASON_SENIOR_A = [
   // Jornada 3
   {
     imgURL: "public/img/escudos/guiniguada.png",
-    date: "Sep 22, 2024 19:00:00",
+    date: "Sep 22, 2024 10:00:00",
     shortDate: "22/09/24",
     result: "-",
     mapsURL: "",
