@@ -25,6 +25,7 @@ let SenAImgURl = SEASON_SENIOR_A[nextMatchArrIndex].imgURL;
 let SenAMapsURl = SEASON_SENIOR_A[nextMatchArrIndex].mapsURL;
 let SenALiveURl = SEASON_SENIOR_A[nextMatchArrIndex].liveURL;
 let SenAHashtag = SEASON_SENIOR_A[nextMatchArrIndex].hashtag;
+let SenAIsLocal = SEASON_SENIOR_A[nextMatchArrIndex].isLocal;
 ///////////////////////////////////////////////////////////
 
 let MATCHDATA = {
@@ -34,6 +35,7 @@ let MATCHDATA = {
     mapsURL: SenAMapsURl,
     liveURL: SenALiveURl,
     hashtag: SenAHashtag,
+    isLocal: SenAIsLocal,
   },
   senior_b: {
     imgURL: "/public/img/escudos/atleti.png",

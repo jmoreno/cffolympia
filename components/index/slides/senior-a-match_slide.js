@@ -7,6 +7,7 @@ let oponentImg = MATCHDATA.senior_a.imgURL;
 let mapsURL = MATCHDATA.senior_a.mapsURL;
 let liveURL = MATCHDATA.senior_a.liveURL;
 let hashtag = MATCHDATA.senior_a.hashtag;
+let isLocal = MATCHDATA.senior_a.isLocal;
 
 const seniorAMatchSlide = document.createElement("template");
 
@@ -87,7 +88,7 @@ seniorAMatchSlide.innerHTML = `
   .match__escudo1 {
     height: 100%;
     width: 100%;
-    background-image: url("public/img/escudos/olympia.png");
+    background-image: url("${isLocal ? "public/img/escudos/olympia.png" : oponentImg}");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -107,7 +108,7 @@ seniorAMatchSlide.innerHTML = `
   .match__escudo2 {
     height: 100%;
     width: 100%;
-    background-image: url(${oponentImg});
+    background-image: url("${!isLocal ? "public/img/escudos/olympia.png" : oponentImg}");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
