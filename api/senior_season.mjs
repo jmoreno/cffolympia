@@ -5,7 +5,7 @@ let SEASON_SENIOR_A = [
     date: "Sep 07, 2024 17:00:00",
     shortDate: "07/09/24",
     isLocal: false,
-    result: "-",
+    result: "2-2",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIATENERIFE",
