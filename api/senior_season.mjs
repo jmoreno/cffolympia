@@ -16,7 +16,7 @@ let SEASON_SENIOR_A = [
     date: "Sep 15, 2024 19:00:00",
     shortDate: "15/09/24",
     isLocal: true,
-    result: "-",
+    result: "2-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIACACERES",
@@ -27,7 +27,7 @@ let SEASON_SENIOR_A = [
     date: "Sep 22, 2024 10:00:00",
     shortDate: "22/09/24",
     isLocal: false,
-    result: "-",
+    result: "0-2",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIAGUINIGUADA",
@@ -35,7 +35,7 @@ let SEASON_SENIOR_A = [
   // Jornada 4
   {
     imgURL: "public/img/escudos/valencia.png",
-    date: "Sep 29, 2024 19:00:00",
+    date: "Sep 29, 2024 17:00:00",
     shortDate: "29/09/24",
     isLocal: true,
     result: "-",
