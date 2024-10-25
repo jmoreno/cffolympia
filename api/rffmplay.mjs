@@ -18,11 +18,29 @@ let ep1 = new Episode({
   episodeURL: "https://www.youtube.com/live/wAvZ9WMdwow?si=ZG2EGbuO3jlNlu6s&t=5936",
 });
 
+let ep2 = new Episode({
+  name: "02/ Paola González",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/q90FGgJrj_M?feature=shared&t=5291",
+});
+
+let ep3 = new Episode({
+  name: "03/ Alejandra Rubio",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/0esEexjJQ3U?feature=shared&t=5547",
+});
+
+let ep4 = new Episode({
+  name: "04/ Marta de las Heras",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/0esEexjJQ3U?feature=shared&t=7083",
+});
+
 
 
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
-  ep1
+  ep4, ep3, ep2, ep1
 );
 
 export default RFFM_EPISODES;
