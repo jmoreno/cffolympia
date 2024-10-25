@@ -60,7 +60,7 @@ let SEASON_SENIOR_A = [
     date: "Oct 13, 2024 19:00:00",
     shortDate: "13/10/24",
     isLocal: true,
-    result: "-",
+    result: "1-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIAMADRIDCF",
@@ -71,7 +71,7 @@ let SEASON_SENIOR_A = [
     date: "Oct 20, 2024 19:00:00",
     shortDate: "20/10/24",
     isLocal: false,
-    result: "-",
+    result: "2-1",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIACOSTAADEJE",
@@ -79,7 +79,7 @@ let SEASON_SENIOR_A = [
   // Jornada 8
   {
     imgURL: "public/img/escudos/femarguin.png",
-    date: "Oct 27, 2024 19:00:00",
+    date: "Oct 27, 2024 17:00:00",
     shortDate: "27/10/24",
     isLocal: true,
     result: "-",
