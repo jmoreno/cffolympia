@@ -82,7 +82,7 @@ let SEASON_SENIOR_A = [
     date: "Oct 27, 2024 17:00:00",
     shortDate: "27/10/24",
     isLocal: true,
-    result: "-",
+    result: "3-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIAFEMARGUIN",
@@ -90,8 +90,8 @@ let SEASON_SENIOR_A = [
   // Jornada 9
   {
     imgURL: "public/img/escudos/cordoba.png",
-    date: "Nov 03, 2024 19:00:00",
-    shortDate: "03/11/24",
+    date: "Nov 02, 2024 13:00:00",
+    shortDate: "02/11/24",
     isLocal: false,
     result: "-",
     mapsURL: "",
