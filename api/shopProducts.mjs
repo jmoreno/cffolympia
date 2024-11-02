@@ -1,4 +1,116 @@
 let SHOP_PRODUCTS = [
+
+  {
+    name: "(NUEVO) SUDADERA PASEO",
+    price: "28,00 EUR - Diseño delante y detrás",
+    imgURL: "/public/img/shop/sudadera_paseo_back.png",
+    hoverImgURL: "/public/img/shop/sudadera_2015_front.png",
+    productImages: [],
+    pageName: "sudadera_paseo",
+    pageURL: "/pages/producto_tienda.html?producto=sudadera_paseo",
+    selections: [
+      {
+        name: "Talla",
+        isRequired: true,
+        options: ["Talla: XS", "Talla: S", "Talla: M", "Talla: L", "Talla XL"],
+      },
+      {
+        name: "Color",
+        isRequired: true,
+        options: ["Color: Azul", "Color: Mint"],
+      },
+    ],
+    otherInputs: [],
+  },
+  //////////////////////////////////////////////////////////////////////////////////////////
+  {
+    name: "(NUEVO) SUDADERA OLYMPIA 2015",
+    price: "15,00 EUR - Sólo diseño delante",
+    imgURL: "/public/img/shop/sudadera_2015_front.png",
+    hoverImgURL: "/public/img/shop/sudadera_2015_front.png",
+    productImages: [],
+    pageName: "sudadera_2015",
+    pageURL: "/pages/producto_tienda.html?producto=sudadera_2015",
+    selections: [
+      {
+        name: "Talla",
+        isRequired: true,
+        options: ["Talla: XS", "Talla: S", "Talla: M", "Talla: L", "Talla XL"],
+      },
+      {
+        name: "Color",
+        isRequired: true,
+        options: ["Color: Azul", "Color: Mint"],
+      },
+    ],
+    otherInputs: [],
+  },
+  //////////////////////////////////////////////////////////////////////////////////////////
+  {
+    name: "(NUEVO) CAMISETA OLYMPIA 2015",
+    price: "8,00 EUR - Sólo diseño delante",
+    imgURL: "/public/img/shop/camiseta_2015_front.png",
+    hoverImgURL: "/public/img/shop/camiseta_2015_front.png",
+    productImages: [],
+    pageName: "camiseta_2015",
+    pageURL: "/pages/producto_tienda.html?producto=camiseta_2015",
+    selections: [
+      {
+        name: "Talla",
+        isRequired: true,
+        options: ["Talla: XS", "Talla: S", "Talla: M", "Talla: L", "Talla XL"],
+      },
+      {
+        name: "Color",
+        isRequired: true,
+        options: ["Color: Azul", "Color: Mint"],
+      },
+    ],
+    otherInputs: [],
+  },
+  //////////////////////////////////////////////////////////////////////////////////////////
+  {
+    name: "(NUEVO) CHANCLAS OLYMPIA",
+    price: "15,00 EUR",
+    imgURL: "/public/img/shop/chanclas.png",
+    hoverImgURL: "/public/img/shop/chanclas.png",
+    productImages: [],
+    pageName: "chanclas",
+    pageURL: "/pages/producto_tienda.html?producto=chanclas",
+    selections: [
+      {
+        name: "Talla",
+        isRequired: true,
+        options: ["Talla: 37", "Talla: 38", "Talla: 39", "Talla: 40", "Talla: 41", "Talla: 42", "Talla: 43"],
+      },
+    ],
+    otherInputs: [],
+  },
+  //////////////////////////////////////////////////////////////////////////////////////////
+  {
+    name: "(NUEVO) RIÑONERA OLYMPIA",
+    price: "12,00 EUR",
+    imgURL: "/public/img/shop/riñonera.png",
+    hoverImgURL: "/public/img/shop/riñonera.png",
+    productImages: [],
+    pageName: "riñonera",
+    pageURL: "/pages/producto_tienda.html?producto=riñonera",
+    selections: [],
+    otherInputs: [],
+  },
+  ////////////////////////////////////////////////////////////////////////////////////////
+  // {
+  //   name: "(NUEVO) LLAVERO MOSQUETÓN",
+  //   price: "____ EUR",
+  //   imgURL: "/public/img/shop/llavero_mosqueton.png",
+  //   hoverImgURL: "/public/img/shop/llavero_mosqueton.png",
+  //   productImages: [],
+  //   pageName: "llavero_mosqueton",
+  //   pageURL: "/pages/producto_tienda.html?producto=llavero_mosqueton",
+  //   selections: [],
+  //   otherInputs: [],
+  // },
+  ////////////////////////////////////////////////////////////////////////////////////////
   {
     name: "PACK PRIMERA EQIPACIÓN",
     price: "150,00 EUR",
