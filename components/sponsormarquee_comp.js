@@ -146,104 +146,116 @@ sponsorMarqueeTemplate.innerHTML = `
 <section class="sponsors__marquee">
 <div class="sponsors__frame">
     <div class="sponsors__track">
-    <a href="https://www.ruesma.com/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_ruesma.png"
-        class="sponsor"
-        alt="Ruesma, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.standup-international.com/es/es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_standup.png"
-        class="sponsor"
-        alt="Stand UP, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.mahou.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_mahou.png"
-        class="sponsor"
-        alt="Mahou, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.hyundai.es/concesionarios/motorgamboa" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_hyundaigamboa.png"
-        class="sponsor"
-        alt="Hyundai motor gamboa, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://lraingenieria.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_lra.png"
-        class="sponsor"
-        alt="LRA, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://appletreecommunications.com/es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_appletree.png"
-        class="sponsor"
-        alt="Appletree, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.sek.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_sek.png"
-        class="sponsor"
-        alt="IESEK, patrocinador oficial del Olympia" />
-    </a>
-    <a href="http://vercocinas.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_vercocinas.png"
-        class="sponsor"
-        alt="Vercocinas, patrocinador oficial del Olympia" />
-    </a>
+        <a href="https://www.ruesma.com/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_ruesma.png"
+            class="sponsor"
+            alt="Ruesma, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.standup-international.com/es/es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_standup.png"
+            class="sponsor"
+            alt="Stand UP, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.mahou.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_mahou.png"
+            class="sponsor"
+            alt="Mahou, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.hyundai.es/concesionarios/motorgamboa" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_hyundaigamboa.png"
+            class="sponsor"
+            alt="Hyundai motor gamboa, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://lraingenieria.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_lra.png"
+            class="sponsor"
+            alt="LRA, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://appletreecommunications.com/es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_appletree.png"
+            class="sponsor"
+            alt="Appletree, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.sek.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_sek.png"
+            class="sponsor"
+            alt="IESEK, patrocinador oficial del Olympia" />
+        </a>
+        <a href="http://vercocinas.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_vercocinas.png"
+            class="sponsor"
+            alt="Vercocinas, patrocinador oficial del Olympia" />
+        </a>
+        <a href="http://aliberico.com/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_aliberico.png"
+            class="sponsor"
+            alt="Aliberico, patrocinador oficial del Olympia" />
+        </a>
     </div>
     <div aria-hidden="true" class="sponsors__track">
-    <a href="https://www.ruesma.com/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_ruesma.png"
-        class="sponsor"
-        alt="Ruesma, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.standup-international.com/es/es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_standup.png"
-        class="sponsor"
-        alt="Stand UP, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.mahou.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_mahou.png"
-        class="sponsor"
-        alt="Mahou, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.hyundai.es/concesionarios/motorgamboa" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_hyundaigamboa.png"
-        class="sponsor"
-        alt="Hyundai motor gamboa, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://lraingenieria.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_lra.png"
-        class="sponsor"
-        alt="LRA, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://appletreecommunications.com/es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_appletree.png"
-        class="sponsor"
-        alt="Appletree, patrocinador oficial del Olympia" />
-    </a>
-    <a href="https://www.sek.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_sek.png"
-        class="sponsor"
-        alt="IESEK, patrocinador oficial del Olympia" />
-    </a>
-    <a href="http://vercocinas.es/" class="sponsors__link">
-        <img
-        src="/public/sponsors/logo_vercocinas.png"
-        class="sponsor"
-        alt="Vercocinas, patrocinador oficial del Olympia" />
-    </a>
+        <a href="https://www.ruesma.com/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_ruesma.png"
+            class="sponsor"
+            alt="Ruesma, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.standup-international.com/es/es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_standup.png"
+            class="sponsor"
+            alt="Stand UP, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.mahou.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_mahou.png"
+            class="sponsor"
+            alt="Mahou, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.hyundai.es/concesionarios/motorgamboa" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_hyundaigamboa.png"
+            class="sponsor"
+            alt="Hyundai motor gamboa, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://lraingenieria.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_lra.png"
+            class="sponsor"
+            alt="LRA, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://appletreecommunications.com/es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_appletree.png"
+            class="sponsor"
+            alt="Appletree, patrocinador oficial del Olympia" />
+        </a>
+        <a href="https://www.sek.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_sek.png"
+            class="sponsor"
+            alt="IESEK, patrocinador oficial del Olympia" />
+        </a>
+        <a href="http://vercocinas.es/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_vercocinas.png"
+            class="sponsor"
+            alt="Vercocinas, patrocinador oficial del Olympia" />
+        </a>
+        <a href="http://aliberico.com/" class="sponsors__link">
+            <img
+            src="/public/sponsors/logo_aliberico.png"
+            class="sponsor"
+            alt="Aliberico, patrocinador oficial del Olympia" />
+        </a>
     </div>
 </div>
 </section>
