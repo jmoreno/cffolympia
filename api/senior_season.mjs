@@ -159,7 +159,7 @@ let SEASON_SENIOR_A = [
     date: "Dec 15, 2024 18:00:00",
     shortDate: "15/12/24",
     isLocal: true,
-    result: "-",
+    result: "2-3",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIAELCHE",
