@@ -170,7 +170,7 @@ let SEASON_SENIOR_A = [
     date: "Jan 12, 2025 17:00:00",
     shortDate: "12/01/25",
     isLocal: true,
-    result: "-",
+    result: "0-2",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIATENERIFE",

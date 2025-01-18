@@ -13,7 +13,25 @@ let jm1 = new JugadoraMahou({
   imageURL: "/public/img/mahou/andrea_rodriguez_24-25.jpg",
 });
 
-JUGADORAS_MAHOU.push(jm1);
+let jm2 = new JugadoraMahou({
+  name: "Belén Peralta",
+  month: "OCTUBRE",
+  imageURL: "/public/img/mahou/octubre24.jpg",
+});
+
+let jm3 = new JugadoraMahou({
+  name: "Patri Camacho",
+  month: "NOVIEMBRE",
+  imageURL: "/public/img/mahou/noviembre24.jpg",
+});
+
+let jm4 = new JugadoraMahou({
+  name: "Sara Sánchez",
+  month: "DICIEMBRE",
+  imageURL: "/public/img/mahou/diciembre24.jpg",
+});
+
+JUGADORAS_MAHOU.push(jm4, jm3, jm2, jm1);
 
 export default JUGADORAS_MAHOU;
 

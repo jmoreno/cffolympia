@@ -36,11 +36,22 @@ let ep4 = new Episode({
   episodeURL: "https://www.youtube.com/live/0esEexjJQ3U?feature=shared&t=7083",
 });
 
+let ep5 = new Episode({
+  name: "05/ Gabri (Preparador Senior C)",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/_sSeaSuxyic?feature=shared&t=7863",
+});
+
+let ep6 = new Episode({
+  name: "06/ Carmen Sánchez",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/DV3CDD2j6Jo?feature=shared&t=5649",
+});
 
 
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
-  ep4, ep3, ep2, ep1
+  ep6, ep5, ep4, ep3, ep2, ep1
 );
 
 export default RFFM_EPISODES;
