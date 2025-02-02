@@ -192,7 +192,7 @@ let SEASON_SENIOR_A = [
     date: "Feb 02, 2025 17:00:00",
     shortDate: "02/02/25",
     isLocal: true,
-    result: "-",
+    result: "5-2",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIAGUINIGUADA",
@@ -200,8 +200,8 @@ let SEASON_SENIOR_A = [
   // Jornada 19
   {
     imgURL: "public/img/escudos/valencia.png",
-    date: "Feb 09, 2025 17:00:00",
-    shortDate: "09/02/25",
+    date: "Feb 08, 2025 16:00:00",
+    shortDate: "08/02/25",
     isLocal: false,
     result: "-",
     mapsURL: "",
