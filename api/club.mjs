@@ -1963,12 +1963,12 @@ let SeniorA = new Team({
       number: "9",
       position: "Delantera",
     },
-    {
-      name: "Rosa Torres",
-      imgURL: "/public/img/equipos/senior_a/rosa_torres.png",
-      number: "10",
-      position: "Mediocentro",
-    },
+    // {
+    //   name: "Rosa Torres",
+    //   imgURL: "/public/img/equipos/senior_a/rosa_torres.png",
+    //   number: "10",
+    //   position: "Mediocentro",
+    // },
     {
       name: "Lucía Sánchez",
       imgURL: "/public/img/equipos/senior_a/lucia_sanchez.png",
@@ -2023,12 +2023,12 @@ let SeniorA = new Team({
       number: "20",
       position: "Mediocentro",
     },
-    {
-      name: "Maca Iturrioz",
-      imgURL: "/public/img/equipos/senior_a/maca_iturrioz.png",
-      number: "21",
-      position: "Def Lateral",
-    },
+    // {
+    //   name: "Maca Iturrioz",
+    //   imgURL: "/public/img/equipos/senior_a/maca_iturrioz.png",
+    //   number: "21",
+    //   position: "Def Lateral",
+    // },
     {
       name: "Alba Masa",
       imgURL: "/public/img/equipos/senior_a/alba_masa.png",
@@ -2047,12 +2047,12 @@ let SeniorA = new Team({
       number: "26",
       position: "Def Central",
     },
-    {
-      name: "Aitana Sánchez",
-      imgURL: "/public/img/equipos/senior_a/aitana_sanchez.png",
-      number: "27",
-      position: "Extremo",
-    },
+    // {
+    //   name: "Aitana Sánchez",
+    //   imgURL: "/public/img/equipos/senior_a/aitana_sanchez.png",
+    //   number: "27",
+    //   position: "Extremo",
+    // },
     {
       name: "Manuela Alfayate",
       imgURL: "/public/img/equipos/senior_a/manuela_alfayate.png",

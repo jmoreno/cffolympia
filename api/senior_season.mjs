@@ -203,7 +203,7 @@ let SEASON_SENIOR_A = [
     date: "Feb 08, 2025 16:00:00",
     shortDate: "08/02/25",
     isLocal: false,
-    result: "-",
+    result: "0-2",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIAVALENCIA",
