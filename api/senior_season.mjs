@@ -214,7 +214,7 @@ let SEASON_SENIOR_A = [
     date: "Feb 16, 2025 17:00:00",
     shortDate: "16/02/25",
     isLocal: true,
-    result: "-",
+    result: "3-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIALADESTILA",
