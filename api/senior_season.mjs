@@ -225,7 +225,7 @@ let SEASON_SENIOR_A = [
     date: "Feb 23, 2025 17:00:00",
     shortDate: "23/02/25",
     isLocal: false,
-    result: "-",
+    result: "1-0",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIAMADRIDCF",
