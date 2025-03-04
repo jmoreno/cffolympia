@@ -236,7 +236,7 @@ let SEASON_SENIOR_A = [
     date: "Mar 02, 2025 17:00:00",
     shortDate: "02/03/25",
     isLocal: true,
-    result: "-",
+    result: "1-0",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIACOSTAADEJE",
