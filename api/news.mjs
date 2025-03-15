@@ -351,7 +351,25 @@ let a47 = new Articulo({
   imgPosition: "center center",
 });
 
+let a48 = new Articulo({
+  title: "DÍA DE LA MUJER",
+  imgLink: "/public/img/noticias/noticia_48.jpg",
+  text: "El Olympia celebra el día de la mujer.",
+  date: "08/03/2024",
+  imgPosition: "center center",
+});
+
+let a49 = new Articulo({
+  title: "OLYMPIA EN LA GALA DE LA MUJER",
+  imgLink: "/public/img/noticias/noticia_49.jpg",
+  text: "El Olympia participa en la gala de la mujer organizada por la RFFM.",
+  date: "08/03/2024",
+  imgPosition: "center center",
+});
+
 NOTICIAS.push(
+  a49,
+  a48,
   a47,
   a46,
   a45,

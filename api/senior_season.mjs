@@ -247,7 +247,7 @@ let SEASON_SENIOR_A = [
     date: "Mar 09, 2025 17:00:00",
     shortDate: "09/03/25",
     isLocal: false,
-    result: "-",
+    result: "1-2",
     mapsURL: "",
     liveURL: "",
     hashtag: "#OLYMPIAFEMARGUIN",

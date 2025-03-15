@@ -1911,11 +1911,6 @@ let SeniorA = new Team({
       status: "Ayudante de Porteras",
     },
     {
-      name: "Riansares López-Reina",
-      imgURL: "/public/img/equipos/senior_a/riansares.png",
-      status: "Fisioterapeuta",
-    },
-    {
       name: "Blanca Pedauyé",
       imgURL: "/public/img/equipos/senior_a/blanca_pedauye.png",
       status: "Nutricionista",
