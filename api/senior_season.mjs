@@ -280,7 +280,7 @@ let SEASON_SENIOR_A = [
     date: "Mar 30, 2025 17:00:00",
     shortDate: "30/03/25",
     isLocal: true,
-    result: "-",
+    result: "2-1",
     mapsURL: "https://goo.gl/maps/exjzXaRCWYzKmyfTA",
     liveURL: "",
     hashtag: "#OLYMPIALEVANTE",
