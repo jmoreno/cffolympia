@@ -457,9 +457,12 @@ seniorAMatches.innerHTML = `
       </div>`
     }
     ${
-      // nextMatchArrIndex + 3 < 0
-      //   ? `<div class="season__match"></div>`
-      //   :
+      nextMatchArrIndex + 3 < 0
+        ? 
+        nextMatchArrIndex = SE
+        `<div class="season__match">
+        </div>`
+        :
       `<div class="season__match">
         <img src="${
           SEASON_SENIOR_A[nextMatchArrIndex + 3] == undefined
