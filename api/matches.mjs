@@ -18,6 +18,7 @@ for (let i = 0; i < SEASON_SENIOR_A.length; i++) {
     nextMatchArrIndex = i;
   } else if (!dateFound && i + 1 == SEASON_SENIOR_A.length) {
     nextMatch = new Date(SEASON_SENIOR_A[i].date);
+    nextMatchArrIndex = i;
   }
 }
 

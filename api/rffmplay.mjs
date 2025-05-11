@@ -54,10 +54,16 @@ let ep7 = new Episode({
   episodeURL: "https://www.youtube.com/live/QRuWHjhaS2Q?feature=shared&t=6511",
 });
 
+let ep8 = new Episode({
+  name: "08/ Arantxa de la Chica",
+  imgURL: "public/img/video_covers/rffmplay.jpg",
+  episodeURL: "https://www.youtube.com/live/CCKxAC77Epw?si=hwyfAKU8Y9anO_A9&t=6799",
+});
+
 
 //Solo se ponen los de cada año, una vez se termine la tempo, se espera al primero de la siguiente y se eliminan el resto.
 RFFM_EPISODES.push(
-  ep7, ep6, ep5, ep4, ep3, ep2, ep1
+  ep8, ep7, ep6, ep5, ep4, ep3, ep2, ep1
 );
 
 export default RFFM_EPISODES;
